@@ -7,6 +7,7 @@ Chạy trên Terminal của Mac (nơi đã đăng nhập Codex):
   python -m pvvqa.step3_judge --pilot 80     # chấm thử ~80 cặp thật, đo quota
   python -m pvvqa.step3_judge                # chấm toàn bộ phần còn lại
   python -m pvvqa.step3_judge --status
+  python -m pvvqa.step3_judge --crosscheck 120 --model gpt-6.1-sol --reasoning high  # kiểm tra chéo
 
 Chỉ chấm cặp đã qua luật ở Step 2; cặp trượt luật chuyển thẳng sang repair.
 Kết quả: runs/step3/judgments.jsonl (smoke: runs/step3/smoke_judgments.jsonl) — mỗi dòng một mục:
@@ -182,6 +183,33 @@ def smoke_markdown(items: list[dict], judged: dict[str, dict], rep: dict, meta: 
         for e in j.get("errors", []):
             L.append(f"  - [{e['severity']}/{e['category']}] {e['explanation']}")
     return "\n".join(L) + "\n"
+
+
+# ---------------------------------------------------------------- kiểm tra chéo
+def crosscheck_report(ids: list[str], first: dict[str, dict], other: dict[str, dict], meta: dict) -> tuple[dict, str]:
+    """So verdict của judge chính (first) với một model khác (other) trên cùng bản dịch gốc."""
+    both = [i for i in ids if i in first and i in other]
+    agree = sum(first[i]["verdict"] == other[i]["verdict"] for i in both)
+    only_other = [i for i in both if other[i]["verdict"] != "PASS" and first[i]["verdict"] == "PASS"]
+    only_first = [i for i in both if first[i]["verdict"] != "PASS" and other[i]["verdict"] == "PASS"]
+    rep = {"n": len(both), "agree": agree, "main_pass_other_needs_repair": len(only_other),
+           "main_needs_repair_other_pass": len(only_first),
+           "main_any_error": sum(bool(first[i]["errors"]) for i in both),
+           "other_any_error": sum(bool(other[i]["errors"]) for i in both)}
+    L = [f"# Kiểm tra chéo judge (KHÔNG phải hiệu chuẩn)", "",
+         f"- Judge chính: `{meta['main']}`; model đối chiếu: `{meta['other']}`; mẫu ngẫu nhiên {len(both)} cặp "
+         "đã qua luật (seed 42), chấm trên bản dịch Step 2 (trước repair).", "",
+         f"- Đồng ý về verdict: **{agree}/{len(both)}**",
+         f"- Judge chính PASS nhưng model đối chiếu NEEDS_REPAIR: **{len(only_other)}**",
+         f"- Judge chính NEEDS_REPAIR nhưng model đối chiếu PASS: **{len(only_first)}**",
+         f"- Có ít nhất một lỗi (kể cả minor): judge chính {rep['main_any_error']}, đối chiếu {rep['other_any_error']}",
+         "", "## Các cặp bất đồng", ""]
+    for i in only_other + only_first:
+        L.append(f"- `{i}`: chính **{first[i]['verdict']}**, đối chiếu **{other[i]['verdict']}**")
+        for who, d in (("chính", first[i]), ("đối chiếu", other[i])):
+            for e in d["errors"]:
+                L.append(f"  - {who} [{e['severity']}/{e['category']}] {e['explanation']}")
+    return rep, "\n".join(L) + "\n"
 
 
 # ---------------------------------------------------------------- gọi Codex
@@ -392,6 +420,28 @@ def run(args) -> int:
         print(json.dumps(rep, ensure_ascii=False))
         return 0 if res["stop_reason"] == "completed" else 3
 
+    if args.crosscheck:
+        main = latest_valid(run_dir / "judgments.jsonl")
+        ids = sorted(df.loc[df.rule_pass == True, "pair_id"])  # noqa: E712
+        ids = random.Random(42).sample(ids, min(args.crosscheck, len(ids)))
+        tag = f"{model}__{reasoning}"
+        out_p = run_dir / f"crosscheck__{tag}.jsonl"
+        done = set(latest_valid(out_p))
+        idx = df.set_index("pair_id")
+        todo = [{"id": i, "batch_id": f"cross{k // size}", **{f: idx.loc[i, f] for f in FIELDS}}
+                for k, i in enumerate(ids) if i not in done]
+        batches = [todo[k:k + size] for k in range(0, len(todo), size)]
+        print(f"[{run_id}] kiểm tra chéo: {len(ids)} cặp, {len(todo)} cần chấm ({model}, {reasoning}).")
+        res = judge_batches(batches, out_p, ctx)
+        rep, md = crosscheck_report(ids, main, latest_valid(out_p),
+                                    {"main": f"{s3['judge_model']} {s3['judge_reasoning']}", "other": f"{model} {reasoning}"})
+        (out_dir / f"crosscheck_report__{tag}.md").write_text(md, encoding="utf-8")
+        (out_dir / f"crosscheck_report__{tag}.json").write_text(json.dumps(rep, indent=1), encoding="utf-8")
+        log.update({"mode": "crosscheck", **res, "crosscheck": rep, "finished": now()})
+        append_jsonl(run_dir / "run_log.jsonl", [log])
+        print(json.dumps(rep, ensure_ascii=False))
+        return 0 if res["stop_reason"] == "completed" else 3
+
     out_p = run_dir / "judgments.jsonl"
     todo = real_batches(cfg, df, set(latest_valid(out_p)))
     if args.pilot:
@@ -426,6 +476,8 @@ def main() -> None:
     ap.add_argument("--smoke", action="store_true", help="smoke test (bắt buộc trước khi chấm toàn bộ)")
     ap.add_argument("--fresh", action="store_true", help="smoke: chấm lại toàn bộ (vd. sau khi sửa prompt)")
     ap.add_argument("--pilot", type=int, help="chấm thử khoảng N cặp, rải theo question_type")
+    ap.add_argument("--crosscheck", type=int,
+                    help="chấm lại N cặp ngẫu nhiên bằng --model/--reasoning khác, so với judge chính")
     ap.add_argument("--max-batches", type=int)
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--dry-run", action="store_true")

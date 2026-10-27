@@ -63,7 +63,7 @@ def project(tmp_path, monkeypatch):
 
 def _args(**kw):
     import argparse
-    d = dict(smoke=False, fresh=False, pilot=None, max_batches=None, status=False, dry_run=False,
+    d = dict(smoke=False, fresh=False, crosscheck=None, pilot=None, max_batches=None, status=False, dry_run=False,
              model=None, reasoning=None, codex_cmd=f"{sys.executable} {FAKE}")
     d.update(kw)
     return argparse.Namespace(**d)
@@ -173,3 +173,11 @@ def argparse_ns(**kw):
     d = dict(status=False, model=None, reasoning=None, claude_cmd=None, codex_cmd=None)
     d.update(kw)
     return argparse.Namespace(**d)
+
+
+def test_crosscheck_report(project, monkeypatch):
+    monkeypatch.setenv("FAKE_MODE", "good")
+    assert sj.run(_args()) == 0
+    assert sj.run(_args(crosscheck=4, model="m2", reasoning="high")) == 0
+    rep = json.loads((project / "outputs/step3/crosscheck_report__m2__high.json").read_text())
+    assert rep["n"] == 4 and rep["agree"] == 4
