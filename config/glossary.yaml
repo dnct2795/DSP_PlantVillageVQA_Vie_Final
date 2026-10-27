@@ -1,0 +1,96 @@
+# Glossary EN→VI cho Step 2 — tạo một lần, cố định trước khi dịch (2026-10-27).
+# Do Claude soạn từ toàn bộ tên cây/bệnh/thuật ngữ xuất hiện trong subset_en.
+#
+# Mỗi mục: en (dạng chuẩn), vi (bản dịch bắt buộc dùng), match (regex Python, không phân biệt
+# hoa/thường, áp lên câu EN để biết mục này có xuất hiện), check (chuỗi con bắt buộc có trong
+# câu VI khi match; mặc định = vi). Chỉ crops và diseases được kiểm tra bằng luật.
+
+crops:
+  - {en: Apple, vi: táo, match: '\bapple (leaf|leaves|plant|tree|foliage|specimen)|^apple$|leaf as coming from an? apple'}
+  - {en: Blueberry, vi: việt quất, match: '\bblueberry\b'}
+  - {en: Cherry, vi: anh đào, match: '\bcherry\b'}
+  - {en: Corn, vi: ngô, match: '\bcorn\b'}
+  - {en: Grape, vi: nho, match: '\bgrape\b'}
+  - {en: Orange, vi: cam, match: '\borange (leaf|leaves|plant|tree|foliage|specimen)|^orange$|from an? orange'}
+  - {en: Peach, vi: đào, match: '\bpeach\b'}
+  - {en: Pepper bell, vi: ớt chuông, match: '\bpepper\b'}
+  - {en: Potato, vi: khoai tây, match: '\bpotato\b'}
+  - {en: Raspberry, vi: mâm xôi, match: '\braspberry\b'}
+  - {en: Soybean, vi: đậu nành, match: '\bsoybean\b'}
+  - {en: Squash, vi: bí, match: '\bsquash\b'}
+  - {en: Strawberry, vi: dâu tây, match: '\bstrawberry\b'}
+  - {en: Tomato, vi: cà chua, match: '\btomato\b(?! (yellow leaf curl|mosaic))'}
+  - {en: Citrus, vi: cây có múi, check: có múi, match: '\bcitrus (foliage|specimen|leaf|plant)'}
+
+diseases:
+  - {en: Apple scab, vi: bệnh ghẻ táo, check: ghẻ, match: '\bapple scab\b'}
+  - {en: Black rot, vi: bệnh thối đen, check: thối đen, match: '\bblack rot\b'}
+  - {en: Cedar apple rust, vi: bệnh gỉ sắt táo tuyết tùng, check: gỉ sắt, match: '\bcedar apple rust\b'}
+  - {en: Cercospora leaf spot Gray leaf spot, vi: bệnh đốm lá Cercospora (đốm lá xám), check: Cercospora, match: '\bcercospora\b'}
+  - {en: Common rust, vi: bệnh gỉ sắt thông thường, check: gỉ sắt, match: '\bcommon rust\b'}
+  - {en: Northern Leaf Blight, vi: bệnh cháy lá lớn, check: cháy lá lớn, match: '\bnorthern leaf blight\b'}
+  - {en: Esca Black Measles, vi: bệnh Esca (sởi đen), check: Esca, match: '\besca\b'}
+  - {en: Leaf blight Isariopsis Leaf Spot, vi: bệnh cháy lá (đốm lá Isariopsis), check: Isariopsis, match: '\bisariopsis\b'}
+  - {en: Huanglongbing / Citrus greening / HLB, vi: bệnh vàng lá gân xanh (Huanglongbing), check: vàng lá gân xanh,
+     match: '\bhuanglongbing\b|\bhaunglongbing\b|\bcitrus greening\b|\bgreening (disease|pathogen)\b|\bHLB\b'}
+  - {en: Bacterial spot, vi: bệnh đốm vi khuẩn, check: đốm vi khuẩn, match: '\bbacterial spot\b'}
+  - {en: Powdery mildew, vi: bệnh phấn trắng, check: phấn trắng, match: '\bpowdery mildew\b'}
+  - {en: Leaf scorch, vi: bệnh cháy mép lá, check: cháy mép lá, match: '\bleaf scorch\b'}
+  - {en: Early blight, vi: bệnh đốm vòng, check: đốm vòng, match: '\bearly blight\b'}
+  - {en: Late blight, vi: bệnh mốc sương, check: mốc sương, match: '\blate blight\b'}
+  - {en: Leaf Mold, vi: bệnh mốc lá, check: mốc lá, match: '\bleaf mold\b'}
+  - {en: Septoria leaf spot, vi: bệnh đốm lá Septoria, check: Septoria, match: '\bseptoria\b'}
+  - {en: Spider mites / Two-spotted spider mite, vi: nhện đỏ (nhện đỏ hai chấm), check: nhện, match: '\bspider mites?\b'}
+  - {en: Target Spot, vi: bệnh đốm hình bia, check: đốm hình bia, match: '\btarget spot\b'}
+  - {en: Tomato Yellow Leaf Curl Virus (TYLCV), vi: virus xoăn vàng lá cà chua (TYLCV), check: xoăn vàng lá,
+     match: '\btomato yellow leaf curl\b|\byellow leaf curl\b|\bTYLCV\b'}
+  - {en: Tomato mosaic virus (ToMV), vi: virus khảm cà chua (ToMV), check: khảm, match: '\btomato mosaic\b|\bToMV\b'}
+
+# Thuật ngữ triệu chứng: khuyến nghị cho translator, KHÔNG kiểm tra bằng luật.
+terms:
+  lesion: vết bệnh
+  spot: đốm
+  chlorosis / chlorotic: vàng lá / úa vàng
+  halo: quầng
+  necrosis / necrotic: hoại tử
+  stippling / speckling: lốm đốm
+  webbing: tơ nhện
+  pustule / pustular: mụn / dạng mụn
+  spore: bào tử
+  mosaic: khảm
+  water-soaked: úng nước
+  concentric rings: vòng đồng tâm
+  bull's-eye / target-like: hình bia (vòng đồng tâm)
+  interveinal: giữa các gân lá
+  fungus / fungal: nấm
+  oomycete: nấm noãn
+  bacterium: vi khuẩn
+  virus / viral: virus
+  pest: sinh vật gây hại
+  foliage: lá / tán lá
+  specimen / sample: mẫu
+  healthy: khỏe mạnh
+  free of disease / symptom-free: sạch bệnh / không có triệu chứng
+  infected: bị nhiễm bệnh
+
+# Giữ nguyên, không dịch (không bị tính là "tiếng Anh chưa dịch").
+keep:
+  - Alternaria solani
+  - Phytophthora infestans
+  - Candidatus Liberibacter asiaticus
+  - Liberibacter
+  - Cercospora
+  - Septoria
+  - Isariopsis
+  - Alternaria
+  - Phytophthora
+  - Candidatus
+  - asiaticus
+  - solani
+  - infestans
+  - Huanglongbing
+  - HLB
+  - TYLCV
+  - ToMV
+  - Esca
+  - virus

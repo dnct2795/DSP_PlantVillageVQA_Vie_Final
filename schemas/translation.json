@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["questions"],
+  "properties": {
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question_key", "question_vi", "pairs"],
+        "properties": {
+          "question_key": {"type": "string"},
+          "question_vi": {"type": "string"},
+          "pairs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["pair_id", "answer_vi"],
+              "properties": {
+                "pair_id": {"type": "string"},
+                "answer_vi": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

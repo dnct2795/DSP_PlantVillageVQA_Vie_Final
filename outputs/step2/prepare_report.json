@@ -1,0 +1,22 @@
+{
+  "rows": 24201,
+  "pairs": 7522,
+  "questions": 1088,
+  "yes_no_pairs": 968,
+  "open_pairs": 6554,
+  "max_rows_per_pair": 143,
+  "max_pairs_per_question": 33,
+  "batches": 240,
+  "pairs_per_batch_max": 40,
+  "pairs_by_type": {
+    "Causal Reasoning": 1554,
+    "Comprehensive Description": 2216,
+    "Counterfactual Reasoning": 737,
+    "Detailed Verification": 194,
+    "Existence & Sanity Check": 3,
+    "General Health Assessment": 381,
+    "Plant Species Identification": 320,
+    "Specific Disease Identification": 1800,
+    "Visual Attribute Grounding": 317
+  }
+}

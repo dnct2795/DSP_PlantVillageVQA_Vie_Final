@@ -2,6 +2,38 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 17:50 — Step 2: code chuẩn bị + runner dịch (chưa gọi model)
+
+**Đã làm**
+- `config/glossary.yaml`: glossary cố định (15 cây, 20 bệnh/sinh vật hại, 24 thuật ngữ triệu chứng,
+  19 từ giữ nguyên: tên khoa học, HLB, TYLCV, ToMV...). Do Claude soạn từ toàn bộ tên trong subset.
+  Ghi chú: nguồn có lỗi chính tả "Haunglongbing" (= Huanglongbing).
+- `src/pvvqa/step2_prepare.py` → `outputs/step2/`: pairs.parquet, pair_qa_map.parquet,
+  questions.csv, batches.jsonl, prepare_report.json.
+- `prompts/translator.md`, `schemas/translation.json`.
+- `src/pvvqa/step2_rules.py`: luật (đủ khoá, Yes/No = Có/Không, dạng "… có … không?", cấm câu
+  hỏi đuôi, glossary cây/bệnh, từ tiếng Anh sót lại trừ danh sách giữ nguyên).
+- `src/pvvqa/step2_translate.py`: gọi `claude -p` (cwd thư mục tạm để KHÔNG nạp CLAUDE.md),
+  ghi append-only `runs/step2/translations.jsonl` sau mỗi batch, idempotent, dừng sạch khi hết
+  quota, dừng sau 3 lỗi liên tiếp, `--pilot N`, `--status`, `--dry-run`.
+  Đơn vị ghi = cả câu hỏi (mọi cặp cùng một question_vi); câu hỏi trả thiếu cặp → thử lại cả câu.
+- Tests: `tests/test_step2.py` + `tests/fake_claude.py` (claude giả). `pytest -q`: 12 passed.
+
+**Số liệu**
+- 24.201 dòng → 7.522 cặp (968 Yes/No, 6.554 mở), 1.088 câu hỏi, tối đa 33 cặp/câu hỏi,
+  240 batch (≤ 40 cặp, không tách câu hỏi).
+- Pilot `--pilot 50`: 53 cặp, đủ 9 question_type, 2 lần gọi.
+
+**Quyết định nhỏ (ghi lại để minh bạch)**
+- `answer_label` = câu trả lời gốc tiếng Anh, sao chép nguyên văn (cho mọi loại câu hỏi).
+- Thứ tự gọi lệnh: `claude -p --output-format json --max-turns 1 --tools "" --system-prompt-file
+  runs/step2/system_prompt.md --json-schema <schema>`; cấu hình ở `config/phase1.yaml` → step2.
+
+**Tiếp theo**
+- Người dùng đăng nhập Claude Code trên Mac (`claude` → `/login`, chọn gói Pro).
+- Chạy pilot trên Terminal Mac: `PYTHONPATH=src python3 -m pvvqa.step2_translate --pilot 50`,
+  đo thời gian/token, báo người dùng, rồi mới dịch toàn bộ.
+
 ## 2026-10-27 17:35 — Sửa repo local, kiểm tra môi trường trước Step 2
 
 **Đã làm**

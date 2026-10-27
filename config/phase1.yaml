@@ -24,3 +24,12 @@ sampling:
 paths:
   raw_dir: data/raw          # downloaded metadata (git-ignored)
   step1_dir: outputs/step1   # reports + subset
+
+step2:
+  out_dir: outputs/step2        # pairs, question table, batches (deterministic, committed)
+  run_dir: runs/step2           # append-only checkpoints + run_log.jsonl
+  glossary: config/glossary.yaml
+  max_pairs_per_batch: 40
+  # Lệnh gọi Claude (gói Pro, KHÔNG --bare). Prompt + schema được thêm vào bởi runner.
+  claude_cmd: [claude, -p, --output-format, json, --max-turns, "1", --tools, ""]
+  timeout_s: 600
