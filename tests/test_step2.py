@@ -210,3 +210,19 @@ def test_recheck_appends_without_calling_model(project, monkeypatch):
 def test_quota_pattern_matches_session_limit():
     assert st.QUOTA_PAT.search("You've hit your session limit · resets 9:10pm (Asia/Saigon)")
     assert not st.QUOTA_PAT.search("claude exited 1")
+
+
+def test_silent_exit_is_retried_once(monkeypatch):
+    calls = []
+    def fake(*a, **kw):
+        calls.append(1)
+        if len(calls) == 1:
+            raise RuntimeError("claude exited 1")
+        return {"questions": []}, {}
+    monkeypatch.setattr(st, "call_claude", fake)
+    monkeypatch.setattr(st, "SILENT_RETRY_WAIT_S", 0)
+    assert st.call_claude_retry() == ({"questions": []}, {}) and len(calls) == 2
+    calls.clear()
+    monkeypatch.setattr(st, "call_claude", lambda *a, **kw: (_ for _ in ()).throw(RuntimeError("bad json")))
+    with pytest.raises(RuntimeError):
+        st.call_claude_retry()

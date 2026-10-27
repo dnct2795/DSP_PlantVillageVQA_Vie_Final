@@ -36,6 +36,17 @@ QUOTA_PAT = re.compile(r"usage limit|session limit|hit your .{0,20}limit|rate.?l
                        r"too many requests|\b429\b|"
                        r"overloaded|credit balance|out of (usage|credits)|resets? at", re.I)
 MAX_CONSEC_FAIL = 3
+SILENT_RETRY_WAIT_S = 30  # "claude exited 1" không kèm thông báo: lỗi nhất thời, thử lại 1 lần
+
+
+def call_claude_retry(*a, **kw) -> tuple[dict, dict]:
+    try:
+        return call_claude(*a, **kw)
+    except RuntimeError as e:
+        if not str(e).startswith("claude exited"):
+            raise
+        time.sleep(SILENT_RETRY_WAIT_S)
+        return call_claude(*a, **kw)
 
 
 def now() -> str:
@@ -299,7 +310,7 @@ def run(args) -> int:
                                  for q in b["questions"]]}
         rows = []
         try:
-            out, meta = call_claude(cmd, sys_file, schema, payload, s2.get("timeout_s", 600))
+            out, meta = call_claude_retry(cmd, sys_file, schema, payload, s2.get("timeout_s", 600))
             consec = 0
             u = meta.get("usage") or {}
             usage_in += int(u.get("input_tokens", 0)) + int(u.get("cache_read_input_tokens", 0)) \
