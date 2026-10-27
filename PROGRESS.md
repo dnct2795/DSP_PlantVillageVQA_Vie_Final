@@ -2,6 +2,15 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 18:20 — Chọn model judge cho Step 3
+
+- Codex đã kết nối: `codex-cli 0.159.2`, đăng nhập bằng ChatGPT (không API key), `codex exec` ping → "pong"
+  (~7.700 token/lần gọi kể cả ping: system prompt Codex + MCP).
+- Mặc định trong `~/.codex/config.toml` là gpt-5.6-sol + high (thế hệ cũ, tốn) → không dùng.
+- Người dùng chốt: judge = **gpt-6-luna, reasoning high**; dự phòng gpt-6.1-sol low nếu smoke test
+  bỏ sót lỗi hiển nhiên. Ghim trong `config/phase1.yaml` → `step3`.
+- Giảm chi phí: ~40 cặp/lần gọi, tắt MCP khi gọi judge.
+
 ## 2026-10-27 18:05 — Step 2: sửa luật sau pilot (chưa dịch toàn bộ)
 
 **Đã làm**

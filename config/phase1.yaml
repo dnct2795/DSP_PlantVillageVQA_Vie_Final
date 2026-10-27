@@ -33,3 +33,15 @@ step2:
   # Lệnh gọi Claude (gói Pro, KHÔNG --bare). Prompt + schema được thêm vào bởi runner.
   claude_cmd: [claude, -p, --model, sonnet, --output-format, json, --max-turns, "1", --tools, ""]
   timeout_s: 600
+
+step3:
+  run_dir: runs/step3           # append-only checkpoints + run_log.jsonl
+  max_pairs_per_call: 40        # nhiều cặp mỗi lần gọi: mỗi lần gọi Codex tốn ~7,7k token cố định
+  # Judge: Codex (gói ChatGPT Plus). Ghim model ở đây, không dựa vào ~/.codex/config.toml.
+  # Chọn 2026-10-27: gpt-6-luna (rẻ, nhanh) + reasoning high. Nếu smoke test bỏ sót lỗi hiển nhiên
+  # sau khi đã sửa prompt judge -> chuyển sang judge_fallback và ghi lý do vào quality report.
+  judge_model: gpt-6-luna
+  judge_reasoning: high
+  judge_fallback: {model: gpt-6.1-sol, reasoning: low}
+  codex_cmd: [codex, exec, --sandbox, read-only, --skip-git-repo-check, --ephemeral]
+  timeout_s: 600
