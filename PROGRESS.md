@@ -2,6 +2,32 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 17:35 — Sửa repo local, kiểm tra môi trường trước Step 2
+
+**Đã làm**
+- Repo local trên Mac chưa có commit: lệnh `git fetch <bundle> main:main` ở CLAUDE.md mục 7 bị git
+  từ chối (fetch vào nhánh hiện tại). Sửa bằng
+  `git fetch --update-head-ok <bundle> refs/heads/main:refs/heads/main && git reset`.
+  Đã khôi phục 3 commit `8671cac`, `44b369a`, `eea0215`; remote `origin` đúng.
+- Shell của phiên (máy ảo Linux trên Mac) đã chạy được sau ~20 phút tải.
+
+**Kết quả kiểm tra môi trường (máy ảo của phiên)**
+- Python 3.10.12, cài được pandas/pyarrow/pyyaml/pytest; `pytest -q`: 3 passed.
+- `outputs/step1/subset_en.parquet` có sẵn (đầu vào Step 2).
+- `claude -p` trong máy ảo: "claude is not enabled in this environment" → KHÔNG dùng được.
+- `codex`: không có trong máy ảo.
+- Máy ảo không có thông tin đăng nhập GitHub → push phải làm từ Terminal của Mac.
+- Git trong thư mục kết nối để lại file .lock (phiên không có quyền xoá) → cần cấp quyền xoá
+  cho thư mục dự án thì phiên mới commit được.
+
+**Vấn đề / quyết định cần**
+- Lời gọi model ở Step 2/3 (`claude -p`, `codex exec`) phải chạy trên Terminal của Mac
+  (nơi đã đăng nhập Claude Pro / ChatGPT Plus), không chạy trong máy ảo của phiên.
+
+**Tiếp theo**
+- Đã push lên GitHub (main = eea0215). Người dùng: kiểm tra `claude -p` / `codex exec` trên Terminal Mac.
+- Phiên: viết code Step 2 (gom cặp, glossary, prompt/schema, kiểm tra luật, checkpoint) + test.
+
 ## 2026-10-27 — Step 1 xong
 
 **Đã làm**
