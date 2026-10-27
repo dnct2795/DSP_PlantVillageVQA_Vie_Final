@@ -2,6 +2,30 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 22:55 — Step 3 XONG: chấm toàn bộ + repair
+
+**Lệnh**: `python -m pvvqa.step3_judge` (run 20261027-215657 + 1 lần chấm bù 1 cặp `missing_item`),
+`python -m pvvqa.step3_repair` (run 20261027-225232).
+
+**Chấm lần đầu** (gpt-6-luna, high): 7.508/7.508 cặp đã qua luật được chấm; 7.493 PASS,
+15 NEEDS_REPAIR (13 mistranslation major, 1 terminology major, 1 addition major). 329 cặp có ít nhất
+một lỗi (chủ yếu fluency minor 267, terminology minor 36). 55 phút model, 2,98M token vào, 0,23M ra.
+
+**Repair** (Claude Sonnet, 1 lần gọi) 29 cặp = 14 trượt luật + 15 NEEDS_REPAIR; chấm lại 29 cặp:
+29/29 PASS → **PASS_AFTER_REPAIR**. 5 câu hỏi đổi question_vi (không có cặp anh em nào khác).
+Kết quả cuối: **PASS 7.493 cặp / 23.979 dòng; PASS_AFTER_REPAIR 29 cặp / 222 dòng; UNRESOLVED 0**.
+Câu hỏi EN có > 1 question_vi: 0.
+
+**Cần ghi vào báo cáo (trung thực)**
+- 5/29 cặp "sửa" không đổi chữ nào nhưng lần chấm lại cho PASS: đều thuộc 3 câu hỏi nguồn dạng
+  "What …?" mà câu trả lời là Yes/No (lỗi template của nguồn: 434 dòng / 3 câu hỏi trong toàn bộ nguồn).
+  Bản dịch "… có … nào không?" là hợp lý vì đáp án là Có/Không; judge chấm lần đầu NEEDS_REPAIR,
+  lần sau PASS → judge không ổn định ở ca ranh giới.
+- Một số bản sửa còn hơi gượng: "… có hoàn toàn không có không?", "bão hòa màu".
+
+**Tiếp theo**: xuất dataset tiếng Việt + bản đối chiếu EN–VI + quality report; đưa lên Kaggle.
+Tuỳ chọn: kiểm tra chéo ~120 cặp bằng gpt-6.1-sol high.
+
 ## 2026-10-27 21:55 — Step 3: judge + smoke test + pilot chấm 81 cặp
 
 **Đã làm**
