@@ -31,5 +31,5 @@ step2:
   glossary: config/glossary.yaml
   max_pairs_per_batch: 40
   # Lệnh gọi Claude (gói Pro, KHÔNG --bare). Prompt + schema được thêm vào bởi runner.
-  claude_cmd: [claude, -p, --output-format, json, --max-turns, "1", --tools, ""]
+  claude_cmd: [claude, -p, --model, sonnet, --output-format, json, --max-turns, "1", --tools, ""]
   timeout_s: 600

@@ -29,6 +29,11 @@ Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấ
 - Thứ tự gọi lệnh: `claude -p --output-format json --max-turns 1 --tools "" --system-prompt-file
   runs/step2/system_prompt.md --json-schema <schema>`; cấu hình ở `config/phase1.yaml` → step2.
 
+**Chọn model (17:45, đề xuất cho người dùng)**
+- Dịch + repair: Claude Sonnet 5.5 (`--model sonnet` trong config) — cân bằng chất lượng/quota Pro.
+- Chấm: Codex (khác hãng với người dịch), model mặc định, reasoning effort `medium` thay vì `high`;
+  xác nhận bằng smoke test Step 3, bắt sót lỗi hiển nhiên thì nâng lại `high`.
+
 **Tiếp theo**
 - Người dùng đăng nhập Claude Code trên Mac (`claude` → `/login`, chọn gói Pro).
 - Chạy pilot trên Terminal Mac: `PYTHONPATH=src python3 -m pvvqa.step2_translate --pilot 50`,
