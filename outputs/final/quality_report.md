@@ -1,6 +1,6 @@
 # Quality report — PlantVillageVQA tiếng Việt (Phase 1)
 
-Tạo lúc 2026-10-27T16:18:17+00:00, commit `0ae6928`.
+Tạo lúc 2026-10-27T16:18:30+00:00, commit `90ddb79`.
 
 ## 1. Nguồn
 
@@ -60,7 +60,7 @@ Mục cố ý sai sinh tự động bằng thay chuỗi trên bản dịch đã 
 - disease: Codex bắt được 10/10
 - polarity: Codex bắt được 10/10
 
-Kiểm tra chéo với `gpt-6.1-sol high` trên 120 cặp ngẫu nhiên: đồng ý verdict 120/120; judge chính PASS nhưng model đối chiếu NEEDS_REPAIR: 0; ngược lại: 0.
+Kiểm tra chéo với `gpt-6.1-sol high` trên 120 cặp ngẫu nhiên: đồng ý verdict 120/120; judge chính PASS nhưng model đối chiếu NEEDS_REPAIR: 0; ngược lại: 0. Vì tỷ lệ NEEDS_REPAIR thật chỉ ~0,2%, mẫu gần như toàn PASS: kết quả chỉ cho thấy model đối chiếu không tìm thêm lỗi major mà judge chính bỏ sót (tỷ lệ bỏ sót < ~2.5%, độ tin cậy 95%, quy tắc 3/n), không đo được độ nhạy với lỗi.
 
 ## 6. Giới hạn
 
@@ -73,5 +73,5 @@ Kiểm tra chéo với `gpt-6.1-sol high` trên 120 cặp ngẫu nhiên: đồng
 
 ## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)
 
-- Step 2 (Claude Sonnet): {'input_tokens': 2359115, 'output_tokens': 558748, 'model_elapsed_s': 4512.8}
-- Step 3 (Codex judge + Claude repair + chấm lại): {'input_tokens': 3154623, 'output_tokens': 249513, 'model_elapsed_s': 3638.2}
+- Step 2 (Claude Sonnet): 2,359,115 token vào, 558,748 token ra, 75 phút model
+- Step 3 (Codex judge, smoke test, kiểm tra chéo, Claude repair, chấm lại): 3,154,623 token vào, 249,513 token ra, 61 phút model

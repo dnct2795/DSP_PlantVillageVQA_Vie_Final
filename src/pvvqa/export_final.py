@@ -151,7 +151,10 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
     for k, v in cross.items():
         L += ["", f"Kiểm tra chéo với `{k.replace('__', ' ')}` trên {v['n']} cặp ngẫu nhiên: đồng ý verdict "
               f"{v['agree']}/{v['n']}; judge chính PASS nhưng model đối chiếu NEEDS_REPAIR: "
-              f"{v['main_pass_other_needs_repair']}; ngược lại: {v['main_needs_repair_other_pass']}."]
+              f"{v['main_pass_other_needs_repair']}; ngược lại: {v['main_needs_repair_other_pass']}. "
+              "Vì tỷ lệ NEEDS_REPAIR thật chỉ ~0,2%, mẫu gần như toàn PASS: kết quả chỉ cho thấy model đối chiếu "
+              f"không tìm thêm lỗi major mà judge chính bỏ sót (tỷ lệ bỏ sót < ~{3 / max(v['n'], 1):.1%}, "
+              "độ tin cậy 95%, quy tắc 3/n), không đo được độ nhạy với lỗi."]
     L += ["", "## 6. Giới hạn", "",
           "- Codex (một model) là lớp đánh giá ngữ nghĩa duy nhất; chưa hiệu chuẩn với người chấm. Nhãn chất "
           "lượng là *automatically validated silver-standard*, không phải đã được người kiểm định.",
@@ -164,8 +167,11 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           "- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.",
           "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.", "",
           "## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)", "",
-          f"- Step 2 (Claude Sonnet): {rep['usage']['step2_claude']}",
-          f"- Step 3 (Codex judge + Claude repair + chấm lại): {rep['usage']['step3_all']}"]
+          *[f"- {name}: {u['input_tokens']:,} token vào, {u['output_tokens']:,} token ra, "
+            f"{u['model_elapsed_s'] / 60:.0f} phút model"
+            for name, u in (("Step 2 (Claude Sonnet)", rep["usage"]["step2_claude"]),
+                            ("Step 3 (Codex judge, smoke test, kiểm tra chéo, Claude repair, chấm lại)",
+                             rep["usage"]["step3_all"]))]]
     return rep, "\n".join(L) + "\n"
 
 
