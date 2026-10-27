@@ -43,5 +43,12 @@ step3:
   judge_model: gpt-6-luna
   judge_reasoning: high
   judge_fallback: {model: gpt-6.1-sol, reasoning: low}
-  codex_cmd: [codex, exec, --sandbox, read-only, --skip-git-repo-check, --ephemeral]
+  # --ignore-user-config: không nạp ~/.codex/config.toml (MCP, model mặc định); prompt judge thay
+  # system prompt của Codex (model_instructions_file, do runner thêm); tắt công cụ không dùng.
+  # Đo 2026-10-27: phần cố định mỗi lần gọi ~19k → ~7,6k token.
+  codex_cmd: [codex, exec, --ignore-user-config, --sandbox, read-only, --skip-git-repo-check, --ephemeral,
+              --disable, apps, --disable, browser_use, --disable, computer_use, --disable, image_generation,
+              --disable, multi_agent, --disable, plugins, --disable, shell_tool, --disable, unified_exec,
+              --disable, view_image, --disable, goals, --disable, skill_search, --disable, tool_suggest]
+  smoke_per_type: 10            # smoke test: ~10 cặp cố ý sai mỗi loại + ~10 cặp đúng
   timeout_s: 600

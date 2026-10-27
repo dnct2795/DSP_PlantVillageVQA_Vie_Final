@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "category": {"type": "string", "enum": ["mistranslation", "polarity", "omission", "addition", "terminology", "fluency"]},
+                "severity": {"type": "string", "enum": ["minor", "major", "critical"]},
+                "explanation": {"type": "string"}
+              },
+              "required": ["category", "severity", "explanation"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["id", "errors"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["items"],
+  "additionalProperties": false
+}
