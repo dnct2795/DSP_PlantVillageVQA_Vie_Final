@@ -15,7 +15,8 @@ if mode == "broken":
 payload = json.loads(msg[msg.index("{"):])
 items = []
 for it in payload["items"]:
-    bad = it["id"].startswith("smoke_") and "control" not in it["id"]
+    flag = os.environ.get("FAKE_FLAG_TEXT")  # chấm sai mọi mục có answer_vi chứa chuỗi này
+    bad = (it["id"].startswith("smoke_") and "control" not in it["id"]) or bool(flag and flag in it["answer_vi"])
     items.append({"id": it["id"], "errors": [{"category": "mistranslation", "severity": "critical",
                                                "explanation": "giả"}] if bad else []})
 open(out, "w").write(json.dumps({"items": items}))

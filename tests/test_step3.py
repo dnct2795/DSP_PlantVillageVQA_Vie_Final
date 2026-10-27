@@ -130,3 +130,46 @@ def test_broken_output_stops_after_3_then_retried(project, monkeypatch):
     assert sj.run(_args()) == 0
     s = sj.status(sj.load_config(), sj.load_translations(sj.load_config()))
     assert s["pairs_judged"] == s["pairs_to_judge"]
+
+
+FAKE_CLAUDE = Path(__file__).with_name("fake_claude.py")
+
+
+def test_repair_flow_statuses(project, monkeypatch):
+    from pvvqa import step3_repair as sr
+    import pvvqa.step2_translate as st2
+    monkeypatch.setattr(sr, "ROOT", project)
+    monkeypatch.setattr(sr, "load_config", sj.load_config)
+    monkeypatch.setattr(st2, "SILENT_RETRY_WAIT_S", 0)
+    for f in ("prompts/translator.md", "prompts/repair.md", "schemas/translation.json"):
+        (project / f).write_text((ROOT / f).read_text(encoding="utf-8"), encoding="utf-8")
+    cfg_text = (project / "config/phase1.yaml").read_text()
+    (project / "config/phase1.yaml").write_text(cfg_text.replace(
+        "step2: {", "step2: {claude_cmd: [x], max_pairs_per_batch: 40, "), encoding="utf-8")
+    # lần chấm đầu: cặp "khỏe mạnh" bị judge cho NEEDS_REPAIR
+    monkeypatch.setenv("FAKE_MODE", "good")
+    monkeypatch.setenv("FAKE_FLAG_TEXT", "khỏe mạnh")
+    args = argparse_ns(claude_cmd=f"{sys.executable} {FAKE_CLAUDE}", codex_cmd=f"{sys.executable} {FAKE}")
+    assert sr.run(args) == 2  # chưa chấm -> từ chối repair
+    assert sj.run(_args()) == 0
+    monkeypatch.delenv("FAKE_FLAG_TEXT")
+    assert sr.run(args) == 0
+    res = sr.resolve(sj.load_config())
+    st = dict(zip(res.answer_en, res.status))
+    # trượt luật -> sửa nhưng bản sửa (giả) vẫn thiếu "mốc lá" -> UNRESOLVED, không sửa lần 2
+    assert st["Diagnosis: Leaf Mold."] == "UNRESOLVED"
+    assert st["This is a healthy plant leaf."] == "PASS_AFTER_REPAIR"  # judge NEEDS_REPAIR -> sửa -> đạt
+    # câu hỏi dùng chung bị đổi: cặp anh em được chấm lại, vẫn đạt, dùng question_vi mới
+    sib = res[res.answer_en == "The condition is identified as Late Blight."].iloc[0]
+    assert sib.status == "PASS" and sib.rejudge == "PASS" and sib.question_vi == "Lá cà chua này có bệnh không?"
+    s = sr.summary(res)
+    assert s["questions_with_multiple_question_vi"] == 0 and s["pairs"]["UNRESOLVED"] == 1
+    n = len(sj.read_jsonl(project / "runs/step3/repairs.jsonl"))
+    assert sr.run(args) == 0 and len(sj.read_jsonl(project / "runs/step3/repairs.jsonl")) == n  # không sửa lần 2
+
+
+def argparse_ns(**kw):
+    import argparse
+    d = dict(status=False, model=None, reasoning=None, claude_cmd=None, codex_cmd=None)
+    d.update(kw)
+    return argparse.Namespace(**d)

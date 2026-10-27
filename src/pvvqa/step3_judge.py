@@ -331,6 +331,21 @@ def status(cfg: dict, df: pd.DataFrame) -> dict:
             "rows_needs_repair": int(n_rows.loc[flagged].sum()) if flagged else 0}
 
 
+def judge_ctx(cfg: dict, model: str | None, reasoning: str | None, codex_cmd: str | None,
+              run_id: str) -> dict:
+    """Cấu hình một lần chạy judge (dùng chung cho chấm lần đầu và chấm lại sau repair)."""
+    s3 = cfg["step3"]
+    run_dir = ROOT / s3["run_dir"]
+    (run_dir / "raw").mkdir(parents=True, exist_ok=True)
+    instr = run_dir / "judge_system.md"
+    instr.write_text(render_judge_prompt(ROOT / "prompts" / "judge.md", ROOT / cfg["step2"]["glossary"]),
+                     encoding="utf-8")
+    return {"cmd": codex_cmd.split() if codex_cmd else s3["codex_cmd"],
+            "model": model or s3["judge_model"], "reasoning": reasoning or s3["judge_reasoning"],
+            "instr": instr.resolve(), "schema": (ROOT / "schemas" / "judge.json").resolve(),
+            "timeout": s3.get("timeout_s", 600), "raw_dir": run_dir / "raw", "run_id": run_id}
+
+
 def run(args) -> int:
     cfg = load_config()
     s3 = cfg["step3"]
@@ -345,14 +360,9 @@ def run(args) -> int:
 
     prompt_p, gloss_p = ROOT / "prompts" / "judge.md", ROOT / cfg["step2"]["glossary"]
     schema_p = ROOT / "schemas" / "judge.json"
-    instr = run_dir / "judge_system.md"
-    instr.write_text(render_judge_prompt(prompt_p, gloss_p), encoding="utf-8")
-    model = args.model or s3["judge_model"]
-    reasoning = args.reasoning or s3["judge_reasoning"]
     run_id = datetime.now().strftime("%Y%m%d-%H%M%S")
-    ctx = {"cmd": args.codex_cmd.split() if args.codex_cmd else s3["codex_cmd"], "model": model,
-           "reasoning": reasoning, "instr": instr.resolve(), "schema": schema_p.resolve(),
-           "timeout": s3.get("timeout_s", 600), "raw_dir": run_dir / "raw", "run_id": run_id}
+    ctx = judge_ctx(cfg, args.model, args.reasoning, args.codex_cmd, run_id)
+    model, reasoning, instr = ctx["model"], ctx["reasoning"], ctx["instr"]
     size = s3.get("max_pairs_per_call", 40)
     log = {"run_id": run_id, "started": now(), "cmd": " ".join(sys.argv), "git_commit": git_commit(),
            "config_hash": sha(ROOT / "config" / "phase1.yaml", gloss_p, prompt_p, schema_p),
