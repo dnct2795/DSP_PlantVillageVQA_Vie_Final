@@ -2,6 +2,30 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 21:45 — Step 2 XONG: dịch toàn bộ 7.522 cặp
+
+**Lệnh**: `PYTHONPATH=src python3 -m pvvqa.step2_translate` (3 lần chạy: 20261027-180111 dừng do hết
+phiên Pro; 20261027-211144 dừng do 3 lần "claude exited 1" liên tiếp; 20261027-212100 hoàn tất),
+rồi `--recheck` sau khi thêm Solanum tuberosum, Citrus sinensis vào `keep` của glossary.
+
+**Số liệu**
+- 7.522/7.522 cặp đã dịch, 0 lỗi chờ. Qua luật: **7.508 cặp (99,81%)**, **24.105/24.201 dòng (99,60%)**.
+  Trượt luật: 14 cặp / 96 dòng → chuyển sang repair ở Step 3.
+- Câu hỏi EN có > 1 `question_vi`: **0** / 1.088. Yes/No: `answer_vi` khớp `answer_label` 100%.
+- Lỗi luật còn lại: tên TYLCV kèm tên tiếng Anh đầy đủ trong ngoặc; "Huanglongbing" không kèm
+  "vàng lá gân xanh"; câu "stress … phải không?".
+- Tổng (gồm pilot): 2,36M token vào, 0,56M token ra, 75 phút model.
+- Nhận xét chất lượng thấy khi đọc mẫu: có câu lặp ý ("…(Huanglongbing, HLB), hay còn gọi là bệnh vàng
+  lá gân xanh trên cây có múi") — luật không bắt, để judge Step 3 đánh giá.
+
+**Sự cố & sửa**
+- "claude exited 1" không kèm thông báo xảy ra ngẫu nhiên (cả với ping) → thêm thử lại 1 lần sau 30 s.
+- "session limit" chưa được nhận là hết quota → đã thêm vào QUOTA_PAT.
+
+**File**: `runs/step2/translations.jsonl` (không commit, ~3.0MB), `runs/step2/raw/`, `runs/step2/run_log.jsonl`.
+
+**Tiếp theo**: Step 3 (prompt/schema judge, smoke test với gpt-6-luna high) — chờ người dùng yêu cầu.
+
 ## 2026-10-27 18:57 — Step 2: dịch toàn bộ (dừng giữa chừng do hết giới hạn phiên Pro)
 
 - Run `20261027-180111`: 5.106/7.522 cặp đã dịch, 5.097 qua luật, 9 trượt luật, 239 cặp lỗi chờ

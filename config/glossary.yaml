@@ -78,6 +78,8 @@ terms:
 # Giữ nguyên, không dịch (không bị tính là "tiếng Anh chưa dịch").
 keep:
   - Alternaria solani
+  - Solanum tuberosum   # thêm 2026-10-27 sau khi dịch: tên khoa học có trong nguồn
+  - Citrus sinensis
   - Phytophthora infestans
   - Candidatus Liberibacter asiaticus
   - Liberibacter
