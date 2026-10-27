@@ -19,3 +19,21 @@ def test_to_source_json_matches_source_structure():
 
 def test_source_columns_order():
     assert SOURCE_COLS == ["image_id", "question_type", "question", "answer", "image_path", "split"]
+
+
+def test_extract_images_places_files_at_image_path(tmp_path):
+    import zipfile
+    from pvvqa.package_kaggle import extract_images
+    zp = tmp_path / "src.zip"
+    with zipfile.ZipFile(zp, "w") as z:
+        z.writestr("PlantVillageVQA/Images/image_000001.jpg", b"a")
+        z.writestr("PlantVillageVQA/Images/image_000002.JPG", b"bb")
+        z.writestr("PlantVillageVQA/Images/image_000003.jpg", b"c")  # không thuộc subset
+    paths = pd.Series(["images/train/image_000001.jpg", "images/test/image_000002.JPG",
+                       "images/train/image_000001.jpg", "images/train/image_999999.jpg"])
+    out = tmp_path / "pkg"
+    r = extract_images(zp, paths, out)
+    assert r["missing"] == ["images/train/image_999999.jpg"] and r["images_extracted_now"] == 2
+    assert (out / "images/test/image_000002.JPG").read_bytes() == b"bb"
+    assert not (out / "images/train/image_000003.jpg").exists()
+    assert extract_images(zp, paths, out)["images_extracted_now"] == 0  # chạy lại: không chép lại
