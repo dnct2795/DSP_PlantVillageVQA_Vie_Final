@@ -32,7 +32,8 @@ from pathlib import Path
 from pvvqa.common import ROOT, load_config
 from pvvqa.step2_rules import check_question, load_glossary
 
-QUOTA_PAT = re.compile(r"usage limit|rate.?limit|quota|limit reached|too many requests|\b429\b|"
+QUOTA_PAT = re.compile(r"usage limit|session limit|hit your .{0,20}limit|rate.?limit|quota|limit reached|"
+                       r"too many requests|\b429\b|"
                        r"overloaded|credit balance|out of (usage|credits)|resets? at", re.I)
 MAX_CONSEC_FAIL = 3
 

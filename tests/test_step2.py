@@ -205,3 +205,8 @@ def test_recheck_appends_without_calling_model(project, monkeypatch):
     assert len(after) == 8 and after[-1]["pair_id"] == recs[i]["pair_id"]
     assert after[-1]["rule_pass"] and after[-1]["question_vi"] == recs[i]["question_vi"]
     assert st.run(_args(recheck=True)) == 0 and len(st.read_jsonl(trans)) == 8  # idempotent
+
+
+def test_quota_pattern_matches_session_limit():
+    assert st.QUOTA_PAT.search("You've hit your session limit · resets 9:10pm (Asia/Saigon)")
+    assert not st.QUOTA_PAT.search("claude exited 1")

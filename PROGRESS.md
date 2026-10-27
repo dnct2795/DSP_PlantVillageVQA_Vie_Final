@@ -2,6 +2,15 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 18:57 — Step 2: dịch toàn bộ (dừng giữa chừng do hết giới hạn phiên Pro)
+
+- Run `20261027-180111`: 5.106/7.522 cặp đã dịch, 5.097 qua luật, 9 trượt luật, 239 cặp lỗi chờ
+  dịch lại (b0020, b0030, b0060, b0166: "claude exited 1" không rõ lý do; b0172–b0174: hết phiên).
+  72 batch còn lại. 1,63M token vào, 0,39M token ra, 54 phút model.
+- Dừng: "You've hit your session limit · resets 9:10pm (Asia/Saigon)". Regex quota chưa bắt
+  "session limit" → runner dừng sau 3 lỗi liên tiếp. Đã sửa QUOTA_PAT + test (16 passed).
+- Tiếp theo: sau 21:10 chạy lại `PYTHONPATH=src python3 -m pvvqa.step2_translate`.
+
 ## 2026-10-27 18:20 — Chọn model judge cho Step 3
 
 - Codex đã kết nối: `codex-cli 0.159.2`, đăng nhập bằng ChatGPT (không API key), `codex exec` ping → "pong"
