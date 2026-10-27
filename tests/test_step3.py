@@ -181,3 +181,19 @@ def test_crosscheck_report(project, monkeypatch):
     assert sj.run(_args(crosscheck=4, model="m2", reasoning="high")) == 0
     rep = json.loads((project / "outputs/step3/crosscheck_report__m2__high.json").read_text())
     assert rep["n"] == 4 and rep["agree"] == 4
+
+
+def test_expand_abbreviations():
+    from pvvqa.step3_expand import expand, ABBR
+    cases = {
+        "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV).": "Chẩn đoán là virus xoăn vàng lá cà chua.",
+        "Đây là bệnh nhiễm virus: TYLCV.": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua.",
+        "Đây là bệnh do virus: ToMV.": "Đây là bệnh do virus khảm cà chua.",
+        "triệu chứng điển hình của bệnh HLB.": "triệu chứng điển hình của bệnh vàng lá gân xanh.",
+        "triệu chứng điển hình của HLB.": "triệu chứng điển hình của bệnh vàng lá gân xanh.",
+        "bệnh vàng lá gân xanh (Huanglongbing, HLB).": "bệnh vàng lá gân xanh (Huanglongbing).",
+        "Lá có dấu hiệu nhiễm TYLCV không?": "Lá có dấu hiệu nhiễm virus xoăn vàng lá cà chua không?",
+        "Đây là lá cà chua khỏe mạnh.": "Đây là lá cà chua khỏe mạnh.",
+    }
+    for a, b in cases.items():
+        assert expand(a) == b and not ABBR.search(expand(a))

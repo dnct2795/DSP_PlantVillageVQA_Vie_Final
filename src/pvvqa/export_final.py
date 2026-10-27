@@ -25,6 +25,7 @@ import pandas as pd
 from pvvqa.common import ROOT, load_config
 from pvvqa.step2_translate import git_commit, now, read_jsonl
 from pvvqa.step3_judge import latest_valid
+from pvvqa.step3_expand import apply_expansions
 from pvvqa.step3_repair import _latest, resolve, summary
 
 SOURCE_COLS = ["image_id", "question_type", "question", "answer", "image_path", "split"]
@@ -36,7 +37,7 @@ def build_rows(cfg: dict) -> pd.DataFrame:
     run_dir = ROOT / cfg["step3"]["run_dir"]
     sub = pd.read_parquet(ROOT / cfg["paths"]["step1_dir"] / "subset_en.parquet")
     qmap = pd.read_parquet(ROOT / cfg["step2"]["out_dir"] / "pair_qa_map.parquet")
-    res = resolve(cfg)
+    res = apply_expansions(cfg)  # bản dịch cuối sau Step 3.4 (viết đầy đủ tên thay viết tắt)
     judged = latest_valid(run_dir / "judgments.jsonl")
     rejudged = latest_valid(run_dir / "rejudgments.jsonl")
     repairs = {k: r for k, r in _latest(run_dir / "repairs.jsonl").items() if not r.get("error")}
@@ -56,7 +57,8 @@ def build_rows(cfg: dict) -> pd.DataFrame:
     res = res.merge(trace, on="pair_id")
     keep = ["pair_id", "answer_label", "question_vi", "answer_vi", "status", "judge_first", "repaired",
             "rejudge", "rule_errors_step2", "judge_errors", "repair_feedback", "pre_repair_question_vi",
-            "pre_repair_answer_vi", "rejudge_errors"]
+            "pre_repair_answer_vi", "rejudge_errors", "expanded", "pre_expansion_question_vi",
+            "pre_expansion_answer_vi", "expansion_judge"]
     rows = (sub.merge(qmap, on="qa_id", how="left").merge(res[keep], on="pair_id", how="left")
             .sort_values("source_row").reset_index(drop=True))
     assert len(rows) == len(sub) and rows.pair_id.notna().all() and rows.status.notna().all()
@@ -165,7 +167,10 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           "- Mất cân bằng lớp thừa hưởng từ PlantVillage (HLB trên cam và TYLCV trên cà chua chiếm khoảng 35% "
           "số dòng); subset giữ nguyên phân phối này.",
           "- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.",
-          "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.", "",
+          "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.",
+          f"- Step 3.4 (theo yêu cầu người dùng, sau khi đã chấm): viết đầy đủ tên tiếng Việt thay cho viết tắt "
+          f"HLB / TYLCV / ToMV bằng luật thay chuỗi cố định; {int(rows.expanded.groupby(rows.pair_id).first().sum()):,} "
+          "cặp bị đổi được kiểm tra luật và Codex chấm lại; cặp không đạt -> UNRESOLVED.", "",
           "## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)", "",
           *[f"- {name}: {u['input_tokens']:,} token vào, {u['output_tokens']:,} token ra, "
             f"{u['model_elapsed_s'] / 60:.0f} phút model"
@@ -197,9 +202,10 @@ def main() -> int:
     align_cols = ["qa_id", "source_row", "image_id", "image_path", "split", "question_type", "question_en",
                   "answer_en", "question_vi", "answer_vi", "answer_label", "pair_id", "status",
                   "rule_errors_step2", "judge_first", "judge_errors", "repaired", "repair_feedback",
-                  "pre_repair_question_vi", "pre_repair_answer_vi", "rejudge", "rejudge_errors"]
+                  "pre_repair_question_vi", "pre_repair_answer_vi", "rejudge", "rejudge_errors",
+                  "expanded", "pre_expansion_question_vi", "pre_expansion_answer_vi", "expansion_judge"]
     align[align_cols].to_csv(out / "PlantVillageVQA_vi_en_alignment.csv", index=False, encoding="utf-8")
-    res_sum = summary(resolve(cfg))
+    res_sum = summary(apply_expansions(cfg))
     rep, md = report(cfg, rows, res_sum, strata(cfg, vi))
     (out / "quality_report.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "quality_report.md").write_text(md, encoding="utf-8")
