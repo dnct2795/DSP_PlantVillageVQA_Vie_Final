@@ -1,0 +1,171 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "smoke_control_05",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "smoke_disease_04",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Chẩn đoán là bệnh phấn trắng."
+   },
+   {
+    "id": "smoke_control_06",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "smoke_control_08",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would not appear in a healthy plant specimen?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không xuất hiện ở một mẫu cây khỏe mạnh?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có các triệu chứng bệnh."
+   },
+   {
+    "id": "smoke_polarity_04",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Early blight?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có khỏe mạnh đốm vòng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "smoke_polarity_05",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Grape leaf infected with Esca Black Measles?",
+    "answer_en": "Yes",
+    "question_vi": "Lá nho này có khỏe mạnh Esca (sởi đen) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "smoke_polarity_07",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua khỏe mạnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_control_01",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "smoke_control_07",
+    "question_type": "Comprehensive Description",
+    "question_en": "Review the photograph and deliver a comprehensive plant overview.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "smoke_conditional_00",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Các triệu chứng của bệnh không có."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "smoke_control_05",
+    "errors": []
+   },
+   {
+    "id": "smoke_disease_04",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh phấn trắng” means Powdery mildew, not Target Spot."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_06",
+    "errors": []
+   },
+   {
+    "id": "smoke_control_08",
+    "errors": []
+   },
+   {
+    "id": "smoke_polarity_04",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“khỏe mạnh” changes the question from whether the leaf is infected with Early blight to whether it is healthy."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_05",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“khỏe mạnh” changes the question from whether the leaf is infected with Esca to whether it is healthy."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_07",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "critical",
+      "explanation": "“khỏe mạnh” adds that the leaf is healthy, changing the question about whether it has Bacterial spot."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_01",
+    "errors": []
+   },
+   {
+    "id": "smoke_control_07",
+    "errors": []
+   },
+   {
+    "id": "smoke_conditional_00",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the condition “If the plant were healthy”; “Các triệu chứng của bệnh không có” states only that symptoms are absent."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.9,
+  "usage": {
+   "input_tokens": 9920,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 725,
+   "reasoning_output_tokens": 397
+  }
+ }
+}

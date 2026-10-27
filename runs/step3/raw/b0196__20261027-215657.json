@@ -1,0 +1,357 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_6aea275c1bc37143",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "Apple scab",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Bệnh ghẻ táo"
+   },
+   {
+    "id": "p_a7057220375bd71e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_f5ff436ca84c26a1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_eae173e8aeaa445d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_7dc8481f39375afa",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_d14d5575dac9d08b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_24db6b4b415505d2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_6941a75ed8c19f81",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_945e870091d4b0ac",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_785706df606d7d30",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_8f6f86430132ecab",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_cabd80749a0e113b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_7dd4f47642accd3d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_bfefa5bb5abf0512",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_a18e6720997abdb0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_7be9c351d270140f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_e4d7a3f883804d8f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_bb75f019b151adea",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_c14c5dae1f338e0f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_c11ac009272935ac",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_da4bef615dc8d1d0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_21abaf35c6ffb829",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_4bbd2f88b3e4d251",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_4b4f57cab1838b47",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_048685729d5ca810",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is precise disease identification possible from these visual symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Từ các triệu chứng quan sát được này, có thể xác định chính xác bệnh không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_add033895acec655",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is there a specific disease that can be identified on this orange leaf?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Có thể xác định được một bệnh cụ thể trên lá cam này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_9221f88177b89b3b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is there a specific disease that can be identified on this orange leaf?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Có thể xác định được một bệnh cụ thể trên lá cam này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_b494fc6b8af273a5",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is there a specific disease that can be identified on this orange leaf?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Có thể xác định được một bệnh cụ thể trên lá cam này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_6aea275c1bc37143",
+    "errors": []
+   },
+   {
+    "id": "p_a7057220375bd71e",
+    "errors": []
+   },
+   {
+    "id": "p_f5ff436ca84c26a1",
+    "errors": []
+   },
+   {
+    "id": "p_eae173e8aeaa445d",
+    "errors": []
+   },
+   {
+    "id": "p_7dc8481f39375afa",
+    "errors": []
+   },
+   {
+    "id": "p_d14d5575dac9d08b",
+    "errors": []
+   },
+   {
+    "id": "p_24db6b4b415505d2",
+    "errors": []
+   },
+   {
+    "id": "p_6941a75ed8c19f81",
+    "errors": []
+   },
+   {
+    "id": "p_945e870091d4b0ac",
+    "errors": []
+   },
+   {
+    "id": "p_785706df606d7d30",
+    "errors": []
+   },
+   {
+    "id": "p_8f6f86430132ecab",
+    "errors": []
+   },
+   {
+    "id": "p_cabd80749a0e113b",
+    "errors": []
+   },
+   {
+    "id": "p_7dd4f47642accd3d",
+    "errors": []
+   },
+   {
+    "id": "p_bfefa5bb5abf0512",
+    "errors": []
+   },
+   {
+    "id": "p_a18e6720997abdb0",
+    "errors": []
+   },
+   {
+    "id": "p_7be9c351d270140f",
+    "errors": []
+   },
+   {
+    "id": "p_e4d7a3f883804d8f",
+    "errors": []
+   },
+   {
+    "id": "p_bb75f019b151adea",
+    "errors": []
+   },
+   {
+    "id": "p_c14c5dae1f338e0f",
+    "errors": []
+   },
+   {
+    "id": "p_c11ac009272935ac",
+    "errors": []
+   },
+   {
+    "id": "p_da4bef615dc8d1d0",
+    "errors": []
+   },
+   {
+    "id": "p_21abaf35c6ffb829",
+    "errors": []
+   },
+   {
+    "id": "p_4bbd2f88b3e4d251",
+    "errors": []
+   },
+   {
+    "id": "p_4b4f57cab1838b47",
+    "errors": []
+   },
+   {
+    "id": "p_048685729d5ca810",
+    "errors": []
+   },
+   {
+    "id": "p_add033895acec655",
+    "errors": []
+   },
+   {
+    "id": "p_9221f88177b89b3b",
+    "errors": []
+   },
+   {
+    "id": "p_b494fc6b8af273a5",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 8.3,
+  "usage": {
+   "input_tokens": 12117,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 651,
+   "reasoning_output_tokens": 166
+  }
+ }
+}

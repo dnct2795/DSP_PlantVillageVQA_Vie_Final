@@ -1,0 +1,272 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_1d047879a8c2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Can you deliver a detailed visual analysis of this botanical specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_b27281bac7ff4973",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5bd307a262cf9ac6",
+      "answer_en": "Diagnosis: Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_25bf4353fee2c736",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fb110a36fcc3a9b0",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e32e928be6fbce49",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6b442413188ebc31",
+      "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f6e788374163872",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0f8a196f866a0178",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_46c7518674e97174",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6d188313acb9b8c8",
+      "answer_en": "The pest responsible is the Two-spotted spider mite.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4862124b2bf65970",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5bb52b557dd5d0fd",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f06808ba7a2f81a6",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_01c67a9e46631777",
+      "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_481d2a373cafda39",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_84b644d82de12355",
+      "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3d5f248e9dadd722",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1ac03d41d842e3c1",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1212a775dd8d5829",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c5f4ba2f8572fbce",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_044d990469b95eb9",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_66e4a1da9ca5de3a",
+      "answer_en": "This is damage from Spider Mites.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d0f7b665b6a0e316",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_1d047879a8c2",
+    "question_vi": "Bạn có thể phân tích chi tiết bằng hình ảnh về mẫu thực vật này không?",
+    "pairs": [
+     {
+      "pair_id": "p_b27281bac7ff4973",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_5bd307a262cf9ac6",
+      "answer_vi": "Chẩn đoán: bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_25bf4353fee2c736",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_fb110a36fcc3a9b0",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_e32e928be6fbce49",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_6b442413188ebc31",
+      "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+     },
+     {
+      "pair_id": "p_6f6e788374163872",
+      "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_0f8a196f866a0178",
+      "answer_vi": "Lá có hiện tượng vàng lá từng mảng, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_46c7518674e97174",
+      "answer_vi": "Rất nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_6d188313acb9b8c8",
+      "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+     },
+     {
+      "pair_id": "p_4862124b2bf65970",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_5bb52b557dd5d0fd",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_f06808ba7a2f81a6",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_01c67a9e46631777",
+      "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_481d2a373cafda39",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     },
+     {
+      "pair_id": "p_84b644d82de12355",
+      "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+     },
+     {
+      "pair_id": "p_3d5f248e9dadd722",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_1ac03d41d842e3c1",
+      "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_1212a775dd8d5829",
+      "answer_vi": "Đây là lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_c5f4ba2f8572fbce",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_044d990469b95eb9",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_66e4a1da9ca5de3a",
+      "answer_vi": "Đây là tổn hại do nhện đỏ."
+     },
+     {
+      "pair_id": "p_d0f7b665b6a0e316",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.5,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3675,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1582,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3675,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1582,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3675,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3675
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0310557,
+  "duration_ms": 9710,
+  "num_turns": 2,
+  "session_id": "b137638b-3d6d-4a77-9776-81750c6fcb1b"
+ }
+}

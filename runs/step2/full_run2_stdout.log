@@ -1,0 +1,33 @@
+[20261027-211144] 72 batch, 2416 cặp cần dịch.
+  [1/72] b0020: ok=32 rule_fail=0 err=0
+  [2/72] b0030: ok=68 rule_fail=0 err=0
+  [3/72] b0060: ok=91 rule_fail=0 err=0
+  [4/72] b0166: ok=91 rule_fail=0 err=40
+  [5/72] b0172: ok=130 rule_fail=4 err=40
+  [6/72] b0173: ok=162 rule_fail=4 err=40
+  [7/72] b0174: ok=199 rule_fail=4 err=40
+  [8/72] b0175: ok=236 rule_fail=4 err=40
+  [9/72] b0176: ok=265 rule_fail=4 err=40
+  [10/72] b0177: ok=296 rule_fail=4 err=40
+  [11/72] b0178: ok=334 rule_fail=4 err=40
+  [12/72] b0179: ok=374 rule_fail=4 err=40
+  [13/72] b0180: ok=392 rule_fail=4 err=40
+  [14/72] b0181: ok=424 rule_fail=4 err=40
+  [15/72] b0182: ok=447 rule_fail=4 err=40
+  [16/72] b0183: ok=480 rule_fail=4 err=40
+  [17/72] b0184: ok=520 rule_fail=4 err=40
+  [18/72] b0185: ok=552 rule_fail=4 err=40
+  [19/72] b0186: ok=586 rule_fail=4 err=40
+  [20/72] b0187: ok=623 rule_fail=4 err=40
+  [21/72] b0188: ok=651 rule_fail=4 err=40
+  [22/72] b0189: ok=651 rule_fail=4 err=72
+  [23/72] b0190: ok=682 rule_fail=4 err=72
+  [24/72] b0191: ok=714 rule_fail=4 err=72
+  [25/72] b0192: ok=745 rule_fail=4 err=72
+  [26/72] b0193: ok=778 rule_fail=4 err=72
+  [27/72] b0194: ok=812 rule_fail=4 err=72
+  [28/72] b0195: ok=812 rule_fail=4 err=94
+  [29/72] b0196: ok=812 rule_fail=4 err=123
+{"stop_reason": "3 lỗi liên tiếp: claude exited 1", "pairs_ok_this_run": 812, "pairs_rule_fail_this_run": 4, "pairs_error_this_run": 153, "pairs_translated": 5918, "pairs_total": 7522}
+Dừng sớm. Chạy tiếp bằng: PYTHONPATH=src python -m pvvqa.step2_translate
+exit=3

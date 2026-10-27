@@ -1,0 +1,357 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_98e1130f4d3b3143",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_458eae44f3120641",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_59f982439c7c43ff",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_c4dd077978b7f59d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_973f4599fd12c25c",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_d0191c6ecb3566c6",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_dfb540cb5dac61fa",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_6a68f1e05fe1b883",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_7c43fa2b2ee16407",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_008cfe9b13a87734",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_2d9010a4f6ba74eb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_6d6bd07bd5f8552d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_e1e45a9cec4bf4bb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_4f241719aa334280",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_a0f6db45aeb8d53d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_d8b060b6aef41304",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_32146259fc19c109",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_da1f6669e234bf7d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_aadcca57cd8106f4",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_c0124bf26444a55a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu điển hình của bệnh đốm vòng."
+   },
+   {
+    "id": "p_f10909df9d66adbe",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_2becd04959d08154",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_3103b6f075b2d8a0",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_fd7d8899e0d49eec",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_447f2f2730ea8c9e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_bd6b7dfcc21d7363",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_c198e57bd259667b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_5cb89ee676200551",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_98e1130f4d3b3143",
+    "errors": []
+   },
+   {
+    "id": "p_458eae44f3120641",
+    "errors": []
+   },
+   {
+    "id": "p_59f982439c7c43ff",
+    "errors": []
+   },
+   {
+    "id": "p_c4dd077978b7f59d",
+    "errors": []
+   },
+   {
+    "id": "p_973f4599fd12c25c",
+    "errors": []
+   },
+   {
+    "id": "p_d0191c6ecb3566c6",
+    "errors": []
+   },
+   {
+    "id": "p_dfb540cb5dac61fa",
+    "errors": []
+   },
+   {
+    "id": "p_6a68f1e05fe1b883",
+    "errors": []
+   },
+   {
+    "id": "p_7c43fa2b2ee16407",
+    "errors": []
+   },
+   {
+    "id": "p_008cfe9b13a87734",
+    "errors": []
+   },
+   {
+    "id": "p_2d9010a4f6ba74eb",
+    "errors": []
+   },
+   {
+    "id": "p_6d6bd07bd5f8552d",
+    "errors": []
+   },
+   {
+    "id": "p_e1e45a9cec4bf4bb",
+    "errors": []
+   },
+   {
+    "id": "p_4f241719aa334280",
+    "errors": []
+   },
+   {
+    "id": "p_a0f6db45aeb8d53d",
+    "errors": []
+   },
+   {
+    "id": "p_d8b060b6aef41304",
+    "errors": []
+   },
+   {
+    "id": "p_32146259fc19c109",
+    "errors": []
+   },
+   {
+    "id": "p_da1f6669e234bf7d",
+    "errors": []
+   },
+   {
+    "id": "p_aadcca57cd8106f4",
+    "errors": []
+   },
+   {
+    "id": "p_c0124bf26444a55a",
+    "errors": []
+   },
+   {
+    "id": "p_f10909df9d66adbe",
+    "errors": []
+   },
+   {
+    "id": "p_2becd04959d08154",
+    "errors": []
+   },
+   {
+    "id": "p_3103b6f075b2d8a0",
+    "errors": []
+   },
+   {
+    "id": "p_fd7d8899e0d49eec",
+    "errors": []
+   },
+   {
+    "id": "p_447f2f2730ea8c9e",
+    "errors": []
+   },
+   {
+    "id": "p_bd6b7dfcc21d7363",
+    "errors": []
+   },
+   {
+    "id": "p_c198e57bd259667b",
+    "errors": []
+   },
+   {
+    "id": "p_5cb89ee676200551",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.4,
+  "usage": {
+   "input_tokens": 12454,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 747,
+   "reasoning_output_tokens": 250
+  }
+ }
+}

@@ -1,0 +1,424 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_5bf923c6b0f1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What factors have led to this leaf's problems?",
+    "pairs": [
+     {
+      "pair_id": "p_4c8938a9403e171e",
+      "answer_en": "Diagnosis: Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_04b9d91b4372591c",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4e0c7e5afb65e396",
+      "answer_en": "The condition is identified as Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_952507066942ee5d",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_86d211baa513b32d",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_34b911ca00ee2ccf",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_50b5b8f7d64f9b67",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f298f9bffb5cf42b",
+      "answer_en": "The symptoms are characteristic of Leaf scorch.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f80097d6411cd4b2",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_996ca80fdf1304de",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_e1f081aad3f8",
+    "question_type": "Causal Reasoning",
+    "question_en": "What foundational issue created this plant's state?",
+    "pairs": [
+     {
+      "pair_id": "p_2979a8a5b178e717",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_89cfcc1b9c293650",
+      "answer_en": "The diagnosis is Target Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b3b1a3ea320cf06a",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_74552a044269091a",
+      "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8b890a4aaf3f7327",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_deef36c9ce8548e5",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_97d1b1f72caf6910",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a7ec6c6950c8f53a",
+      "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_07e89082ae9d24d8",
+      "answer_en": "The symptoms are characteristic of Northern Leaf Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b690a74827bae81b",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f4a5c73cc6b39f45",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_02a4b1b371a11fd1",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_483f438f4c90",
+    "question_type": "Causal Reasoning",
+    "question_en": "What fundamental factor produces these plant symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_a2160f1f836b34d3",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d94b2e7d2512066c",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c18bc84f0c35d67f",
+      "answer_en": "The diagnosis is Target Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d4676c752e0a14ad",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_629321599743b26f",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c7ab2b2d114a76e0",
+      "answer_en": "The pest responsible is the Two-spotted spider mite.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_62825fa050b525fe",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ffeea893bc13261c",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2e9cc90ba71275d8",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_97e5521607da3337",
+      "answer_en": "The symptoms are characteristic of Apple scab.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bdfa4c33ed4fb5e2",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d376380ff61ee747",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2a2abd59771eb84f",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3f0b624ae8388e37",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7c7d9f997ad78ead",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_5bf923c6b0f1",
+    "question_vi": "Những yếu tố nào đã dẫn đến các vấn đề của chiếc lá này?",
+    "pairs": [
+     {
+      "pair_id": "p_4c8938a9403e171e",
+      "answer_vi": "Chẩn đoán: bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_04b9d91b4372591c",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_4e0c7e5afb65e396",
+      "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_952507066942ee5d",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_86d211baa513b32d",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_34b911ca00ee2ccf",
+      "answer_vi": "Nhiều đốm nhỏ, có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_50b5b8f7d64f9b67",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_f298f9bffb5cf42b",
+      "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy mép lá."
+     },
+     {
+      "pair_id": "p_f80097d6411cd4b2",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn với viền sẫm màu."
+     },
+     {
+      "pair_id": "p_996ca80fdf1304de",
+      "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_e1f081aad3f8",
+    "question_vi": "Vấn đề cơ bản nào đã tạo nên tình trạng này của cây?",
+    "pairs": [
+     {
+      "pair_id": "p_2979a8a5b178e717",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_89cfcc1b9c293650",
+      "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_b3b1a3ea320cf06a",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_74552a044269091a",
+      "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+     },
+     {
+      "pair_id": "p_8b890a4aaf3f7327",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_deef36c9ce8548e5",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_97d1b1f72caf6910",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_a7ec6c6950c8f53a",
+      "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+     },
+     {
+      "pair_id": "p_07e89082ae9d24d8",
+      "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy lá lớn."
+     },
+     {
+      "pair_id": "p_b690a74827bae81b",
+      "answer_vi": "Các vết bệnh hình bia này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_f4a5c73cc6b39f45",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_02a4b1b371a11fd1",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_483f438f4c90",
+    "question_vi": "Yếu tố cơ bản nào gây ra các triệu chứng này trên cây?",
+    "pairs": [
+     {
+      "pair_id": "p_a2160f1f836b34d3",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) trên cây có múi."
+     },
+     {
+      "pair_id": "p_d94b2e7d2512066c",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_c18bc84f0c35d67f",
+      "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_d4676c752e0a14ad",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_629321599743b26f",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_c7ab2b2d114a76e0",
+      "answer_vi": "Sinh vật gây hại chịu trách nhiệm là nhện đỏ hai chấm."
+     },
+     {
+      "pair_id": "p_62825fa050b525fe",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_ffeea893bc13261c",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_2e9cc90ba71275d8",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_97e5521607da3337",
+      "answer_vi": "Các triệu chứng này là đặc trưng của bệnh ghẻ táo."
+     },
+     {
+      "pair_id": "p_bdfa4c33ed4fb5e2",
+      "answer_vi": "Các vết bệnh hình bia này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_d376380ff61ee747",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_2a2abd59771eb84f",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn với viền sẫm màu."
+     },
+     {
+      "pair_id": "p_3f0b624ae8388e37",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_7c7d9f997ad78ead",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.3,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4884,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2622,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4884,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2622,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4884,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4884
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.046291700000000005,
+  "duration_ms": 14704,
+  "num_turns": 2,
+  "session_id": "df44d6b1-b8ba-4f0f-984a-bbcdde600bcb"
+ }
+}

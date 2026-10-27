@@ -1,0 +1,477 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_5f6635e243fb74cb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_c3a45a05343f78b2",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_873e1b9c5989b7fd",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_fe63fa3b7129520d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_ed8e8e4e335f289f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, với đặc trưng là các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_e33c5e95660b0fde",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_052fcaf56b670ebb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_1643592e6ba63104",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Lá bị vàng không đều, thành từng mảng, là triệu chứng điển hình của bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_a3a9b872949e1763",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_cb9e773dac9397b1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_323e474d63569f51",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_12b083f5eabe9396",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The symptoms are characteristic of Northern Leaf Blight.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Các triệu chứng là đặc trưng của bệnh cháy lá lớn."
+   },
+   {
+    "id": "p_dfd956f6d2f2946a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The symptoms are characteristic of Powdery mildew.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Các triệu chứng là đặc trưng của bệnh phấn trắng."
+   },
+   {
+    "id": "p_5318a9ddc98851ca",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_b6ef4f3fe72574c7",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_65fc974d2dfff67e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_c4ea5ef86fa9d90f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_b010a59946bcc818",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_4df5cdcb5f290e6e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ."
+   },
+   {
+    "id": "p_b121428ec2977d8d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_756e8245e028830d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) của cây có múi."
+   },
+   {
+    "id": "p_1f1e6f2ee5bb0bcf",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_1c90d37ee393d30b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_318af5d809b80499",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_6870d7259e91fabe",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, với đặc trưng là các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_893142776af8bca4",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_644426083c2f210a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_b7a75d71bb167358",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_37e26137ce0e0420",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_2da6ee0824bb79e8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The symptoms are characteristic of Apple scab.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Các triệu chứng là đặc trưng của bệnh ghẻ táo."
+   },
+   {
+    "id": "p_fe09c4fc75f3347c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_97c2238f3b45aae4",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_b78e24f5b3463d41",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ."
+   },
+   {
+    "id": "p_d6b2e1966b3e2a2f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this citrus leaf's abnormal appearance?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho vẻ ngoài bất thường của lá cây có múi này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) của cây có múi."
+   },
+   {
+    "id": "p_30ede554ea9252f2",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this citrus leaf's abnormal appearance?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho vẻ ngoài bất thường của lá cây có múi này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_fbc65d3037d3437f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this citrus leaf's abnormal appearance?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho vẻ ngoài bất thường của lá cây có múi này?",
+    "answer_vi": "Lá bị vàng không đều, thành từng mảng, là triệu chứng điển hình của bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_0846c3d3a6c0b51d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this citrus leaf's abnormal appearance?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho vẻ ngoài bất thường của lá cây có múi này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_5f6635e243fb74cb",
+    "errors": []
+   },
+   {
+    "id": "p_c3a45a05343f78b2",
+    "errors": []
+   },
+   {
+    "id": "p_873e1b9c5989b7fd",
+    "errors": []
+   },
+   {
+    "id": "p_fe63fa3b7129520d",
+    "errors": []
+   },
+   {
+    "id": "p_ed8e8e4e335f289f",
+    "errors": []
+   },
+   {
+    "id": "p_e33c5e95660b0fde",
+    "errors": []
+   },
+   {
+    "id": "p_052fcaf56b670ebb",
+    "errors": []
+   },
+   {
+    "id": "p_1643592e6ba63104",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "minor",
+      "explanation": "“Vàng không đều, thành từng mảng” conveys uneven, blotchy yellowing but omits the specific asymmetry in “asymmetrical yellowing.”"
+     }
+    ]
+   },
+   {
+    "id": "p_a3a9b872949e1763",
+    "errors": []
+   },
+   {
+    "id": "p_cb9e773dac9397b1",
+    "errors": []
+   },
+   {
+    "id": "p_323e474d63569f51",
+    "errors": []
+   },
+   {
+    "id": "p_12b083f5eabe9396",
+    "errors": []
+   },
+   {
+    "id": "p_dfd956f6d2f2946a",
+    "errors": []
+   },
+   {
+    "id": "p_5318a9ddc98851ca",
+    "errors": []
+   },
+   {
+    "id": "p_b6ef4f3fe72574c7",
+    "errors": []
+   },
+   {
+    "id": "p_65fc974d2dfff67e",
+    "errors": []
+   },
+   {
+    "id": "p_c4ea5ef86fa9d90f",
+    "errors": []
+   },
+   {
+    "id": "p_b010a59946bcc818",
+    "errors": []
+   },
+   {
+    "id": "p_4df5cdcb5f290e6e",
+    "errors": []
+   },
+   {
+    "id": "p_b121428ec2977d8d",
+    "errors": []
+   },
+   {
+    "id": "p_756e8245e028830d",
+    "errors": []
+   },
+   {
+    "id": "p_1f1e6f2ee5bb0bcf",
+    "errors": []
+   },
+   {
+    "id": "p_1c90d37ee393d30b",
+    "errors": []
+   },
+   {
+    "id": "p_318af5d809b80499",
+    "errors": []
+   },
+   {
+    "id": "p_6870d7259e91fabe",
+    "errors": []
+   },
+   {
+    "id": "p_893142776af8bca4",
+    "errors": []
+   },
+   {
+    "id": "p_644426083c2f210a",
+    "errors": []
+   },
+   {
+    "id": "p_b7a75d71bb167358",
+    "errors": []
+   },
+   {
+    "id": "p_37e26137ce0e0420",
+    "errors": []
+   },
+   {
+    "id": "p_2da6ee0824bb79e8",
+    "errors": []
+   },
+   {
+    "id": "p_fe09c4fc75f3347c",
+    "errors": []
+   },
+   {
+    "id": "p_97c2238f3b45aae4",
+    "errors": []
+   },
+   {
+    "id": "p_b78e24f5b3463d41",
+    "errors": []
+   },
+   {
+    "id": "p_d6b2e1966b3e2a2f",
+    "errors": []
+   },
+   {
+    "id": "p_30ede554ea9252f2",
+    "errors": []
+   },
+   {
+    "id": "p_fbc65d3037d3437f",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "minor",
+      "explanation": "“Vàng không đều, thành từng mảng” conveys uneven, blotchy yellowing but omits the specific asymmetry in “asymmetrical yellowing.”"
+     }
+    ]
+   },
+   {
+    "id": "p_0846c3d3a6c0b51d",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.2,
+  "usage": {
+   "input_tokens": 13179,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1280,
+   "reasoning_output_tokens": 529
+  }
+ }
+}

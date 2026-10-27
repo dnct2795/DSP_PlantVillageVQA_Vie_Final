@@ -1,0 +1,276 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_7835a5559ccc",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "pairs": [
+     {
+      "pair_id": "p_817255d361203b01",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_94d32e86f3ab9230",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7716f5afc3a1e807",
+      "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0287f294b0a86b13",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8afc8a2fec93665a",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a99744c6aeeaf038",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_30110a3003b8b62d",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dc966fd5e91cd362",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8e88a2c8ea98ad8e",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_9662f606bdb2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "pairs": [
+     {
+      "pair_id": "p_891bc4299b8d2b39",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a50a640961754289",
+      "answer_en": "Diagnosis: Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ab66d46efade897e",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dfaff0a08231fd5d",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4d52f17d8de1052e",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4372e34c9fe96d16",
+      "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ec315fa50d659479",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5d65773ff120b21d",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_baa4b06328612ea5",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8da40e46aa19aa1c",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_532a48986a6235c5",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8d1d24dc2f0b04b8",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d7ca5a9db9ef71c7",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_7835a5559ccc",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "pairs": [
+     {
+      "pair_id": "p_817255d361203b01",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_94d32e86f3ab9230",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_7716f5afc3a1e807",
+      "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+     },
+     {
+      "pair_id": "p_0287f294b0a86b13",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_8afc8a2fec93665a",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_a99744c6aeeaf038",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     },
+     {
+      "pair_id": "p_30110a3003b8b62d",
+      "answer_vi": "Đây là lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_dc966fd5e91cd362",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+     },
+     {
+      "pair_id": "p_8e88a2c8ea98ad8e",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_9662f606bdb2",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "pairs": [
+     {
+      "pair_id": "p_891bc4299b8d2b39",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_a50a640961754289",
+      "answer_vi": "Chẩn đoán: bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_ab66d46efade897e",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_dfaff0a08231fd5d",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_4d52f17d8de1052e",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, là triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_4372e34c9fe96d16",
+      "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+     },
+     {
+      "pair_id": "p_ec315fa50d659479",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_5d65773ff120b21d",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_baa4b06328612ea5",
+      "answer_vi": "Đây là bệnh do nấm, được gọi là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_8da40e46aa19aa1c",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_532a48986a6235c5",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+     },
+     {
+      "pair_id": "p_8d1d24dc2f0b04b8",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     },
+     {
+      "pair_id": "p_d7ca5a9db9ef71c7",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.9,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 1650,
+   "cache_read_input_tokens": 7320,
+   "output_tokens": 1622,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 1650,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1622,
+     "cache_read_input_tokens": 7320,
+     "cache_creation_input_tokens": 1650,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1650
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.023556,
+  "duration_ms": 9056,
+  "num_turns": 2,
+  "session_id": "f863c82c-fe2a-436b-a55e-24a7afd0a1ef"
+ }
+}

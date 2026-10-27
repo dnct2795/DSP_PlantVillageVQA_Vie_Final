@@ -1,0 +1,393 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_c7b9afb54b39d19d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_598237e55718aaf3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_55865bc3f3e78270",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "Leaf scorch",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Bệnh cháy mép lá"
+   },
+   {
+    "id": "p_bcce8db8e0317373",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_b2734b3065d1a107",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_e0fe3ac6b6021fc2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b7d3aaaaea6723c7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_a0270b25b70a0b78",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_4c2e89f9382601fc",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_7dc7d477a92a15c2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_2f9e8aed60867649",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_5bfcc2d88f277653",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Các đốm lốm đốm và lớp tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_f6acf5394e36c7f7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_4162eb3c61fe0a28",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_cf54156e45b41855",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the medical/botanical diagnosis for these manifestations?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Chẩn đoán y học/thực vật học cho những biểu hiện này là gì?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_78d2408a79106d1a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_16c8f0e30f2646d6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_74a77dc5d85b1f17",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_cd3dc5445aaf7a98",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_313906a472235d45",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_ab206a1f8193ef9f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_eaeea9daa8fe76f6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_336704d4f79841f0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_a8a767d117e31ca8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Các đốm lốm đốm và lớp tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_e414f2847894858d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_aea5d3eedb3b7f97",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_55f44762d9b4480c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_716aa822d83b2ef5",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_9c0c4b486d8b1470",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_5d5312951a08fe22",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the official pathological classification for these leaf symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Phân loại bệnh lý chính thức cho những triệu chứng trên lá này là gì?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_c7b9afb54b39d19d",
+    "errors": []
+   },
+   {
+    "id": "p_598237e55718aaf3",
+    "errors": []
+   },
+   {
+    "id": "p_55865bc3f3e78270",
+    "errors": []
+   },
+   {
+    "id": "p_bcce8db8e0317373",
+    "errors": []
+   },
+   {
+    "id": "p_b2734b3065d1a107",
+    "errors": []
+   },
+   {
+    "id": "p_e0fe3ac6b6021fc2",
+    "errors": []
+   },
+   {
+    "id": "p_b7d3aaaaea6723c7",
+    "errors": []
+   },
+   {
+    "id": "p_a0270b25b70a0b78",
+    "errors": []
+   },
+   {
+    "id": "p_4c2e89f9382601fc",
+    "errors": []
+   },
+   {
+    "id": "p_7dc7d477a92a15c2",
+    "errors": []
+   },
+   {
+    "id": "p_2f9e8aed60867649",
+    "errors": []
+   },
+   {
+    "id": "p_5bfcc2d88f277653",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkwardly repetitive; a more natural rendering of “stippling” would be “các chấm li ti.”"
+     }
+    ]
+   },
+   {
+    "id": "p_f6acf5394e36c7f7",
+    "errors": []
+   },
+   {
+    "id": "p_4162eb3c61fe0a28",
+    "errors": []
+   },
+   {
+    "id": "p_cf54156e45b41855",
+    "errors": []
+   },
+   {
+    "id": "p_78d2408a79106d1a",
+    "errors": []
+   },
+   {
+    "id": "p_16c8f0e30f2646d6",
+    "errors": []
+   },
+   {
+    "id": "p_74a77dc5d85b1f17",
+    "errors": []
+   },
+   {
+    "id": "p_cd3dc5445aaf7a98",
+    "errors": []
+   },
+   {
+    "id": "p_313906a472235d45",
+    "errors": []
+   },
+   {
+    "id": "p_ab206a1f8193ef9f",
+    "errors": []
+   },
+   {
+    "id": "p_eaeea9daa8fe76f6",
+    "errors": []
+   },
+   {
+    "id": "p_336704d4f79841f0",
+    "errors": []
+   },
+   {
+    "id": "p_a8a767d117e31ca8",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkwardly repetitive; a more natural rendering of “stippling” would be “các chấm li ti.”"
+     }
+    ]
+   },
+   {
+    "id": "p_e414f2847894858d",
+    "errors": []
+   },
+   {
+    "id": "p_aea5d3eedb3b7f97",
+    "errors": []
+   },
+   {
+    "id": "p_55f44762d9b4480c",
+    "errors": []
+   },
+   {
+    "id": "p_716aa822d83b2ef5",
+    "errors": []
+   },
+   {
+    "id": "p_9c0c4b486d8b1470",
+    "errors": []
+   },
+   {
+    "id": "p_5d5312951a08fe22",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.7,
+  "usage": {
+   "input_tokens": 12386,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1262,
+   "reasoning_output_tokens": 620
+  }
+ }
+}

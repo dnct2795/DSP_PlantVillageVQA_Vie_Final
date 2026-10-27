@@ -1,0 +1,472 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_e159d2930b57",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_87f3cfbc92acd59e",
+      "answer_en": "Apple scab",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ff8ca65ae261d25f",
+      "answer_en": "Black rot",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_21e54f9c2feea301",
+      "answer_en": "Cedar apple rust",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b6decbd1c2ca4415",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e17a00d3e961e34c",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4ae9e49a6386c655",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6199f9b9362d4dab",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8faebd1729588d35",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_cbcec622b66b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_994efab7307157d3",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6750364e9e84f1df",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_60ef6fae049097a2",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f55333e54f2b672c",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_169d2e0d5471aa1c",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_cf1cbbd1ecee",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_dcece35b9387d01e",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bfd569e96da7a5c2",
+      "answer_en": "Powdery mildew",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_159c653848910805",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_138a77b6e3c6a344",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_43304a911796b421",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_aeb1c5afc008c844",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_c71865466735",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_ce208972bfe8d023",
+      "answer_en": "Cercospora leaf spot Gray leaf spot",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_524b38932790ebe9",
+      "answer_en": "Common rust",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a254c385ffd06a4a",
+      "answer_en": "Northern Leaf Blight",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_23d787c6fea2d7b0",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7d0d39388a76a863",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a3d42fac40bdd820",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_65daed652481c36a",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_b29dc1799adb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_5414ae23dfb2d7fe",
+      "answer_en": "Black rot",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2aa8d2a7b2ec637e",
+      "answer_en": "Esca Black Measles",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4aa2cd97156cc5a3",
+      "answer_en": "Leaf blight Isariopsis Leaf Spot",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4f7fbe54f97e63a2",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_81794d08ab2f6dcb",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0c95299aed376f96",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_68596d8a1f8cad90",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2b3dd70f922cf3bf",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_32b68ee4bc75",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Peach leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_1432720e868c2a4f",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a2e6739384867f25",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4a3b4558e4b7ba7f",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bdc1d2ece459ec8d",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_e159d2930b57",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "pairs": [
+     {
+      "pair_id": "p_87f3cfbc92acd59e",
+      "answer_vi": "Bệnh ghẻ táo"
+     },
+     {
+      "pair_id": "p_ff8ca65ae261d25f",
+      "answer_vi": "Bệnh thối đen"
+     },
+     {
+      "pair_id": "p_21e54f9c2feea301",
+      "answer_vi": "Bệnh gỉ sắt táo tuyết tùng"
+     },
+     {
+      "pair_id": "p_b6decbd1c2ca4415",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_e17a00d3e961e34c",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_4ae9e49a6386c655",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_6199f9b9362d4dab",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_8faebd1729588d35",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_cbcec622b66b",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "pairs": [
+     {
+      "pair_id": "p_994efab7307157d3",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_6750364e9e84f1df",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_60ef6fae049097a2",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_f55333e54f2b672c",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_169d2e0d5471aa1c",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_cf1cbbd1ecee",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "pairs": [
+     {
+      "pair_id": "p_dcece35b9387d01e",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_bfd569e96da7a5c2",
+      "answer_vi": "Bệnh phấn trắng"
+     },
+     {
+      "pair_id": "p_159c653848910805",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_138a77b6e3c6a344",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_43304a911796b421",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_aeb1c5afc008c844",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_c71865466735",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "pairs": [
+     {
+      "pair_id": "p_ce208972bfe8d023",
+      "answer_vi": "Bệnh đốm lá Cercospora (đốm lá xám)"
+     },
+     {
+      "pair_id": "p_524b38932790ebe9",
+      "answer_vi": "Bệnh gỉ sắt thông thường"
+     },
+     {
+      "pair_id": "p_a254c385ffd06a4a",
+      "answer_vi": "Bệnh cháy lá lớn"
+     },
+     {
+      "pair_id": "p_23d787c6fea2d7b0",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_7d0d39388a76a863",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_a3d42fac40bdd820",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_65daed652481c36a",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_b29dc1799adb",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "pairs": [
+     {
+      "pair_id": "p_5414ae23dfb2d7fe",
+      "answer_vi": "Bệnh thối đen"
+     },
+     {
+      "pair_id": "p_2aa8d2a7b2ec637e",
+      "answer_vi": "Bệnh Esca (sởi đen)"
+     },
+     {
+      "pair_id": "p_4aa2cd97156cc5a3",
+      "answer_vi": "Bệnh cháy lá (đốm lá Isariopsis)"
+     },
+     {
+      "pair_id": "p_4f7fbe54f97e63a2",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_81794d08ab2f6dcb",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_0c95299aed376f96",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_68596d8a1f8cad90",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_2b3dd70f922cf3bf",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_32b68ee4bc75",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đào này?",
+    "pairs": [
+     {
+      "pair_id": "p_1432720e868c2a4f",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_a2e6739384867f25",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_4a3b4558e4b7ba7f",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_bdc1d2ece459ec8d",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4839,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2386,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4839,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2386,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4839,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4839
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.043751700000000004,
+  "duration_ms": 14412,
+  "num_turns": 2,
+  "session_id": "8805d294-7572-4c9f-9c0d-ce2fcf010a3f"
+ }
+}

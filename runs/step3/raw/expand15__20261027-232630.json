@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_bd83e4c08923dce3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What pathological issue is this plant facing?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Cây này đang gặp vấn đề bệnh lý nào?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_93c3a2fec03b9cef",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_f220caec7b589de1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_2e63506ecfb5bfb4",
+    "question_type": "Comprehensive Description",
+    "question_en": "Provide all observable information regarding this plant's current condition.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy cung cấp tất cả thông tin quan sát được về tình trạng hiện tại của cây này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_338c5fe3e104c326",
+    "question_type": "Comprehensive Description",
+    "question_en": "Provide all observable information regarding this plant's current condition.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy cung cấp tất cả thông tin quan sát được về tình trạng hiện tại của cây này.",
+    "answer_vi": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_c402f1d8391b350b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Provide all observable information regarding this plant's current condition.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy cung cấp tất cả thông tin quan sát được về tình trạng hiện tại của cây này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_ffc2db06a9e52505",
+    "question_type": "Comprehensive Description",
+    "question_en": "Provide all observable information regarding this plant's current condition.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy cung cấp tất cả thông tin quan sát được về tình trạng hiện tại của cây này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_4b24125219968f32",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_634054dc0063249a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của virus khảm cà chua."
+   },
+   {
+    "id": "p_77dcd96c37d4a610",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_cdb5ae04105a10ec",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_e138ca1bbc0d9f02",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh do virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_f7eacbbbd5b3001a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_28126f8a39038338",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this tomato foliage?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu có thể thấy trên tán lá cà chua này không?",
+    "answer_vi": "Đây là virus khảm cà chua."
+   },
+   {
+    "id": "p_64feee0689b53156",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this tomato foliage?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu có thể thấy trên tán lá cà chua này không?",
+    "answer_vi": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_cc863a786ba5e9ec",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this tomato foliage?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu có thể thấy trên tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_f9d236e36b2f3627",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this tomato foliage?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu có thể thấy trên tán lá cà chua này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_0afcff47b1ccc936",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please explain the cause of these observable problems.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy giải thích nguyên nhân của những vấn đề có thể quan sát được này.",
+    "answer_vi": "Đây là một bệnh do virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_17915ae5d3848af7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please explain the cause of these observable problems.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy giải thích nguyên nhân của những vấn đề có thể quan sát được này.",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_20d21b26c8a08959",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please explain the cause of these observable problems.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy giải thích nguyên nhân của những vấn đề có thể quan sát được này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_d5e8a2a25199db44",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please explain the cause of these observable problems.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy giải thích nguyên nhân của những vấn đề có thể quan sát được này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing) hay bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_41df96fb00cbefa1",
+    "question_type": "Comprehensive Description",
+    "question_en": "Offer a comprehensive review of this plant's appearance and health manifestations.",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về hình thái bên ngoài và các biểu hiện sức khỏe của cây này.",
+    "answer_vi": "Kiểu khảm gồm các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của virus khảm cà chua."
+   },
+   {
+    "id": "p_a62d0e1b039418ef",
+    "question_type": "Comprehensive Description",
+    "question_en": "Offer a comprehensive review of this plant's appearance and health manifestations.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về hình thái bên ngoài và các biểu hiện sức khỏe của cây này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_c36c977489ee9d72",
+    "question_type": "Comprehensive Description",
+    "question_en": "Offer a comprehensive review of this plant's appearance and health manifestations.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về hình thái bên ngoài và các biểu hiện sức khỏe của cây này.",
+    "answer_vi": "Đây là một bệnh nhiễm virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_e523720b0853cf16",
+    "question_type": "Comprehensive Description",
+    "question_en": "Offer a comprehensive review of this plant's appearance and health manifestations.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về hình thái bên ngoài và các biểu hiện sức khỏe của cây này.",
+    "answer_vi": "Lá có hiện tượng vàng lá thành từng mảng không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_eca34487b251a6f9",
+    "question_type": "Comprehensive Description",
+    "question_en": "Offer a comprehensive review of this plant's appearance and health manifestations.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về hình thái bên ngoài và các biểu hiện sức khỏe của cây này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_48977b5d5ef40c70",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent creates these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào tạo ra những triệu chứng này?",
+    "answer_vi": "Lá có hiện tượng vàng thành từng mảng, không đối xứng, là triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_7c6d4bdfe0499f7b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent creates these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào tạo ra những triệu chứng này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_d2373e28b8620698",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent creates these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào tạo ra những triệu chứng này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_3484d13d9af06122",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you clarify the source of these visual imperfections?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể làm rõ nguyên nhân của những khiếm khuyết nhìn thấy này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_bf847662ed4d0ef9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you clarify the source of these visual imperfections?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể làm rõ nguyên nhân của những khiếm khuyết nhìn thấy này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, là triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_c946b362d53be948",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you clarify the source of these visual imperfections?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể làm rõ nguyên nhân của những khiếm khuyết nhìn thấy này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_2f789a50b8f97e52",
+    "question_type": "Comprehensive Description",
+    "question_en": "Generate a thorough evaluation of this specimen's visual characteristics and health indicators.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy đưa ra một đánh giá toàn diện về các đặc điểm hình ảnh và các chỉ dấu sức khỏe của mẫu này.",
+    "answer_vi": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_390123b167d0d081",
+    "question_type": "Comprehensive Description",
+    "question_en": "Generate a thorough evaluation of this specimen's visual characteristics and health indicators.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy đưa ra một đánh giá toàn diện về các đặc điểm hình ảnh và các chỉ dấu sức khỏe của mẫu này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_5534cf19d0be66a6",
+    "question_type": "Comprehensive Description",
+    "question_en": "Generate a thorough evaluation of this specimen's visual characteristics and health indicators.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy đưa ra một đánh giá toàn diện về các đặc điểm hình ảnh và các chỉ dấu sức khỏe của mẫu này.",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_692f6ee50fcb4ec1",
+    "question_type": "Comprehensive Description",
+    "question_en": "Generate a thorough evaluation of this specimen's visual characteristics and health indicators.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy đưa ra một đánh giá toàn diện về các đặc điểm hình ảnh và các chỉ dấu sức khỏe của mẫu này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_18ee75df4ce6dad1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you diagnose any disease affecting this orange plant tissue?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể chẩn đoán bệnh nào đang ảnh hưởng đến mô cây cam này không?",
+    "answer_vi": "Lá có hiện tượng vàng lá thành từng mảng, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   },
+   {
+    "id": "p_ba5c247a2db61a1e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you diagnose any disease affecting this orange plant tissue?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể chẩn đoán bệnh nào đang ảnh hưởng đến mô cây cam này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_056d44cffcac3dc0",
+    "question_type": "Comprehensive Description",
+    "question_en": "What observable attributes and identifying characteristics are evident in this plant specimen?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Những đặc điểm quan sát được và đặc điểm nhận dạng nào thể hiện rõ trên mẫu cây này?",
+    "answer_vi": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_0a90ec6960b95018",
+    "question_type": "Comprehensive Description",
+    "question_en": "What observable attributes and identifying characteristics are evident in this plant specimen?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Những đặc điểm quan sát được và đặc điểm nhận dạng nào thể hiện rõ trên mẫu cây này?",
+    "answer_vi": "Lá có hiện tượng vàng lá từng mảng, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_bd83e4c08923dce3",
+    "errors": []
+   },
+   {
+    "id": "p_93c3a2fec03b9cef",
+    "errors": []
+   },
+   {
+    "id": "p_f220caec7b589de1",
+    "errors": []
+   },
+   {
+    "id": "p_2e63506ecfb5bfb4",
+    "errors": []
+   },
+   {
+    "id": "p_338c5fe3e104c326",
+    "errors": []
+   },
+   {
+    "id": "p_c402f1d8391b350b",
+    "errors": []
+   },
+   {
+    "id": "p_ffc2db06a9e52505",
+    "errors": []
+   },
+   {
+    "id": "p_4b24125219968f32",
+    "errors": []
+   },
+   {
+    "id": "p_634054dc0063249a",
+    "errors": []
+   },
+   {
+    "id": "p_77dcd96c37d4a610",
+    "errors": []
+   },
+   {
+    "id": "p_cdb5ae04105a10ec",
+    "errors": []
+   },
+   {
+    "id": "p_e138ca1bbc0d9f02",
+    "errors": []
+   },
+   {
+    "id": "p_f7eacbbbd5b3001a",
+    "errors": []
+   },
+   {
+    "id": "p_28126f8a39038338",
+    "errors": []
+   },
+   {
+    "id": "p_64feee0689b53156",
+    "errors": []
+   },
+   {
+    "id": "p_cc863a786ba5e9ec",
+    "errors": []
+   },
+   {
+    "id": "p_f9d236e36b2f3627",
+    "errors": []
+   },
+   {
+    "id": "p_0afcff47b1ccc936",
+    "errors": []
+   },
+   {
+    "id": "p_17915ae5d3848af7",
+    "errors": []
+   },
+   {
+    "id": "p_20d21b26c8a08959",
+    "errors": []
+   },
+   {
+    "id": "p_d5e8a2a25199db44",
+    "errors": []
+   },
+   {
+    "id": "p_41df96fb00cbefa1",
+    "errors": []
+   },
+   {
+    "id": "p_a62d0e1b039418ef",
+    "errors": []
+   },
+   {
+    "id": "p_c36c977489ee9d72",
+    "errors": []
+   },
+   {
+    "id": "p_e523720b0853cf16",
+    "errors": []
+   },
+   {
+    "id": "p_eca34487b251a6f9",
+    "errors": []
+   },
+   {
+    "id": "p_48977b5d5ef40c70",
+    "errors": []
+   },
+   {
+    "id": "p_7c6d4bdfe0499f7b",
+    "errors": []
+   },
+   {
+    "id": "p_d2373e28b8620698",
+    "errors": []
+   },
+   {
+    "id": "p_3484d13d9af06122",
+    "errors": []
+   },
+   {
+    "id": "p_bf847662ed4d0ef9",
+    "errors": []
+   },
+   {
+    "id": "p_c946b362d53be948",
+    "errors": []
+   },
+   {
+    "id": "p_2f789a50b8f97e52",
+    "errors": []
+   },
+   {
+    "id": "p_390123b167d0d081",
+    "errors": []
+   },
+   {
+    "id": "p_5534cf19d0be66a6",
+    "errors": []
+   },
+   {
+    "id": "p_692f6ee50fcb4ec1",
+    "errors": []
+   },
+   {
+    "id": "p_18ee75df4ce6dad1",
+    "errors": []
+   },
+   {
+    "id": "p_ba5c247a2db61a1e",
+    "errors": []
+   },
+   {
+    "id": "p_056d44cffcac3dc0",
+    "errors": []
+   },
+   {
+    "id": "p_0a90ec6960b95018",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 19.3,
+  "usage": {
+   "input_tokens": 14004,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1044,
+   "reasoning_output_tokens": 348
+  }
+ }
+}

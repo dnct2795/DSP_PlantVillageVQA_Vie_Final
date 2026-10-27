@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_b1d42c355c043195",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small tan-colored spots featuring dark peripheral margins?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm nhỏ màu nâu vàng với viền ngoài sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c014927384cc7ae2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small tan-colored spots featuring dark peripheral margins?",
+    "answer_en": "Yes",
+    "question_vi": "Có các đốm nhỏ màu nâu vàng với viền ngoài sẫm màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3963ab5db54da319",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, moisture-saturated lesions with yellow margins?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh nhỏ, sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_161dcddfbfde9a16",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, moisture-saturated lesions with yellow margins?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh nhỏ, sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e8d6585ae5d667e4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, saturated lesions with yellow borders visible?",
+    "answer_en": "No",
+    "question_vi": "Có thấy các vết bệnh nhỏ, sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_456ecf2323588eba",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, saturated lesions with yellow borders visible?",
+    "answer_en": "Yes",
+    "question_vi": "Có thấy các vết bệnh nhỏ, sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ff24bc088ed9a169",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, wet-looking lesions surrounded by yellow zones?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh nhỏ, sẫm màu, trông như ướt được bao quanh bởi vùng vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_472e482a68f9f564",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there small, dark, wet-looking lesions surrounded by yellow zones?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh nhỏ, sẫm màu, trông như ướt được bao quanh bởi vùng vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3c011d4751a42e55",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there tan spots displaying dark marginal boundary features?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm màu nâu vàng với đặc điểm ranh giới viền sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d8ff23cc5a0658e0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there target-like patterns of dark concentric circles?",
+    "answer_en": "No",
+    "question_vi": "Có các hình bia (vòng đồng tâm) gồm các vòng tròn sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1cba6302c84474a5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there target-like patterns of dark concentric circles?",
+    "answer_en": "Yes",
+    "question_vi": "Có các hình bia (vòng đồng tâm) gồm các vòng tròn sẫm màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d12b09504626a585",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there uneven, asymmetric yellow discoloration zones?",
+    "answer_en": "No",
+    "question_vi": "Có các vùng đổi màu vàng không đều, không đối xứng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_24eba7efce248e44",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there uneven, asymmetric yellow discoloration zones?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vùng đổi màu vàng không đều, không đối xứng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_96aa66425beaa5a8",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there unevenly shaped dark lesions on the specimen?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh sẫm màu hình dạng không đều trên mẫu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_26cd833a51f8f937",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there visible orange or brown spore-bearing structures on this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thấy các cấu trúc mang bào tử màu cam hoặc nâu trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3bcd604663226b8b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there visible orange or brown spore-bearing structures on this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thấy các cấu trúc mang bào tử màu cam hoặc nâu trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_88eebabb18de6acb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there visible orange-brown protuberances on this leaf specimen?",
+    "answer_en": "No",
+    "question_vi": "Có thấy các u lồi màu nâu cam trên mẫu lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ba3a68efa1133b28",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there visible webs and stippled surface patterns on this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thấy tơ nhện và các dạng lốm đốm trên bề mặt lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bcf40b991ca105be",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there visible webs and stippled surface patterns on this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thấy tơ nhện và các dạng lốm đốm trên bề mặt lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f03b6b18e81079d0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there vivid colored lesions containing small dark fruiting bodies?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu sắc rực rỡ chứa các thể quả nhỏ sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ad6143a828b4aefe",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there vivid orange or yellow lesions with dark punctate structures?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu cam hoặc vàng rực rỡ với các cấu trúc dạng chấm sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_39350eab4c549ceb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there water-soaked lesions displaying yellow marginal zones?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh úng nước với vùng viền màu vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d223aefd2307193b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there water-soaked lesions displaying yellow marginal zones?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh úng nước với vùng viền màu vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_efc81fc1329b5a11",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow discoloration, curl symptoms, and reduced growth?",
+    "answer_en": "No",
+    "question_vi": "Có hiện tượng vàng lá, triệu chứng xoăn lá và sinh trưởng kém không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_27c6a8bb7e899ddb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow discoloration, curl symptoms, and reduced growth?",
+    "answer_en": "Yes",
+    "question_vi": "Có hiện tượng vàng lá, triệu chứng xoăn lá và sinh trưởng kém không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1217b2b629e7d8e2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow lesions above with olive-green moldy growth below?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu vàng ở mặt trên cùng với lớp nấm mốc màu xanh ô-liu ở mặt dưới không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8c943401f4e9b1d1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow lesions above with olive-green moldy growth below?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh màu vàng ở mặt trên cùng với lớp nấm mốc màu xanh ô-liu ở mặt dưới không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9e9b6f180cbbbf77",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow upper lesions with fuzzy olive-green mold beneath?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu vàng ở mặt trên cùng với lớp mốc tơ màu xanh ô-liu bên dưới không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_25ec0d138977ded4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow upper lesions with fuzzy olive-green mold beneath?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh màu vàng ở mặt trên cùng với lớp mốc tơ màu xanh ô-liu bên dưới không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_677e8b5191399c1e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow upper spots with characteristic olive-green mold below?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm màu vàng ở mặt trên cùng với lớp nấm mốc màu xanh ô-liu đặc trưng ở mặt dưới không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6c649cd730047d59",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow upper-surface spots with olive-green undersurface mold?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm màu vàng ở mặt trên lá cùng với lớp nấm mốc màu xanh ô-liu ở mặt dưới lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7a0062e86ae20f79",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellow upper-surface spots with olive-green undersurface mold?",
+    "answer_en": "Yes",
+    "question_vi": "Có các đốm màu vàng ở mặt trên lá cùng với lớp nấm mốc màu xanh ô-liu ở mặt dưới lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_953d88a750604d95",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellowing symptoms accompanied by leaf curling and stunting?",
+    "answer_en": "No",
+    "question_vi": "Có các triệu chứng vàng lá kèm theo xoăn lá và còi cọc không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_97119538f003002b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there yellowing symptoms accompanied by leaf curling and stunting?",
+    "answer_en": "Yes",
+    "question_vi": "Có các triệu chứng vàng lá kèm theo xoăn lá và còi cọc không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7284485c4336bfb8",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can rust-colored spore masses be detected on this foliage?",
+    "answer_en": "No",
+    "question_vi": "Có thể phát hiện các khối bào tử màu gỉ sắt trên tán lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d744fd93ca018033",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can rust-colored spore masses be detected on this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phát hiện các khối bào tử màu gỉ sắt trên tán lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_921ad09092f02549",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect asymmetrical chlorotic pattern formations?",
+    "answer_en": "No",
+    "question_vi": "Có thể phát hiện các dạng úa vàng không đối xứng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_44a3fce4acff194f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect asymmetrical chlorotic pattern formations?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phát hiện các dạng úa vàng không đối xứng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2ab1687ea1fe5fcb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect colorful spots with characteristic black punctations?",
+    "answer_en": "No",
+    "question_vi": "Có thể phát hiện các đốm màu sắc sặc sỡ với các chấm đen đặc trưng không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_b1d42c355c043195",
+    "errors": []
+   },
+   {
+    "id": "p_c014927384cc7ae2",
+    "errors": []
+   },
+   {
+    "id": "p_3963ab5db54da319",
+    "errors": []
+   },
+   {
+    "id": "p_161dcddfbfde9a16",
+    "errors": []
+   },
+   {
+    "id": "p_e8d6585ae5d667e4",
+    "errors": []
+   },
+   {
+    "id": "p_456ecf2323588eba",
+    "errors": []
+   },
+   {
+    "id": "p_ff24bc088ed9a169",
+    "errors": []
+   },
+   {
+    "id": "p_472e482a68f9f564",
+    "errors": []
+   },
+   {
+    "id": "p_3c011d4751a42e55",
+    "errors": []
+   },
+   {
+    "id": "p_d8ff23cc5a0658e0",
+    "errors": []
+   },
+   {
+    "id": "p_1cba6302c84474a5",
+    "errors": []
+   },
+   {
+    "id": "p_d12b09504626a585",
+    "errors": []
+   },
+   {
+    "id": "p_24eba7efce248e44",
+    "errors": []
+   },
+   {
+    "id": "p_96aa66425beaa5a8",
+    "errors": []
+   },
+   {
+    "id": "p_26cd833a51f8f937",
+    "errors": []
+   },
+   {
+    "id": "p_3bcd604663226b8b",
+    "errors": []
+   },
+   {
+    "id": "p_88eebabb18de6acb",
+    "errors": []
+   },
+   {
+    "id": "p_ba3a68efa1133b28",
+    "errors": []
+   },
+   {
+    "id": "p_bcf40b991ca105be",
+    "errors": []
+   },
+   {
+    "id": "p_f03b6b18e81079d0",
+    "errors": []
+   },
+   {
+    "id": "p_ad6143a828b4aefe",
+    "errors": []
+   },
+   {
+    "id": "p_39350eab4c549ceb",
+    "errors": []
+   },
+   {
+    "id": "p_d223aefd2307193b",
+    "errors": []
+   },
+   {
+    "id": "p_efc81fc1329b5a11",
+    "errors": []
+   },
+   {
+    "id": "p_27c6a8bb7e899ddb",
+    "errors": []
+   },
+   {
+    "id": "p_1217b2b629e7d8e2",
+    "errors": []
+   },
+   {
+    "id": "p_8c943401f4e9b1d1",
+    "errors": []
+   },
+   {
+    "id": "p_9e9b6f180cbbbf77",
+    "errors": []
+   },
+   {
+    "id": "p_25ec0d138977ded4",
+    "errors": []
+   },
+   {
+    "id": "p_677e8b5191399c1e",
+    "errors": []
+   },
+   {
+    "id": "p_6c649cd730047d59",
+    "errors": []
+   },
+   {
+    "id": "p_7a0062e86ae20f79",
+    "errors": []
+   },
+   {
+    "id": "p_953d88a750604d95",
+    "errors": []
+   },
+   {
+    "id": "p_97119538f003002b",
+    "errors": []
+   },
+   {
+    "id": "p_7284485c4336bfb8",
+    "errors": []
+   },
+   {
+    "id": "p_d744fd93ca018033",
+    "errors": []
+   },
+   {
+    "id": "p_921ad09092f02549",
+    "errors": []
+   },
+   {
+    "id": "p_44a3fce4acff194f",
+    "errors": []
+   },
+   {
+    "id": "p_2ab1687ea1fe5fcb",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.5,
+  "usage": {
+   "input_tokens": 12566,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 994,
+   "reasoning_output_tokens": 323
+  }
+ }
+}

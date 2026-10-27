@@ -1,0 +1,724 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_47e6c0b7f59e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect fine webbing with characteristic leaf speckling?",
+    "pairs": [
+     {
+      "pair_id": "p_64e5f0115eac5db5",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_94244a139d2ef910",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d009f9865b2f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect irregular brown or black discoloration areas?",
+    "pairs": [
+     {
+      "pair_id": "p_06926416a3ca712d",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_4cb4acd7462ea466",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_17572116e337",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect large saturated lesions with characteristic white borders?",
+    "pairs": [
+     {
+      "pair_id": "p_af364c23b19e6db2",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_177d49ec643cd5de",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_0ea19f638a3d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect large, cylindrical gray-green or tan lesion formations?",
+    "pairs": [
+     {
+      "pair_id": "p_dc961c6dd90d0c33",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2a5fa06d0848",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect marginal tissue death with browning symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_a5414f04f426debe",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_130089176f1663f8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_898b12a8064a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect mosaic-like green color pattern variations?",
+    "pairs": [
+     {
+      "pair_id": "p_9fc66f16c12b308f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_81f6976d8c92",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect necrotic areas exhibiting concentric circle patterns?",
+    "pairs": [
+     {
+      "pair_id": "p_bdca27b5e91e6cc0",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7553d93610f8be25",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_30139fb98ac0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect ring patterns resembling archery targets?",
+    "pairs": [
+     {
+      "pair_id": "p_c3078f01b154eb43",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_451158ef07f5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with concentric dark ring formations?",
+    "pairs": [
+     {
+      "pair_id": "p_4984aeccb9e3e29a",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_507bd2a8696e83d8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c8b94fa15c34",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with dark boundaries and light central areas?",
+    "pairs": [
+     {
+      "pair_id": "p_ec43355b64af83c0",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_75672bd9934bd44f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_51ecddd25c7c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect small dark markings forming tiger-like stripes between the leaf veins?",
+    "pairs": [
+     {
+      "pair_id": "p_4c2ab4121da91565",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_b06609c9c825002a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_552339bfcfff",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect spots with olive-brown coloration and velvety feel?",
+    "pairs": [
+     {
+      "pair_id": "p_73eb21bbef74f274",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0e77886c0d2ddb8d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_22a0cc3c0920",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect tan lesions with distinct dark boundary formations?",
+    "pairs": [
+     {
+      "pair_id": "p_5989aac66e49c832",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_82cab5383f6c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect water-soaked spots exhibiting yellow halo symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_eb34602ecf966dda",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_be34d5340001fc7d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1ed5ae455689",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect white powdery substance coating the foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_f5a7dc4823973573",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_85d1001d09ee5376",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_38be0edd99e7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect yellow surface lesions with velvety undersurface growth?",
+    "pairs": [
+     {
+      "pair_id": "p_0b3f40a16e81ad9d",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_95e4e7878fda",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect yellowing, leaf curl patterns, and stunted development?",
+    "pairs": [
+     {
+      "pair_id": "p_caac6a541a7cc6fc",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7e6c2c3ace59042e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_cbbd87b7ef30",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify big water-soaked spots with white fungal borders?",
+    "pairs": [
+     {
+      "pair_id": "p_973cda5dfc4e0397",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_047306e412f632d5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_dfcdee0a45cf",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify bright spots with embedded black dot formations?",
+    "pairs": [
+     {
+      "pair_id": "p_a588147778d49e76",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ffe66263c94",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify bull's-eye patterns of dark ring structures?",
+    "pairs": [
+     {
+      "pair_id": "p_44498f8de1c7c779",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_671406e90fa748fa",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f4369c50d08c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify chlorotic changes with curl and growth abnormalities?",
+    "pairs": [
+     {
+      "pair_id": "p_7a07bfbe15076227",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_f945a8bd1db41a7f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd8a50cd98b5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify circular lesions with characteristic target patterns?",
+    "pairs": [
+     {
+      "pair_id": "p_f3785f828c384c81",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e2f7db0da300",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify circular spots with dark margins and tan-gray centers?",
+    "pairs": [
+     {
+      "pair_id": "p_2d6a4956ee5a888c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_c5e27fcccd3bcffe",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8871863e4dff",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify delicate webs with stippled foliage symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_57df6c6037e894ab",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_47e6c0b7f59e",
+    "question_vi": "Bạn có phát hiện được tơ nhện mảnh cùng với lá lốm đốm đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_64e5f0115eac5db5",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_94244a139d2ef910",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d009f9865b2f",
+    "question_vi": "Bạn có phát hiện được các vùng đổi màu nâu hoặc đen không đều không?",
+    "pairs": [
+     {
+      "pair_id": "p_06926416a3ca712d",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_4cb4acd7462ea466",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_17572116e337",
+    "question_vi": "Bạn có phát hiện được các vết bệnh lớn úng nước đậm với viền trắng đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_af364c23b19e6db2",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_177d49ec643cd5de",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_0ea19f638a3d",
+    "question_vi": "Bạn có phát hiện được các cấu trúc vết bệnh lớn, hình trụ màu xám xanh hoặc vàng nâu không?",
+    "pairs": [
+     {
+      "pair_id": "p_dc961c6dd90d0c33",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2a5fa06d0848",
+    "question_vi": "Bạn có phát hiện được mô ở mép lá chết kèm triệu chứng hóa nâu không?",
+    "pairs": [
+     {
+      "pair_id": "p_a5414f04f426debe",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_130089176f1663f8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_898b12a8064a",
+    "question_vi": "Bạn có phát hiện được sự thay đổi mẫu màu xanh dạng khảm không?",
+    "pairs": [
+     {
+      "pair_id": "p_9fc66f16c12b308f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_81f6976d8c92",
+    "question_vi": "Bạn có phát hiện được các vùng hoại tử có dạng vòng tròn đồng tâm không?",
+    "pairs": [
+     {
+      "pair_id": "p_bdca27b5e91e6cc0",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7553d93610f8be25",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_30139fb98ac0",
+    "question_vi": "Bạn có phát hiện được các vòng giống bia bắn cung không?",
+    "pairs": [
+     {
+      "pair_id": "p_c3078f01b154eb43",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_451158ef07f5",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với các vòng sẫm đồng tâm không?",
+    "pairs": [
+     {
+      "pair_id": "p_4984aeccb9e3e29a",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_507bd2a8696e83d8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c8b94fa15c34",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với viền sẫm và vùng trung tâm sáng màu không?",
+    "pairs": [
+     {
+      "pair_id": "p_ec43355b64af83c0",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_75672bd9934bd44f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_51ecddd25c7c",
+    "question_vi": "Bạn có phát hiện được các vết sẫm nhỏ tạo thành các sọc giống vằn hổ giữa các gân lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_4c2ab4121da91565",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_b06609c9c825002a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_552339bfcfff",
+    "question_vi": "Bạn có phát hiện được các đốm có màu nâu ô liu và cảm giác mịn như nhung không?",
+    "pairs": [
+     {
+      "pair_id": "p_73eb21bbef74f274",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0e77886c0d2ddb8d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_22a0cc3c0920",
+    "question_vi": "Bạn có phát hiện được các vết bệnh màu vàng nâu với viền sẫm rõ rệt không?",
+    "pairs": [
+     {
+      "pair_id": "p_5989aac66e49c832",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_82cab5383f6c",
+    "question_vi": "Bạn có phát hiện được các đốm úng nước có triệu chứng quầng vàng không?",
+    "pairs": [
+     {
+      "pair_id": "p_eb34602ecf966dda",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_be34d5340001fc7d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1ed5ae455689",
+    "question_vi": "Bạn có phát hiện được lớp bột trắng phủ trên lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_f5a7dc4823973573",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_85d1001d09ee5376",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_38be0edd99e7",
+    "question_vi": "Bạn có phát hiện được các vết bệnh màu vàng trên bề mặt lá cùng lớp mọc mịn như nhung ở mặt dưới không?",
+    "pairs": [
+     {
+      "pair_id": "p_0b3f40a16e81ad9d",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_95e4e7878fda",
+    "question_vi": "Bạn có phát hiện được hiện tượng vàng lá, xoăn lá và chậm phát triển không?",
+    "pairs": [
+     {
+      "pair_id": "p_caac6a541a7cc6fc",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7e6c2c3ace59042e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_cbbd87b7ef30",
+    "question_vi": "Bạn có nhận ra các đốm úng nước lớn với viền nấm trắng không?",
+    "pairs": [
+     {
+      "pair_id": "p_973cda5dfc4e0397",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_047306e412f632d5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_dfcdee0a45cf",
+    "question_vi": "Bạn có nhận ra các đốm sáng màu có các chấm đen nhỏ nằm bên trong không?",
+    "pairs": [
+     {
+      "pair_id": "p_a588147778d49e76",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ffe66263c94",
+    "question_vi": "Bạn có nhận ra các mẫu hình bia gồm các vòng sẫm màu không?",
+    "pairs": [
+     {
+      "pair_id": "p_44498f8de1c7c779",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_671406e90fa748fa",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f4369c50d08c",
+    "question_vi": "Bạn có nhận ra những thay đổi úa vàng kèm xoăn lá và bất thường về sinh trưởng không?",
+    "pairs": [
+     {
+      "pair_id": "p_7a07bfbe15076227",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_f945a8bd1db41a7f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd8a50cd98b5",
+    "question_vi": "Bạn có nhận ra các vết bệnh tròn với mẫu hình bia đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_f3785f828c384c81",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e2f7db0da300",
+    "question_vi": "Bạn có nhận ra các đốm tròn với viền sẫm và tâm màu nâu xám nhạt không?",
+    "pairs": [
+     {
+      "pair_id": "p_2d6a4956ee5a888c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_c5e27fcccd3bcffe",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8871863e4dff",
+    "question_vi": "Bạn có nhận ra các mạng tơ mảnh cùng triệu chứng lá lốm đốm không?",
+    "pairs": [
+     {
+      "pair_id": "p_57df6c6037e894ab",
+      "answer_vi": "Không"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 21.9,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5911,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3069,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5911,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3069,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5911,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5911
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0548697,
+  "duration_ms": 19087,
+  "num_turns": 2,
+  "session_id": "bbf64031-5c36-46c8-ac55-8a442622c285"
+ }
+}

@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_b6344044a789e713",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there detectable disease manifestations on this foliage?",
+    "answer_en": "No",
+    "question_vi": "Có thể phát hiện biểu hiện bệnh trên tán lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c03fa0e5a3ef932e",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there detectable disease manifestations on this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phát hiện biểu hiện bệnh trên tán lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_12e9219c72cd44f1",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there disease-related aberrations present?",
+    "answer_en": "No",
+    "question_vi": "Có xuất hiện những bất thường liên quan đến bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7518d65580c2827a",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there disease-related aberrations present?",
+    "answer_en": "Yes",
+    "question_vi": "Có xuất hiện những bất thường liên quan đến bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e56c0c4d378d5c5e",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of disease-causing organisms at work?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu cho thấy sinh vật gây bệnh đang hoạt động không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0e4c945de6615a89",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of disease-causing organisms at work?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu cho thấy sinh vật gây bệnh đang hoạt động không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_44e351fb26ffecae",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of normal physiological processes?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của các quá trình sinh lý bình thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a7316ac8f499870b",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of normal physiological processes?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu của các quá trình sinh lý bình thường không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0a2586ccf0b20a7f",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of pathological conditions in this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của tình trạng bệnh lý trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ae1ff5bc20a5ef7e",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of pathological conditions in this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu của tình trạng bệnh lý trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d164f4d3ada66167",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of pathological conditions present?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của tình trạng bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d6e141b15d55c19a",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators of pathological conditions present?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu của tình trạng bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_fb74d73d4c2cb5e2",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators suggesting no pathogen presence?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu cho thấy không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f966323c10d06abf",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there indicators suggesting no pathogen presence?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu cho thấy không có mầm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_33ec8c94dbf3495c",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there observable pathogenic effects on this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy tác động của mầm bệnh trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_49053b0b1ab7a4a5",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there observable pathogenic effects on this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy tác động của mầm bệnh trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_30cf283d802b4b50",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there observable pathology markers on this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy các dấu hiệu bệnh lý trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9b3855dc091bce6d",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there observable pathology markers on this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy các dấu hiệu bệnh lý trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c04793509ed556cc",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there obvious indicators of pathogen absence?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu rõ ràng cho thấy không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b2031515d02da0a3",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there obvious indicators of pathogen absence?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu rõ ràng cho thấy không có mầm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_395eba32a09c0f26",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs confirming lack of infectious agents?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu xác nhận không có tác nhân gây nhiễm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b975b046719e77f9",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs confirming lack of infectious agents?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu xác nhận không có tác nhân gây nhiễm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ef13b24e895ba451",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs of optimal physiological functioning?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của hoạt động sinh lý tối ưu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_17b8a4c283f78dfc",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs of optimal physiological functioning?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu của hoạt động sinh lý tối ưu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_45bb5e1ba440f400",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs of physiological wellness and strength?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của sự khỏe mạnh và cường tráng về mặt sinh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a6bb8363556ced3b",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs of physiological wellness and strength?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu của sự khỏe mạnh và cường tráng về mặt sinh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ee76938928d78373",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there unmistakable indicators of health present?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu rõ ràng của sự khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d836b1a18484969b",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there visible disease characteristics present?",
+    "answer_en": "No",
+    "question_vi": "Có đặc điểm bệnh nhìn thấy được không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ff6bcafb09bb4c1c",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there visible disease characteristics present?",
+    "answer_en": "Yes",
+    "question_vi": "Có đặc điểm bệnh nhìn thấy được không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9974123ae7dea9bb",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there visible signs of microbial activity present?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu nhìn thấy được của hoạt động vi sinh vật không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_70f138e707b20db8",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there visible signs of microbial activity present?",
+    "answer_en": "Yes",
+    "question_vi": "Có dấu hiệu nhìn thấy được của hoạt động vi sinh vật không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b7fb9b0aa91b4b9c",
+    "question_type": "General Health Assessment",
+    "question_en": "Are wellness and vigor characteristics observable?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy các đặc điểm khỏe mạnh và sung sức không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5481e568fe7d6d8d",
+    "question_type": "General Health Assessment",
+    "question_en": "Are wellness and vigor characteristics observable?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy các đặc điểm khỏe mạnh và sung sức không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0ea20e83a939e078",
+    "question_type": "General Health Assessment",
+    "question_en": "Can abnormal pathological features be detected?",
+    "answer_en": "No",
+    "question_vi": "Có thể phát hiện các đặc điểm bệnh lý bất thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_03b84f3b45df5278",
+    "question_type": "General Health Assessment",
+    "question_en": "Can abnormal pathological features be detected?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phát hiện các đặc điểm bệnh lý bất thường không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ea4c908d071f6719",
+    "question_type": "General Health Assessment",
+    "question_en": "Can clear signs of disease-free condition be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy dấu hiệu rõ ràng của tình trạng sạch bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8d3ba6a9ea0791d4",
+    "question_type": "General Health Assessment",
+    "question_en": "Can clear signs of disease-free condition be observed?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy dấu hiệu rõ ràng của tình trạng sạch bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c183872f267f9808",
+    "question_type": "General Health Assessment",
+    "question_en": "Can complete disease absence be determined?",
+    "answer_en": "No",
+    "question_vi": "Có thể xác định hoàn toàn không có bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_21fb5b0488abc243",
+    "question_type": "General Health Assessment",
+    "question_en": "Can complete disease absence be determined?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể xác định hoàn toàn không có bệnh không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_b6344044a789e713",
+    "errors": []
+   },
+   {
+    "id": "p_c03fa0e5a3ef932e",
+    "errors": []
+   },
+   {
+    "id": "p_12e9219c72cd44f1",
+    "errors": []
+   },
+   {
+    "id": "p_7518d65580c2827a",
+    "errors": []
+   },
+   {
+    "id": "p_e56c0c4d378d5c5e",
+    "errors": []
+   },
+   {
+    "id": "p_0e4c945de6615a89",
+    "errors": []
+   },
+   {
+    "id": "p_44e351fb26ffecae",
+    "errors": []
+   },
+   {
+    "id": "p_a7316ac8f499870b",
+    "errors": []
+   },
+   {
+    "id": "p_0a2586ccf0b20a7f",
+    "errors": []
+   },
+   {
+    "id": "p_ae1ff5bc20a5ef7e",
+    "errors": []
+   },
+   {
+    "id": "p_d164f4d3ada66167",
+    "errors": []
+   },
+   {
+    "id": "p_d6e141b15d55c19a",
+    "errors": []
+   },
+   {
+    "id": "p_fb74d73d4c2cb5e2",
+    "errors": []
+   },
+   {
+    "id": "p_f966323c10d06abf",
+    "errors": []
+   },
+   {
+    "id": "p_33ec8c94dbf3495c",
+    "errors": []
+   },
+   {
+    "id": "p_49053b0b1ab7a4a5",
+    "errors": []
+   },
+   {
+    "id": "p_30cf283d802b4b50",
+    "errors": []
+   },
+   {
+    "id": "p_9b3855dc091bce6d",
+    "errors": []
+   },
+   {
+    "id": "p_c04793509ed556cc",
+    "errors": []
+   },
+   {
+    "id": "p_b2031515d02da0a3",
+    "errors": []
+   },
+   {
+    "id": "p_395eba32a09c0f26",
+    "errors": []
+   },
+   {
+    "id": "p_b975b046719e77f9",
+    "errors": []
+   },
+   {
+    "id": "p_ef13b24e895ba451",
+    "errors": []
+   },
+   {
+    "id": "p_17b8a4c283f78dfc",
+    "errors": []
+   },
+   {
+    "id": "p_45bb5e1ba440f400",
+    "errors": []
+   },
+   {
+    "id": "p_a6bb8363556ced3b",
+    "errors": []
+   },
+   {
+    "id": "p_ee76938928d78373",
+    "errors": []
+   },
+   {
+    "id": "p_d836b1a18484969b",
+    "errors": []
+   },
+   {
+    "id": "p_ff6bcafb09bb4c1c",
+    "errors": []
+   },
+   {
+    "id": "p_9974123ae7dea9bb",
+    "errors": []
+   },
+   {
+    "id": "p_70f138e707b20db8",
+    "errors": []
+   },
+   {
+    "id": "p_b7fb9b0aa91b4b9c",
+    "errors": []
+   },
+   {
+    "id": "p_5481e568fe7d6d8d",
+    "errors": []
+   },
+   {
+    "id": "p_0ea20e83a939e078",
+    "errors": []
+   },
+   {
+    "id": "p_03b84f3b45df5278",
+    "errors": []
+   },
+   {
+    "id": "p_ea4c908d071f6719",
+    "errors": []
+   },
+   {
+    "id": "p_8d3ba6a9ea0791d4",
+    "errors": []
+   },
+   {
+    "id": "p_c183872f267f9808",
+    "errors": []
+   },
+   {
+    "id": "p_21fb5b0488abc243",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.8,
+  "usage": {
+   "input_tokens": 12087,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 891,
+   "reasoning_output_tokens": 200
+  }
+ }
+}

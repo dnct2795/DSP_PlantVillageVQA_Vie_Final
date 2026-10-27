@@ -1,0 +1,365 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_b1b62a5c1105",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "pairs": [
+     {
+      "pair_id": "p_147bca4de56e89a3",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_121856c46c53c467",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3f895a935d0ff008",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_cdec41bb05d04cfe",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ab3100ca836c5ddb",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_07ac0a4d41aad8d0",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fc47501b7d87a4c6",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2d707c94327a0db1",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_736a05075a81d285",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d238894f75fc2eea",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1737c9f284c54a77",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_68dad0ff92c13c07",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_220ce891c4ab",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "pairs": [
+     {
+      "pair_id": "p_935a3b94c2a154ce",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ffc0ca0c84b24c33",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_76e6498261f8c4dd",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f33282143c9e66d3",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4e6a05f79aa9b2c5",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_334eade4c5bef6c9",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_209f7f2c5ee5d2fc",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_79c35b75e17068bd",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_68d5998a00e46174",
+      "answer_en": "Raspberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6c0a85f1817df425",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e2b15298c33d0d7e",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6286e6f7d00e11d1",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_149df7132bc10f79",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_cfb2aa56e100",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you identify this as originating from a tomato plant?",
+    "pairs": [
+     {
+      "pair_id": "p_b53048ed6fd8cbc5",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_ee6d6d382a0b67a9",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4b7be326068d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you verify this as tomato plant foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_873f5acffc077287",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9f93e76dda1f03a4",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_b1b62a5c1105",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "pairs": [
+     {
+      "pair_id": "p_147bca4de56e89a3",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_121856c46c53c467",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_3f895a935d0ff008",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_cdec41bb05d04cfe",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_ab3100ca836c5ddb",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_07ac0a4d41aad8d0",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_fc47501b7d87a4c6",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_2d707c94327a0db1",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_736a05075a81d285",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_d238894f75fc2eea",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_1737c9f284c54a77",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_68dad0ff92c13c07",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_220ce891c4ab",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "pairs": [
+     {
+      "pair_id": "p_935a3b94c2a154ce",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_ffc0ca0c84b24c33",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_76e6498261f8c4dd",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_f33282143c9e66d3",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_4e6a05f79aa9b2c5",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_334eade4c5bef6c9",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_209f7f2c5ee5d2fc",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_79c35b75e17068bd",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_68d5998a00e46174",
+      "answer_vi": "Mâm xôi"
+     },
+     {
+      "pair_id": "p_6c0a85f1817df425",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_e2b15298c33d0d7e",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_6286e6f7d00e11d1",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_149df7132bc10f79",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_cfb2aa56e100",
+    "question_vi": "Bạn có nhận định đây là mẫu có nguồn gốc từ cây cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_b53048ed6fd8cbc5",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_ee6d6d382a0b67a9",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4b7be326068d",
+    "question_vi": "Bạn có xác nhận đây là lá của cây cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_873f5acffc077287",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9f93e76dda1f03a4",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.7,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3807,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1308,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3807,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1308,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3807,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3807
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0288437,
+  "duration_ms": 7882,
+  "num_turns": 2,
+  "session_id": "a91115ad-8058-44ea-91e9-e2b889508f79"
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_063a5f137a5fd657",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_396c9820a6109e21",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_4c11f5c2ea18cc98",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_52be9ff76b53471f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_fd2d161e3733f794",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_e7c783f50304c059",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+   },
+   {
+    "id": "p_eadffb143c0df1e1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_921698454f5081ec",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm TYLCV presence on this tomato foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận sự hiện diện của TYLCV trên tán lá cà chua này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8b050358735b607f",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "Does this picture contain any foliage?",
+    "answer_en": "No",
+    "question_vi": "Bức ảnh này có chứa lá nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5e8808dfaa1e67bd",
+    "question_type": "General Health Assessment",
+    "question_en": "Are characteristics present that indicate pathogen absence?",
+    "answer_en": "No",
+    "question_vi": "Có các đặc điểm cho thấy không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fa627c64bfa03832",
+    "question_type": "General Health Assessment",
+    "question_en": "Are characteristics present that indicate pathogen absence?",
+    "answer_en": "Yes",
+    "question_vi": "Có các đặc điểm cho thấy không có mầm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b1f50ba8eba4c673",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can this be identified as a potato plant leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thể xác định đây là lá cây khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bfaf40c77ce03413",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can this be identified as a potato plant leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể xác định đây là lá cây khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e4426ae4348b338c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this orange leaf sample?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cam này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_bc503d550b6eb948",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this orange leaf sample?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cam này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_4fa0efa7dbfd9807",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this orange leaf sample?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cam này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_5cdaa0d93790feea",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this orange leaf sample?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cam này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_3ed622dd1012a943",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are interveinal areas showing dark striations reminiscent of tiger markings?",
+    "answer_en": "No",
+    "question_vi": "Các vùng giữa các gân lá có xuất hiện những vệt sẫm màu gợi nhớ đến vằn hổ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_56e1f5be1b3bb733",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are interveinal areas showing dark striations reminiscent of tiger markings?",
+    "answer_en": "Yes",
+    "question_vi": "Các vùng giữa các gân lá có xuất hiện những vệt sẫm màu gợi nhớ đến vằn hổ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_67c266bb9eb5359c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this citrus foliage?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định điều gì đang gây ra tình trạng suy yếu rõ rệt ở tán lá cây có múi này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_cab98006b0fa8077",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this citrus foliage?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể xác định điều gì đang gây ra tình trạng suy yếu rõ rệt ở tán lá cây có múi này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_c7c06a8db5badbe8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this citrus foliage?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định điều gì đang gây ra tình trạng suy yếu rõ rệt ở tán lá cây có múi này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh HLB."
+   },
+   {
+    "id": "p_135df92e93686ba5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this citrus foliage?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bạn có thể xác định điều gì đang gây ra tình trạng suy yếu rõ rệt ở tán lá cây có múi này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_063a5f137a5fd657",
+    "errors": []
+   },
+   {
+    "id": "p_396c9820a6109e21",
+    "errors": []
+   },
+   {
+    "id": "p_4c11f5c2ea18cc98",
+    "errors": []
+   },
+   {
+    "id": "p_52be9ff76b53471f",
+    "errors": []
+   },
+   {
+    "id": "p_fd2d161e3733f794",
+    "errors": []
+   },
+   {
+    "id": "p_e7c783f50304c059",
+    "errors": []
+   },
+   {
+    "id": "p_eadffb143c0df1e1",
+    "errors": []
+   },
+   {
+    "id": "p_921698454f5081ec",
+    "errors": []
+   },
+   {
+    "id": "p_8b050358735b607f",
+    "errors": []
+   },
+   {
+    "id": "p_5e8808dfaa1e67bd",
+    "errors": []
+   },
+   {
+    "id": "p_fa627c64bfa03832",
+    "errors": []
+   },
+   {
+    "id": "p_b1f50ba8eba4c673",
+    "errors": []
+   },
+   {
+    "id": "p_bfaf40c77ce03413",
+    "errors": []
+   },
+   {
+    "id": "p_e4426ae4348b338c",
+    "errors": []
+   },
+   {
+    "id": "p_bc503d550b6eb948",
+    "errors": []
+   },
+   {
+    "id": "p_4fa0efa7dbfd9807",
+    "errors": []
+   },
+   {
+    "id": "p_5cdaa0d93790feea",
+    "errors": []
+   },
+   {
+    "id": "p_3ed622dd1012a943",
+    "errors": []
+   },
+   {
+    "id": "p_56e1f5be1b3bb733",
+    "errors": []
+   },
+   {
+    "id": "p_67c266bb9eb5359c",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The phrase “bệnh vàng lá gân xanh” is repeated immediately in “hay còn gọi là bệnh vàng lá gân xanh cây có múi,” making the answer redundant."
+     }
+    ]
+   },
+   {
+    "id": "p_cab98006b0fa8077",
+    "errors": []
+   },
+   {
+    "id": "p_c7c06a8db5badbe8",
+    "errors": []
+   },
+   {
+    "id": "p_135df92e93686ba5",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.0,
+  "usage": {
+   "input_tokens": 11607,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1067,
+   "reasoning_output_tokens": 616
+  }
+ }
+}

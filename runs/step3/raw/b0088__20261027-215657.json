@@ -1,0 +1,285 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_3454961bed79e0e0",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_31a9da94e42da72f",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_3e3baeb5c3863dce",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_7ce2279c5450a44e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_95ccf221580445a6",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_a4d7b2f9af7199e7",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_0cacebb1c4f5280f",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_d5a6cccffd1a2b86",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Lá có hiện tượng vàng lá thành từng mảng, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_e129e4456373dc46",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_208bb3ca8cb72926",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_6b46192b2708ba76",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_1eba504d9f90d6b3",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_91b710f94e57a885",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_155c1fbe00aa9241",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Các vết lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_8ac554a2359c9a00",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_041103aff3fd15f3",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_8bb31d2d5762d1cf",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This is a Apple leaf suffering from Cedar apple rust.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Đây là lá táo bị bệnh gỉ sắt táo tuyết tùng."
+   },
+   {
+    "id": "p_4882c8cdabf2020a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This is a Cherry leaf suffering from Powdery mildew.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Đây là lá anh đào bị bệnh phấn trắng."
+   },
+   {
+    "id": "p_258a76fe56fbfd72",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This is a Grape leaf suffering from Leaf blight Isariopsis Leaf Spot.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Đây là lá nho bị bệnh cháy lá (đốm lá Isariopsis)."
+   },
+   {
+    "id": "p_96f2143db3ebf8c3",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This is a Squash leaf suffering from Powdery mildew.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Đây là lá bí bị bệnh phấn trắng."
+   },
+   {
+    "id": "p_fc520f14f87ea282",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_ce282be10b29754b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_3454961bed79e0e0",
+    "errors": []
+   },
+   {
+    "id": "p_31a9da94e42da72f",
+    "errors": []
+   },
+   {
+    "id": "p_3e3baeb5c3863dce",
+    "errors": []
+   },
+   {
+    "id": "p_7ce2279c5450a44e",
+    "errors": []
+   },
+   {
+    "id": "p_95ccf221580445a6",
+    "errors": []
+   },
+   {
+    "id": "p_a4d7b2f9af7199e7",
+    "errors": []
+   },
+   {
+    "id": "p_0cacebb1c4f5280f",
+    "errors": []
+   },
+   {
+    "id": "p_d5a6cccffd1a2b86",
+    "errors": []
+   },
+   {
+    "id": "p_e129e4456373dc46",
+    "errors": []
+   },
+   {
+    "id": "p_208bb3ca8cb72926",
+    "errors": []
+   },
+   {
+    "id": "p_6b46192b2708ba76",
+    "errors": []
+   },
+   {
+    "id": "p_1eba504d9f90d6b3",
+    "errors": []
+   },
+   {
+    "id": "p_91b710f94e57a885",
+    "errors": []
+   },
+   {
+    "id": "p_155c1fbe00aa9241",
+    "errors": []
+   },
+   {
+    "id": "p_8ac554a2359c9a00",
+    "errors": []
+   },
+   {
+    "id": "p_041103aff3fd15f3",
+    "errors": []
+   },
+   {
+    "id": "p_8bb31d2d5762d1cf",
+    "errors": []
+   },
+   {
+    "id": "p_4882c8cdabf2020a",
+    "errors": []
+   },
+   {
+    "id": "p_258a76fe56fbfd72",
+    "errors": []
+   },
+   {
+    "id": "p_96f2143db3ebf8c3",
+    "errors": []
+   },
+   {
+    "id": "p_fc520f14f87ea282",
+    "errors": []
+   },
+   {
+    "id": "p_ce282be10b29754b",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.7,
+  "usage": {
+   "input_tokens": 11602,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 670,
+   "reasoning_output_tokens": 271
+  }
+ }
+}

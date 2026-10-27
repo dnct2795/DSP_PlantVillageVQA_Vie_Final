@@ -1,0 +1,513 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_f377023d26cfa407",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show pinnacle health indicators?",
+    "answer_en": "No",
+    "question_vi": "Cây này có cho thấy các chỉ báo sức khỏe ở mức tối ưu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_63b90cbc3d83df57",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show pinnacle health indicators?",
+    "answer_en": "Yes",
+    "question_vi": "Cây này có cho thấy các chỉ báo sức khỏe ở mức tối ưu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_afcc49acc91a4e7f",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show proper developmental features?",
+    "answer_en": "No",
+    "question_vi": "Cây này có cho thấy các đặc điểm phát triển bình thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_60928f75db98a580",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show proper developmental features?",
+    "answer_en": "Yes",
+    "question_vi": "Cây này có cho thấy các đặc điểm phát triển bình thường không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5c9ebb03a496b4ae",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample display pathogen absence markers?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_eb5c7e8d5d2b176d",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample display pathogen absence markers?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu không có mầm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_19f416d51216e92c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit definitive signs of health?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu rõ ràng của sự khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ed076a4ccb6f8eb7",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit definitive signs of health?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu rõ ràng của sự khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_155aa41b906b798b",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit pathological irregularities?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các bất thường do bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f890a32abc8fc56a",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit pathological irregularities?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các bất thường do bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d35372f214c61ebf",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample meet infection criteria?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có đáp ứng các tiêu chí nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_853e97e4cac9b6c6",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample meet infection criteria?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có đáp ứng các tiêu chí nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_32c8ec72857d9faf",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show definite absence of disease?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy chắc chắn không có bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_21246aeb0647c62b",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show definite absence of disease?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cho thấy chắc chắn không có bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b6ccd62d2943f96b",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show disease-related irregularities?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy các bất thường liên quan đến bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9b890bfeeda55717",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show disease-related irregularities?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cho thấy các bất thường liên quan đến bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_448e230a15daafba",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show evidence of wellness indicators?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy bằng chứng của các chỉ báo sức khỏe tốt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d86e3a83699fcee8",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show evidence of wellness indicators?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cho thấy bằng chứng của các chỉ báo sức khỏe tốt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_136fd27ccd2f9b11",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show plant disease characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy các đặc điểm của bệnh cây trồng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d335d0f8c1432300",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show plant disease characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cho thấy các đặc điểm của bệnh cây trồng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2d568bf465fc9087",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display characteristics of health and vigor?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm của sự khỏe mạnh và sinh trưởng mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0661a2bca0277311",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display characteristics of health and vigor?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm của sự khỏe mạnh và sinh trưởng mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7c289921a7a2e502",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display disease pathology markers?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu bệnh lý của bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fc039b1b85553bae",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display disease pathology markers?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu bệnh lý của bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c654bfceae9e5829",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display evident healthy characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm khỏe mạnh rõ ràng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_088ea5bf056c2afc",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display evident healthy characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm khỏe mạnh rõ ràng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_aba2dcdc6456b51d",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display pathological anomalies?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các bất thường bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_02a3b776aa014e1f",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display pathological anomalies?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các bất thường bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_30e603c5645e4156",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display perfect health characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm sức khỏe hoàn hảo không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2032d830051c96c0",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display perfect health characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm sức khỏe hoàn hảo không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_31239abe540db9a3",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display traits of pathogen-free foliage?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm của tán lá không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f25ef2bbd064ceab",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display typical disease features?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm bệnh điển hình không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d563a9beb3b3c639",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display typical disease features?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm bệnh điển hình không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_61d829675d345abf",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit indicators of health and vitality?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có thể hiện các chỉ báo của sự khỏe mạnh và sức sống không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_628e467bc459f011",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit indicators of health and vitality?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có thể hiện các chỉ báo của sự khỏe mạnh và sức sống không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_fc0d7908f3f95409",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit normal developmental characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có thể hiện các đặc điểm phát triển bình thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e509ab5fb79301bb",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit normal developmental characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có thể hiện các đặc điểm phát triển bình thường không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0fb53bb4f74a697c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all disease characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi đặc điểm của bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2f7a17acbc7eb883",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all disease characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi đặc điểm của bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d679f78a620dc830",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all disease manifestations?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi biểu hiện của bệnh không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_f377023d26cfa407",
+    "errors": []
+   },
+   {
+    "id": "p_63b90cbc3d83df57",
+    "errors": []
+   },
+   {
+    "id": "p_afcc49acc91a4e7f",
+    "errors": []
+   },
+   {
+    "id": "p_60928f75db98a580",
+    "errors": []
+   },
+   {
+    "id": "p_5c9ebb03a496b4ae",
+    "errors": []
+   },
+   {
+    "id": "p_eb5c7e8d5d2b176d",
+    "errors": []
+   },
+   {
+    "id": "p_19f416d51216e92c",
+    "errors": []
+   },
+   {
+    "id": "p_ed076a4ccb6f8eb7",
+    "errors": []
+   },
+   {
+    "id": "p_155aa41b906b798b",
+    "errors": []
+   },
+   {
+    "id": "p_f890a32abc8fc56a",
+    "errors": []
+   },
+   {
+    "id": "p_d35372f214c61ebf",
+    "errors": []
+   },
+   {
+    "id": "p_853e97e4cac9b6c6",
+    "errors": []
+   },
+   {
+    "id": "p_32c8ec72857d9faf",
+    "errors": []
+   },
+   {
+    "id": "p_21246aeb0647c62b",
+    "errors": []
+   },
+   {
+    "id": "p_b6ccd62d2943f96b",
+    "errors": []
+   },
+   {
+    "id": "p_9b890bfeeda55717",
+    "errors": []
+   },
+   {
+    "id": "p_448e230a15daafba",
+    "errors": []
+   },
+   {
+    "id": "p_d86e3a83699fcee8",
+    "errors": []
+   },
+   {
+    "id": "p_136fd27ccd2f9b11",
+    "errors": []
+   },
+   {
+    "id": "p_d335d0f8c1432300",
+    "errors": []
+   },
+   {
+    "id": "p_2d568bf465fc9087",
+    "errors": []
+   },
+   {
+    "id": "p_0661a2bca0277311",
+    "errors": []
+   },
+   {
+    "id": "p_7c289921a7a2e502",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“dấu hiệu bệnh lý của bệnh” is redundant and awkward in Vietnamese."
+     }
+    ]
+   },
+   {
+    "id": "p_fc039b1b85553bae",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“dấu hiệu bệnh lý của bệnh” is redundant and awkward in Vietnamese."
+     }
+    ]
+   },
+   {
+    "id": "p_c654bfceae9e5829",
+    "errors": []
+   },
+   {
+    "id": "p_088ea5bf056c2afc",
+    "errors": []
+   },
+   {
+    "id": "p_aba2dcdc6456b51d",
+    "errors": []
+   },
+   {
+    "id": "p_02a3b776aa014e1f",
+    "errors": []
+   },
+   {
+    "id": "p_30e603c5645e4156",
+    "errors": []
+   },
+   {
+    "id": "p_2032d830051c96c0",
+    "errors": []
+   },
+   {
+    "id": "p_31239abe540db9a3",
+    "errors": []
+   },
+   {
+    "id": "p_f25ef2bbd064ceab",
+    "errors": []
+   },
+   {
+    "id": "p_d563a9beb3b3c639",
+    "errors": []
+   },
+   {
+    "id": "p_61d829675d345abf",
+    "errors": []
+   },
+   {
+    "id": "p_628e467bc459f011",
+    "errors": []
+   },
+   {
+    "id": "p_fc0d7908f3f95409",
+    "errors": []
+   },
+   {
+    "id": "p_e509ab5fb79301bb",
+    "errors": []
+   },
+   {
+    "id": "p_0fb53bb4f74a697c",
+    "errors": []
+   },
+   {
+    "id": "p_2f7a17acbc7eb883",
+    "errors": []
+   },
+   {
+    "id": "p_d679f78a620dc830",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 18.3,
+  "usage": {
+   "input_tokens": 12233,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1360,
+   "reasoning_output_tokens": 613
+  }
+ }
+}

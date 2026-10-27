@@ -1,0 +1,160 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_35341a424a80",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "current_question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "pairs": [
+     {
+      "pair_id": "p_b013af64099b0abe",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false,
+      "current_answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng rồng cây có múi.",
+      "feedback": [
+       "major/terminology: “bệnh vàng rồng cây có múi” is not the standard Vietnamese name for citrus greening; the preceding correct name does not make this alternate designation accurate."
+      ]
+     }
+    ]
+   },
+   {
+    "question_key": "q_507ffba4937c",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "current_question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "pairs": [
+     {
+      "pair_id": "p_1643592e6ba63104",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false,
+      "current_answer_vi": "Lá bị vàng không đều, thành từng mảng, là triệu chứng điển hình của bệnh vàng lá gân xanh (Huanglongbing).",
+      "feedback": [
+       "major/omission: “vàng không đều, thành từng mảng” conveys blotchy/uneven yellowing but omits the English detail that the yellowing is asymmetrical."
+      ]
+     }
+    ]
+   },
+   {
+    "question_key": "q_601c2f7d1234",
+    "question_type": "Comprehensive Description",
+    "question_en": "What plant-related elements and characteristics are visible in this photograph?",
+    "current_question_vi": "Có thể thấy những yếu tố và đặc điểm nào liên quan đến cây trong bức ảnh này?",
+    "pairs": [
+     {
+      "pair_id": "p_c8e98d99f1fe3d94",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false,
+      "current_answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng rồng cây có múi.",
+      "feedback": [
+       "major/terminology: “bệnh vàng rồng cây có múi” is not the standard term for citrus greening; it should convey the English synonym for HLB."
+      ]
+     }
+    ]
+   },
+   {
+    "question_key": "q_fcc39a5fa6ba",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "current_question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "pairs": [
+     {
+      "pair_id": "p_2f387b41bc56604c",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false,
+      "current_answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng rồng cây có múi.",
+      "feedback": [
+       "critical/terminology: “bệnh vàng rồng cây có múi” is not the glossary term for Huanglongbing/citrus greening; it should be “bệnh vàng lá gân xanh”."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_35341a424a80",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "pairs": [
+     {
+      "pair_id": "p_b013af64099b0abe",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng lá gân xanh trên cây có múi (citrus greening)."
+     }
+    ]
+   },
+   {
+    "question_key": "q_507ffba4937c",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "pairs": [
+     {
+      "pair_id": "p_1643592e6ba63104",
+      "answer_vi": "Lá bị vàng loang lổ, không đối xứng, là triệu chứng điển hình của bệnh vàng lá gân xanh (Huanglongbing)."
+     }
+    ]
+   },
+   {
+    "question_key": "q_601c2f7d1234",
+    "question_vi": "Có thể thấy những yếu tố và đặc điểm nào liên quan đến cây trong bức ảnh này?",
+    "pairs": [
+     {
+      "pair_id": "p_c8e98d99f1fe3d94",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng lá gân xanh trên cây có múi (citrus greening)."
+     }
+    ]
+   },
+   {
+    "question_key": "q_fcc39a5fa6ba",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "pairs": [
+     {
+      "pair_id": "p_2f387b41bc56604c",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing), hay còn gọi là bệnh vàng lá gân xanh trên cây có múi (citrus greening)."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 7.8,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6180,
+   "cache_read_input_tokens": 2933,
+   "output_tokens": 702,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6180,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 702,
+     "cache_read_input_tokens": 2933,
+     "cache_creation_input_tokens": 6180,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6180
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0320373,
+  "duration_ms": 4866,
+  "num_turns": 2,
+  "session_id": "83c63a6f-447b-46dc-b19d-90839e5abbe8"
+ }
+}

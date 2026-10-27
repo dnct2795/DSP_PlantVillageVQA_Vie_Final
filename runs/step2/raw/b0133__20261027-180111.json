@@ -1,0 +1,370 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_61bdde84fbf7",
+    "question_type": "Comprehensive Description",
+    "question_en": "Would you provide a detailed visual assessment of this plant material?",
+    "pairs": [
+     {
+      "pair_id": "p_97b7ecb6a9190a72",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5eae25d962bbd67a",
+      "answer_en": "Diagnosis: Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_84c0402d721a2ec8",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1e9eb6a4ba2f5ff3",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f61e033fa8c5f974",
+      "answer_en": "The diagnosis is Target Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9b2f1f7751a5101e",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d09f7878dcbc6e8e",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ac0764272e4c78bb",
+      "answer_en": "The leaf shows symptoms of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f2f9477e705c2a8",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_07453fbf00db7666",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_06257d021cbba8d2",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7d028a5267c7d7f3",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_61ce33015250c347",
+      "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6b3ff5ad8f4c879c",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7fe418efc408b029",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_efdc0947679ede8a",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0320e4ad3b5da856",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_60bfbd95d3b908e4",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_34f27d2275884dcd",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_bc9dcf30cdd7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to optimal health standards - what features are conspicuous?",
+    "pairs": [
+     {
+      "pair_id": "p_67221de48c561554",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a37bcf2eba65f026",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_35403500b92d707c",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9afe6335e04443dd",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_604a1917401731ce",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c3ec32098148b9c7",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_c88d76e04b62",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this plant to healthy norms and identify the distinguishing factors.",
+    "pairs": [
+     {
+      "pair_id": "p_5393b22192a56a4c",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_494a47cacd867247",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3a160ebb39116ec1",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8914b4060b709a7d",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_61f66b6122009557",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4e1fd99e6db176c3",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_61bdde84fbf7",
+    "question_vi": "Bạn có thể đưa ra đánh giá trực quan chi tiết về mẫu thực vật này không?",
+    "pairs": [
+     {
+      "pair_id": "p_97b7ecb6a9190a72",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_5eae25d962bbd67a",
+      "answer_vi": "Chẩn đoán: bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_84c0402d721a2ec8",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_1e9eb6a4ba2f5ff3",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_f61e033fa8c5f974",
+      "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_9b2f1f7751a5101e",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_d09f7878dcbc6e8e",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_ac0764272e4c78bb",
+      "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_6f2f9477e705c2a8",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_07453fbf00db7666",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_06257d021cbba8d2",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_7d028a5267c7d7f3",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_61ce33015250c347",
+      "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_6b3ff5ad8f4c879c",
+      "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_7fe418efc408b029",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     },
+     {
+      "pair_id": "p_efdc0947679ede8a",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_0320e4ad3b5da856",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_60bfbd95d3b908e4",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_34f27d2275884dcd",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_bc9dcf30cdd7",
+    "question_vi": "Hãy so sánh lá này với tiêu chuẩn sức khỏe tối ưu - những đặc điểm nào là dễ nhận thấy?",
+    "pairs": [
+     {
+      "pair_id": "p_67221de48c561554",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_a37bcf2eba65f026",
+      "answer_vi": "Một cây khỏe mạnh sẽ không có các đốm tròn với hoa văn hình bia."
+     },
+     {
+      "pair_id": "p_35403500b92d707c",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_9afe6335e04443dd",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_604a1917401731ce",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_c3ec32098148b9c7",
+      "answer_vi": "Điểm khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_c88d76e04b62",
+    "question_vi": "Hãy so sánh cây này với tiêu chuẩn khỏe mạnh và xác định các yếu tố khác biệt.",
+    "pairs": [
+     {
+      "pair_id": "p_5393b22192a56a4c",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_494a47cacd867247",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_3a160ebb39116ec1",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_8914b4060b709a7d",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_61f66b6122009557",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_4e1fd99e6db176c3",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4514,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2424,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4514,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2424,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4514,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4514
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0428317,
+  "duration_ms": 14357,
+  "num_turns": 2,
+  "session_id": "9791401f-0745-45fc-81fc-bb502b04a526"
+ }
+}

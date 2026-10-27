@@ -1,0 +1,494 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_df3ac59db6ba",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "pairs": [
+     {
+      "pair_id": "p_690597d74f9dbdef",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9aee95b5c5efbd92",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1b401f256bb7c285",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4b911948255e8b57",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b7a7ab796cdacb01",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6009990f246ce905",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f11f34c5054a19ea",
+      "answer_en": "The plant is infected with Target Spot fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4c22aec668234682",
+      "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_75483abdb6c397de",
+      "answer_en": "The symptoms are characteristic of Powdery mildew.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9c46df518afd403e",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c7ba419fd56e6440",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5aa3180894e3419b",
+      "answer_en": "This is damage from Spider Mites.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_ddb646929ccf",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Apple leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_c45e05ad5e051300",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6d3eef951949d2f1",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_75606a4c275c0acf",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_76ac39898c0683c9",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7c584ca9799",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_beeaba1bc9b4ce34",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_23105dcb879a9c20",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_48f2dfd864a5e0a3",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6768bec4bc7955de",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5c8c7bc6c963bf99",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_18806ff69642",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_a153436e14c4cae9",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_87f2c722e604ba41",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3d610f66acc3baff",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_56741cd048888aa3",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_cd38a89d45c33258",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_c458c966d3c6",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_817353fcbed3f9c5",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_566de9c01c2e07ec",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8e2d6ccf0980bd5a",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_38147fbd3c6ed658",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_40c754151c149a9b",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_170906983752",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Peach leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_201e2eae85ff1ac4",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_10dfe6c20b7dc92e",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_349cc796a122ec12",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_544ca9407882c773",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_995d4db7c970",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Pepper bell leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_f8b07781ed27ec3c",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d2c55985cf15fd9b",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7fa5bfbf51101702",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7f86c56964f249bd",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_df3ac59db6ba",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "pairs": [
+     {
+      "pair_id": "p_690597d74f9dbdef",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_9aee95b5c5efbd92",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_1b401f256bb7c285",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_4b911948255e8b57",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_b7a7ab796cdacb01",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_6009990f246ce905",
+      "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, chính là nguyên nhân."
+     },
+     {
+      "pair_id": "p_f11f34c5054a19ea",
+      "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_4c22aec668234682",
+      "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+     },
+     {
+      "pair_id": "p_75483abdb6c397de",
+      "answer_vi": "Các triệu chứng này đặc trưng của bệnh phấn trắng."
+     },
+     {
+      "pair_id": "p_9c46df518afd403e",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_c7ba419fd56e6440",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_5aa3180894e3419b",
+      "answer_vi": "Đây là tổn thương do nhện đỏ gây ra."
+     }
+    ]
+   },
+   {
+    "question_key": "q_ddb646929ccf",
+    "question_vi": "Nguyên nhân khiến lá táo này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_c45e05ad5e051300",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+     },
+     {
+      "pair_id": "p_6d3eef951949d2f1",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_75606a4c275c0acf",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_76ac39898c0683c9",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7c584ca9799",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_beeaba1bc9b4ce34",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+     },
+     {
+      "pair_id": "p_23105dcb879a9c20",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_48f2dfd864a5e0a3",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_6768bec4bc7955de",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_5c8c7bc6c963bf99",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_18806ff69642",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_a153436e14c4cae9",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+     },
+     {
+      "pair_id": "p_87f2c722e604ba41",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_3d610f66acc3baff",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_56741cd048888aa3",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_cd38a89d45c33258",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_c458c966d3c6",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_817353fcbed3f9c5",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+     },
+     {
+      "pair_id": "p_566de9c01c2e07ec",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_8e2d6ccf0980bd5a",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_38147fbd3c6ed658",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_40c754151c149a9b",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_170906983752",
+    "question_vi": "Nguyên nhân khiến lá đào này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_201e2eae85ff1ac4",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_10dfe6c20b7dc92e",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_349cc796a122ec12",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_544ca9407882c773",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     }
+    ]
+   },
+   {
+    "question_key": "q_995d4db7c970",
+    "question_vi": "Nguyên nhân khiến lá ớt chuông này trông không khỏe mạnh là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_f8b07781ed27ec3c",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_d2c55985cf15fd9b",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_7fa5bfbf51101702",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_7f86c56964f249bd",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 18.3,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5171,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2800,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5171,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2800,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5171,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5171
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.049219700000000005,
+  "duration_ms": 15585,
+  "num_turns": 2,
+  "session_id": "df757cec-87cf-4248-a562-6bb323b6d8d7"
+ }
+}

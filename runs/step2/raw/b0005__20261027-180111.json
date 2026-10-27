@@ -1,0 +1,308 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_5a661592f3c7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "pairs": [
+     {
+      "pair_id": "p_5295f32fd6b05a7b",
+      "answer_en": "Diagnosis: Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6449863877b272fc",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_75f2a495ef20aaf5",
+      "answer_en": "The condition is identified as Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_26af962926f36628",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ee61de6d08d67d95",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_45384097f342573d",
+      "answer_en": "The diagnosis is Target Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2ab6acedc99457f5",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5d54e76884feca2a",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_808ef4d38a2271da",
+      "answer_en": "The leaf shows symptoms of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b57e2221affeb848",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_143117e2508f733f",
+      "answer_en": "The pest responsible is the Two-spotted spider mite.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7226a6b11eba2cbc",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ba7c72164641724c",
+      "answer_en": "The plant is infected with Target Spot fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5c265b0183178f18",
+      "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_35ce898b916b9876",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4f2d103e2765bf39",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5b71d0eee10dcd95",
+      "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_789f14abdaf5642e",
+      "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_043f7f2f07e4a1f9",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f2f9d262addc00a",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_63a6815309bda5d3",
+      "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f2680db5cbb5546",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6b4af2aa9602cfac",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c7cad7700dd787db",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7c0dcab197e775f3",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2e493bfe818e2e04",
+      "answer_en": "This is damage from Spider Mites.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_44791475525b8cdb",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_5a661592f3c7",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "pairs": [
+     {
+      "pair_id": "p_5295f32fd6b05a7b",
+      "answer_vi": "Chẩn đoán: bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_6449863877b272fc",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_75f2a495ef20aaf5",
+      "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_26af962926f36628",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_ee61de6d08d67d95",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_45384097f342573d",
+      "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_2ab6acedc99457f5",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_5d54e76884feca2a",
+      "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_808ef4d38a2271da",
+      "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_b57e2221affeb848",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_143117e2508f733f",
+      "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+     },
+     {
+      "pair_id": "p_7226a6b11eba2cbc",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_ba7c72164641724c",
+      "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_5c265b0183178f18",
+      "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+     },
+     {
+      "pair_id": "p_35ce898b916b9876",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_4f2d103e2765bf39",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_5b71d0eee10dcd95",
+      "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+     },
+     {
+      "pair_id": "p_789f14abdaf5642e",
+      "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_043f7f2f07e4a1f9",
+      "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_6f2f9d262addc00a",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     },
+     {
+      "pair_id": "p_63a6815309bda5d3",
+      "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+     },
+     {
+      "pair_id": "p_6f2680db5cbb5546",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_6b4af2aa9602cfac",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+     },
+     {
+      "pair_id": "p_c7cad7700dd787db",
+      "answer_vi": "Đây là bệnh do nấm gọi là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_7c0dcab197e775f3",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_2e493bfe818e2e04",
+      "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+     },
+     {
+      "pair_id": "p_44791475525b8cdb",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.7,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3947,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1790,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3947,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1790,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3947,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3947
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.034223699999999996,
+  "duration_ms": 9930,
+  "num_turns": 2,
+  "session_id": "e205275f-ea9e-49f9-a3e4-c00784193f0e"
+ }
+}

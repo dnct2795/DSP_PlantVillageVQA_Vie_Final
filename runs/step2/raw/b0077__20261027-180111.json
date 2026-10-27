@@ -1,0 +1,272 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_dd3ca3843c1f",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you assess the general health status of this plant specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_f31575f41a6f6577",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_babf003088cd6322",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_81d5796f56029631",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e9c4f64242775a3b",
+      "answer_en": "The condition is identified as Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ba14ead5dd9d8b1e",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4fb46612f0f074e6",
+      "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2f09b8ed789a2116",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b9aed55e337bb00c",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_af722966d4b40934",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d6e92020ef6fccfe",
+      "answer_en": "The plant is infected with Target Spot fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_46f5c44a57097126",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e8042c6db8501ca8",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_cf42269ba2e97a1f",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e5b0db2a498dee85",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4f216ff362022a5d",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_92e5f5ada567dd40",
+      "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_667241b675233a88",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d19e22284bcbfb6d",
+      "answer_en": "This is a Corn leaf suffering from Northern Leaf Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bf3fd07cddc00529",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8867b6102ab10b29",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_47074eb083d82fc7",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3bc33078ba99c18a",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ff6179461fb74223",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_dd3ca3843c1f",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe chung của mẫu cây này như thế nào?",
+    "pairs": [
+     {
+      "pair_id": "p_f31575f41a6f6577",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_babf003088cd6322",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_81d5796f56029631",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_e9c4f64242775a3b",
+      "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_ba14ead5dd9d8b1e",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_4fb46612f0f074e6",
+      "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+     },
+     {
+      "pair_id": "p_2f09b8ed789a2116",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_b9aed55e337bb00c",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+     },
+     {
+      "pair_id": "p_af722966d4b40934",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_d6e92020ef6fccfe",
+      "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_46f5c44a57097126",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_e8042c6db8501ca8",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_cf42269ba2e97a1f",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_e5b0db2a498dee85",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_4f216ff362022a5d",
+      "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_92e5f5ada567dd40",
+      "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm hình bia trong các đốm."
+     },
+     {
+      "pair_id": "p_667241b675233a88",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+     },
+     {
+      "pair_id": "p_d19e22284bcbfb6d",
+      "answer_vi": "Đây là lá ngô bị bệnh cháy lá lớn."
+     },
+     {
+      "pair_id": "p_bf3fd07cddc00529",
+      "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_8867b6102ab10b29",
+      "answer_vi": "Đây là lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_47074eb083d82fc7",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_3bc33078ba99c18a",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_ff6179461fb74223",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.8,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3675,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1605,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3675,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1605,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3675,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3675
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0312857,
+  "duration_ms": 9036,
+  "num_turns": 2,
+  "session_id": "5482e31b-b94a-44f6-b95d-50920136f983"
+ }
+}

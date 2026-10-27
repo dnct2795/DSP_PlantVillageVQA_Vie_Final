@@ -1,0 +1,369 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_0c2c973d818c2ded",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_3f2f261b4123494b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_f75f0d2551f33dc0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_eeff2fb7ab023f34",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_c4fcc6417d5696b7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_45695c05775e812e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_ad0090d3e81f3525",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_79f20d78ed1a91e0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_c6ff669eb6ecc4d4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Tình trạng được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_9f1099d4b7d2d6fe",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_be3610172f89aad8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu quan trọng của bệnh mốc sương."
+   },
+   {
+    "id": "p_db655af96babb53d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_5946137dd9625e2a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_422c13b3d0ad75f3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_5732d5c0c219aa20",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_33d85c5b5d11122d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_c4f2fc3f137062e8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_ba40f088158ac09a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_3fc41f3ee00ef694",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Raspberry leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá mâm xôi này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_79de92b70c9018c8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Raspberry leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá mâm xôi này?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_9c03f0ab08c6653c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Soybean leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đậu nành này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_59f31dc95139ad1c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Soybean leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đậu nành này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_5affce43e53e8c71",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Soybean leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đậu nành này?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_39d05151852aa42b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Soybean leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đậu nành này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_0a7ba71df24e82f2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Soybean leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đậu nành này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_09f89e862170931d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Squash leaf?",
+    "answer_en": "Powdery mildew",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá bí này?",
+    "answer_vi": "Bệnh phấn trắng"
+   },
+   {
+    "id": "p_967783b686eef2d1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Strawberry leaf?",
+    "answer_en": "Leaf scorch",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá dâu tây này?",
+    "answer_vi": "Bệnh cháy mép lá"
+   },
+   {
+    "id": "p_44dda93c341e1b69",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Strawberry leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá dâu tây này?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_03ac4c93a8c52529",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Strawberry leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá dâu tây này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_0c2c973d818c2ded",
+    "errors": []
+   },
+   {
+    "id": "p_3f2f261b4123494b",
+    "errors": []
+   },
+   {
+    "id": "p_f75f0d2551f33dc0",
+    "errors": []
+   },
+   {
+    "id": "p_eeff2fb7ab023f34",
+    "errors": []
+   },
+   {
+    "id": "p_c4fcc6417d5696b7",
+    "errors": []
+   },
+   {
+    "id": "p_45695c05775e812e",
+    "errors": []
+   },
+   {
+    "id": "p_ad0090d3e81f3525",
+    "errors": []
+   },
+   {
+    "id": "p_79f20d78ed1a91e0",
+    "errors": []
+   },
+   {
+    "id": "p_c6ff669eb6ecc4d4",
+    "errors": []
+   },
+   {
+    "id": "p_9f1099d4b7d2d6fe",
+    "errors": []
+   },
+   {
+    "id": "p_be3610172f89aad8",
+    "errors": []
+   },
+   {
+    "id": "p_db655af96babb53d",
+    "errors": []
+   },
+   {
+    "id": "p_5946137dd9625e2a",
+    "errors": []
+   },
+   {
+    "id": "p_422c13b3d0ad75f3",
+    "errors": []
+   },
+   {
+    "id": "p_5732d5c0c219aa20",
+    "errors": []
+   },
+   {
+    "id": "p_33d85c5b5d11122d",
+    "errors": []
+   },
+   {
+    "id": "p_c4f2fc3f137062e8",
+    "errors": []
+   },
+   {
+    "id": "p_ba40f088158ac09a",
+    "errors": []
+   },
+   {
+    "id": "p_3fc41f3ee00ef694",
+    "errors": []
+   },
+   {
+    "id": "p_79de92b70c9018c8",
+    "errors": []
+   },
+   {
+    "id": "p_9c03f0ab08c6653c",
+    "errors": []
+   },
+   {
+    "id": "p_59f31dc95139ad1c",
+    "errors": []
+   },
+   {
+    "id": "p_5affce43e53e8c71",
+    "errors": []
+   },
+   {
+    "id": "p_39d05151852aa42b",
+    "errors": []
+   },
+   {
+    "id": "p_0a7ba71df24e82f2",
+    "errors": []
+   },
+   {
+    "id": "p_09f89e862170931d",
+    "errors": []
+   },
+   {
+    "id": "p_967783b686eef2d1",
+    "errors": []
+   },
+   {
+    "id": "p_44dda93c341e1b69",
+    "errors": []
+   },
+   {
+    "id": "p_03ac4c93a8c52529",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 7.8,
+  "usage": {
+   "input_tokens": 12125,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 653,
+   "reasoning_output_tokens": 130
+  }
+ }
+}

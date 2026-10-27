@@ -1,0 +1,471 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_bbe24ffbc4189b83",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_9a23764e2dee377e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_937358780c043e6d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_656dfbb2735e0bc9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_dc4e3af6a02fc1b1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_355527a582001247",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_6622cf4558462040",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_cf3056a80473a40a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_60dec8641f252872",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_19e92adc0c2216fb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "The symptoms are characteristic of Cercospora leaf spot Gray leaf spot.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Các triệu chứng là đặc trưng của bệnh đốm lá Cercospora (đốm lá xám)."
+   },
+   {
+    "id": "p_db5d7ad1e2f091ce",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu điển hình của bệnh đốm vòng."
+   },
+   {
+    "id": "p_70fb77ca36289166",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_573de0d6070e39d9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_d5d772f1cad9577c",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_1995ddb367ab3df1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind the issues observed in this leaf?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Nguyên nhân đằng sau các vấn đề quan sát được trên chiếc lá này là gì?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_e3861effd41b4880",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_e786bdbf76b2daaa",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_80b453210f488b11",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_f419525d64548c7b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_0578fc4472cb3654",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_f467af8c751ac654",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_f03c6efa5adad56f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_414adc1c1683332a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e17192cd6971d6b8",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_a975bdd43fa3f0fc",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_7990d074444549e9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_658b66351f0df6d3",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The symptoms are characteristic of Common rust.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Các triệu chứng là đặc trưng của bệnh gỉ sắt thông thường."
+   },
+   {
+    "id": "p_533ae713502111d1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_4a5c56f562d39234",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_5ffab5a4ed67e237",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_bbe24ffbc4189b83",
+    "errors": []
+   },
+   {
+    "id": "p_9a23764e2dee377e",
+    "errors": []
+   },
+   {
+    "id": "p_937358780c043e6d",
+    "errors": []
+   },
+   {
+    "id": "p_656dfbb2735e0bc9",
+    "errors": []
+   },
+   {
+    "id": "p_dc4e3af6a02fc1b1",
+    "errors": []
+   },
+   {
+    "id": "p_355527a582001247",
+    "errors": []
+   },
+   {
+    "id": "p_6622cf4558462040",
+    "errors": []
+   },
+   {
+    "id": "p_cf3056a80473a40a",
+    "errors": []
+   },
+   {
+    "id": "p_60dec8641f252872",
+    "errors": []
+   },
+   {
+    "id": "p_19e92adc0c2216fb",
+    "errors": []
+   },
+   {
+    "id": "p_db5d7ad1e2f091ce",
+    "errors": []
+   },
+   {
+    "id": "p_70fb77ca36289166",
+    "errors": []
+   },
+   {
+    "id": "p_573de0d6070e39d9",
+    "errors": []
+   },
+   {
+    "id": "p_d5d772f1cad9577c",
+    "errors": []
+   },
+   {
+    "id": "p_1995ddb367ab3df1",
+    "errors": []
+   },
+   {
+    "id": "p_e3861effd41b4880",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_e786bdbf76b2daaa",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_80b453210f488b11",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_f419525d64548c7b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_0578fc4472cb3654",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_f467af8c751ac654",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_f03c6efa5adad56f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_414adc1c1683332a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_e17192cd6971d6b8",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_a975bdd43fa3f0fc",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_7990d074444549e9",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_658b66351f0df6d3",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_533ae713502111d1",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_4a5c56f562d39234",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   },
+   {
+    "id": "p_5ffab5a4ed67e237",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The question phrase “suy giảm về hình thái” is awkward for “compromised visual state”; it suggests a decline in morphology rather than the plant’s visibly compromised condition."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 22.7,
+  "usage": {
+   "input_tokens": 12451,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2212,
+   "reasoning_output_tokens": 952
+  }
+ }
+}

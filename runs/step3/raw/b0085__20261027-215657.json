@@ -1,0 +1,303 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_2c1c42f381dbbbc0",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_2a59c6152e8c2726",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_8988a05944240bed",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_45f3b906bbd948cf",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_af7a1ab176135424",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_b89c69c349ad77db",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu, có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_c075edf28b90da84",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_78c117661e3be1fc",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_77e220b0a0957109",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_b2f5cf8797189ada",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e11896c65890c357",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_1f1790be0f9758aa",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_dee205259748c681",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_0a24d4902c726d31",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_f183301bcf693947",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự gây hại của nhện đỏ."
+   },
+   {
+    "id": "p_1f113e911968d5f9",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm giống hình bia trong các đốm."
+   },
+   {
+    "id": "p_a23ddbd4c736f22c",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_45cadfd8e9b90037",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is a Squash leaf suffering from Powdery mildew.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là lá bí bị bệnh phấn trắng."
+   },
+   {
+    "id": "p_c65adeda0139cd83",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là một chiếc lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_dbe2e479679ac92b",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_d27034fdbcf68837",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_d7f0903e7bb03475",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Đây là tổn hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_b74949239594dc81",
+    "question_type": "Comprehensive Description",
+    "question_en": "I require a detailed account of this specimen and its visible condition.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tôi cần một mô tả chi tiết về mẫu này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_2c1c42f381dbbbc0",
+    "errors": []
+   },
+   {
+    "id": "p_2a59c6152e8c2726",
+    "errors": []
+   },
+   {
+    "id": "p_8988a05944240bed",
+    "errors": []
+   },
+   {
+    "id": "p_45f3b906bbd948cf",
+    "errors": []
+   },
+   {
+    "id": "p_af7a1ab176135424",
+    "errors": []
+   },
+   {
+    "id": "p_b89c69c349ad77db",
+    "errors": []
+   },
+   {
+    "id": "p_c075edf28b90da84",
+    "errors": []
+   },
+   {
+    "id": "p_78c117661e3be1fc",
+    "errors": []
+   },
+   {
+    "id": "p_77e220b0a0957109",
+    "errors": []
+   },
+   {
+    "id": "p_b2f5cf8797189ada",
+    "errors": []
+   },
+   {
+    "id": "p_e11896c65890c357",
+    "errors": []
+   },
+   {
+    "id": "p_1f1790be0f9758aa",
+    "errors": []
+   },
+   {
+    "id": "p_dee205259748c681",
+    "errors": []
+   },
+   {
+    "id": "p_0a24d4902c726d31",
+    "errors": []
+   },
+   {
+    "id": "p_f183301bcf693947",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is redundant and awkward for “stippling”; “tơ nhện mịn” is also less natural than “tơ mảnh.”"
+     }
+    ]
+   },
+   {
+    "id": "p_1f113e911968d5f9",
+    "errors": []
+   },
+   {
+    "id": "p_a23ddbd4c736f22c",
+    "errors": []
+   },
+   {
+    "id": "p_45cadfd8e9b90037",
+    "errors": []
+   },
+   {
+    "id": "p_c65adeda0139cd83",
+    "errors": []
+   },
+   {
+    "id": "p_dbe2e479679ac92b",
+    "errors": []
+   },
+   {
+    "id": "p_d27034fdbcf68837",
+    "errors": []
+   },
+   {
+    "id": "p_d7f0903e7bb03475",
+    "errors": []
+   },
+   {
+    "id": "p_b74949239594dc81",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.1,
+  "usage": {
+   "input_tokens": 11744,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1031,
+   "reasoning_output_tokens": 586
+  }
+ }
+}

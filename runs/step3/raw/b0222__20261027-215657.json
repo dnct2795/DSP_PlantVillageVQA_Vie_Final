@@ -1,0 +1,321 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_047ce451bcac520f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) trên cây có múi."
+   },
+   {
+    "id": "p_99019005477e1919",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_719e393757a33fd4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_c47cfaf268559147",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_060295793e62f051",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Các vết bệnh úng nước, lớn, màu sẫm là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_43ed619ddb286ced",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_b7b3f90975be585e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_ed16843bd37ca38e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây bị bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_233043bd808346c0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_1d280a52d20de81e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_fa4eaccac470e0cb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_506ead5af9a00ae0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_c6c27b29c58f8339",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_81bf13d1d95f4186",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_4d0bed904c563594",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm."
+   },
+   {
+    "id": "p_94edb14348bc23fd",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là một bệnh do nấm, gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_eb8ae5650fb7f2b8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_23e305bdee6c5c81",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_4bebf7e17b2ea9f7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_aea8637e4863fd94",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_db56972c585546eb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific ailment is responsible for these symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bệnh cụ thể nào gây ra các triệu chứng này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_ef1fbe610fab8db9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific disease symptoms are present on this orange tree leaf?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Lá cây cam này có những triệu chứng bệnh cụ thể nào?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) trên cây có múi."
+   },
+   {
+    "id": "p_2e6e2fdc4a3e27b0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific disease symptoms are present on this orange tree leaf?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Lá cây cam này có những triệu chứng bệnh cụ thể nào?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_b3eb7055db580861",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific disease symptoms are present on this orange tree leaf?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Lá cây cam này có những triệu chứng bệnh cụ thể nào?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_1c9fedd8e0908ef9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific disease symptoms are present on this orange tree leaf?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Lá cây cam này có những triệu chứng bệnh cụ thể nào?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_047ce451bcac520f",
+    "errors": []
+   },
+   {
+    "id": "p_99019005477e1919",
+    "errors": []
+   },
+   {
+    "id": "p_719e393757a33fd4",
+    "errors": []
+   },
+   {
+    "id": "p_c47cfaf268559147",
+    "errors": []
+   },
+   {
+    "id": "p_060295793e62f051",
+    "errors": []
+   },
+   {
+    "id": "p_43ed619ddb286ced",
+    "errors": []
+   },
+   {
+    "id": "p_b7b3f90975be585e",
+    "errors": []
+   },
+   {
+    "id": "p_ed16843bd37ca38e",
+    "errors": []
+   },
+   {
+    "id": "p_233043bd808346c0",
+    "errors": []
+   },
+   {
+    "id": "p_1d280a52d20de81e",
+    "errors": []
+   },
+   {
+    "id": "p_fa4eaccac470e0cb",
+    "errors": []
+   },
+   {
+    "id": "p_506ead5af9a00ae0",
+    "errors": []
+   },
+   {
+    "id": "p_c6c27b29c58f8339",
+    "errors": []
+   },
+   {
+    "id": "p_81bf13d1d95f4186",
+    "errors": []
+   },
+   {
+    "id": "p_4d0bed904c563594",
+    "errors": []
+   },
+   {
+    "id": "p_94edb14348bc23fd",
+    "errors": []
+   },
+   {
+    "id": "p_eb8ae5650fb7f2b8",
+    "errors": []
+   },
+   {
+    "id": "p_23e305bdee6c5c81",
+    "errors": []
+   },
+   {
+    "id": "p_4bebf7e17b2ea9f7",
+    "errors": []
+   },
+   {
+    "id": "p_aea8637e4863fd94",
+    "errors": []
+   },
+   {
+    "id": "p_db56972c585546eb",
+    "errors": []
+   },
+   {
+    "id": "p_ef1fbe610fab8db9",
+    "errors": []
+   },
+   {
+    "id": "p_2e6e2fdc4a3e27b0",
+    "errors": []
+   },
+   {
+    "id": "p_b3eb7055db580861",
+    "errors": []
+   },
+   {
+    "id": "p_1c9fedd8e0908ef9",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 35.4,
+  "usage": {
+   "input_tokens": 11708,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 678,
+   "reasoning_output_tokens": 245
+  }
+ }
+}

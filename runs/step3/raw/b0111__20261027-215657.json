@@ -1,0 +1,303 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_bd5c51c70ac3a83d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Không nhìn thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_8a009c2ab13a4b43",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_b4952ebf995223ac",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_db8d49ca5c756947",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_c8e91453ac9736da",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_753ff53f704d4460",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_67496e90ef832d23",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_121ec87f94af4f72",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_de4b5c0aa3620497",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_32dfbc2eb7a29117",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_cc9c9a4849f38b6a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_66658dcc88c24142",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_529d7533f7e3cb78",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_b7e762c22d73ebe8",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_9514f4cc08d340a6",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+   },
+   {
+    "id": "p_92204424313df204",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_e8ad1edf98ed65cd",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_e1d2bf0c5f4a977e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is a Squash leaf suffering from Powdery mildew.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là lá bí bị bệnh phấn trắng."
+   },
+   {
+    "id": "p_672bfc1472b6ed2a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_2cbd5a9dd347b004",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là một bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_652cad0e5327e4f2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_0e175ea601f9ae6d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_f6705fe4e7c1adb5",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation aspects depicted in this photograph.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm thực vật được thể hiện trong bức ảnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_bd5c51c70ac3a83d",
+    "errors": []
+   },
+   {
+    "id": "p_8a009c2ab13a4b43",
+    "errors": []
+   },
+   {
+    "id": "p_b4952ebf995223ac",
+    "errors": []
+   },
+   {
+    "id": "p_db8d49ca5c756947",
+    "errors": []
+   },
+   {
+    "id": "p_c8e91453ac9736da",
+    "errors": []
+   },
+   {
+    "id": "p_753ff53f704d4460",
+    "errors": []
+   },
+   {
+    "id": "p_67496e90ef832d23",
+    "errors": []
+   },
+   {
+    "id": "p_121ec87f94af4f72",
+    "errors": []
+   },
+   {
+    "id": "p_de4b5c0aa3620497",
+    "errors": []
+   },
+   {
+    "id": "p_32dfbc2eb7a29117",
+    "errors": []
+   },
+   {
+    "id": "p_cc9c9a4849f38b6a",
+    "errors": []
+   },
+   {
+    "id": "p_66658dcc88c24142",
+    "errors": []
+   },
+   {
+    "id": "p_529d7533f7e3cb78",
+    "errors": []
+   },
+   {
+    "id": "p_b7e762c22d73ebe8",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkwardly repetitive for “stippling.”"
+     }
+    ]
+   },
+   {
+    "id": "p_9514f4cc08d340a6",
+    "errors": []
+   },
+   {
+    "id": "p_92204424313df204",
+    "errors": []
+   },
+   {
+    "id": "p_e8ad1edf98ed65cd",
+    "errors": []
+   },
+   {
+    "id": "p_e1d2bf0c5f4a977e",
+    "errors": []
+   },
+   {
+    "id": "p_672bfc1472b6ed2a",
+    "errors": []
+   },
+   {
+    "id": "p_2cbd5a9dd347b004",
+    "errors": []
+   },
+   {
+    "id": "p_652cad0e5327e4f2",
+    "errors": []
+   },
+   {
+    "id": "p_0e175ea601f9ae6d",
+    "errors": []
+   },
+   {
+    "id": "p_f6705fe4e7c1adb5",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.9,
+  "usage": {
+   "input_tokens": 11627,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 855,
+   "reasoning_output_tokens": 408
+  }
+ }
+}

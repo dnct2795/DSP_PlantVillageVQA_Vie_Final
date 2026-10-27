@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_59f6fbe5dfc16f5c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to Solanum tuberosum?",
+    "answer_en": "No",
+    "question_vi": "Lá này có thuộc loài Solanum tuberosum không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f7277748b701ab0f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to Solanum tuberosum?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có thuộc loài Solanum tuberosum không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_70a7e2528a90913e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to a tomato plant species?",
+    "answer_en": "No",
+    "question_vi": "Lá này có thuộc loài cây cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_787cff9538718625",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to a tomato plant species?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có thuộc loài cây cà chua không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7f35a5f92bca4b5e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to an orange tree specimen?",
+    "answer_en": "No",
+    "question_vi": "Lá này có thuộc mẫu cây cam không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0e8b9f29b61cfe71",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to an orange tree specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có thuộc mẫu cây cam không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b1ee6353819d764e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from a potato plant?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất phát từ cây khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_eaaf5d9ae9fd035f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from a potato plant?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất phát từ cây khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_de49c7ff6cf986a3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from citrus sinensis (orange) plant?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất phát từ cây citrus sinensis (cam) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b91b62365aff7f1a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from citrus sinensis (orange) plant?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất phát từ cây citrus sinensis (cam) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b01f3881b267204f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen exhibit features typical of tomato leaves?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm điển hình của lá cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0a6c332c62977c14",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen exhibit features typical of tomato leaves?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm điển hình của lá cà chua không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_eab33efc6d140105",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match orange tree leaf morphology?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có khớp với hình thái lá cây cam không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6c18b88f0264c6f6",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match orange tree leaf morphology?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có khớp với hình thái lá cây cam không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d7413d41f542a912",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match potato leaf morphology?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có khớp với hình thái lá khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2502815c112b2ff5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match potato leaf morphology?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có khớp với hình thái lá khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_bd4fe23d06b9eabe",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_832dd6b70f1de0c5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_f114e7b19205b611",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_e9bdb1e25ee59406",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_480c1eb3bde7ac72",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_859826522421fcb0",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_5ce5f1c41d980393",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_ede9022602f543f2",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_2ca74faa682f8d78",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_dc127ffa4a1b2b68",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_5b1c1cf4a2757eed",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_2b3c886ae8c22963",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Apple",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_4d5a203add0e45ae",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Blueberry",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_b4842a373cc412a3",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Corn",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_9d9eb1169500a8d0",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Grape",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_fe6bca462ebd88af",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Orange",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_1641460da4868b87",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Peach",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_10de7d54ab293252",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Potato",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_f144bd787671ef8d",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Soybean",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_f60687c57b403983",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Squash",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_fc9195643c8561d7",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "answer_en": "Tomato",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_bbb18bf29f332866",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Apple leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2fa6b64fd470cb20",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Apple leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá táo không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_59f6fbe5dfc16f5c",
+    "errors": []
+   },
+   {
+    "id": "p_f7277748b701ab0f",
+    "errors": []
+   },
+   {
+    "id": "p_70a7e2528a90913e",
+    "errors": []
+   },
+   {
+    "id": "p_787cff9538718625",
+    "errors": []
+   },
+   {
+    "id": "p_7f35a5f92bca4b5e",
+    "errors": []
+   },
+   {
+    "id": "p_0e8b9f29b61cfe71",
+    "errors": []
+   },
+   {
+    "id": "p_b1ee6353819d764e",
+    "errors": []
+   },
+   {
+    "id": "p_eaaf5d9ae9fd035f",
+    "errors": []
+   },
+   {
+    "id": "p_de49c7ff6cf986a3",
+    "errors": []
+   },
+   {
+    "id": "p_b91b62365aff7f1a",
+    "errors": []
+   },
+   {
+    "id": "p_b01f3881b267204f",
+    "errors": []
+   },
+   {
+    "id": "p_0a6c332c62977c14",
+    "errors": []
+   },
+   {
+    "id": "p_eab33efc6d140105",
+    "errors": []
+   },
+   {
+    "id": "p_6c18b88f0264c6f6",
+    "errors": []
+   },
+   {
+    "id": "p_d7413d41f542a912",
+    "errors": []
+   },
+   {
+    "id": "p_2502815c112b2ff5",
+    "errors": []
+   },
+   {
+    "id": "p_bd4fe23d06b9eabe",
+    "errors": []
+   },
+   {
+    "id": "p_832dd6b70f1de0c5",
+    "errors": []
+   },
+   {
+    "id": "p_f114e7b19205b611",
+    "errors": []
+   },
+   {
+    "id": "p_e9bdb1e25ee59406",
+    "errors": []
+   },
+   {
+    "id": "p_480c1eb3bde7ac72",
+    "errors": []
+   },
+   {
+    "id": "p_859826522421fcb0",
+    "errors": []
+   },
+   {
+    "id": "p_5ce5f1c41d980393",
+    "errors": []
+   },
+   {
+    "id": "p_ede9022602f543f2",
+    "errors": []
+   },
+   {
+    "id": "p_2ca74faa682f8d78",
+    "errors": []
+   },
+   {
+    "id": "p_dc127ffa4a1b2b68",
+    "errors": []
+   },
+   {
+    "id": "p_5b1c1cf4a2757eed",
+    "errors": []
+   },
+   {
+    "id": "p_2b3c886ae8c22963",
+    "errors": []
+   },
+   {
+    "id": "p_4d5a203add0e45ae",
+    "errors": []
+   },
+   {
+    "id": "p_b4842a373cc412a3",
+    "errors": []
+   },
+   {
+    "id": "p_9d9eb1169500a8d0",
+    "errors": []
+   },
+   {
+    "id": "p_fe6bca462ebd88af",
+    "errors": []
+   },
+   {
+    "id": "p_1641460da4868b87",
+    "errors": []
+   },
+   {
+    "id": "p_10de7d54ab293252",
+    "errors": []
+   },
+   {
+    "id": "p_f144bd787671ef8d",
+    "errors": []
+   },
+   {
+    "id": "p_f60687c57b403983",
+    "errors": []
+   },
+   {
+    "id": "p_fc9195643c8561d7",
+    "errors": []
+   },
+   {
+    "id": "p_bbb18bf29f332866",
+    "errors": []
+   },
+   {
+    "id": "p_2fa6b64fd470cb20",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 16.1,
+  "usage": {
+   "input_tokens": 12244,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 807,
+   "reasoning_output_tokens": 124
+  }
+ }
+}

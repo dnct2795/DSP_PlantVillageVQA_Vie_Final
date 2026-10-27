@@ -1,0 +1,285 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_817255d361203b01",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_94d32e86f3ab9230",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_7716f5afc3a1e807",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_0287f294b0a86b13",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_8afc8a2fec93665a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_a99744c6aeeaf038",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_30110a3003b8b62d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_dc966fd5e91cd362",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_8e88a2c8ea98ad8e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Identify the pathogen or disorder with full precision.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy xác định chính xác tác nhân gây bệnh hoặc rối loạn.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_891bc4299b8d2b39",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_a50a640961754289",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_ab66d46efade897e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_dfaff0a08231fd5d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_4d52f17d8de1052e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, là triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_4372e34c9fe96d16",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_ec315fa50d659479",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_5d65773ff120b21d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_baa4b06328612ea5",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Đây là bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_8da40e46aa19aa1c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_532a48986a6235c5",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_8d1d24dc2f0b04b8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_d7ca5a9db9ef71c7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is it possible to diagnose the specific pathology from this photograph?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Có thể chẩn đoán được bệnh lý cụ thể từ bức ảnh này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_817255d361203b01",
+    "errors": []
+   },
+   {
+    "id": "p_94d32e86f3ab9230",
+    "errors": []
+   },
+   {
+    "id": "p_7716f5afc3a1e807",
+    "errors": []
+   },
+   {
+    "id": "p_0287f294b0a86b13",
+    "errors": []
+   },
+   {
+    "id": "p_8afc8a2fec93665a",
+    "errors": []
+   },
+   {
+    "id": "p_a99744c6aeeaf038",
+    "errors": []
+   },
+   {
+    "id": "p_30110a3003b8b62d",
+    "errors": []
+   },
+   {
+    "id": "p_dc966fd5e91cd362",
+    "errors": []
+   },
+   {
+    "id": "p_8e88a2c8ea98ad8e",
+    "errors": []
+   },
+   {
+    "id": "p_891bc4299b8d2b39",
+    "errors": []
+   },
+   {
+    "id": "p_a50a640961754289",
+    "errors": []
+   },
+   {
+    "id": "p_ab66d46efade897e",
+    "errors": []
+   },
+   {
+    "id": "p_dfaff0a08231fd5d",
+    "errors": []
+   },
+   {
+    "id": "p_4d52f17d8de1052e",
+    "errors": []
+   },
+   {
+    "id": "p_4372e34c9fe96d16",
+    "errors": []
+   },
+   {
+    "id": "p_ec315fa50d659479",
+    "errors": []
+   },
+   {
+    "id": "p_5d65773ff120b21d",
+    "errors": []
+   },
+   {
+    "id": "p_baa4b06328612ea5",
+    "errors": []
+   },
+   {
+    "id": "p_8da40e46aa19aa1c",
+    "errors": []
+   },
+   {
+    "id": "p_532a48986a6235c5",
+    "errors": []
+   },
+   {
+    "id": "p_8d1d24dc2f0b04b8",
+    "errors": []
+   },
+   {
+    "id": "p_d7ca5a9db9ef71c7",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.5,
+  "usage": {
+   "input_tokens": 11438,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 565,
+   "reasoning_output_tokens": 169
+  }
+ }
+}

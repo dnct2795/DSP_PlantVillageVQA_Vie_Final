@@ -1,0 +1,375 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_2e19e0e225ce2aa8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_79931dfaff2a0aa2",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_3baf30504de3c483",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_ad0e87379c479752",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_fb085ac02763dbe3",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_e3266eec320f4408",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_6a07af11c39be6be",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_4a0ee62a8e8ab559",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_4f9db729342fdf95",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_7f97ea877d72f3d9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_bbf772daaf2e2cba",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_754c609acce77f03",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_82cb6d129dff8cca",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_50ebd5305a2e04cd",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_5752b3f2ee0d0d44",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_a787a8e2437d7495",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_a0dab735177a7937",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_7adbbd3c5fe154ec",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_dbb7d8e12fbac1ce",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_a64880cef5036813",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Những vết bệnh có vòng đồng tâm hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_6e44971ff4d3500a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_04154eff785b8394",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm giống hình bia trong các đốm."
+   },
+   {
+    "id": "p_03302ba57db98c85",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_c9a5ed9add1307fe",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_cea698234d69d859",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_b3fcf69211e27424",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là một bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_5f58df8a0cdc52d7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_16a79931c112f8e5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_3bd51a6d0108f82f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which pathological processes are contributing to this tomato leaf's condition?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Những quá trình bệnh lý nào đang góp phần gây ra tình trạng của lá cà chua này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_2e19e0e225ce2aa8",
+    "errors": []
+   },
+   {
+    "id": "p_79931dfaff2a0aa2",
+    "errors": []
+   },
+   {
+    "id": "p_3baf30504de3c483",
+    "errors": []
+   },
+   {
+    "id": "p_ad0e87379c479752",
+    "errors": []
+   },
+   {
+    "id": "p_fb085ac02763dbe3",
+    "errors": []
+   },
+   {
+    "id": "p_e3266eec320f4408",
+    "errors": []
+   },
+   {
+    "id": "p_6a07af11c39be6be",
+    "errors": []
+   },
+   {
+    "id": "p_4a0ee62a8e8ab559",
+    "errors": []
+   },
+   {
+    "id": "p_4f9db729342fdf95",
+    "errors": []
+   },
+   {
+    "id": "p_7f97ea877d72f3d9",
+    "errors": []
+   },
+   {
+    "id": "p_bbf772daaf2e2cba",
+    "errors": []
+   },
+   {
+    "id": "p_754c609acce77f03",
+    "errors": []
+   },
+   {
+    "id": "p_82cb6d129dff8cca",
+    "errors": []
+   },
+   {
+    "id": "p_50ebd5305a2e04cd",
+    "errors": []
+   },
+   {
+    "id": "p_5752b3f2ee0d0d44",
+    "errors": []
+   },
+   {
+    "id": "p_a787a8e2437d7495",
+    "errors": []
+   },
+   {
+    "id": "p_a0dab735177a7937",
+    "errors": []
+   },
+   {
+    "id": "p_7adbbd3c5fe154ec",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkward and redundant; “các chấm li ti” would convey “stippling” more naturally."
+     }
+    ]
+   },
+   {
+    "id": "p_dbb7d8e12fbac1ce",
+    "errors": []
+   },
+   {
+    "id": "p_a64880cef5036813",
+    "errors": []
+   },
+   {
+    "id": "p_6e44971ff4d3500a",
+    "errors": []
+   },
+   {
+    "id": "p_04154eff785b8394",
+    "errors": []
+   },
+   {
+    "id": "p_03302ba57db98c85",
+    "errors": []
+   },
+   {
+    "id": "p_c9a5ed9add1307fe",
+    "errors": []
+   },
+   {
+    "id": "p_cea698234d69d859",
+    "errors": []
+   },
+   {
+    "id": "p_b3fcf69211e27424",
+    "errors": []
+   },
+   {
+    "id": "p_5f58df8a0cdc52d7",
+    "errors": []
+   },
+   {
+    "id": "p_16a79931c112f8e5",
+    "errors": []
+   },
+   {
+    "id": "p_3bd51a6d0108f82f",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.5,
+  "usage": {
+   "input_tokens": 12435,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1009,
+   "reasoning_output_tokens": 450
+  }
+ }
+}

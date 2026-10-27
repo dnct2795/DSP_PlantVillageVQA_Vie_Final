@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_7c2f1bb24e426922",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Potato leaf infected with Late blight?",
+    "answer_en": "Yes",
+    "question_vi": "Lá khoai tây này có bị nhiễm bệnh mốc sương không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_89020d27ec6ef808",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Squash leaf infected with Powdery mildew?",
+    "answer_en": "Yes",
+    "question_vi": "Lá bí này có bị nhiễm bệnh phấn trắng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e036c6275a5f5f15",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Strawberry leaf infected with Leaf scorch?",
+    "answer_en": "Yes",
+    "question_vi": "Lá dâu tây này có bị nhiễm bệnh cháy mép lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3b6d97fa7abebd22",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Bacterial spot?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh đốm vi khuẩn không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_cda6ede6794bec5c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Early blight?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh đốm vòng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9991d10ea926352f",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Late blight?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh mốc sương không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_47b358e5ed13127c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Leaf Mold?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh mốc lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_365cf8de8db1c2b1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Septoria leaf spot?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh đốm lá Septoria không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0e5c2ba396f879f6",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm nhện đỏ (nhện đỏ hai chấm) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b8fe40ce0583deec",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Target Spot?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm bệnh đốm hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_92bf5a1ac61244ba",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Tomato leaf infected with Tomato mosaic virus?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có bị nhiễm virus khảm cà chua (ToMV) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a52cf9493ab698e3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_79541b823ab09228",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Cercospora leaf spot Gray leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2ba18cb0e17ffc74",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Early blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_20fdeb86bfceb910",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bb793be734eae4ff",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_306facdd7e1b33db",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Leaf blight Isariopsis Leaf Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh cháy lá (đốm lá Isariopsis) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3e8b5b85578e0afd",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Northern Leaf Blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh cháy lá lớn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ad14c5dd94d75ac3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fd935c8cf11a7274",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d4a826a23f24f7ad",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Apple leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá táo bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1e9daad84dc0d1e7",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_24985bb13c8f99bd",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Black rot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh thối đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d4411ca0a1b476f8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Early blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_95c7a0bd0284789c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cb978ba974fb3b2e",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c9d9a45217c599d7",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Powdery mildew?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh phấn trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_04d18ccbc686a1cf",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_82ec753c8dbdff93",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Spider mites Two-spotted spider mite?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b705e5965bbea038",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a33f1c8c59d57ae8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Blueberry leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e6c3403f19bf77a3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_25a20eeb8eedcb88",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Early blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_38e0f8f45cb774bf",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0ebaff9da4ba5f12",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2d9e670c3c9ef772",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_70954cb8ec8330fb",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d6372db9d8bbdb46",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_de4c5d160254575a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Tomato mosaic virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị virus khảm cà chua (ToMV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_09f277fc76bb7a49",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá ngô bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_7c2f1bb24e426922",
+    "errors": []
+   },
+   {
+    "id": "p_89020d27ec6ef808",
+    "errors": []
+   },
+   {
+    "id": "p_e036c6275a5f5f15",
+    "errors": []
+   },
+   {
+    "id": "p_3b6d97fa7abebd22",
+    "errors": []
+   },
+   {
+    "id": "p_cda6ede6794bec5c",
+    "errors": []
+   },
+   {
+    "id": "p_9991d10ea926352f",
+    "errors": []
+   },
+   {
+    "id": "p_47b358e5ed13127c",
+    "errors": []
+   },
+   {
+    "id": "p_365cf8de8db1c2b1",
+    "errors": []
+   },
+   {
+    "id": "p_0e5c2ba396f879f6",
+    "errors": []
+   },
+   {
+    "id": "p_b8fe40ce0583deec",
+    "errors": []
+   },
+   {
+    "id": "p_92bf5a1ac61244ba",
+    "errors": []
+   },
+   {
+    "id": "p_a52cf9493ab698e3",
+    "errors": []
+   },
+   {
+    "id": "p_79541b823ab09228",
+    "errors": []
+   },
+   {
+    "id": "p_2ba18cb0e17ffc74",
+    "errors": []
+   },
+   {
+    "id": "p_20fdeb86bfceb910",
+    "errors": []
+   },
+   {
+    "id": "p_bb793be734eae4ff",
+    "errors": []
+   },
+   {
+    "id": "p_306facdd7e1b33db",
+    "errors": []
+   },
+   {
+    "id": "p_3e8b5b85578e0afd",
+    "errors": []
+   },
+   {
+    "id": "p_ad14c5dd94d75ac3",
+    "errors": []
+   },
+   {
+    "id": "p_fd935c8cf11a7274",
+    "errors": []
+   },
+   {
+    "id": "p_d4a826a23f24f7ad",
+    "errors": []
+   },
+   {
+    "id": "p_1e9daad84dc0d1e7",
+    "errors": []
+   },
+   {
+    "id": "p_24985bb13c8f99bd",
+    "errors": []
+   },
+   {
+    "id": "p_d4411ca0a1b476f8",
+    "errors": []
+   },
+   {
+    "id": "p_95c7a0bd0284789c",
+    "errors": []
+   },
+   {
+    "id": "p_cb978ba974fb3b2e",
+    "errors": []
+   },
+   {
+    "id": "p_c9d9a45217c599d7",
+    "errors": []
+   },
+   {
+    "id": "p_04d18ccbc686a1cf",
+    "errors": []
+   },
+   {
+    "id": "p_82ec753c8dbdff93",
+    "errors": []
+   },
+   {
+    "id": "p_b705e5965bbea038",
+    "errors": []
+   },
+   {
+    "id": "p_a33f1c8c59d57ae8",
+    "errors": []
+   },
+   {
+    "id": "p_e6c3403f19bf77a3",
+    "errors": []
+   },
+   {
+    "id": "p_25a20eeb8eedcb88",
+    "errors": []
+   },
+   {
+    "id": "p_38e0f8f45cb774bf",
+    "errors": []
+   },
+   {
+    "id": "p_0ebaff9da4ba5f12",
+    "errors": []
+   },
+   {
+    "id": "p_2d9e670c3c9ef772",
+    "errors": []
+   },
+   {
+    "id": "p_70954cb8ec8330fb",
+    "errors": []
+   },
+   {
+    "id": "p_d6372db9d8bbdb46",
+    "errors": []
+   },
+   {
+    "id": "p_de4c5d160254575a",
+    "errors": []
+   },
+   {
+    "id": "p_09f277fc76bb7a49",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.8,
+  "usage": {
+   "input_tokens": 12475,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 995,
+   "reasoning_output_tokens": 292
+  }
+ }
+}

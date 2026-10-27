@@ -1,0 +1,537 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_19376688e46d1597",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_2a4771d3a522c882",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_5d12a8f82fc9518a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_7c4971673d1d228a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_903eb6952753bc85",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_5146d3f1e3bdb683",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_2922868a91baa35d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_3657a22cd4cd65a2",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_487125411cb27095",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_c454f63b52b78adf",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_01d895ccec641d04",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_07a55b55c6531708",
+    "question_type": "Plant Species Identification",
+    "question_en": "Provide the taxonomic classification of this plant specimen.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy cho biết phân loại phân loại học của mẫu cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_945e0c82da8055b9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_7fb189f72a02023d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_00b31cb5dad660ad",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_ca8a5df1c6e8e1f0",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_c2dbdfc19003eb46",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_7173ae1de3c48154",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_ebfb3ac10f6514c5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_722562c542b03e4a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_9c5ad8ebd07aa83c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_c3759ee095ba353b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_c145ae5f0c0246ab",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_ab79e532dc023277",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_29b39aca4fccd332",
+    "question_type": "Plant Species Identification",
+    "question_en": "Specify the scientific name of this plant variety.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy nêu tên khoa học của giống cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_bd8f1a628fb3d3c3",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Apple",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_7c245ee879a206dd",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Blueberry",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_f739c89d5394d8cd",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Cherry",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_d337273b339582e9",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Corn",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_b7c511e2fe2829f7",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Grape",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_8d79b69338f34d62",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Orange",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_612282d68da83c16",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Peach",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_c2889a8fe7459153",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_bb3472b015029230",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Potato",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_335680a952419634",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Soybean",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_c83c1b5c1dd0e2e9",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Squash",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_05aed76a5e4d6913",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the botanical classification of this vegetation?",
+    "answer_en": "Tomato",
+    "question_vi": "Phân loại thực vật học của loài thực vật này là gì?",
+    "answer_vi": "Cà chua"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_19376688e46d1597",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_2a4771d3a522c882",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_5d12a8f82fc9518a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_7c4971673d1d228a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_903eb6952753bc85",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_5146d3f1e3bdb683",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_2922868a91baa35d",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_3657a22cd4cd65a2",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_487125411cb27095",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_c454f63b52b78adf",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_01d895ccec641d04",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_07a55b55c6531708",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“phân loại phân loại học” redundantly repeats “phân loại,” making the question awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_945e0c82da8055b9",
+    "errors": []
+   },
+   {
+    "id": "p_7fb189f72a02023d",
+    "errors": []
+   },
+   {
+    "id": "p_00b31cb5dad660ad",
+    "errors": []
+   },
+   {
+    "id": "p_ca8a5df1c6e8e1f0",
+    "errors": []
+   },
+   {
+    "id": "p_c2dbdfc19003eb46",
+    "errors": []
+   },
+   {
+    "id": "p_7173ae1de3c48154",
+    "errors": []
+   },
+   {
+    "id": "p_ebfb3ac10f6514c5",
+    "errors": []
+   },
+   {
+    "id": "p_722562c542b03e4a",
+    "errors": []
+   },
+   {
+    "id": "p_9c5ad8ebd07aa83c",
+    "errors": []
+   },
+   {
+    "id": "p_c3759ee095ba353b",
+    "errors": []
+   },
+   {
+    "id": "p_c145ae5f0c0246ab",
+    "errors": []
+   },
+   {
+    "id": "p_ab79e532dc023277",
+    "errors": []
+   },
+   {
+    "id": "p_29b39aca4fccd332",
+    "errors": []
+   },
+   {
+    "id": "p_bd8f1a628fb3d3c3",
+    "errors": []
+   },
+   {
+    "id": "p_7c245ee879a206dd",
+    "errors": []
+   },
+   {
+    "id": "p_f739c89d5394d8cd",
+    "errors": []
+   },
+   {
+    "id": "p_d337273b339582e9",
+    "errors": []
+   },
+   {
+    "id": "p_b7c511e2fe2829f7",
+    "errors": []
+   },
+   {
+    "id": "p_8d79b69338f34d62",
+    "errors": []
+   },
+   {
+    "id": "p_612282d68da83c16",
+    "errors": []
+   },
+   {
+    "id": "p_c2889a8fe7459153",
+    "errors": []
+   },
+   {
+    "id": "p_bb3472b015029230",
+    "errors": []
+   },
+   {
+    "id": "p_335680a952419634",
+    "errors": []
+   },
+   {
+    "id": "p_c83c1b5c1dd0e2e9",
+    "errors": []
+   },
+   {
+    "id": "p_05aed76a5e4d6913",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.3,
+  "usage": {
+   "input_tokens": 12038,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1353,
+   "reasoning_output_tokens": 290
+  }
+ }
+}

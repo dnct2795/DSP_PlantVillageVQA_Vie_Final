@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_8725ac20c0e0df1b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show bright orange-yellow spots with black inclusions?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm màu vàng cam sáng với các thể đen bên trong không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7b917250ab39f8f0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show chlorosis with upward curling and size reduction?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện vàng lá kèm theo cuộn lên trên và giảm kích thước không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_db49ed29cb4b4344",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show chlorosis with upward curling and size reduction?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện vàng lá kèm theo cuộn lên trên và giảm kích thước không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_dd7456f6a252beac",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show cigar-like lesions with characteristic coloration?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các vết bệnh hình điếu xì gà với màu sắc đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_14998f5c7861ed64",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show cigar-like lesions with characteristic coloration?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các vết bệnh hình điếu xì gà với màu sắc đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a401bcb443b64473",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show circular spots with dark edges and pale centers?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm tròn với viền sẫm màu và tâm nhạt màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_727073be450d6e87",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show circular spots with dark edges and pale centers?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đốm tròn với viền sẫm màu và tâm nhạt màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5a47aec7305fd988",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show circular spots with target-like patterns?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm tròn với hoa văn hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cb5cfd338f15aceb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark concentric ring formations?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các vòng đồng tâm sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_05c04a8dfe9e2636",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark concentric ring formations?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các vòng đồng tâm sẫm màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b7ce03bbf30ff148",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark, saturated spots with chlorotic borders?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu, đậm đặc với viền úa vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_af0a122e3f7b2c68",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark, saturated spots with chlorotic borders?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu, đậm đặc với viền úa vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5c009a6a762a5abb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show extensive dark spots with white moldy edges?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu lan rộng với viền mốc trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_69f3ec3639f8cf68",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show extensive dark spots with white moldy edges?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu lan rộng với viền mốc trắng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_80d73a236a610ce0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show irregular yellowing with blotchy appearance?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện vàng lá không đều với dạng loang lổ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a42be29e64ad8876",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show irregular yellowing with blotchy appearance?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện vàng lá không đều với dạng loang lổ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ebfa5bae6f74a0ca",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show leaf edge browning and necrosis?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện mép lá bị nâu và hoại tử không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dbce3e307205c15f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show light-dark green mosaic arrangements?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các mảng khảm xanh nhạt và xanh đậm xen kẽ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8a954896a3cc7670",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show necrotic spots with target-like appearances?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm hoại tử có dạng hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6242a2deb472b571",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show necrotic spots with target-like appearances?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đốm hoại tử có dạng hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_bdb10f663a79bc31",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show tan spots with dark marginal characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm màu nâu vàng nhạt với đặc điểm viền sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_424f59cda6e775f3",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show white, dusty surface coating?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện lớp phủ bề mặt màu trắng như bụi không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4933938d8558bc63",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show white, dusty surface coating?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện lớp phủ bề mặt màu trắng như bụi không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_464637ab416793ac",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a pattern of dark spots creating tiger-stripe effects between veins?",
+    "answer_en": "No",
+    "question_vi": "Có kiểu hình các đốm sẫm màu tạo hiệu ứng vằn hổ giữa các gân lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cd752b20f513f226",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, chalky powder covering the leaf tissue?",
+    "answer_en": "No",
+    "question_vi": "Có lớp bột trắng như phấn phủ lên mô lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_35fb6c0f9a8ed75b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, chalky powder covering the leaf tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Có lớp bột trắng như phấn phủ lên mô lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4bb3ae14dc8375e0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, dusty powder covering the leaf surface?",
+    "answer_en": "No",
+    "question_vi": "Có lớp bột trắng như bụi phủ lên bề mặt lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1365b2ffb6b3dd6f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, dusty powder covering the leaf surface?",
+    "answer_en": "Yes",
+    "question_vi": "Có lớp bột trắng như bụi phủ lên bề mặt lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c965b9171933be9f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, powdery fungal covering on the leaf?",
+    "answer_en": "No",
+    "question_vi": "Có lớp nấm dạng bột màu trắng phủ trên lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_47d8c4ab1d7f7a51",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, powdery fungal covering on the leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có lớp nấm dạng bột màu trắng phủ trên lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8b163318c4f5f03a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there brown, necrotic tissue developing along the leaf edges?",
+    "answer_en": "No",
+    "question_vi": "Có mô hoại tử màu nâu phát triển dọc theo mép lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8df54e7a75465bf4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there dying, brown tissue formation along the leaf borders?",
+    "answer_en": "No",
+    "question_vi": "Có sự hình thành mô chết màu nâu dọc theo viền lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_362c23e10163de96",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there evidence of dark spotting in interveinal tissue resembling tiger stripes?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu các đốm sẫm màu ở mô giữa các gân lá giống vằn hổ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c4a6cbd0b3ba501e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there leaf edge deterioration with characteristic browning?",
+    "answer_en": "No",
+    "question_vi": "Có sự suy thoái mép lá kèm theo hiện tượng hóa nâu đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7b840826aa894771",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there marginal tissue deterioration with brown discoloration?",
+    "answer_en": "No",
+    "question_vi": "Có sự suy thoái mô ở rìa lá kèm theo biến màu nâu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ea27623303f5ccfe",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there marginal tissue deterioration with brown discoloration?",
+    "answer_en": "Yes",
+    "question_vi": "Có sự suy thoái mô ở rìa lá kèm theo biến màu nâu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f7a3ed507909a2bd",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there white powdery growth covering the leaf surface?",
+    "answer_en": "No",
+    "question_vi": "Có lớp bột trắng mọc phủ lên bề mặt lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0584dde57854332d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there white powdery growth covering the leaf surface?",
+    "answer_en": "Yes",
+    "question_vi": "Có lớp bột trắng mọc phủ lên bề mặt lá không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_8725ac20c0e0df1b",
+    "errors": []
+   },
+   {
+    "id": "p_7b917250ab39f8f0",
+    "errors": []
+   },
+   {
+    "id": "p_db49ed29cb4b4344",
+    "errors": []
+   },
+   {
+    "id": "p_dd7456f6a252beac",
+    "errors": []
+   },
+   {
+    "id": "p_14998f5c7861ed64",
+    "errors": []
+   },
+   {
+    "id": "p_a401bcb443b64473",
+    "errors": []
+   },
+   {
+    "id": "p_727073be450d6e87",
+    "errors": []
+   },
+   {
+    "id": "p_5a47aec7305fd988",
+    "errors": []
+   },
+   {
+    "id": "p_cb5cfd338f15aceb",
+    "errors": []
+   },
+   {
+    "id": "p_05c04a8dfe9e2636",
+    "errors": []
+   },
+   {
+    "id": "p_b7ce03bbf30ff148",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "“đậm đặc” means dense/concentrated rather than saturated in color, changing the described appearance."
+     }
+    ]
+   },
+   {
+    "id": "p_af0a122e3f7b2c68",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "“đậm đặc” means dense/concentrated rather than saturated in color, changing the described appearance."
+     }
+    ]
+   },
+   {
+    "id": "p_5c009a6a762a5abb",
+    "errors": []
+   },
+   {
+    "id": "p_69f3ec3639f8cf68",
+    "errors": []
+   },
+   {
+    "id": "p_80d73a236a610ce0",
+    "errors": []
+   },
+   {
+    "id": "p_a42be29e64ad8876",
+    "errors": []
+   },
+   {
+    "id": "p_ebfa5bae6f74a0ca",
+    "errors": []
+   },
+   {
+    "id": "p_dbce3e307205c15f",
+    "errors": []
+   },
+   {
+    "id": "p_8a954896a3cc7670",
+    "errors": []
+   },
+   {
+    "id": "p_6242a2deb472b571",
+    "errors": []
+   },
+   {
+    "id": "p_bdb10f663a79bc31",
+    "errors": []
+   },
+   {
+    "id": "p_424f59cda6e775f3",
+    "errors": []
+   },
+   {
+    "id": "p_4933938d8558bc63",
+    "errors": []
+   },
+   {
+    "id": "p_464637ab416793ac",
+    "errors": []
+   },
+   {
+    "id": "p_cd752b20f513f226",
+    "errors": []
+   },
+   {
+    "id": "p_35fb6c0f9a8ed75b",
+    "errors": []
+   },
+   {
+    "id": "p_4bb3ae14dc8375e0",
+    "errors": []
+   },
+   {
+    "id": "p_1365b2ffb6b3dd6f",
+    "errors": []
+   },
+   {
+    "id": "p_c965b9171933be9f",
+    "errors": []
+   },
+   {
+    "id": "p_47d8c4ab1d7f7a51",
+    "errors": []
+   },
+   {
+    "id": "p_8b163318c4f5f03a",
+    "errors": []
+   },
+   {
+    "id": "p_8df54e7a75465bf4",
+    "errors": []
+   },
+   {
+    "id": "p_362c23e10163de96",
+    "errors": []
+   },
+   {
+    "id": "p_c4a6cbd0b3ba501e",
+    "errors": []
+   },
+   {
+    "id": "p_7b840826aa894771",
+    "errors": []
+   },
+   {
+    "id": "p_ea27623303f5ccfe",
+    "errors": []
+   },
+   {
+    "id": "p_f7a3ed507909a2bd",
+    "errors": []
+   },
+   {
+    "id": "p_0584dde57854332d",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.3,
+  "usage": {
+   "input_tokens": 12421,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1123,
+   "reasoning_output_tokens": 384
+  }
+ }
+}

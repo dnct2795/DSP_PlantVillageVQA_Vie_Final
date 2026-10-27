@@ -1,0 +1,309 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_1025cd584018d3c7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "Black rot",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Bệnh thối đen"
+   },
+   {
+    "id": "p_142531bc6b2f42ca",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "Common rust",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Bệnh gỉ sắt thông thường"
+   },
+   {
+    "id": "p_63230fdc9b793b6f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_0941ca5f579bc341",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_5c608fe60f0b220c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_59f9ac35d92f4449",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_392217263c989a1b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_45835df25674fe5e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_c50be0d57017d1e1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_1a3b1c145b97cc5e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_2e4629f009cbbf81",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b26065079aa0fcc0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_61a50bbdd3a9bca9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_e5baa0012f8c9bed",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_ae99150f84d7f1cf",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_018549008bb40d3f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_43f535b70760fba3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_5b32f1deb27dae45",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_53655dc67788c4ea",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_5a2dedec816f8d3e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What specific pathology is affecting this plant specimen?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu cây này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_e81c8714c230f2c4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What type of pathological condition is evident on this citrus foliage?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Loại tình trạng bệnh lý nào thể hiện rõ trên tán lá cây có múi này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_33d2821416bb4ad7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What type of pathological condition is evident on this citrus foliage?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Loại tình trạng bệnh lý nào thể hiện rõ trên tán lá cây có múi này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_16992f726c2aea1f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What type of pathological condition is evident on this citrus foliage?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Loại tình trạng bệnh lý nào thể hiện rõ trên tán lá cây có múi này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_6202c12cef611147",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What type of pathological condition is evident on this citrus foliage?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Loại tình trạng bệnh lý nào thể hiện rõ trên tán lá cây có múi này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_1025cd584018d3c7",
+    "errors": []
+   },
+   {
+    "id": "p_142531bc6b2f42ca",
+    "errors": []
+   },
+   {
+    "id": "p_63230fdc9b793b6f",
+    "errors": []
+   },
+   {
+    "id": "p_0941ca5f579bc341",
+    "errors": []
+   },
+   {
+    "id": "p_5c608fe60f0b220c",
+    "errors": []
+   },
+   {
+    "id": "p_59f9ac35d92f4449",
+    "errors": []
+   },
+   {
+    "id": "p_392217263c989a1b",
+    "errors": []
+   },
+   {
+    "id": "p_45835df25674fe5e",
+    "errors": []
+   },
+   {
+    "id": "p_c50be0d57017d1e1",
+    "errors": []
+   },
+   {
+    "id": "p_1a3b1c145b97cc5e",
+    "errors": []
+   },
+   {
+    "id": "p_2e4629f009cbbf81",
+    "errors": []
+   },
+   {
+    "id": "p_b26065079aa0fcc0",
+    "errors": []
+   },
+   {
+    "id": "p_61a50bbdd3a9bca9",
+    "errors": []
+   },
+   {
+    "id": "p_e5baa0012f8c9bed",
+    "errors": []
+   },
+   {
+    "id": "p_ae99150f84d7f1cf",
+    "errors": []
+   },
+   {
+    "id": "p_018549008bb40d3f",
+    "errors": []
+   },
+   {
+    "id": "p_43f535b70760fba3",
+    "errors": []
+   },
+   {
+    "id": "p_5b32f1deb27dae45",
+    "errors": []
+   },
+   {
+    "id": "p_53655dc67788c4ea",
+    "errors": []
+   },
+   {
+    "id": "p_5a2dedec816f8d3e",
+    "errors": []
+   },
+   {
+    "id": "p_e81c8714c230f2c4",
+    "errors": []
+   },
+   {
+    "id": "p_33d2821416bb4ad7",
+    "errors": []
+   },
+   {
+    "id": "p_16992f726c2aea1f",
+    "errors": []
+   },
+   {
+    "id": "p_6202c12cef611147",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.9,
+  "usage": {
+   "input_tokens": 11579,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 792,
+   "reasoning_output_tokens": 362
+  }
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_caa3e5eb57b9",
+    "question_type": "Comprehensive Description",
+    "question_en": "Would you deliver a comprehensive visual analysis of this plant specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_1d1a65d65176ea3e",
+      "answer_en": "No signs of disease are visible; the plant is in good health.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_55c1aa01c9766cc3",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f722943db627adae",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_94ad43a7131f25e1",
+      "answer_en": "The condition is identified as Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9c27d4fea3db8b58",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b11f21f23d69e96e",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_af7741118b12df17",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a6f3d09062272c2d",
+      "answer_en": "The leaf shows symptoms of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bb6091aef605ff5d",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3194cb9b58ae8c6f",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7a9e27a925f653a8",
+      "answer_en": "The specimen is healthy.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ad22093c5d85d5f5",
+      "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_73124047dcd8c3b4",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4d66bfacaba261e6",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_abe6ba2741ca2538",
+      "answer_en": "This is a Corn leaf suffering from Common rust.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_078e7898a45d81ba",
+      "answer_en": "This is a healthy plant leaf.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_82eb038db58d83f8",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3c827da6f81fc43e",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2fbb30a6d11086f6",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_caa3e5eb57b9",
+    "question_vi": "Bạn có thể cung cấp một phân tích trực quan toàn diện về mẫu cây này không?",
+    "pairs": [
+     {
+      "pair_id": "p_1d1a65d65176ea3e",
+      "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+     },
+     {
+      "pair_id": "p_55c1aa01c9766cc3",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_f722943db627adae",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_94ad43a7131f25e1",
+      "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_9c27d4fea3db8b58",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_b11f21f23d69e96e",
+      "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, chính là nguyên nhân."
+     },
+     {
+      "pair_id": "p_af7741118b12df17",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_a6f3d09062272c2d",
+      "answer_vi": "Lá có biểu hiện triệu chứng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_bb6091aef605ff5d",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_3194cb9b58ae8c6f",
+      "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+     },
+     {
+      "pair_id": "p_7a9e27a925f653a8",
+      "answer_vi": "Mẫu này khỏe mạnh."
+     },
+     {
+      "pair_id": "p_ad22093c5d85d5f5",
+      "answer_vi": "Đây là bệnh đốm vòng, nhận biết qua các vòng đồng tâm 'hình bia' trong các đốm."
+     },
+     {
+      "pair_id": "p_73124047dcd8c3b4",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_4d66bfacaba261e6",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn với viền sẫm màu."
+     },
+     {
+      "pair_id": "p_abe6ba2741ca2538",
+      "answer_vi": "Đây là lá ngô bị bệnh gỉ sắt thông thường."
+     },
+     {
+      "pair_id": "p_078e7898a45d81ba",
+      "answer_vi": "Đây là một lá cây khỏe mạnh."
+     },
+     {
+      "pair_id": "p_82eb038db58d83f8",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+     },
+     {
+      "pair_id": "p_3c827da6f81fc43e",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     },
+     {
+      "pair_id": "p_2fbb30a6d11086f6",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.9,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3382,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1324,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3382,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1324,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3382,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3382
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0273037,
+  "duration_ms": 8143,
+  "num_turns": 2,
+  "session_id": "c483ba65-741c-42e0-bfe2-7ed78ab3339d"
+ }
+}

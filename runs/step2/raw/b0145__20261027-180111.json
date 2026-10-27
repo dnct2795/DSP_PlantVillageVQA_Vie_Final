@@ -1,0 +1,559 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_88c7d3f492ec",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "pairs": [
+     {
+      "pair_id": "p_74d4f7035790edda",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f690c12582c89803",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0c51f212dd67365e",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_66c2775eae381ce4",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7a2dd4b91561734b",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3b1e4bf5d60627e4",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4ced462c8ef82460",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c6c9087131849050",
+      "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3312fef67324e49b",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_30fe1532df56d439",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_bdbf3fa9a005",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "pairs": [
+     {
+      "pair_id": "p_0fdeba5df211f929",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ae097ef2a5402480",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fabf17ba3fba4eed",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_724bf162c17cb2c3",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2c419b8f5e4d4dfe",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9d153ed1a6aff19a",
+      "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5377cffecba4c2d1",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_75334fc550b8",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Apple scab?",
+    "pairs": [
+     {
+      "pair_id": "p_3f03250e15532267",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_92a915d1b828e36c",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_2e1367ec2bf3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_9803da164087477a",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7a184dc039f30d65",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0ab9f6fe633b8a57",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_19d8449db57ac83f",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_70aa5d3f8f9f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Cedar apple rust?",
+    "pairs": [
+     {
+      "pair_id": "p_8b83ec1290cb387c",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_83d6104321e341cf",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_09129acf71e51dd0",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c9d4f645f232f69c",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_3837156b6705",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Cercospora leaf spot Gray leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_fc263ffcd9a8e413",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_dbe98341f5cd",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Common rust?",
+    "pairs": [
+     {
+      "pair_id": "p_be6f77d64fe19041",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_57f515260ff2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Northern Leaf Blight?",
+    "pairs": [
+     {
+      "pair_id": "p_8043c405191ac90f",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a11df827f094f3cc",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_4b6739f5ede0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Peach were infected with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_4ffa0fd83c7ee7ca",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_75456fe41f73",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Pepper bell were infected with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_4bb92c9a0da6cf3d",
+      "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2af261049e2fd069",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_be790440a4a69113",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a3828c9907d714ef",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_10dc408dc2a1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Potato were infected with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_0a72389f1949b3ed",
+      "answer_en": "The key visual difference would be the absence of leaf edge browning and necrosis.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_4471cb09afa3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Strawberry were infected with Leaf scorch?",
+    "pairs": [
+     {
+      "pair_id": "p_8b84ffb16bb3df77",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0075abbad51f3c0f",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_88c7d3f492ec",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "pairs": [
+     {
+      "pair_id": "p_74d4f7035790edda",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_f690c12582c89803",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_0c51f212dd67365e",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_66c2775eae381ce4",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+     },
+     {
+      "pair_id": "p_7a2dd4b91561734b",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_3b1e4bf5d60627e4",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_4ced462c8ef82460",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_c6c9087131849050",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+     },
+     {
+      "pair_id": "p_3312fef67324e49b",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có dạng hình bia."
+     },
+     {
+      "pair_id": "p_30fe1532df56d439",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_bdbf3fa9a005",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "pairs": [
+     {
+      "pair_id": "p_0fdeba5df211f929",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_ae097ef2a5402480",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_fabf17ba3fba4eed",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_724bf162c17cb2c3",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_2c419b8f5e4d4dfe",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_9d153ed1a6aff19a",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+     },
+     {
+      "pair_id": "p_5377cffecba4c2d1",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_75334fc550b8",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh ghẻ táo?",
+    "pairs": [
+     {
+      "pair_id": "p_3f03250e15532267",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_92a915d1b828e36c",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_2e1367ec2bf3",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "pairs": [
+     {
+      "pair_id": "p_9803da164087477a",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_7a184dc039f30d65",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_0ab9f6fe633b8a57",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_19d8449db57ac83f",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_70aa5d3f8f9f",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh gỉ sắt táo tuyết tùng?",
+    "pairs": [
+     {
+      "pair_id": "p_8b83ec1290cb387c",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_83d6104321e341cf",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_09129acf71e51dd0",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_c9d4f645f232f69c",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_3837156b6705",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh đốm lá Cercospora (đốm lá xám)?",
+    "pairs": [
+     {
+      "pair_id": "p_fc263ffcd9a8e413",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     }
+    ]
+   },
+   {
+    "question_key": "q_dbe98341f5cd",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh gỉ sắt thông thường?",
+    "pairs": [
+     {
+      "pair_id": "p_be6f77d64fe19041",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_57f515260ff2",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh cháy lá lớn?",
+    "pairs": [
+     {
+      "pair_id": "p_8043c405191ac90f",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_a11df827f094f3cc",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_4b6739f5ede0",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây đào này bị nhiễm bệnh đốm vi khuẩn?",
+    "pairs": [
+     {
+      "pair_id": "p_4ffa0fd83c7ee7ca",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+     }
+    ]
+   },
+   {
+    "question_key": "q_75456fe41f73",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ớt chuông này bị nhiễm bệnh đốm vi khuẩn?",
+    "pairs": [
+     {
+      "pair_id": "p_4bb92c9a0da6cf3d",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn có dạng hình bia."
+     },
+     {
+      "pair_id": "p_2af261049e2fd069",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+     },
+     {
+      "pair_id": "p_be790440a4a69113",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_a3828c9907d714ef",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có dạng hình bia."
+     }
+    ]
+   },
+   {
+    "question_key": "q_10dc408dc2a1",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây khoai tây này bị nhiễm bệnh mốc sương?",
+    "pairs": [
+     {
+      "pair_id": "p_0a72389f1949b3ed",
+      "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có hiện tượng mép lá hóa nâu và hoại tử."
+     }
+    ]
+   },
+   {
+    "question_key": "q_4471cb09afa3",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây dâu tây này bị nhiễm bệnh cháy mép lá?",
+    "pairs": [
+     {
+      "pair_id": "p_8b84ffb16bb3df77",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_0075abbad51f3c0f",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 28.3,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6111,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 4356,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6111,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 4356,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 6111,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6111
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0685397,
+  "duration_ms": 25587,
+  "num_turns": 2,
+  "session_id": "0c3059ce-4ba6-4276-b57f-d352220718a1"
+ }
+}

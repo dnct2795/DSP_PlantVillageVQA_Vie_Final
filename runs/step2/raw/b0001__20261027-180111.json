@@ -1,0 +1,294 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_c7c13335dfb1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_820afdfd8308a1fb",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_477fa57502ae0bac",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_67f82c94caa8b048",
+      "answer_en": "The diagnosis is Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_df6053896ceb0f92",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c46c74fbbb7fb75a",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_49b039cef200aa9a",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b1cd757b916c527c",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3342e356c3cb0d2a",
+      "answer_en": "The leaf shows symptoms of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fd3ca468c7003412",
+      "answer_en": "The plant is affected by Bacterial Spot disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e8afc322076caab2",
+      "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3c78c1ba4835cf13",
+      "answer_en": "The plant is suffering from a Late Blight infection.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_abd3f7e0f633de79",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_daf8fb238b036790",
+      "answer_en": "The symptoms are characteristic of Leaf blight Isariopsis Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f2a838b1c1fe6ce7",
+      "answer_en": "The symptoms are characteristic of Powdery mildew.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ca7c714ebc3ab407",
+      "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_427fc541b4681201",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_98eea925cae973e5",
+      "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e1b8fe778928fc41",
+      "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ebe20ff52656bf98",
+      "answer_en": "This is a viral infection: TYLCV.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_884312568e5be255",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_4e7db0174f3e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this citrus foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_67c266bb9eb5359c",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_cab98006b0fa8077",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c7c06a8db5badbe8",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_135df92e93686ba5",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_c7c13335dfb1",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "pairs": [
+     {
+      "pair_id": "p_820afdfd8308a1fb",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_477fa57502ae0bac",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_67f82c94caa8b048",
+      "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_df6053896ceb0f92",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_c46c74fbbb7fb75a",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_49b039cef200aa9a",
+      "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_b1cd757b916c527c",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh HLB."
+     },
+     {
+      "pair_id": "p_3342e356c3cb0d2a",
+      "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_fd3ca468c7003412",
+      "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_e8afc322076caab2",
+      "answer_vi": "Cây bị nhiễm virus khảm cà chua (ToMV)."
+     },
+     {
+      "pair_id": "p_3c78c1ba4835cf13",
+      "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_abd3f7e0f633de79",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_daf8fb238b036790",
+      "answer_vi": "Các triệu chứng này đặc trưng của bệnh cháy lá (đốm lá Isariopsis)."
+     },
+     {
+      "pair_id": "p_f2a838b1c1fe6ce7",
+      "answer_vi": "Các triệu chứng này đặc trưng của bệnh phấn trắng."
+     },
+     {
+      "pair_id": "p_ca7c714ebc3ab407",
+      "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_427fc541b4681201",
+      "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_98eea925cae973e5",
+      "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+     },
+     {
+      "pair_id": "p_e1b8fe778928fc41",
+      "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+     },
+     {
+      "pair_id": "p_ebe20ff52656bf98",
+      "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+     },
+     {
+      "pair_id": "p_884312568e5be255",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_4e7db0174f3e",
+    "question_vi": "Bạn có thể xác định điều gì đang gây ra tình trạng suy yếu rõ rệt ở tán lá cây có múi này không?",
+    "pairs": [
+     {
+      "pair_id": "p_67c266bb9eb5359c",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+     },
+     {
+      "pair_id": "p_cab98006b0fa8077",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_c7c06a8db5badbe8",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh HLB."
+     },
+     {
+      "pair_id": "p_135df92e93686ba5",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.2,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3902,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1878,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3902,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1878,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3902,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3902
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0349237,
+  "duration_ms": 14429,
+  "num_turns": 2,
+  "session_id": "86c387e4-b548-4faa-8767-702f11ff6b24"
+ }
+}

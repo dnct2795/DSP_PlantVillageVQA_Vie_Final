@@ -1,0 +1,237 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_b5a9c8a762e4a842",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_64ef24123cf18344",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_a234d81e8e36d90b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_caad60dc3da0d082",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_2a36c4f1f5fddf06",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_370b335a7a718beb",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_44e6e97362e95e42",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_3dfb4dec3d621848",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, là triệu chứng điển hình của bệnh HLB."
+   },
+   {
+    "id": "p_f1a0c1a3713a96eb",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_efe3d2ae651db551",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e985353801574496",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_6b155b585d5fa84b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_b93faf181c554405",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_fb21572ae40f0a45",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_b5d1f13ef684f8f3",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_0fe5ad3973eb529f",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_67ff88f89dcea3bc",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Đây là tổn hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_bcc6718972a4c54b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Present a detailed analysis of the specimen's visual attributes and wellness factors.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy trình bày phân tích chi tiết về các đặc điểm hình thái bên ngoài và các yếu tố sức khỏe của mẫu.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_b5a9c8a762e4a842",
+    "errors": []
+   },
+   {
+    "id": "p_64ef24123cf18344",
+    "errors": []
+   },
+   {
+    "id": "p_a234d81e8e36d90b",
+    "errors": []
+   },
+   {
+    "id": "p_caad60dc3da0d082",
+    "errors": []
+   },
+   {
+    "id": "p_2a36c4f1f5fddf06",
+    "errors": []
+   },
+   {
+    "id": "p_370b335a7a718beb",
+    "errors": []
+   },
+   {
+    "id": "p_44e6e97362e95e42",
+    "errors": []
+   },
+   {
+    "id": "p_3dfb4dec3d621848",
+    "errors": []
+   },
+   {
+    "id": "p_f1a0c1a3713a96eb",
+    "errors": []
+   },
+   {
+    "id": "p_efe3d2ae651db551",
+    "errors": []
+   },
+   {
+    "id": "p_e985353801574496",
+    "errors": []
+   },
+   {
+    "id": "p_6b155b585d5fa84b",
+    "errors": []
+   },
+   {
+    "id": "p_b93faf181c554405",
+    "errors": []
+   },
+   {
+    "id": "p_fb21572ae40f0a45",
+    "errors": []
+   },
+   {
+    "id": "p_b5d1f13ef684f8f3",
+    "errors": []
+   },
+   {
+    "id": "p_0fe5ad3973eb529f",
+    "errors": []
+   },
+   {
+    "id": "p_67ff88f89dcea3bc",
+    "errors": []
+   },
+   {
+    "id": "p_bcc6718972a4c54b",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 15.2,
+  "usage": {
+   "input_tokens": 11257,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 611,
+   "reasoning_output_tokens": 288
+  }
+ }
+}

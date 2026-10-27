@@ -1,0 +1,477 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_87f3cfbc92acd59e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "Apple scab",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Bệnh ghẻ táo"
+   },
+   {
+    "id": "p_ff8ca65ae261d25f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "Black rot",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Bệnh thối đen"
+   },
+   {
+    "id": "p_21e54f9c2feea301",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "Cedar apple rust",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Bệnh gỉ sắt táo tuyết tùng"
+   },
+   {
+    "id": "p_b6decbd1c2ca4415",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_e17a00d3e961e34c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_4ae9e49a6386c655",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_6199f9b9362d4dab",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_8faebd1729588d35",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Apple leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_994efab7307157d3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_6750364e9e84f1df",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_60ef6fae049097a2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_f55333e54f2b672c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_169d2e0d5471aa1c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Blueberry leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá việt quất này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_dcece35b9387d01e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_bfd569e96da7a5c2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "Powdery mildew",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Bệnh phấn trắng"
+   },
+   {
+    "id": "p_159c653848910805",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_138a77b6e3c6a344",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_43304a911796b421",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_aeb1c5afc008c844",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Cherry leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá anh đào này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_ce208972bfe8d023",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "Cercospora leaf spot Gray leaf spot",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Bệnh đốm lá Cercospora (đốm lá xám)"
+   },
+   {
+    "id": "p_524b38932790ebe9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "Common rust",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Bệnh gỉ sắt thông thường"
+   },
+   {
+    "id": "p_a254c385ffd06a4a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "Northern Leaf Blight",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Bệnh cháy lá lớn"
+   },
+   {
+    "id": "p_23d787c6fea2d7b0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_7d0d39388a76a863",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_a3d42fac40bdd820",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_65daed652481c36a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Corn leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_5414ae23dfb2d7fe",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "Black rot",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Bệnh thối đen"
+   },
+   {
+    "id": "p_2aa8d2a7b2ec637e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "Esca Black Measles",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Bệnh Esca (sởi đen)"
+   },
+   {
+    "id": "p_4aa2cd97156cc5a3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "Leaf blight Isariopsis Leaf Spot",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Bệnh cháy lá (đốm lá Isariopsis)"
+   },
+   {
+    "id": "p_4f7fbe54f97e63a2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_81794d08ab2f6dcb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_0c95299aed376f96",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_68596d8a1f8cad90",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_2b3dd70f922cf3bf",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Grape leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_1432720e868c2a4f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Peach leaf?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đào này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_a2e6739384867f25",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Peach leaf?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đào này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_4a3b4558e4b7ba7f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Peach leaf?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đào này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_bdc1d2ece459ec8d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Peach leaf?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá đào này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_87f3cfbc92acd59e",
+    "errors": []
+   },
+   {
+    "id": "p_ff8ca65ae261d25f",
+    "errors": []
+   },
+   {
+    "id": "p_21e54f9c2feea301",
+    "errors": []
+   },
+   {
+    "id": "p_b6decbd1c2ca4415",
+    "errors": []
+   },
+   {
+    "id": "p_e17a00d3e961e34c",
+    "errors": []
+   },
+   {
+    "id": "p_4ae9e49a6386c655",
+    "errors": []
+   },
+   {
+    "id": "p_6199f9b9362d4dab",
+    "errors": []
+   },
+   {
+    "id": "p_8faebd1729588d35",
+    "errors": []
+   },
+   {
+    "id": "p_994efab7307157d3",
+    "errors": []
+   },
+   {
+    "id": "p_6750364e9e84f1df",
+    "errors": []
+   },
+   {
+    "id": "p_60ef6fae049097a2",
+    "errors": []
+   },
+   {
+    "id": "p_f55333e54f2b672c",
+    "errors": []
+   },
+   {
+    "id": "p_169d2e0d5471aa1c",
+    "errors": []
+   },
+   {
+    "id": "p_dcece35b9387d01e",
+    "errors": []
+   },
+   {
+    "id": "p_bfd569e96da7a5c2",
+    "errors": []
+   },
+   {
+    "id": "p_159c653848910805",
+    "errors": []
+   },
+   {
+    "id": "p_138a77b6e3c6a344",
+    "errors": []
+   },
+   {
+    "id": "p_43304a911796b421",
+    "errors": []
+   },
+   {
+    "id": "p_aeb1c5afc008c844",
+    "errors": []
+   },
+   {
+    "id": "p_ce208972bfe8d023",
+    "errors": []
+   },
+   {
+    "id": "p_524b38932790ebe9",
+    "errors": []
+   },
+   {
+    "id": "p_a254c385ffd06a4a",
+    "errors": []
+   },
+   {
+    "id": "p_23d787c6fea2d7b0",
+    "errors": []
+   },
+   {
+    "id": "p_7d0d39388a76a863",
+    "errors": []
+   },
+   {
+    "id": "p_a3d42fac40bdd820",
+    "errors": []
+   },
+   {
+    "id": "p_65daed652481c36a",
+    "errors": []
+   },
+   {
+    "id": "p_5414ae23dfb2d7fe",
+    "errors": []
+   },
+   {
+    "id": "p_2aa8d2a7b2ec637e",
+    "errors": []
+   },
+   {
+    "id": "p_4aa2cd97156cc5a3",
+    "errors": []
+   },
+   {
+    "id": "p_4f7fbe54f97e63a2",
+    "errors": []
+   },
+   {
+    "id": "p_81794d08ab2f6dcb",
+    "errors": []
+   },
+   {
+    "id": "p_0c95299aed376f96",
+    "errors": []
+   },
+   {
+    "id": "p_68596d8a1f8cad90",
+    "errors": []
+   },
+   {
+    "id": "p_2b3dd70f922cf3bf",
+    "errors": []
+   },
+   {
+    "id": "p_1432720e868c2a4f",
+    "errors": []
+   },
+   {
+    "id": "p_a2e6739384867f25",
+    "errors": []
+   },
+   {
+    "id": "p_4a3b4558e4b7ba7f",
+    "errors": []
+   },
+   {
+    "id": "p_bdc1d2ece459ec8d",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.8,
+  "usage": {
+   "input_tokens": 12888,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 823,
+   "reasoning_output_tokens": 148
+  }
+ }
+}

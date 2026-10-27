@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_c1d0968399307758",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá ớt chuông bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_691eb3103993cb40",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2bb25680927ac6c2",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2adf72879ed60f35",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c4c58ead4d272017",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ca3df7daa15b38f8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Powdery mildew?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh phấn trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f8d7aa4b39f14d39",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1e3bb53ffd8cac60",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5a0d9f34c7e507be",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Potato leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá khoai tây bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_84093bfe59f3eaac",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_015c84171e534781",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Early blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_175b40931636ef9a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2ec4d3f01a121f55",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dfaebd5a7dd20376",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Leaf blight Isariopsis Leaf Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh cháy lá (đốm lá Isariopsis) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_299ada8326b3e819",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Powdery mildew?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh phấn trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_931e9a3aed869206",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f5efb981a6da2352",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Raspberry leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6c3ee577b30a7039",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9b8294f141e4009d",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ff060f333802dff9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b5eee9308e725f8f",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ff46ae115d2205b4",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Spider mites Two-spotted spider mite?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cb7990b5b7bb5966",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Soybean leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d0a646209020c2be",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_01631c6c074595c5",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Black rot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị bệnh thối đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_055f9fefe472a537",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b43f0fbddfa3565b",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dbe05a7b63074480",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e9e067614f22b3d9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Squash leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1a1fe640ca231294",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5a6b1679204deea9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5eeca80f178f258b",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_eddaaf355167f9a6",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_94fb6f81841744da",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Spider mites Two-spotted spider mite?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_acbe4f02b47d99a2",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_afc66ece9ae5ef48",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Strawberry leaf with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_40fc76e5772998d1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a3b571f879c8c609",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Cedar apple rust?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh gỉ sắt táo tuyết tùng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6f6efab543157b36",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Haunglongbing Citrus greening?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_18d81c784aeaf9c4",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Late blight?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_c1d0968399307758",
+    "errors": []
+   },
+   {
+    "id": "p_691eb3103993cb40",
+    "errors": []
+   },
+   {
+    "id": "p_2bb25680927ac6c2",
+    "errors": []
+   },
+   {
+    "id": "p_2adf72879ed60f35",
+    "errors": []
+   },
+   {
+    "id": "p_c4c58ead4d272017",
+    "errors": []
+   },
+   {
+    "id": "p_ca3df7daa15b38f8",
+    "errors": []
+   },
+   {
+    "id": "p_f8d7aa4b39f14d39",
+    "errors": []
+   },
+   {
+    "id": "p_1e3bb53ffd8cac60",
+    "errors": []
+   },
+   {
+    "id": "p_5a0d9f34c7e507be",
+    "errors": []
+   },
+   {
+    "id": "p_84093bfe59f3eaac",
+    "errors": []
+   },
+   {
+    "id": "p_015c84171e534781",
+    "errors": []
+   },
+   {
+    "id": "p_175b40931636ef9a",
+    "errors": []
+   },
+   {
+    "id": "p_2ec4d3f01a121f55",
+    "errors": []
+   },
+   {
+    "id": "p_dfaebd5a7dd20376",
+    "errors": []
+   },
+   {
+    "id": "p_299ada8326b3e819",
+    "errors": []
+   },
+   {
+    "id": "p_931e9a3aed869206",
+    "errors": []
+   },
+   {
+    "id": "p_f5efb981a6da2352",
+    "errors": []
+   },
+   {
+    "id": "p_6c3ee577b30a7039",
+    "errors": []
+   },
+   {
+    "id": "p_9b8294f141e4009d",
+    "errors": []
+   },
+   {
+    "id": "p_ff060f333802dff9",
+    "errors": []
+   },
+   {
+    "id": "p_b5eee9308e725f8f",
+    "errors": []
+   },
+   {
+    "id": "p_ff46ae115d2205b4",
+    "errors": []
+   },
+   {
+    "id": "p_cb7990b5b7bb5966",
+    "errors": []
+   },
+   {
+    "id": "p_d0a646209020c2be",
+    "errors": []
+   },
+   {
+    "id": "p_01631c6c074595c5",
+    "errors": []
+   },
+   {
+    "id": "p_055f9fefe472a537",
+    "errors": []
+   },
+   {
+    "id": "p_b43f0fbddfa3565b",
+    "errors": []
+   },
+   {
+    "id": "p_dbe05a7b63074480",
+    "errors": []
+   },
+   {
+    "id": "p_e9e067614f22b3d9",
+    "errors": []
+   },
+   {
+    "id": "p_1a1fe640ca231294",
+    "errors": []
+   },
+   {
+    "id": "p_5a6b1679204deea9",
+    "errors": []
+   },
+   {
+    "id": "p_5eeca80f178f258b",
+    "errors": []
+   },
+   {
+    "id": "p_eddaaf355167f9a6",
+    "errors": []
+   },
+   {
+    "id": "p_94fb6f81841744da",
+    "errors": []
+   },
+   {
+    "id": "p_acbe4f02b47d99a2",
+    "errors": []
+   },
+   {
+    "id": "p_afc66ece9ae5ef48",
+    "errors": []
+   },
+   {
+    "id": "p_40fc76e5772998d1",
+    "errors": []
+   },
+   {
+    "id": "p_a3b571f879c8c609",
+    "errors": []
+   },
+   {
+    "id": "p_6f6efab543157b36",
+    "errors": []
+   },
+   {
+    "id": "p_18d81c784aeaf9c4",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.4,
+  "usage": {
+   "input_tokens": 12515,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 793,
+   "reasoning_output_tokens": 103
+  }
+ }
+}

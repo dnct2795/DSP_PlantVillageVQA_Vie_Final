@@ -1,0 +1,493 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_2b76d012e78d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_93b0b32714a9c221",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2e44137fc4602f04",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2a43f4c0730224f7",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_151bdc744f6b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_0fe0db66695afd75",
+      "answer_en": "A healthy leaf would be uniformly green and free of the round lesions with bull's-eye appearances.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2ccc7059c7167085",
+      "answer_en": "A healthy version of this plant would not exhibit the round lesions with bull's-eye appearances.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_33bfaf72ba6f32c7",
+      "answer_en": "If the plant were healthy, the round lesions with bull's-eye appearances would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_17c10f9cf75ca7b7",
+      "answer_en": "The key visual difference would be the absence of round lesions with bull's-eye appearances.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_6150bc1168bb",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_bbf2dd703f592c73",
+      "answer_en": "A healthy leaf would be uniformly green and free of the leaf edge browning and necrosis.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5911d553bac41b50",
+      "answer_en": "A healthy version of this plant would not exhibit the leaf edge browning and necrosis.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_93dda2d57360e63b",
+      "answer_en": "The key visual difference would be the absence of leaf edge browning and necrosis.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_f7b563fe40e1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_ff12ff84be780728",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow surface spots and velvety green undersurface.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bd9dde47cb600250",
+      "answer_en": "A healthy version of this plant would not exhibit the yellow surface spots and velvety green undersurface.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4444d2cee7cc6da9",
+      "answer_en": "If the plant were healthy, the yellow surface spots and velvety green undersurface would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_af1d97437888367b",
+      "answer_en": "The key visual difference would be the absence of yellow surface spots and velvety green undersurface.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_f5304e71db5f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_3ed625016ead78d0",
+      "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fcf941bd6c61d5b7",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a37d31ae691dbc9b",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f4611613d010930e",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7b769676d9a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_aeac892db70159a6",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d51309599b598f58",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_67e09119090b8356",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4d624ce7bae62c34",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_69d76a9fe969",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_6ea7ab46738816e0",
+      "answer_en": "A healthy leaf would be uniformly green and free of the dark, saturated spots with chlorotic borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c3c2cd39816f997a",
+      "answer_en": "A healthy version of this plant would not exhibit the dark, saturated spots with chlorotic borders.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f19e922e2ae1c54",
+      "answer_en": "The key visual difference would be the absence of dark, saturated spots with chlorotic borders.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_b9b591346a17",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_d48bd7f170fc8499",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ec9a0f21380b2500",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d4b0d2d901bb92bb",
+      "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_275b10478784284a",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_31df47fdcfd3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "pairs": [
+     {
+      "pair_id": "p_2610ea70905cc802",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7f423dd55c931420",
+      "answer_en": "A healthy leaf would be uniformly green and free of the light-dark green mosaic arrangements.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_981c9b0bfdff8513",
+      "answer_en": "A healthy version of this plant would not exhibit the light-dark green mosaic arrangements.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5dfb823aa6f7ea6e",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9570c5174638f86b",
+      "answer_en": "If the plant were healthy, the light-dark green mosaic arrangements would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8f6c7d41a98e7677",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1e82faf57618a052",
+      "answer_en": "The key visual difference would be the absence of light-dark green mosaic arrangements.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_2b76d012e78d",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vi khuẩn?",
+    "pairs": [
+     {
+      "pair_id": "p_93b0b32714a9c221",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có hoa văn giống hình bia."
+     },
+     {
+      "pair_id": "p_2e44137fc4602f04",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có hoa văn giống hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_2a43f4c0730224f7",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có hoa văn giống hình bia."
+     }
+    ]
+   },
+   {
+    "question_key": "q_151bdc744f6b",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vòng?",
+    "pairs": [
+     {
+      "pair_id": "p_0fe0db66695afd75",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các vết bệnh tròn có hình bia."
+     },
+     {
+      "pair_id": "p_2ccc7059c7167085",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các vết bệnh tròn có hình bia."
+     },
+     {
+      "pair_id": "p_33bfaf72ba6f32c7",
+      "answer_vi": "Nếu cây khỏe mạnh, các vết bệnh tròn có hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_17c10f9cf75ca7b7",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các vết bệnh tròn có hình bia."
+     }
+    ]
+   },
+   {
+    "question_key": "q_6150bc1168bb",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc sương?",
+    "pairs": [
+     {
+      "pair_id": "p_bbf2dd703f592c73",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có hiện tượng mép lá hóa nâu và hoại tử."
+     },
+     {
+      "pair_id": "p_5911d553bac41b50",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện hiện tượng mép lá hóa nâu và hoại tử."
+     },
+     {
+      "pair_id": "p_93dda2d57360e63b",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có hiện tượng mép lá hóa nâu và hoại tử."
+     }
+    ]
+   },
+   {
+    "question_key": "q_f7b563fe40e1",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc lá?",
+    "pairs": [
+     {
+      "pair_id": "p_ff12ff84be780728",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_bd9dde47cb600250",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_4444d2cee7cc6da9",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá sẽ không có."
+     },
+     {
+      "pair_id": "p_af1d97437888367b",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_f5304e71db5f",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm lá Septoria?",
+    "pairs": [
+     {
+      "pair_id": "p_3ed625016ead78d0",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn có hoa văn giống hình bia."
+     },
+     {
+      "pair_id": "p_fcf941bd6c61d5b7",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có hoa văn giống hình bia."
+     },
+     {
+      "pair_id": "p_a37d31ae691dbc9b",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có hoa văn giống hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_f4611613d010930e",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có hoa văn giống hình bia."
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7b769676d9a",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "pairs": [
+     {
+      "pair_id": "p_aeac892db70159a6",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_d51309599b598f58",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_67e09119090b8356",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_4d624ce7bae62c34",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_69d76a9fe969",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "pairs": [
+     {
+      "pair_id": "p_6ea7ab46738816e0",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm sẫm màu, úng nước với viền úa vàng."
+     },
+     {
+      "pair_id": "p_c3c2cd39816f997a",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm sẫm màu, úng nước với viền úa vàng."
+     },
+     {
+      "pair_id": "p_6f19e922e2ae1c54",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm sẫm màu, úng nước với viền úa vàng."
+     }
+    ]
+   },
+   {
+    "question_key": "q_b9b591346a17",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus xoăn vàng lá cà chua (TYLCV)?",
+    "pairs": [
+     {
+      "pair_id": "p_d48bd7f170fc8499",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_ec9a0f21380b2500",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_d4b0d2d901bb92bb",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_275b10478784284a",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     }
+    ]
+   },
+   {
+    "question_key": "q_31df47fdcfd3",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "pairs": [
+     {
+      "pair_id": "p_2610ea70905cc802",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_7f423dd55c931420",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các kiểu khảm xanh nhạt xen xanh đậm."
+     },
+     {
+      "pair_id": "p_981c9b0bfdff8513",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các kiểu khảm xanh nhạt xen xanh đậm."
+     },
+     {
+      "pair_id": "p_5dfb823aa6f7ea6e",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_9570c5174638f86b",
+      "answer_vi": "Nếu cây khỏe mạnh, các kiểu khảm xanh nhạt xen xanh đậm sẽ không có."
+     },
+     {
+      "pair_id": "p_8f6c7d41a98e7677",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_1e82faf57618a052",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các kiểu khảm xanh nhạt xen xanh đậm."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 23.4,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5632,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3822,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5632,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3822,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5632,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5632
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.061283699999999997,
+  "duration_ms": 20667,
+  "num_turns": 2,
+  "session_id": "ccc4d178-81d5-4395-abc6-c255e295c7e8"
+ }
+}

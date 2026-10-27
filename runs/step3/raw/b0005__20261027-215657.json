@@ -1,0 +1,351 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_5295f32fd6b05a7b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_6449863877b272fc",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_75f2a495ef20aaf5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_26af962926f36628",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_ee61de6d08d67d95",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_45384097f342573d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_2ab6acedc99457f5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_5d54e76884feca2a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_808ef4d38a2271da",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_b57e2221affeb848",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_143117e2508f733f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_7226a6b11eba2cbc",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_ba7c72164641724c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_5c265b0183178f18",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_35ce898b916b9876",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_4f2d103e2765bf39",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_5b71d0eee10dcd95",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_789f14abdaf5642e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_043f7f2f07e4a1f9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_6f2f9d262addc00a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_63a6815309bda5d3",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_6f2680db5cbb5546",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_6b4af2aa9602cfac",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_c7cad7700dd787db",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_7c0dcab197e775f3",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_2e493bfe818e2e04",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_44791475525b8cdb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this tomato leaf's compromised state?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu của lá cà chua này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_5295f32fd6b05a7b",
+    "errors": []
+   },
+   {
+    "id": "p_6449863877b272fc",
+    "errors": []
+   },
+   {
+    "id": "p_75f2a495ef20aaf5",
+    "errors": []
+   },
+   {
+    "id": "p_26af962926f36628",
+    "errors": []
+   },
+   {
+    "id": "p_ee61de6d08d67d95",
+    "errors": []
+   },
+   {
+    "id": "p_45384097f342573d",
+    "errors": []
+   },
+   {
+    "id": "p_2ab6acedc99457f5",
+    "errors": []
+   },
+   {
+    "id": "p_5d54e76884feca2a",
+    "errors": []
+   },
+   {
+    "id": "p_808ef4d38a2271da",
+    "errors": []
+   },
+   {
+    "id": "p_b57e2221affeb848",
+    "errors": []
+   },
+   {
+    "id": "p_143117e2508f733f",
+    "errors": []
+   },
+   {
+    "id": "p_7226a6b11eba2cbc",
+    "errors": []
+   },
+   {
+    "id": "p_ba7c72164641724c",
+    "errors": []
+   },
+   {
+    "id": "p_5c265b0183178f18",
+    "errors": []
+   },
+   {
+    "id": "p_35ce898b916b9876",
+    "errors": []
+   },
+   {
+    "id": "p_4f2d103e2765bf39",
+    "errors": []
+   },
+   {
+    "id": "p_5b71d0eee10dcd95",
+    "errors": []
+   },
+   {
+    "id": "p_789f14abdaf5642e",
+    "errors": []
+   },
+   {
+    "id": "p_043f7f2f07e4a1f9",
+    "errors": []
+   },
+   {
+    "id": "p_6f2f9d262addc00a",
+    "errors": []
+   },
+   {
+    "id": "p_63a6815309bda5d3",
+    "errors": []
+   },
+   {
+    "id": "p_6f2680db5cbb5546",
+    "errors": []
+   },
+   {
+    "id": "p_6b4af2aa9602cfac",
+    "errors": []
+   },
+   {
+    "id": "p_c7cad7700dd787db",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“bệnh do nấm gọi là bệnh mốc lá” is slightly repetitive/awkward; the meaning remains clear."
+     }
+    ]
+   },
+   {
+    "id": "p_7c0dcab197e775f3",
+    "errors": []
+   },
+   {
+    "id": "p_2e493bfe818e2e04",
+    "errors": []
+   },
+   {
+    "id": "p_44791475525b8cdb",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.7,
+  "usage": {
+   "input_tokens": 12208,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1115,
+   "reasoning_output_tokens": 597
+  }
+ }
+}

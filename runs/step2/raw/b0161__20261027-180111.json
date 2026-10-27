@@ -1,0 +1,663 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_7cf387c1fb25",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you classify this foliage as exhibiting wellness indicators?",
+    "pairs": [
+     {
+      "pair_id": "p_8a6d6b629bffa9e3",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_94d64d843fdba54d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3aca26bad51c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm absence of disease-related tissue damage?",
+    "pairs": [
+     {
+      "pair_id": "p_341dab5a0f0840fe",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_95be2f3acf140f03",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a69e77901cfc",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete absence of disease symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_17322e473e2878ea",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6305093730e67b1c",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a6ba79bceba1",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete symptom absence?",
+    "pairs": [
+     {
+      "pair_id": "p_7c37ba0463880cf8",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_08dfd79d62fd5148",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_58421376d1fa",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm healthy growth indicators are present?",
+    "pairs": [
+     {
+      "pair_id": "p_82b16fd1ce4d3055",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_f14b0a22e51d6ab2",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2f7445d4739c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm healthy status without stress or disease?",
+    "pairs": [
+     {
+      "pair_id": "p_84fb757333fca487",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_96b30e158a38",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm ideal physiological processes are occurring?",
+    "pairs": [
+     {
+      "pair_id": "p_3e3cc8eaca32b35c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_823040158b5fea38",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_31d782d06be7",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm lack of stress factors and disease?",
+    "pairs": [
+     {
+      "pair_id": "p_2433ae10681f283b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7f4348b54f9b819f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d78b41dab75e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm pathological affliction in this foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_a289f9e8b23b9442",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_8ccff35a226a465e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f89096a0dfcf",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this plant shows ideal wellness?",
+    "pairs": [
+     {
+      "pair_id": "p_b0220cef6bc26325",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_06108b694da673ba",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee7b780cce05",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this specimen displays healthy status?",
+    "pairs": [
+     {
+      "pair_id": "p_c8385e94a93bbb4a",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_5d12bfecd9641d21",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_493e20625eb1",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this vegetation is prospering?",
+    "pairs": [
+     {
+      "pair_id": "p_ebde53bf772bf534",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_34da459366f8e74f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_366510da2042",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm total lack of disease indicators?",
+    "pairs": [
+     {
+      "pair_id": "p_51918d388170ccd6",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_5484bb3eff6b7c67",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7a19aec5ec9a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm traits consistent with disease-free condition?",
+    "pairs": [
+     {
+      "pair_id": "p_1fed7a610a3ffc9b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_982dcae1e1bc4f7e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3ab62153bcda",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm zero pathological conditions present?",
+    "pairs": [
+     {
+      "pair_id": "p_728e8777005f9250",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_4fa66993c2e7d7ff",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e1aaa6b30586",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological indicators in the tissue?",
+    "pairs": [
+     {
+      "pair_id": "p_dd3a22f174549c50",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6594d246afe4f393",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_56424064b67b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological traits in this foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_3789c4474299c3bc",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_b5ebbc11c756c9bc",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3b9e9f12cc72",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs indicating absence of pathogens?",
+    "pairs": [
+     {
+      "pair_id": "p_4473155e8e6c3079",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_5a069556ba63bae2",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_19a195e9041b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of pathogen presence on this foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_b36c9933e6c6e4e5",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7aa2d03263f3d6f7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8263fcb58334",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of physiological health?",
+    "pairs": [
+     {
+      "pair_id": "p_f822c0656239a5e5",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_d0f43dba407131db",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_7cf387c1fb25",
+    "question_vi": "Bạn có thể phân loại tán lá này là có biểu hiện khỏe mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_8a6d6b629bffa9e3",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_94d64d843fdba54d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3aca26bad51c",
+    "question_vi": "Bạn có thể xác nhận là không có tổn thương mô do bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_341dab5a0f0840fe",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_95be2f3acf140f03",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a69e77901cfc",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_17322e473e2878ea",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6305093730e67b1c",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a6ba79bceba1",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng nào không?",
+    "pairs": [
+     {
+      "pair_id": "p_7c37ba0463880cf8",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_08dfd79d62fd5148",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_58421376d1fa",
+    "question_vi": "Bạn có thể xác nhận là có các dấu hiệu sinh trưởng khỏe mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_82b16fd1ce4d3055",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_f14b0a22e51d6ab2",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2f7445d4739c",
+    "question_vi": "Bạn có thể xác nhận tình trạng khỏe mạnh, không bị căng thẳng hay bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_84fb757333fca487",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_96b30e158a38",
+    "question_vi": "Bạn có thể xác nhận là các quá trình sinh lý đang diễn ra lý tưởng không?",
+    "pairs": [
+     {
+      "pair_id": "p_3e3cc8eaca32b35c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_823040158b5fea38",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_31d782d06be7",
+    "question_vi": "Bạn có thể xác nhận là không có các yếu tố căng thẳng và bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_2433ae10681f283b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7f4348b54f9b819f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d78b41dab75e",
+    "question_vi": "Bạn có thể xác nhận là tán lá này bị bệnh lý không?",
+    "pairs": [
+     {
+      "pair_id": "p_a289f9e8b23b9442",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_8ccff35a226a465e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f89096a0dfcf",
+    "question_vi": "Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không?",
+    "pairs": [
+     {
+      "pair_id": "p_b0220cef6bc26325",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_06108b694da673ba",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee7b780cce05",
+    "question_vi": "Bạn có thể xác nhận là mẫu này có tình trạng khỏe mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_c8385e94a93bbb4a",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_5d12bfecd9641d21",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_493e20625eb1",
+    "question_vi": "Bạn có thể xác nhận là thảm thực vật này đang phát triển tốt không?",
+    "pairs": [
+     {
+      "pair_id": "p_ebde53bf772bf534",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_34da459366f8e74f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_366510da2042",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có dấu hiệu bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_51918d388170ccd6",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_5484bb3eff6b7c67",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7a19aec5ec9a",
+    "question_vi": "Bạn có thể xác nhận là có các đặc điểm phù hợp với tình trạng sạch bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_1fed7a610a3ffc9b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_982dcae1e1bc4f7e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3ab62153bcda",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có tình trạng bệnh lý nào không?",
+    "pairs": [
+     {
+      "pair_id": "p_728e8777005f9250",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_4fa66993c2e7d7ff",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e1aaa6b30586",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu bệnh lý trong mô không?",
+    "pairs": [
+     {
+      "pair_id": "p_dd3a22f174549c50",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6594d246afe4f393",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_56424064b67b",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm bệnh lý trên tán lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_3789c4474299c3bc",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_b5ebbc11c756c9bc",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3b9e9f12cc72",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu cho thấy không có tác nhân gây bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_4473155e8e6c3079",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_5a069556ba63bae2",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_19a195e9041b",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu có sự hiện diện của tác nhân gây bệnh trên tán lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_b36c9933e6c6e4e5",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7aa2d03263f3d6f7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8263fcb58334",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của sức khỏe sinh lý không?",
+    "pairs": [
+     {
+      "pair_id": "p_f822c0656239a5e5",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_d0f43dba407131db",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 16.7,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5534,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2679,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5534,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2679,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5534,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5534
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0494617,
+  "duration_ms": 13885,
+  "num_turns": 2,
+  "session_id": "f2fcf1e6-ab5f-4407-9685-71b79f73a637"
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_3a239527fc26e9b4",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_bdcb4e18d3a92a79",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_511b008680546f1b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_d67800ebab173ce2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_a5d30a939fa6c911",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_cd5a8960112287ca",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_ebf0e2b68bd7d615",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_4a942bcb90c7c050",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_fd208580c40f323b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu, có vòng đồng tâm dạng \"hình bia\"."
+   },
+   {
+    "id": "p_29f27edb59228b8d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Lá có hiện tượng vàng lốm đốm, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_a1d094ee64c0c581",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_d4458c7ece7266ba",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_22dc84f8b8977592",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_03520196d0a50582",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_0e08dd88a765de7e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is a Grape leaf suffering from Black rot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là lá nho bị bệnh thối đen."
+   },
+   {
+    "id": "p_fcad6336bacda626",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is a Grape leaf suffering from Leaf blight Isariopsis Leaf Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là lá nho bị bệnh cháy lá (đốm lá Isariopsis)."
+   },
+   {
+    "id": "p_25f6c38214e9e763",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_07b7b38b2c7c3282",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_ebffdbd239c05a45",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_135370bb596d8517",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_3a239527fc26e9b4",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The phrasing repeats “bệnh vàng lá gân xanh” in the expanded alias, making the sentence somewhat redundant."
+     }
+    ]
+   },
+   {
+    "id": "p_bdcb4e18d3a92a79",
+    "errors": []
+   },
+   {
+    "id": "p_511b008680546f1b",
+    "errors": []
+   },
+   {
+    "id": "p_d67800ebab173ce2",
+    "errors": []
+   },
+   {
+    "id": "p_a5d30a939fa6c911",
+    "errors": []
+   },
+   {
+    "id": "p_cd5a8960112287ca",
+    "errors": []
+   },
+   {
+    "id": "p_ebf0e2b68bd7d615",
+    "errors": []
+   },
+   {
+    "id": "p_4a942bcb90c7c050",
+    "errors": []
+   },
+   {
+    "id": "p_fd208580c40f323b",
+    "errors": []
+   },
+   {
+    "id": "p_29f27edb59228b8d",
+    "errors": []
+   },
+   {
+    "id": "p_a1d094ee64c0c581",
+    "errors": []
+   },
+   {
+    "id": "p_d4458c7ece7266ba",
+    "errors": []
+   },
+   {
+    "id": "p_22dc84f8b8977592",
+    "errors": []
+   },
+   {
+    "id": "p_03520196d0a50582",
+    "errors": []
+   },
+   {
+    "id": "p_0e08dd88a765de7e",
+    "errors": []
+   },
+   {
+    "id": "p_fcad6336bacda626",
+    "errors": []
+   },
+   {
+    "id": "p_25f6c38214e9e763",
+    "errors": []
+   },
+   {
+    "id": "p_07b7b38b2c7c3282",
+    "errors": []
+   },
+   {
+    "id": "p_ebffdbd239c05a45",
+    "errors": []
+   },
+   {
+    "id": "p_135370bb596d8517",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.1,
+  "usage": {
+   "input_tokens": 11240,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 822,
+   "reasoning_output_tokens": 431
+  }
+ }
+}

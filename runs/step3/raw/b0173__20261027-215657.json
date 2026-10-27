@@ -1,0 +1,441 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_dfe3f6ce8d4375a9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Blueberry leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá việt quất không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8dda266f92de719f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Blueberry leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá việt quất không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6c98e9a3ef27dc89",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Cherry leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5d51ff20af1f696f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Cherry leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá anh đào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0306d577afa61307",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Corn leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá ngô không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b4b18d2f49c6608d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Corn leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá ngô không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_62276e0c53fe17c4",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Grape leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá nho không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7eb5224c34a0e802",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Grape leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá nho không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c2f6f1e00724f7ae",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Peach leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fc32d5fc9de86c73",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Peach leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá đào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2120a58fa5a1bb23",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Pepper bell leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá ớt chuông không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9f37ecd24bef4bd5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Pepper bell leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá ớt chuông không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_669780b9ba6895a5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Raspberry leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá mâm xôi không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c8b7d1d84d7ce152",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Raspberry leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá mâm xôi không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7da0df035939be1f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Soybean leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá đậu nành không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cabdc87c9856ab34",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Soybean leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá đậu nành không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4b50a459e2c198c8",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Squash leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá bí không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e417b2db39b638e1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Squash leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá bí không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b24fedc1f45aadcd",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Strawberry leaf?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá dâu tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_36513d4fad2ce35c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Strawberry leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá dâu tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_83f68b806d815571",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with orange tree foliage characteristics?",
+    "answer_en": "No",
+    "question_vi": "Đây có phù hợp với đặc điểm tán lá của cây cam không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_67769576e288299a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with orange tree foliage characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phù hợp với đặc điểm tán lá của cây cam không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6bf67f4c2a99401c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with potato plant foliage?",
+    "answer_en": "No",
+    "question_vi": "Đây có phù hợp với tán lá của cây khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_61b67152c059c32a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with potato plant foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phù hợp với tán lá của cây khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1186e2e7274d643b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of orange tree vegetation?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật cây cam không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6bd6745de8dbe5b5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of orange tree vegetation?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật cây cam không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a8c592a51105e406",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of potato vegetation?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3bdd7ef5f19b3deb",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of potato vegetation?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9c563dc1077dce50",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage sample characteristic of tomato vegetation?",
+    "answer_en": "No",
+    "question_vi": "Mẫu lá này có phải là đặc trưng của thảm thực vật cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_74999475021cd82f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage sample characteristic of tomato vegetation?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu lá này có phải là đặc trưng của thảm thực vật cà chua không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7476f6dcaab605d1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this leaf consistent with tomato plant morphology?",
+    "answer_en": "No",
+    "question_vi": "Chiếc lá này có phù hợp với hình thái của cây cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6f8203d556e45d47",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this leaf consistent with tomato plant morphology?",
+    "answer_en": "Yes",
+    "question_vi": "Chiếc lá này có phù hợp với hình thái của cây cà chua không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_dfe3f6ce8d4375a9",
+    "errors": []
+   },
+   {
+    "id": "p_8dda266f92de719f",
+    "errors": []
+   },
+   {
+    "id": "p_6c98e9a3ef27dc89",
+    "errors": []
+   },
+   {
+    "id": "p_5d51ff20af1f696f",
+    "errors": []
+   },
+   {
+    "id": "p_0306d577afa61307",
+    "errors": []
+   },
+   {
+    "id": "p_b4b18d2f49c6608d",
+    "errors": []
+   },
+   {
+    "id": "p_62276e0c53fe17c4",
+    "errors": []
+   },
+   {
+    "id": "p_7eb5224c34a0e802",
+    "errors": []
+   },
+   {
+    "id": "p_c2f6f1e00724f7ae",
+    "errors": []
+   },
+   {
+    "id": "p_fc32d5fc9de86c73",
+    "errors": []
+   },
+   {
+    "id": "p_2120a58fa5a1bb23",
+    "errors": []
+   },
+   {
+    "id": "p_9f37ecd24bef4bd5",
+    "errors": []
+   },
+   {
+    "id": "p_669780b9ba6895a5",
+    "errors": []
+   },
+   {
+    "id": "p_c8b7d1d84d7ce152",
+    "errors": []
+   },
+   {
+    "id": "p_7da0df035939be1f",
+    "errors": []
+   },
+   {
+    "id": "p_cabdc87c9856ab34",
+    "errors": []
+   },
+   {
+    "id": "p_4b50a459e2c198c8",
+    "errors": []
+   },
+   {
+    "id": "p_e417b2db39b638e1",
+    "errors": []
+   },
+   {
+    "id": "p_b24fedc1f45aadcd",
+    "errors": []
+   },
+   {
+    "id": "p_36513d4fad2ce35c",
+    "errors": []
+   },
+   {
+    "id": "p_83f68b806d815571",
+    "errors": []
+   },
+   {
+    "id": "p_67769576e288299a",
+    "errors": []
+   },
+   {
+    "id": "p_6bf67f4c2a99401c",
+    "errors": []
+   },
+   {
+    "id": "p_61b67152c059c32a",
+    "errors": []
+   },
+   {
+    "id": "p_1186e2e7274d643b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật cây cam” is awkward and redundant in Vietnamese; a more natural phrasing would refer to the characteristic foliage of an orange tree."
+     }
+    ]
+   },
+   {
+    "id": "p_6bd6745de8dbe5b5",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật cây cam” is awkward and redundant in Vietnamese; a more natural phrasing would refer to the characteristic foliage of an orange tree."
+     }
+    ]
+   },
+   {
+    "id": "p_a8c592a51105e406",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật khoai tây” is awkward in Vietnamese; a more natural phrasing would refer to characteristic potato-plant foliage."
+     }
+    ]
+   },
+   {
+    "id": "p_3bdd7ef5f19b3deb",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật khoai tây” is awkward in Vietnamese; a more natural phrasing would refer to characteristic potato-plant foliage."
+     }
+    ]
+   },
+   {
+    "id": "p_9c563dc1077dce50",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật cà chua” is awkward in Vietnamese; a more natural phrasing would refer to characteristic tomato foliage."
+     }
+    ]
+   },
+   {
+    "id": "p_74999475021cd82f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“thảm thực vật cà chua” is awkward in Vietnamese; a more natural phrasing would refer to characteristic tomato foliage."
+     }
+    ]
+   },
+   {
+    "id": "p_7476f6dcaab605d1",
+    "errors": []
+   },
+   {
+    "id": "p_6f8203d556e45d47",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.7,
+  "usage": {
+   "input_tokens": 11489,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1134,
+   "reasoning_output_tokens": 304
+  }
+ }
+}

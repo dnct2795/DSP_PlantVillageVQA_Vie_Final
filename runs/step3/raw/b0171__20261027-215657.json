@@ -1,0 +1,561 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_8959eea6aa30c36b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_f739faa4b5fef3c7",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_42d29d429f59ef8d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_88f1a03bc1380f51",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_eea620d796fc4476",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_477f74676ace5e54",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_79c1dc3a9869c186",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_ee42235aa0c2ff08",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_ec3ba2bcd69bb51d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_0186bd2c1e356e41",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Raspberry",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_6f2769b82559c2d4",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_ed9928b41dae8303",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_b02aa8f63f8e0de8",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_58eb1bc207ed6513",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_9c9ddca97d6033ec",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_ef1d86d41a63f4b9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_1cf7162bee0027fb",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_2e728b8ecb6b10df",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_ab28d157953d0297",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_0b2fbe95534b328a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_7eb9e161679e0018",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_503cf6af3d02b7fe",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_6333fcc76a1d5a96",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_18f33991ce564b00",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_7db8e492c2457dce",
+    "question_type": "Plant Species Identification",
+    "question_en": "Designate the taxonomic position of this vegetation sample.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy chỉ ra vị trí phân loại học của mẫu thực vật này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_6d39f5c04eef282e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_5aea37c0c9f99209",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_3814f78c1e37a4f7",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_c0f857a8545038b5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_ca999f6a7f2a0a0b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_12772a68969d5110",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_995da2e083db7dce",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_a91aa46d6634faeb",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_f4608d3183b57d25",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_d03c2b889603b57d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_823e532b63cb3ccd",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_3058761f5145c609",
+    "question_type": "Plant Species Identification",
+    "question_en": "Determine the botanical identity of this vegetation sample.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy xác định danh tính thực vật của mẫu cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_07c294cf67b64977",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this foliage match the characteristics of tomato plants?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có phù hợp với đặc điểm của cây cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_03ba6e9e389efe72",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this foliage match the characteristics of tomato plants?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có phù hợp với đặc điểm của cây cà chua không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_8959eea6aa30c36b",
+    "errors": []
+   },
+   {
+    "id": "p_f739faa4b5fef3c7",
+    "errors": []
+   },
+   {
+    "id": "p_42d29d429f59ef8d",
+    "errors": []
+   },
+   {
+    "id": "p_88f1a03bc1380f51",
+    "errors": []
+   },
+   {
+    "id": "p_eea620d796fc4476",
+    "errors": []
+   },
+   {
+    "id": "p_477f74676ace5e54",
+    "errors": []
+   },
+   {
+    "id": "p_79c1dc3a9869c186",
+    "errors": []
+   },
+   {
+    "id": "p_ee42235aa0c2ff08",
+    "errors": []
+   },
+   {
+    "id": "p_ec3ba2bcd69bb51d",
+    "errors": []
+   },
+   {
+    "id": "p_0186bd2c1e356e41",
+    "errors": []
+   },
+   {
+    "id": "p_6f2769b82559c2d4",
+    "errors": []
+   },
+   {
+    "id": "p_ed9928b41dae8303",
+    "errors": []
+   },
+   {
+    "id": "p_b02aa8f63f8e0de8",
+    "errors": []
+   },
+   {
+    "id": "p_58eb1bc207ed6513",
+    "errors": []
+   },
+   {
+    "id": "p_9c9ddca97d6033ec",
+    "errors": []
+   },
+   {
+    "id": "p_ef1d86d41a63f4b9",
+    "errors": []
+   },
+   {
+    "id": "p_1cf7162bee0027fb",
+    "errors": []
+   },
+   {
+    "id": "p_2e728b8ecb6b10df",
+    "errors": []
+   },
+   {
+    "id": "p_ab28d157953d0297",
+    "errors": []
+   },
+   {
+    "id": "p_0b2fbe95534b328a",
+    "errors": []
+   },
+   {
+    "id": "p_7eb9e161679e0018",
+    "errors": []
+   },
+   {
+    "id": "p_503cf6af3d02b7fe",
+    "errors": []
+   },
+   {
+    "id": "p_6333fcc76a1d5a96",
+    "errors": []
+   },
+   {
+    "id": "p_18f33991ce564b00",
+    "errors": []
+   },
+   {
+    "id": "p_7db8e492c2457dce",
+    "errors": []
+   },
+   {
+    "id": "p_6d39f5c04eef282e",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_5aea37c0c9f99209",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_3814f78c1e37a4f7",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_c0f857a8545038b5",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_ca999f6a7f2a0a0b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_12772a68969d5110",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_995da2e083db7dce",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_a91aa46d6634faeb",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_f4608d3183b57d25",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_d03c2b889603b57d",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_823e532b63cb3ccd",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_3058761f5145c609",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Danh tính thực vật” sounds unnatural in Vietnamese; “định danh/nhận dạng thực vật” would be more idiomatic."
+     }
+    ]
+   },
+   {
+    "id": "p_07c294cf67b64977",
+    "errors": []
+   },
+   {
+    "id": "p_03ba6e9e389efe72",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 24.3,
+  "usage": {
+   "input_tokens": 12246,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1579,
+   "reasoning_output_tokens": 381
+  }
+ }
+}

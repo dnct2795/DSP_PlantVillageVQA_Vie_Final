@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_690597d74f9dbdef",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_9aee95b5c5efbd92",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_1b401f256bb7c285",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_4b911948255e8b57",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b7a7ab796cdacb01",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_6009990f246ce905",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, chính là nguyên nhân."
+   },
+   {
+    "id": "p_f11f34c5054a19ea",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_4c22aec668234682",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_75483abdb6c397de",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The symptoms are characteristic of Powdery mildew.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh phấn trắng."
+   },
+   {
+    "id": "p_9c46df518afd403e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_c7ba419fd56e6440",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_5aa3180894e3419b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Đây là tổn thương do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_c45e05ad5e051300",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Apple leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Nguyên nhân khiến lá táo này trông không khỏe mạnh là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_6d3eef951949d2f1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Apple leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Nguyên nhân khiến lá táo này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_75606a4c275c0acf",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Apple leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Nguyên nhân khiến lá táo này trông không khỏe mạnh là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_76ac39898c0683c9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Apple leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Nguyên nhân khiến lá táo này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_beeaba1bc9b4ce34",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_23105dcb879a9c20",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_48f2dfd864a5e0a3",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_6768bec4bc7955de",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_5c8c7bc6c963bf99",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Cherry leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Nguyên nhân khiến lá anh đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_a153436e14c4cae9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_87f2c722e604ba41",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_3d610f66acc3baff",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_56741cd048888aa3",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_cd38a89d45c33258",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Corn leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Nguyên nhân khiến lá ngô này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_817353fcbed3f9c5",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_566de9c01c2e07ec",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_8e2d6ccf0980bd5a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_38147fbd3c6ed658",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_40c754151c149a9b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Grape leaf?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Nguyên nhân khiến lá nho này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_201e2eae85ff1ac4",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Peach leaf?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Nguyên nhân khiến lá đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_10dfe6c20b7dc92e",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Peach leaf?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Nguyên nhân khiến lá đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_349cc796a122ec12",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Peach leaf?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Nguyên nhân khiến lá đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_544ca9407882c773",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Peach leaf?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Nguyên nhân khiến lá đào này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_f8b07781ed27ec3c",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Pepper bell leaf?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Nguyên nhân khiến lá ớt chuông này trông không khỏe mạnh là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_d2c55985cf15fd9b",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Pepper bell leaf?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Nguyên nhân khiến lá ớt chuông này trông không khỏe mạnh là gì?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_7fa5bfbf51101702",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Pepper bell leaf?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Nguyên nhân khiến lá ớt chuông này trông không khỏe mạnh là gì?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_7f86c56964f249bd",
+    "question_type": "Causal Reasoning",
+    "question_en": "What is the cause of the unhealthy appearance of this Pepper bell leaf?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Nguyên nhân khiến lá ớt chuông này trông không khỏe mạnh là gì?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_690597d74f9dbdef",
+    "errors": []
+   },
+   {
+    "id": "p_9aee95b5c5efbd92",
+    "errors": []
+   },
+   {
+    "id": "p_1b401f256bb7c285",
+    "errors": []
+   },
+   {
+    "id": "p_4b911948255e8b57",
+    "errors": []
+   },
+   {
+    "id": "p_b7a7ab796cdacb01",
+    "errors": []
+   },
+   {
+    "id": "p_6009990f246ce905",
+    "errors": []
+   },
+   {
+    "id": "p_f11f34c5054a19ea",
+    "errors": []
+   },
+   {
+    "id": "p_4c22aec668234682",
+    "errors": []
+   },
+   {
+    "id": "p_75483abdb6c397de",
+    "errors": []
+   },
+   {
+    "id": "p_9c46df518afd403e",
+    "errors": []
+   },
+   {
+    "id": "p_c7ba419fd56e6440",
+    "errors": []
+   },
+   {
+    "id": "p_5aa3180894e3419b",
+    "errors": []
+   },
+   {
+    "id": "p_c45e05ad5e051300",
+    "errors": []
+   },
+   {
+    "id": "p_6d3eef951949d2f1",
+    "errors": []
+   },
+   {
+    "id": "p_75606a4c275c0acf",
+    "errors": []
+   },
+   {
+    "id": "p_76ac39898c0683c9",
+    "errors": []
+   },
+   {
+    "id": "p_beeaba1bc9b4ce34",
+    "errors": []
+   },
+   {
+    "id": "p_23105dcb879a9c20",
+    "errors": []
+   },
+   {
+    "id": "p_48f2dfd864a5e0a3",
+    "errors": []
+   },
+   {
+    "id": "p_6768bec4bc7955de",
+    "errors": []
+   },
+   {
+    "id": "p_5c8c7bc6c963bf99",
+    "errors": []
+   },
+   {
+    "id": "p_a153436e14c4cae9",
+    "errors": []
+   },
+   {
+    "id": "p_87f2c722e604ba41",
+    "errors": []
+   },
+   {
+    "id": "p_3d610f66acc3baff",
+    "errors": []
+   },
+   {
+    "id": "p_56741cd048888aa3",
+    "errors": []
+   },
+   {
+    "id": "p_cd38a89d45c33258",
+    "errors": []
+   },
+   {
+    "id": "p_817353fcbed3f9c5",
+    "errors": []
+   },
+   {
+    "id": "p_566de9c01c2e07ec",
+    "errors": []
+   },
+   {
+    "id": "p_8e2d6ccf0980bd5a",
+    "errors": []
+   },
+   {
+    "id": "p_38147fbd3c6ed658",
+    "errors": []
+   },
+   {
+    "id": "p_40c754151c149a9b",
+    "errors": []
+   },
+   {
+    "id": "p_201e2eae85ff1ac4",
+    "errors": []
+   },
+   {
+    "id": "p_10dfe6c20b7dc92e",
+    "errors": []
+   },
+   {
+    "id": "p_349cc796a122ec12",
+    "errors": []
+   },
+   {
+    "id": "p_544ca9407882c773",
+    "errors": []
+   },
+   {
+    "id": "p_f8b07781ed27ec3c",
+    "errors": []
+   },
+   {
+    "id": "p_d2c55985cf15fd9b",
+    "errors": []
+   },
+   {
+    "id": "p_7fa5bfbf51101702",
+    "errors": []
+   },
+   {
+    "id": "p_7f86c56964f249bd",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 15.0,
+  "usage": {
+   "input_tokens": 13214,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 875,
+   "reasoning_output_tokens": 197
+  }
+ }
+}

@@ -1,0 +1,500 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_32fe062ea3f1a65e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_ce97910e36d17e91",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_609cf3a51f8382ad",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_5b706f7201441a24",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_630eb59a45acef3e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_5bb3d37dddea0f4d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_fff515bf289cf7af",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_aa9ae62c0494a203",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_d9d9ed36f6601cbb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "The symptoms are characteristic of Apple scab.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh ghẻ táo."
+   },
+   {
+    "id": "p_04f0ba6b53e44d2e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_cf0ec0958ca60b0c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Please specify what produces these disease symptoms.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của virus xoăn vàng lá cà chua (TYLCV), như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_b2c2c4e4a943b97f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_a123f1ee8371823d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_9b412288c8cf9576",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_dd6777c8a52f5228",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_efd1e2051e83b859",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e02a8b134997c4e6",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_1f981dd6310e3400",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The symptoms are characteristic of Black rot.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh thối đen."
+   },
+   {
+    "id": "p_0fd8891e259d6ef7",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "The symptoms are characteristic of Northern Leaf Blight.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy lá lớn."
+   },
+   {
+    "id": "p_ba3e513c742fb6c6",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_eb3db21ec2a07f26",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_e06b39b4e5021f48",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_6f8155f852f15c14",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the abnormalities in this leaf?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Điều gì giải thích cho những bất thường trên lá này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_71645fdd02ab8886",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_83f9573993f0d065",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_96049f2323f1df4d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_972c18c480937a73",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_d61f5eac87bcda73",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_9199b95acac5052f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The symptoms are characteristic of Black rot.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh thối đen."
+   },
+   {
+    "id": "p_d145402e8cb6ff94",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "The symptoms are characteristic of Northern Leaf Blight.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy lá lớn."
+   },
+   {
+    "id": "p_1b98268da6e82b58",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm giống hình bia trong các đốm."
+   },
+   {
+    "id": "p_6d41d710799403f0",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_f80c69953d002a39",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_1d66c6bd71ee0fa1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What accounts for the visual irregularities present?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Điều gì giải thích cho những bất thường nhìn thấy được trên lá?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_32fe062ea3f1a65e",
+    "errors": []
+   },
+   {
+    "id": "p_ce97910e36d17e91",
+    "errors": []
+   },
+   {
+    "id": "p_609cf3a51f8382ad",
+    "errors": []
+   },
+   {
+    "id": "p_5b706f7201441a24",
+    "errors": []
+   },
+   {
+    "id": "p_630eb59a45acef3e",
+    "errors": []
+   },
+   {
+    "id": "p_5bb3d37dddea0f4d",
+    "errors": []
+   },
+   {
+    "id": "p_fff515bf289cf7af",
+    "errors": []
+   },
+   {
+    "id": "p_aa9ae62c0494a203",
+    "errors": []
+   },
+   {
+    "id": "p_d9d9ed36f6601cbb",
+    "errors": []
+   },
+   {
+    "id": "p_04f0ba6b53e44d2e",
+    "errors": []
+   },
+   {
+    "id": "p_cf0ec0958ca60b0c",
+    "errors": []
+   },
+   {
+    "id": "p_b2c2c4e4a943b97f",
+    "errors": []
+   },
+   {
+    "id": "p_a123f1ee8371823d",
+    "errors": []
+   },
+   {
+    "id": "p_9b412288c8cf9576",
+    "errors": []
+   },
+   {
+    "id": "p_dd6777c8a52f5228",
+    "errors": []
+   },
+   {
+    "id": "p_efd1e2051e83b859",
+    "errors": []
+   },
+   {
+    "id": "p_e02a8b134997c4e6",
+    "errors": []
+   },
+   {
+    "id": "p_1f981dd6310e3400",
+    "errors": []
+   },
+   {
+    "id": "p_0fd8891e259d6ef7",
+    "errors": []
+   },
+   {
+    "id": "p_ba3e513c742fb6c6",
+    "errors": []
+   },
+   {
+    "id": "p_eb3db21ec2a07f26",
+    "errors": []
+   },
+   {
+    "id": "p_e06b39b4e5021f48",
+    "errors": []
+   },
+   {
+    "id": "p_6f8155f852f15c14",
+    "errors": []
+   },
+   {
+    "id": "p_71645fdd02ab8886",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_83f9573993f0d065",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_96049f2323f1df4d",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_972c18c480937a73",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_d61f5eac87bcda73",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_9199b95acac5052f",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_d145402e8cb6ff94",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_1b98268da6e82b58",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_6d41d710799403f0",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     },
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“bệnh nhiễm virus” is awkward Vietnamese for “a viral infection”; “nhiễm virus” would be more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_f80c69953d002a39",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   },
+   {
+    "id": "p_1d66c6bd71ee0fa1",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "The question adds the location “trên lá” (on the leaf), which is not specified in the English question."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 23.3,
+  "usage": {
+   "input_tokens": 12723,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2146,
+   "reasoning_output_tokens": 1090
+  }
+ }
+}

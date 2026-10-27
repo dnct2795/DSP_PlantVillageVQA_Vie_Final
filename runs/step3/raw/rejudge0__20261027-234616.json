@@ -1,0 +1,33 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_1643592e6ba63104",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's causing this plant's diseased appearance?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Điều gì gây ra vẻ ngoài bị bệnh của cây này?",
+    "answer_vi": "Lá bị vàng loang lổ, không đối xứng, là triệu chứng điển hình của bệnh vàng lá gân xanh (Huanglongbing)."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_1643592e6ba63104",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 6.3,
+  "usage": {
+   "input_tokens": 9046,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 94,
+   "reasoning_output_tokens": 61
+  }
+ }
+}

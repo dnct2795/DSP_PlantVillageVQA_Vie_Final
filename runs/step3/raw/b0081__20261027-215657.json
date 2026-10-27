@@ -1,0 +1,321 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_870e82888df58d15",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_c0a865347a313693",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_28f8395d46e46a3f",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_b4e1b7148dcf8e0a",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Tình trạng được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_e6f75e1a1d623306",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_890b9867f70c5a9b",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_1f8d0d4f48eaf2b9",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu, có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_c35e0bd161807771",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_8add8937357d7a82",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_5ad4bdf7dfcdfd9c",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_c7cb5cad1e512467",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_284e3ed6dd15f1c7",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_b5cd8d924a5cf30f",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_f271fcb57c0298d4",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_2df7c62be7d424e8",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_0a292d3ff6df6a2f",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_a790114c0218ebba",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_38597f4b15ecf3d3",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_3ebb64cf13be7118",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_0a40f3f2acbe1cf0",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_c2a8cacdbe0ca6cb",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is a Corn leaf suffering from Common rust.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là lá ngô bị bệnh gỉ sắt thông thường."
+   },
+   {
+    "id": "p_b9ec311c63bbbc67",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_780dde0595875d71",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_47bd2edd66bb2530",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_17e00fb9c58034ec",
+    "question_type": "Comprehensive Description",
+    "question_en": "I need a thorough characterization of this botanical sample and its condition.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tôi cần một bản mô tả toàn diện về mẫu thực vật này và tình trạng của nó.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_870e82888df58d15",
+    "errors": []
+   },
+   {
+    "id": "p_c0a865347a313693",
+    "errors": []
+   },
+   {
+    "id": "p_28f8395d46e46a3f",
+    "errors": []
+   },
+   {
+    "id": "p_b4e1b7148dcf8e0a",
+    "errors": []
+   },
+   {
+    "id": "p_e6f75e1a1d623306",
+    "errors": []
+   },
+   {
+    "id": "p_890b9867f70c5a9b",
+    "errors": []
+   },
+   {
+    "id": "p_1f8d0d4f48eaf2b9",
+    "errors": []
+   },
+   {
+    "id": "p_c35e0bd161807771",
+    "errors": []
+   },
+   {
+    "id": "p_8add8937357d7a82",
+    "errors": []
+   },
+   {
+    "id": "p_5ad4bdf7dfcdfd9c",
+    "errors": []
+   },
+   {
+    "id": "p_c7cb5cad1e512467",
+    "errors": []
+   },
+   {
+    "id": "p_284e3ed6dd15f1c7",
+    "errors": []
+   },
+   {
+    "id": "p_b5cd8d924a5cf30f",
+    "errors": []
+   },
+   {
+    "id": "p_f271fcb57c0298d4",
+    "errors": []
+   },
+   {
+    "id": "p_2df7c62be7d424e8",
+    "errors": []
+   },
+   {
+    "id": "p_0a292d3ff6df6a2f",
+    "errors": []
+   },
+   {
+    "id": "p_a790114c0218ebba",
+    "errors": []
+   },
+   {
+    "id": "p_38597f4b15ecf3d3",
+    "errors": []
+   },
+   {
+    "id": "p_3ebb64cf13be7118",
+    "errors": []
+   },
+   {
+    "id": "p_0a40f3f2acbe1cf0",
+    "errors": []
+   },
+   {
+    "id": "p_c2a8cacdbe0ca6cb",
+    "errors": []
+   },
+   {
+    "id": "p_b9ec311c63bbbc67",
+    "errors": []
+   },
+   {
+    "id": "p_780dde0595875d71",
+    "errors": []
+   },
+   {
+    "id": "p_47bd2edd66bb2530",
+    "errors": []
+   },
+   {
+    "id": "p_17e00fb9c58034ec",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.4,
+  "usage": {
+   "input_tokens": 11969,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 869,
+   "reasoning_output_tokens": 411
+  }
+ }
+}

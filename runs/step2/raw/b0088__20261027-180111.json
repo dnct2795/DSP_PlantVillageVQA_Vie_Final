@@ -1,0 +1,263 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_f3c4bafa190f",
+    "question_type": "Comprehensive Description",
+    "question_en": "Investigate this image and present a concise botanical specimen overview.",
+    "pairs": [
+     {
+      "pair_id": "p_3454961bed79e0e0",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_31a9da94e42da72f",
+      "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3e3baeb5c3863dce",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7ce2279c5450a44e",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_95ccf221580445a6",
+      "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a4d7b2f9af7199e7",
+      "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0cacebb1c4f5280f",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d5a6cccffd1a2b86",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e129e4456373dc46",
+      "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_208bb3ca8cb72926",
+      "answer_en": "The pest responsible is the Two-spotted spider mite.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6b46192b2708ba76",
+      "answer_en": "The plant is infected with Target Spot fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1eba504d9f90d6b3",
+      "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_91b710f94e57a885",
+      "answer_en": "The plant shows no symptoms of pathology.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_155c1fbe00aa9241",
+      "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8ac554a2359c9a00",
+      "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_041103aff3fd15f3",
+      "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8bb31d2d5762d1cf",
+      "answer_en": "This is a Apple leaf suffering from Cedar apple rust.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4882c8cdabf2020a",
+      "answer_en": "This is a Cherry leaf suffering from Powdery mildew.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_258a76fe56fbfd72",
+      "answer_en": "This is a Grape leaf suffering from Leaf blight Isariopsis Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_96f2143db3ebf8c3",
+      "answer_en": "This is a Squash leaf suffering from Powdery mildew.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fc520f14f87ea282",
+      "answer_en": "This plant appears to be healthy and free of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ce282be10b29754b",
+      "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_f3c4bafa190f",
+    "question_vi": "Hãy quan sát hình ảnh này và trình bày tổng quan ngắn gọn về mẫu thực vật.",
+    "pairs": [
+     {
+      "pair_id": "p_3454961bed79e0e0",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+     },
+     {
+      "pair_id": "p_31a9da94e42da72f",
+      "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+     },
+     {
+      "pair_id": "p_3e3baeb5c3863dce",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_7ce2279c5450a44e",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_95ccf221580445a6",
+      "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+     },
+     {
+      "pair_id": "p_a4d7b2f9af7199e7",
+      "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+     },
+     {
+      "pair_id": "p_0cacebb1c4f5280f",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_d5a6cccffd1a2b86",
+      "answer_vi": "Lá có hiện tượng vàng lá thành từng mảng, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_e129e4456373dc46",
+      "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+     },
+     {
+      "pair_id": "p_208bb3ca8cb72926",
+      "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+     },
+     {
+      "pair_id": "p_6b46192b2708ba76",
+      "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+     },
+     {
+      "pair_id": "p_1eba504d9f90d6b3",
+      "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+     },
+     {
+      "pair_id": "p_91b710f94e57a885",
+      "answer_vi": "Cây không có triệu chứng bệnh lý."
+     },
+     {
+      "pair_id": "p_155c1fbe00aa9241",
+      "answer_vi": "Các vết lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+     },
+     {
+      "pair_id": "p_8ac554a2359c9a00",
+      "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+     },
+     {
+      "pair_id": "p_041103aff3fd15f3",
+      "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+     },
+     {
+      "pair_id": "p_8bb31d2d5762d1cf",
+      "answer_vi": "Đây là lá táo bị bệnh gỉ sắt táo tuyết tùng."
+     },
+     {
+      "pair_id": "p_4882c8cdabf2020a",
+      "answer_vi": "Đây là lá anh đào bị bệnh phấn trắng."
+     },
+     {
+      "pair_id": "p_258a76fe56fbfd72",
+      "answer_vi": "Đây là lá nho bị bệnh cháy lá (đốm lá Isariopsis)."
+     },
+     {
+      "pair_id": "p_96f2143db3ebf8c3",
+      "answer_vi": "Đây là lá bí bị bệnh phấn trắng."
+     },
+     {
+      "pair_id": "p_fc520f14f87ea282",
+      "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+     },
+     {
+      "pair_id": "p_ce282be10b29754b",
+      "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.2,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3656,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1525,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3656,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1525,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3656,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3656
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.030409700000000005,
+  "duration_ms": 9444,
+  "num_turns": 2,
+  "session_id": "9e45329f-30a0-49cf-8f07-821553d1c750"
+ }
+}

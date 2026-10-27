@@ -1,0 +1,222 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_85361b52f9bc",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent creates these symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_d2373e28b8620698",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9eb3fcd377c37a74",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_01e66f7befbe234e",
+      "answer_en": "The diagnosis is Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7c6d4bdfe0499f7b",
+      "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b46227eb2c74acbb",
+      "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_48977b5d5ef40c70",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4163118d939ee107",
+      "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_24ebc297f162a10e",
+      "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3e831c3771818eb3",
+      "answer_en": "The symptoms are characteristic of Common rust.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9ea4e89e1a43dbef",
+      "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4059c9c6fe12e170",
+      "answer_en": "This is a fungal disease known as Leaf Mold.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_251033f3d1cadf16",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_9a33b86d2a4f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this orange leaf's health?",
+    "pairs": [
+     {
+      "pair_id": "p_9277a7c45031d226",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_994c717375f9f8e7",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9f61fde4e4176982",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ef998902f35e5658",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_85361b52f9bc",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào tạo ra những triệu chứng này?",
+    "pairs": [
+     {
+      "pair_id": "p_d2373e28b8620698",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_9eb3fcd377c37a74",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_01e66f7befbe234e",
+      "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_7c6d4bdfe0499f7b",
+      "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+     },
+     {
+      "pair_id": "p_b46227eb2c74acbb",
+      "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+     },
+     {
+      "pair_id": "p_48977b5d5ef40c70",
+      "answer_vi": "Lá có hiện tượng vàng thành từng mảng, không đối xứng, là triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_4163118d939ee107",
+      "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+     },
+     {
+      "pair_id": "p_24ebc297f162a10e",
+      "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+     },
+     {
+      "pair_id": "p_3e831c3771818eb3",
+      "answer_vi": "Các triệu chứng này đặc trưng của bệnh gỉ sắt thông thường."
+     },
+     {
+      "pair_id": "p_9ea4e89e1a43dbef",
+      "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_4059c9c6fe12e170",
+      "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+     },
+     {
+      "pair_id": "p_251033f3d1cadf16",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+     }
+    ]
+   },
+   {
+    "question_key": "q_9a33b86d2a4f",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cam này?",
+    "pairs": [
+     {
+      "pair_id": "p_9277a7c45031d226",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi."
+     },
+     {
+      "pair_id": "p_994c717375f9f8e7",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_9f61fde4e4176982",
+      "answer_vi": "Lá có hiện tượng vàng thành từng mảng, không đối xứng, là triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_ef998902f35e5658",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.4,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3315,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1372,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3315,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1372,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 3315,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3315
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.027515699999999997,
+  "duration_ms": 8605,
+  "num_turns": 2,
+  "session_id": "fade77f6-58cb-4ce1-a1a4-c95cb188b96c"
+ }
+}

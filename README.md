@@ -129,8 +129,9 @@ pytest -q
 ```
 
 Configuration (pinned revision, seed, models): `config/phase1.yaml`. Plan and run rules: `CLAUDE.md`.
-Run history, including interrupted runs and every decision: `PROGRESS.md`. Large run files (`runs/`) and
-downloaded data (`data/`) are not committed.
+Run history, including interrupted runs and every decision: `PROGRESS.md`. Every model call is logged in
+`runs/` (append-only checkpoints, raw model outputs, `run_log.jsonl` with command, commit, config hash, tokens).
+Downloaded source data (`data/`) and the exported dataset files live on Kaggle, not in git.
 
 ## Repository layout
 

@@ -1,0 +1,763 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_7cab5936ab6e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show olive-green spots with soft, velvety surfaces?",
+    "pairs": [
+     {
+      "pair_id": "p_14389daa561f1469",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_148058a56f33",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show webbing structures and stippled appearance?",
+    "pairs": [
+     {
+      "pair_id": "p_1786d1c81ff6c308",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7d500ffc70e84e53",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e18f36f93ee0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show yellow spots paired with olive-green undersurface fungus?",
+    "pairs": [
+     {
+      "pair_id": "p_bc28ff5ef53523fe",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d509b69e74ad",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display characteristic rust-like pustular formations?",
+    "pairs": [
+     {
+      "pair_id": "p_d6445fdf55c40753",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_dd3fe9e71dd6574f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1e417618ba3",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display edge browning with tissue necrosis?",
+    "pairs": [
+     {
+      "pair_id": "p_bba061b9affad120",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_08318d8696e6a27d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8b5a3e61d9d4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular brown-black spot patterns?",
+    "pairs": [
+     {
+      "pair_id": "p_0a79c3bbec559c53",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_44e0128a5d64433a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_65870f0785c7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular yellowing with uneven distribution?",
+    "pairs": [
+     {
+      "pair_id": "p_ddfa356aa3324639",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0eaddb1ba0c52cfd",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1a7030f0e73b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display webbing and characteristic stippling patterns?",
+    "pairs": [
+     {
+      "pair_id": "p_e6d850e4979abb9d",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4ee4474eae99",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display white, flour-like coating on its surface?",
+    "pairs": [
+     {
+      "pair_id": "p_2a832495a0076c3d",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_387d4c5ef11a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit bull's-eye necrotic spot patterns?",
+    "pairs": [
+     {
+      "pair_id": "p_4d4255bac2941999",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_8899ab911dc0aa56",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8c9facbcff6a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit characteristic mosaic color patterning?",
+    "pairs": [
+     {
+      "pair_id": "p_c8cf025481a9c650",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_96fdeefa2c00",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit cigar-shaped lesions in gray-green or tan colors?",
+    "pairs": [
+     {
+      "pair_id": "p_df7b91a3bb65aad2",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_72301d9a9802",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit dark, moisture-filled spots with yellow edges?",
+    "pairs": [
+     {
+      "pair_id": "p_b8625abaaee2a151",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_cd5cf82f9fada1b7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_013fd00d7a5f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit large dark lesions with white peripheral mold?",
+    "pairs": [
+     {
+      "pair_id": "p_4d0f655bc24a6854",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_e9bb62ab982cb2d5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3034ac88e2a1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit orange-yellow lesions with dark punctate features?",
+    "pairs": [
+     {
+      "pair_id": "p_7e6a69022b9a68ff",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e2ea689a1366",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit round lesions with dark perimeters and light centers?",
+    "pairs": [
+     {
+      "pair_id": "p_890b58fac4453762",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d61825db2807",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit round spots with concentric ring structures?",
+    "pairs": [
+     {
+      "pair_id": "p_5e544df394255cd1",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_938d3b018b80f0b6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_249969d50338",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit tan lesions with distinctive dark borders?",
+    "pairs": [
+     {
+      "pair_id": "p_f2926118b4b0015e",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_595b9b948468",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit target-resembling dark ring formations?",
+    "pairs": [
+     {
+      "pair_id": "p_cbedf51f18fb4595",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c1bead3cceb1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit white, dusty surface contamination?",
+    "pairs": [
+     {
+      "pair_id": "p_b50add6eafe80cf7",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_21ef93203889b36f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d07998237e7e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit yellowing, curling, and developmental restrictions?",
+    "pairs": [
+     {
+      "pair_id": "p_94a639acfd627ba3",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_ef09da0883f85df6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c80585348c9f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf show olive-brown spots with characteristic fuzziness?",
+    "pairs": [
+     {
+      "pair_id": "p_f9acf514f68c4d20",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_405e447e8e93",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf show yellow surface spots and velvety green undersurface?",
+    "pairs": [
+     {
+      "pair_id": "p_e70315794a0ec9e1",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_11641c8b05a6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display olive-green spots with characteristic texture?",
+    "pairs": [
+     {
+      "pair_id": "p_61da0b593f24f829",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_27975905b9b73bd0",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7fa71332186",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display yellow spots and olive-green undersurface coating?",
+    "pairs": [
+     {
+      "pair_id": "p_e1a53e9d53c8ecec",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_b22dba0faef86fa3",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb4a519ed58b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen exhibit fine webbing and speckled leaf texture?",
+    "pairs": [
+     {
+      "pair_id": "p_7a82c6bbe8d18f1a",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_29048ab6c7db",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen exhibit irregular brown or black spot formations?",
+    "pairs": [
+     {
+      "pair_id": "p_1061aeb933b97edb",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_7cab5936ab6e",
+    "question_vi": "Tán lá này có biểu hiện đốm màu xanh ô liu với bề mặt mềm như nhung không?",
+    "pairs": [
+     {
+      "pair_id": "p_14389daa561f1469",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_148058a56f33",
+    "question_vi": "Tán lá này có biểu hiện cấu trúc tơ nhện và vẻ ngoài lốm đốm không?",
+    "pairs": [
+     {
+      "pair_id": "p_1786d1c81ff6c308",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7d500ffc70e84e53",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e18f36f93ee0",
+    "question_vi": "Tán lá này có biểu hiện đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_bc28ff5ef53523fe",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d509b69e74ad",
+    "question_vi": "Lá này có xuất hiện các cấu trúc dạng mụn giống gỉ sắt đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_d6445fdf55c40753",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_dd3fe9e71dd6574f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1e417618ba3",
+    "question_vi": "Lá này có xuất hiện hiện tượng cháy nâu ở mép lá kèm theo mô hoại tử không?",
+    "pairs": [
+     {
+      "pair_id": "p_bba061b9affad120",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_08318d8696e6a27d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8b5a3e61d9d4",
+    "question_vi": "Lá này có xuất hiện các kiểu đốm không đều màu nâu đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_0a79c3bbec559c53",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_44e0128a5d64433a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_65870f0785c7",
+    "question_vi": "Lá này có xuất hiện hiện tượng vàng lá không đều với sự phân bố không đồng đều không?",
+    "pairs": [
+     {
+      "pair_id": "p_ddfa356aa3324639",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0eaddb1ba0c52cfd",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1a7030f0e73b",
+    "question_vi": "Lá này có xuất hiện tơ nhện và các kiểu lốm đốm đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_e6d850e4979abb9d",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4ee4474eae99",
+    "question_vi": "Lá này có xuất hiện lớp phủ màu trắng như bột mì trên bề mặt không?",
+    "pairs": [
+     {
+      "pair_id": "p_2a832495a0076c3d",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_387d4c5ef11a",
+    "question_vi": "Lá này có biểu hiện các đốm hoại tử hình bia (vòng đồng tâm) không?",
+    "pairs": [
+     {
+      "pair_id": "p_4d4255bac2941999",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_8899ab911dc0aa56",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8c9facbcff6a",
+    "question_vi": "Lá này có biểu hiện kiểu khảm màu đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_c8cf025481a9c650",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_96fdeefa2c00",
+    "question_vi": "Lá này có biểu hiện các vết bệnh hình điếu xì gà màu xanh xám hoặc nâu vàng nhạt không?",
+    "pairs": [
+     {
+      "pair_id": "p_df7b91a3bb65aad2",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_72301d9a9802",
+    "question_vi": "Lá này có biểu hiện các đốm sẫm màu, úng nước với viền vàng không?",
+    "pairs": [
+     {
+      "pair_id": "p_b8625abaaee2a151",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_cd5cf82f9fada1b7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_013fd00d7a5f",
+    "question_vi": "Lá này có biểu hiện các vết bệnh lớn sẫm màu với lớp nấm mốc trắng ở rìa không?",
+    "pairs": [
+     {
+      "pair_id": "p_4d0f655bc24a6854",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_e9bb62ab982cb2d5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3034ac88e2a1",
+    "question_vi": "Lá này có biểu hiện các vết bệnh màu vàng cam với các chấm nhỏ sẫm màu không?",
+    "pairs": [
+     {
+      "pair_id": "p_7e6a69022b9a68ff",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e2ea689a1366",
+    "question_vi": "Lá này có biểu hiện các vết bệnh tròn với viền sẫm màu và tâm nhạt màu không?",
+    "pairs": [
+     {
+      "pair_id": "p_890b58fac4453762",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d61825db2807",
+    "question_vi": "Lá này có biểu hiện các đốm tròn với cấu trúc vòng đồng tâm không?",
+    "pairs": [
+     {
+      "pair_id": "p_5e544df394255cd1",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_938d3b018b80f0b6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_249969d50338",
+    "question_vi": "Lá này có biểu hiện các vết bệnh màu nâu vàng nhạt với viền sẫm màu đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_f2926118b4b0015e",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_595b9b948468",
+    "question_vi": "Lá này có biểu hiện các vòng sẫm màu giống hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_cbedf51f18fb4595",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c1bead3cceb1",
+    "question_vi": "Lá này có biểu hiện lớp bụi màu trắng bám trên bề mặt không?",
+    "pairs": [
+     {
+      "pair_id": "p_b50add6eafe80cf7",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_21ef93203889b36f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d07998237e7e",
+    "question_vi": "Lá này có biểu hiện vàng lá, xoăn lá và sinh trưởng bị hạn chế không?",
+    "pairs": [
+     {
+      "pair_id": "p_94a639acfd627ba3",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_ef09da0883f85df6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c80585348c9f",
+    "question_vi": "Lá này có đốm màu nâu ô liu với lớp lông tơ đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_f9acf514f68c4d20",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_405e447e8e93",
+    "question_vi": "Lá này có đốm vàng trên mặt lá và mặt dưới lá màu xanh như nhung không?",
+    "pairs": [
+     {
+      "pair_id": "p_e70315794a0ec9e1",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_11641c8b05a6",
+    "question_vi": "Mẫu này có biểu hiện đốm màu xanh ô liu với kết cấu đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_61da0b593f24f829",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_27975905b9b73bd0",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7fa71332186",
+    "question_vi": "Mẫu này có biểu hiện đốm vàng và lớp phủ màu xanh ô liu ở mặt dưới lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_e1a53e9d53c8ecec",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_b22dba0faef86fa3",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb4a519ed58b",
+    "question_vi": "Mẫu này có biểu hiện tơ nhện mịn và kết cấu lá lốm đốm không?",
+    "pairs": [
+     {
+      "pair_id": "p_7a82c6bbe8d18f1a",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_29048ab6c7db",
+    "question_vi": "Mẫu này có biểu hiện các đốm không đều màu nâu hoặc đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_1061aeb933b97edb",
+      "answer_vi": "Không"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 22.0,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6413,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3276,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6413,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3276,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 6413,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6413
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0589477,
+  "duration_ms": 19290,
+  "num_turns": 2,
+  "session_id": "0713c62f-6af6-49f6-a46c-3a6c7dd348fc"
+ }
+}

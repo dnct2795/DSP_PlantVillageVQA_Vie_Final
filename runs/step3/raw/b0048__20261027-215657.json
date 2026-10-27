@@ -1,0 +1,189 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_200459b09d647156",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_54523da4fd9e5580",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_b542531c1fa27b60",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_d8da04d633995f26",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_b4b93314976ff215",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_acd560db37d3b096",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_d2189cc8cc1e3ba6",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_81ce1e27e70f41a6",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_701ade119854eede",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_10213689b3d4ee15",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_765459a96511203b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh do nấm, gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_7d92ed2861571022",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_0ec5dc8aa98e6bab",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_109a8063632fa968",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why is this plant displaying these symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tại sao cây này lại biểu hiện những triệu chứng này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_200459b09d647156",
+    "errors": []
+   },
+   {
+    "id": "p_54523da4fd9e5580",
+    "errors": []
+   },
+   {
+    "id": "p_b542531c1fa27b60",
+    "errors": []
+   },
+   {
+    "id": "p_d8da04d633995f26",
+    "errors": []
+   },
+   {
+    "id": "p_b4b93314976ff215",
+    "errors": []
+   },
+   {
+    "id": "p_acd560db37d3b096",
+    "errors": []
+   },
+   {
+    "id": "p_d2189cc8cc1e3ba6",
+    "errors": []
+   },
+   {
+    "id": "p_81ce1e27e70f41a6",
+    "errors": []
+   },
+   {
+    "id": "p_701ade119854eede",
+    "errors": []
+   },
+   {
+    "id": "p_10213689b3d4ee15",
+    "errors": []
+   },
+   {
+    "id": "p_765459a96511203b",
+    "errors": []
+   },
+   {
+    "id": "p_7d92ed2861571022",
+    "errors": []
+   },
+   {
+    "id": "p_0ec5dc8aa98e6bab",
+    "errors": []
+   },
+   {
+    "id": "p_109a8063632fa968",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 7.2,
+  "usage": {
+   "input_tokens": 10501,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 420,
+   "reasoning_output_tokens": 176
+  }
+ }
+}

@@ -1,0 +1,932 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_e557d5366a38",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_f7fa5f1c685d2d59",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3a9681dcdecb",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Esca Black Measles?",
+    "pairs": [
+     {
+      "pair_id": "p_3e64d24ce08b6b95",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7856ceeeab0",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Haunglongbing Citrus greening?",
+    "pairs": [
+     {
+      "pair_id": "p_013988e458349ac2",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5c44dd2240ef",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_6765d21ec4d228bd",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_53863e92c061",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_d813ed88ee4e5183",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_877a57c248f1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_5a3948c21bd456b5",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4e0f1f3222fd",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Corn leaf with Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_50cc327750a94b70",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a2e4f629fb5a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Apple scab?",
+    "pairs": [
+     {
+      "pair_id": "p_ba1f263d3d4a6cff",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a688db11527e",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_93f4a0ef0cb68e4c",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_654a65ae5410",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Haunglongbing Citrus greening?",
+    "pairs": [
+     {
+      "pair_id": "p_ab33ab11eda208a6",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_acf2e70ad899",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_cf08c7dd1e0aa875",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c84e3bb81f87",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Leaf scorch?",
+    "pairs": [
+     {
+      "pair_id": "p_ffb21b5cb11f727d",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_cc1177450c76",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_9e0d7696855f5a42",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_77fa3a2e5abd",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_4331a7ad88de7733",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6d9788cf9b23",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Grape leaf with Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_111439fa09b3c567",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f1d4ffb800c1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Common rust?",
+    "pairs": [
+     {
+      "pair_id": "p_eef9ffd74c4dba70",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_38c0c81ea215",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_0da8271e6dbc9349",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1f479252dfa3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_a26a20fa1be1817f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb841b7889e4",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_4b879828c17dc74c",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a68aed637565",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_0fe69185412fe975",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_289bb370357b",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_c63cab45ca47f688",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2880f7e73aec",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Orange leaf with Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_9d016bf4a0173a7f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c690f635d4b5",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_d7ea15b9cf11d8b5",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a0abe5df83c0",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Haunglongbing Citrus greening?",
+    "pairs": [
+     {
+      "pair_id": "p_db7633e9ead9f0d9",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb4e6ff4c776",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_1014131e22d9c1cf",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2d939f892712",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_91f03f4ab326cea8",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b681563abade",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Powdery mildew?",
+    "pairs": [
+     {
+      "pair_id": "p_b74fdecf66bf0cbd",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_21ec6a63e50d",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_d7ad0d7b86704ff5",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c2f8db28a83f",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_14ec49ed516f1dc8",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_afb82a7c840e",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_7a9852224f1f99f8",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8f2d4eea981",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_c685cc81024edd60",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6485ea8d9b03",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Peach leaf with Tomato mosaic virus?",
+    "pairs": [
+     {
+      "pair_id": "p_c80d8a98446741bc",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ecbcb8f5f21a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_a169fc752818fe71",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5277dbeed374",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_ac8a1518a7e35d9c",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_53f9b07eb2d4",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_0f80a63aacbab413",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f9106563839c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Haunglongbing Citrus greening?",
+    "pairs": [
+     {
+      "pair_id": "p_5601d2d8b6445943",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_42bb2e17e4d1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_dec91d6a7be91d3f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_9710cc97996f",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_6969258f4ae775c4",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8195f6464fec",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Leaf blight Isariopsis Leaf Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_1b05f02a798a8ff7",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f3eab14d25a8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Pepper bell leaf with Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_15aef515ea8bc9b3",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_e557d5366a38",
+    "question_vi": "Đây có phải là lá ngô bị bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_f7fa5f1c685d2d59",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3a9681dcdecb",
+    "question_vi": "Đây có phải là lá ngô bị bệnh Esca (sởi đen) không?",
+    "pairs": [
+     {
+      "pair_id": "p_3e64d24ce08b6b95",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7856ceeeab0",
+    "question_vi": "Đây có phải là lá ngô bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "pairs": [
+     {
+      "pair_id": "p_013988e458349ac2",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5c44dd2240ef",
+    "question_vi": "Đây có phải là lá ngô bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_6765d21ec4d228bd",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_53863e92c061",
+    "question_vi": "Đây có phải là lá ngô bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "pairs": [
+     {
+      "pair_id": "p_d813ed88ee4e5183",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_877a57c248f1",
+    "question_vi": "Đây có phải là lá ngô bị bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_5a3948c21bd456b5",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4e0f1f3222fd",
+    "question_vi": "Đây có phải là lá ngô bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_50cc327750a94b70",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a2e4f629fb5a",
+    "question_vi": "Đây có phải là lá nho bị bệnh ghẻ táo không?",
+    "pairs": [
+     {
+      "pair_id": "p_ba1f263d3d4a6cff",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a688db11527e",
+    "question_vi": "Đây có phải là lá nho bị bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_93f4a0ef0cb68e4c",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_654a65ae5410",
+    "question_vi": "Đây có phải là lá nho bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "pairs": [
+     {
+      "pair_id": "p_ab33ab11eda208a6",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_acf2e70ad899",
+    "question_vi": "Đây có phải là lá nho bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_cf08c7dd1e0aa875",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c84e3bb81f87",
+    "question_vi": "Đây có phải là lá nho bị bệnh cháy mép lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_ffb21b5cb11f727d",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_cc1177450c76",
+    "question_vi": "Đây có phải là lá nho bị bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_9e0d7696855f5a42",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_77fa3a2e5abd",
+    "question_vi": "Đây có phải là lá nho bị bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_4331a7ad88de7733",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6d9788cf9b23",
+    "question_vi": "Đây có phải là lá nho bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_111439fa09b3c567",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f1d4ffb800c1",
+    "question_vi": "Đây có phải là lá cam bị bệnh gỉ sắt thông thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_eef9ffd74c4dba70",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_38c0c81ea215",
+    "question_vi": "Đây có phải là lá cam bị bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_0da8271e6dbc9349",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1f479252dfa3",
+    "question_vi": "Đây có phải là lá cam bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_a26a20fa1be1817f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb841b7889e4",
+    "question_vi": "Đây có phải là lá cam bị bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_4b879828c17dc74c",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a68aed637565",
+    "question_vi": "Đây có phải là lá cam bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "pairs": [
+     {
+      "pair_id": "p_0fe69185412fe975",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_289bb370357b",
+    "question_vi": "Đây có phải là lá cam bị bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_c63cab45ca47f688",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2880f7e73aec",
+    "question_vi": "Đây có phải là lá cam bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_9d016bf4a0173a7f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c690f635d4b5",
+    "question_vi": "Đây có phải là lá đào bị bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_d7ea15b9cf11d8b5",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a0abe5df83c0",
+    "question_vi": "Đây có phải là lá đào bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "pairs": [
+     {
+      "pair_id": "p_db7633e9ead9f0d9",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_eb4e6ff4c776",
+    "question_vi": "Đây có phải là lá đào bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_1014131e22d9c1cf",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2d939f892712",
+    "question_vi": "Đây có phải là lá đào bị bệnh mốc lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_91f03f4ab326cea8",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b681563abade",
+    "question_vi": "Đây có phải là lá đào bị bệnh phấn trắng không?",
+    "pairs": [
+     {
+      "pair_id": "p_b74fdecf66bf0cbd",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_21ec6a63e50d",
+    "question_vi": "Đây có phải là lá đào bị bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_d7ad0d7b86704ff5",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c2f8db28a83f",
+    "question_vi": "Đây có phải là lá đào bị nhện đỏ (nhện đỏ hai chấm) không?",
+    "pairs": [
+     {
+      "pair_id": "p_14ec49ed516f1dc8",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_afb82a7c840e",
+    "question_vi": "Đây có phải là lá đào bị bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_7a9852224f1f99f8",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8f2d4eea981",
+    "question_vi": "Đây có phải là lá đào bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_c685cc81024edd60",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6485ea8d9b03",
+    "question_vi": "Đây có phải là lá đào bị virus khảm cà chua (ToMV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_c80d8a98446741bc",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ecbcb8f5f21a",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_a169fc752818fe71",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5277dbeed374",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_ac8a1518a7e35d9c",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_53f9b07eb2d4",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_0f80a63aacbab413",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f9106563839c",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh vàng lá gân xanh (Huanglongbing) không?",
+    "pairs": [
+     {
+      "pair_id": "p_5601d2d8b6445943",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_42bb2e17e4d1",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_dec91d6a7be91d3f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9710cc97996f",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh mốc lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_6969258f4ae775c4",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8195f6464fec",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh cháy lá (đốm lá Isariopsis) không?",
+    "pairs": [
+     {
+      "pair_id": "p_1b05f02a798a8ff7",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f3eab14d25a8",
+    "question_vi": "Đây có phải là lá ớt chuông bị bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_15aef515ea8bc9b3",
+      "answer_vi": "Không"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 25.2,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7331,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3926,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7331,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3926,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 7331,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7331
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.06911969999999999,
+  "duration_ms": 22554,
+  "num_turns": 2,
+  "session_id": "7855b8a4-dc7c-4b83-b126-3396c756a0a6"
+ }
+}

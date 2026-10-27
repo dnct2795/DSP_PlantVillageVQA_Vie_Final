@@ -1,0 +1,33 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_c4e2f3a518b8f2d1",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Tomato",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Cà chua"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_c4e2f3a518b8f2d1",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 5.1,
+  "usage": {
+   "input_tokens": 9008,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 90,
+   "reasoning_output_tokens": 52
+  }
+ }
+}

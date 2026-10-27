@@ -1,0 +1,555 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_350e75632d3359a3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e38f2f02309251c2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_d036c2aa58b144c3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_5381fa95ed68428b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_ad3e792b287f74df",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_2918d9758146ac1b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_94f0192af87e195c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_5fc400b2f9ca4bb9",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_8b82b2e160582123",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_5cfd09efd5cccc5f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_e558a96e19a7879a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_ee74b0df9100501c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_b961102d4f958018",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_1f8be2ffbe8fbc9f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_875edd623c5e6ec4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_dc77da5b23f50b82",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_d3d04d0dd09e0a3d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_9decfaa37e2b7719",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3957421f7149d090",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e777737d15033894",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_1099f66cdde410d1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_4d0c41079217a65c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e59e495bcaab5a71",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Apple scab?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh ghẻ táo không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_27ca7a65ea1df584",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9ac572c4f557f695",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Black rot?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh thối đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_98c697c698f58bd5",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Cercospora leaf spot Gray leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_427a856eeeb5a294",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Common rust?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh gỉ sắt thông thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_96174999098c51b4",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Early blight?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_37e8bac271faaa7d",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Late blight?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bb43a63d332b6ba1",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_26c2b12ae2b52ecb",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Leaf scorch?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh cháy mép lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0984474cfe2b6c75",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Northern Leaf Blight?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh cháy lá lớn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c9addb151be3dc10",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Powdery mildew?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh phấn trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9df68c8d9e153e3f",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_34d7bf3bf65d564a",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1fefc6dd31b50688",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1996d402241d9909",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Tomato mosaic virus?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán virus khảm cà chua (ToMV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_462b67e4bfaad1ad",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm citrus greening disease presence on this orange leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận sự hiện diện của bệnh vàng lá gân xanh (Huanglongbing) trên lá cam này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_000c82b02d68f0a7",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you detect citrus greening pathogen effects on this orange leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các tác động của tác nhân gây bệnh vàng lá gân xanh (Huanglongbing) trên lá cam này không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_350e75632d3359a3",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_e38f2f02309251c2",
+    "errors": []
+   },
+   {
+    "id": "p_d036c2aa58b144c3",
+    "errors": []
+   },
+   {
+    "id": "p_5381fa95ed68428b",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_ad3e792b287f74df",
+    "errors": []
+   },
+   {
+    "id": "p_2918d9758146ac1b",
+    "errors": []
+   },
+   {
+    "id": "p_94f0192af87e195c",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_5fc400b2f9ca4bb9",
+    "errors": []
+   },
+   {
+    "id": "p_8b82b2e160582123",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_5cfd09efd5cccc5f",
+    "errors": []
+   },
+   {
+    "id": "p_e558a96e19a7879a",
+    "errors": []
+   },
+   {
+    "id": "p_ee74b0df9100501c",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_b961102d4f958018",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_1f8be2ffbe8fbc9f",
+    "errors": []
+   },
+   {
+    "id": "p_875edd623c5e6ec4",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_dc77da5b23f50b82",
+    "errors": []
+   },
+   {
+    "id": "p_d3d04d0dd09e0a3d",
+    "errors": []
+   },
+   {
+    "id": "p_9decfaa37e2b7719",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_3957421f7149d090",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_e777737d15033894",
+    "errors": []
+   },
+   {
+    "id": "p_1099f66cdde410d1",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_4d0c41079217a65c",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“cấu trúc dạng mụn” is a nonstandard rendering of pustular structures; “mụn mủ” is the more appropriate plant-pathology term."
+     }
+    ]
+   },
+   {
+    "id": "p_e59e495bcaab5a71",
+    "errors": []
+   },
+   {
+    "id": "p_27ca7a65ea1df584",
+    "errors": []
+   },
+   {
+    "id": "p_9ac572c4f557f695",
+    "errors": []
+   },
+   {
+    "id": "p_98c697c698f58bd5",
+    "errors": []
+   },
+   {
+    "id": "p_427a856eeeb5a294",
+    "errors": []
+   },
+   {
+    "id": "p_96174999098c51b4",
+    "errors": []
+   },
+   {
+    "id": "p_37e8bac271faaa7d",
+    "errors": []
+   },
+   {
+    "id": "p_bb43a63d332b6ba1",
+    "errors": []
+   },
+   {
+    "id": "p_26c2b12ae2b52ecb",
+    "errors": []
+   },
+   {
+    "id": "p_0984474cfe2b6c75",
+    "errors": []
+   },
+   {
+    "id": "p_c9addb151be3dc10",
+    "errors": []
+   },
+   {
+    "id": "p_9df68c8d9e153e3f",
+    "errors": []
+   },
+   {
+    "id": "p_34d7bf3bf65d564a",
+    "errors": []
+   },
+   {
+    "id": "p_1fefc6dd31b50688",
+    "errors": []
+   },
+   {
+    "id": "p_1996d402241d9909",
+    "errors": []
+   },
+   {
+    "id": "p_462b67e4bfaad1ad",
+    "errors": []
+   },
+   {
+    "id": "p_000c82b02d68f0a7",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 26.6,
+  "usage": {
+   "input_tokens": 13360,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2089,
+   "reasoning_output_tokens": 862
+  }
+ }
+}

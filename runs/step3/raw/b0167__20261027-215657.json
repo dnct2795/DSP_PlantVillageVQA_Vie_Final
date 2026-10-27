@@ -1,0 +1,567 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_5cbb36438333877e",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage showing signs of disease absence?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có cho thấy dấu hiệu không có bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4f3d70ef7684dcd4",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage showing signs of disease absence?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có cho thấy dấu hiệu không có bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b1164546d25d9b3a",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this leaf completely free from disease symptoms?",
+    "answer_en": "No",
+    "question_vi": "Lá này có hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c4797ed3498086d1",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this leaf completely free from disease symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f7ddb9548b3f6886",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this plant free from both stress and pathological conditions?",
+    "answer_en": "No",
+    "question_vi": "Cây này có hoàn toàn không bị căng thẳng và không mắc bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_972e6a6486a21150",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this plant free from both stress and pathological conditions?",
+    "answer_en": "Yes",
+    "question_vi": "Cây này có hoàn toàn không bị căng thẳng và không mắc bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f37c756f4fbe1b84",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen at its healthiest possible state?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có đang ở trạng thái khỏe mạnh nhất có thể không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_250a9d45ecb268f0",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen at its healthiest possible state?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có đang ở trạng thái khỏe mạnh nhất có thể không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0f2eb5a0e61d103c",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen at peak physiological condition?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có đang ở trạng thái sinh lý đỉnh cao không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_91f79a834d7baf6f",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen at peak physiological condition?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có đang ở trạng thái sinh lý đỉnh cao không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2d9d7ab48064bb41",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen demonstrating maximum health function?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có đang thể hiện chức năng sức khỏe tối đa không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f42008eb54d3c11e",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this specimen demonstrating maximum health function?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có đang thể hiện chức năng sức khỏe tối đa không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d0e83db9bd722bae",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this vegetation displaying characteristics of robust health?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có biểu hiện các đặc điểm của sức khỏe mạnh mẽ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7cf238c7b6635a52",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this vegetation displaying characteristics of robust health?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có biểu hiện các đặc điểm của sức khỏe mạnh mẽ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_bb6a3ec9cbb8af9d",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this vegetation exhibiting peak health condition?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có đang ở trạng thái sức khỏe đỉnh cao không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c75cf3d0d5a8c4cc",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this vegetation exhibiting peak health condition?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có đang ở trạng thái sức khỏe đỉnh cao không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_aec3e57991eabab9",
+    "question_type": "General Health Assessment",
+    "question_en": "What disease indicators appear on this vegetation?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có xuất hiện dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d14a07aca35d94ad",
+    "question_type": "General Health Assessment",
+    "question_en": "What disease indicators appear on this vegetation?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có xuất hiện dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1450b0536e6930fa",
+    "question_type": "General Health Assessment",
+    "question_en": "What pathological signs are visible on this leaf specimen?",
+    "answer_en": "No",
+    "question_vi": "Mẫu lá này có thấy được dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a3c640ea79f2450e",
+    "question_type": "General Health Assessment",
+    "question_en": "What pathological signs are visible on this leaf specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu lá này có thấy được dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9cebfb8280fa4c09",
+    "question_type": "General Health Assessment",
+    "question_en": "What symptomatic characteristics are present here?",
+    "answer_en": "Yes",
+    "question_vi": "Ở đây có xuất hiện các đặc điểm triệu chứng nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9dea3e33873bff0c",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this leaf be diagnosed with plant pathology?",
+    "answer_en": "No",
+    "question_vi": "Lá này có được chẩn đoán mắc bệnh thực vật không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e4069e771656dda3",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this leaf be diagnosed with plant pathology?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có được chẩn đoán mắc bệnh thực vật không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3c3bd408ff693168",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this leaf qualify as showing healthy, uninfected features?",
+    "answer_en": "No",
+    "question_vi": "Lá này có được xem là mang các đặc điểm khỏe mạnh, không bị nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_18106bab5c778cc4",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this leaf qualify as showing healthy, uninfected features?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có được xem là mang các đặc điểm khỏe mạnh, không bị nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4ef52b9a69efa40b",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this specimen be classified as contaminated?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có được phân loại là bị nhiễm bẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5207b2865d4e3e0b",
+    "question_type": "General Health Assessment",
+    "question_en": "Would this specimen be classified as contaminated?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có được phân loại là bị nhiễm bẩn không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b145820368ae7ea8",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you assert no disease manifestations are present?",
+    "answer_en": "No",
+    "question_vi": "Bạn có khẳng định rằng không có biểu hiện bệnh nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7be59f9cefda8aef",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you assert no disease manifestations are present?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có khẳng định rằng không có biểu hiện bệnh nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6fefe1550c9a396e",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you assess growth patterns as vigorous?",
+    "answer_en": "No",
+    "question_vi": "Bạn có đánh giá kiểu sinh trưởng là mạnh mẽ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_35ed083535822db6",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you assess growth patterns as vigorous?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có đánh giá kiểu sinh trưởng là mạnh mẽ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_05bb5c36d23fbf9b",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you classify growth patterns as optimal?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phân loại kiểu sinh trưởng là tối ưu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_26dedbd9d0631712",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you classify growth patterns as optimal?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phân loại kiểu sinh trưởng là tối ưu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5ea9b8d4174fe3c9",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you classify this specimen as diseased?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phân loại mẫu này là bị bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d14752b9842a4aed",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you classify this specimen as diseased?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phân loại mẫu này là bị bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_32588a2798e2701c",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you confirm no pathological signs exist?",
+    "answer_en": "No",
+    "question_vi": "Bạn có xác nhận rằng không tồn tại dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_858d5b96d4d1eb36",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you confirm no pathological signs exist?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có xác nhận rằng không tồn tại dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e4b0f97d017b36db",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you consider this plant to be in optimal health?",
+    "answer_en": "No",
+    "question_vi": "Bạn có cho rằng cây này đang ở trạng thái sức khỏe tối ưu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a92c9650a58fdd91",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you consider this plant to be in optimal health?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có cho rằng cây này đang ở trạng thái sức khỏe tối ưu không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_5cbb36438333877e",
+    "errors": []
+   },
+   {
+    "id": "p_4f3d70ef7684dcd4",
+    "errors": []
+   },
+   {
+    "id": "p_b1164546d25d9b3a",
+    "errors": []
+   },
+   {
+    "id": "p_c4797ed3498086d1",
+    "errors": []
+   },
+   {
+    "id": "p_f7ddb9548b3f6886",
+    "errors": []
+   },
+   {
+    "id": "p_972e6a6486a21150",
+    "errors": []
+   },
+   {
+    "id": "p_f37c756f4fbe1b84",
+    "errors": []
+   },
+   {
+    "id": "p_250a9d45ecb268f0",
+    "errors": []
+   },
+   {
+    "id": "p_0f2eb5a0e61d103c",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“trạng thái sinh lý đỉnh cao” is an awkward calque for peak physiological condition."
+     }
+    ]
+   },
+   {
+    "id": "p_91f79a834d7baf6f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“trạng thái sinh lý đỉnh cao” is an awkward calque for peak physiological condition."
+     }
+    ]
+   },
+   {
+    "id": "p_2d9d7ab48064bb41",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“chức năng sức khỏe tối đa” is awkward Vietnamese for maximum health function."
+     }
+    ]
+   },
+   {
+    "id": "p_f42008eb54d3c11e",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“chức năng sức khỏe tối đa” is awkward Vietnamese for maximum health function."
+     }
+    ]
+   },
+   {
+    "id": "p_d0e83db9bd722bae",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“sức khỏe mạnh mẽ” is an awkward phrase for robust health."
+     }
+    ]
+   },
+   {
+    "id": "p_7cf238c7b6635a52",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“sức khỏe mạnh mẽ” is an awkward phrase for robust health."
+     }
+    ]
+   },
+   {
+    "id": "p_bb6a3ec9cbb8af9d",
+    "errors": []
+   },
+   {
+    "id": "p_c75cf3d0d5a8c4cc",
+    "errors": []
+   },
+   {
+    "id": "p_aec3e57991eabab9",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "The English asks what indicators appear, but “có xuất hiện dấu hiệu bệnh không?” turns it into a yes/no question and omits which indicators."
+     }
+    ]
+   },
+   {
+    "id": "p_d14a07aca35d94ad",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "The English asks what indicators appear, but “có xuất hiện dấu hiệu bệnh không?” turns it into a yes/no question and omits which indicators."
+     }
+    ]
+   },
+   {
+    "id": "p_1450b0536e6930fa",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "The English asks what pathological signs are visible, but “có thấy được dấu hiệu bệnh lý nào không?” turns it into a yes/no question and omits which signs."
+     }
+    ]
+   },
+   {
+    "id": "p_a3c640ea79f2450e",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "The English asks what pathological signs are visible, but “có thấy được dấu hiệu bệnh lý nào không?” turns it into a yes/no question and omits which signs."
+     }
+    ]
+   },
+   {
+    "id": "p_9cebfb8280fa4c09",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "The English asks what symptomatic characteristics are present, but “có xuất hiện ... nào không?” changes it into a yes/no question and omits which characteristics."
+     }
+    ]
+   },
+   {
+    "id": "p_9dea3e33873bff0c",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“mắc bệnh thực vật” is awkward; a natural rendering would refer to being diagnosed with a plant disease."
+     }
+    ]
+   },
+   {
+    "id": "p_e4069e771656dda3",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“mắc bệnh thực vật” is awkward; a natural rendering would refer to being diagnosed with a plant disease."
+     }
+    ]
+   },
+   {
+    "id": "p_3c3bd408ff693168",
+    "errors": []
+   },
+   {
+    "id": "p_18106bab5c778cc4",
+    "errors": []
+   },
+   {
+    "id": "p_4ef52b9a69efa40b",
+    "errors": []
+   },
+   {
+    "id": "p_5207b2865d4e3e0b",
+    "errors": []
+   },
+   {
+    "id": "p_b145820368ae7ea8",
+    "errors": []
+   },
+   {
+    "id": "p_7be59f9cefda8aef",
+    "errors": []
+   },
+   {
+    "id": "p_6fefe1550c9a396e",
+    "errors": []
+   },
+   {
+    "id": "p_35ed083535822db6",
+    "errors": []
+   },
+   {
+    "id": "p_05bb5c36d23fbf9b",
+    "errors": []
+   },
+   {
+    "id": "p_26dedbd9d0631712",
+    "errors": []
+   },
+   {
+    "id": "p_5ea9b8d4174fe3c9",
+    "errors": []
+   },
+   {
+    "id": "p_d14752b9842a4aed",
+    "errors": []
+   },
+   {
+    "id": "p_32588a2798e2701c",
+    "errors": []
+   },
+   {
+    "id": "p_858d5b96d4d1eb36",
+    "errors": []
+   },
+   {
+    "id": "p_e4b0f97d017b36db",
+    "errors": []
+   },
+   {
+    "id": "p_a92c9650a58fdd91",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 23.1,
+  "usage": {
+   "input_tokens": 12176,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1992,
+   "reasoning_output_tokens": 787
+  }
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_12e3182c6482cddc",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_e2da7c903355991f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_01bb0f59ec14d57c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_031ac6e8bad9a47f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b9da2129a5bb508a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_7a1eabc3ce87ca29",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_74c235a7fd7c32bb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_ab9aaabebe746893",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_6ca0e44048d3f7f7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_1061919310d47f76",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_454dd15d52eae6ef",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_41756a7ac3496bc5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Cây bị bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_cf443a1b91bc0fb7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Các đốm lốm đốm và lớp tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_21c2ab3486f21522",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "The symptoms are characteristic of Cercospora leaf spot Gray leaf spot.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh đốm lá Cercospora (đốm lá xám)."
+   },
+   {
+    "id": "p_004852718215e730",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_0ac26a4d7d4bbe8a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_3c3cc226a26909bf",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_8caaffcc3c2816d8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_c02f99f1eab4cd22",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why are these symptoms appearing on this plant?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Tại sao những triệu chứng này xuất hiện trên cây này?",
+    "answer_vi": "Đây là tổn thương do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_883e26cff657ec71",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_2bdcf78206fe1d87",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_aa8d0592ead032eb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_d1cd79830dac6e33",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_a2632e5149175283",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_ab85ab2c04295fa7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_a0a77588ce4a9130",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_3584c3b59baa3a33",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_2d5bb32344a26630",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The symptoms are characteristic of Black rot.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh thối đen."
+   },
+   {
+    "id": "p_e3521a1a8f758d10",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "The symptoms are characteristic of Northern Leaf Blight.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh cháy lá lớn."
+   },
+   {
+    "id": "p_13f0c11405bd3fe7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_66a6b8967c935a37",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_2177214992172306",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_cb8e0d12349db5b4",
+    "question_type": "Causal Reasoning",
+    "question_en": "Why does this specimen show these signs?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tại sao mẫu này lại có những dấu hiệu này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_12e3182c6482cddc",
+    "errors": []
+   },
+   {
+    "id": "p_e2da7c903355991f",
+    "errors": []
+   },
+   {
+    "id": "p_01bb0f59ec14d57c",
+    "errors": []
+   },
+   {
+    "id": "p_031ac6e8bad9a47f",
+    "errors": []
+   },
+   {
+    "id": "p_b9da2129a5bb508a",
+    "errors": []
+   },
+   {
+    "id": "p_7a1eabc3ce87ca29",
+    "errors": []
+   },
+   {
+    "id": "p_74c235a7fd7c32bb",
+    "errors": []
+   },
+   {
+    "id": "p_ab9aaabebe746893",
+    "errors": []
+   },
+   {
+    "id": "p_6ca0e44048d3f7f7",
+    "errors": []
+   },
+   {
+    "id": "p_1061919310d47f76",
+    "errors": []
+   },
+   {
+    "id": "p_454dd15d52eae6ef",
+    "errors": []
+   },
+   {
+    "id": "p_41756a7ac3496bc5",
+    "errors": []
+   },
+   {
+    "id": "p_cf443a1b91bc0fb7",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkward and repetitive Vietnamese for “stippling.”"
+     }
+    ]
+   },
+   {
+    "id": "p_21c2ab3486f21522",
+    "errors": []
+   },
+   {
+    "id": "p_004852718215e730",
+    "errors": []
+   },
+   {
+    "id": "p_0ac26a4d7d4bbe8a",
+    "errors": []
+   },
+   {
+    "id": "p_3c3cc226a26909bf",
+    "errors": []
+   },
+   {
+    "id": "p_8caaffcc3c2816d8",
+    "errors": []
+   },
+   {
+    "id": "p_c02f99f1eab4cd22",
+    "errors": []
+   },
+   {
+    "id": "p_883e26cff657ec71",
+    "errors": []
+   },
+   {
+    "id": "p_2bdcf78206fe1d87",
+    "errors": []
+   },
+   {
+    "id": "p_aa8d0592ead032eb",
+    "errors": []
+   },
+   {
+    "id": "p_d1cd79830dac6e33",
+    "errors": []
+   },
+   {
+    "id": "p_a2632e5149175283",
+    "errors": []
+   },
+   {
+    "id": "p_ab85ab2c04295fa7",
+    "errors": []
+   },
+   {
+    "id": "p_a0a77588ce4a9130",
+    "errors": []
+   },
+   {
+    "id": "p_3584c3b59baa3a33",
+    "errors": []
+   },
+   {
+    "id": "p_2d5bb32344a26630",
+    "errors": []
+   },
+   {
+    "id": "p_e3521a1a8f758d10",
+    "errors": []
+   },
+   {
+    "id": "p_13f0c11405bd3fe7",
+    "errors": []
+   },
+   {
+    "id": "p_66a6b8967c935a37",
+    "errors": []
+   },
+   {
+    "id": "p_2177214992172306",
+    "errors": []
+   },
+   {
+    "id": "p_cb8e0d12349db5b4",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 14.9,
+  "usage": {
+   "input_tokens": 12475,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 896,
+   "reasoning_output_tokens": 281
+  }
+ }
+}

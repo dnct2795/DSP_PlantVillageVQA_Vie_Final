@@ -1,0 +1,663 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_215429fe0c1c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant recovered optimal wellness?",
+    "pairs": [
+     {
+      "pair_id": "p_350e75632d3359a3",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e38f2f02309251c2",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d036c2aa58b144c3",
+      "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5381fa95ed68428b",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ad3e792b287f74df",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2918d9758146ac1b",
+      "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_94f0192af87e195c",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5fc400b2f9ca4bb9",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8b82b2e160582123",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5cfd09efd5cccc5f",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e558a96e19a7879a",
+      "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_73e92964ffc2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual indicators separate this specimen from healthy plant characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_ee74b0df9100501c",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b961102d4f958018",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1f8be2ffbe8fbc9f",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_875edd623c5e6ec4",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dc77da5b23f50b82",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d3d04d0dd09e0a3d",
+      "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_85ef9b97645f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual markers distinguish this plant from a healthy reference specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_9decfaa37e2b7719",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3957421f7149d090",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e777737d15033894",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1099f66cdde410d1",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4d0c41079217a65c",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_4275554b5c74",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Apple scab?",
+    "pairs": [
+     {
+      "pair_id": "p_e59e495bcaab5a71",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d672fb403f06",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_27ca7a65ea1df584",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7442149996ec",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_9ac572c4f557f695",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4a7770b861a0",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Cercospora leaf spot Gray leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_98c697c698f58bd5",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8bfc21ab3af",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Common rust?",
+    "pairs": [
+     {
+      "pair_id": "p_427a856eeeb5a294",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d4710a4c9980",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_96174999098c51b4",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_10ea98c0bf0c",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_37e8bac271faaa7d",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f39b733226eb",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_bb43a63d332b6ba1",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3c128a798982",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Leaf scorch?",
+    "pairs": [
+     {
+      "pair_id": "p_26c2b12ae2b52ecb",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c8775a6851f3",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Northern Leaf Blight?",
+    "pairs": [
+     {
+      "pair_id": "p_0984474cfe2b6c75",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_52bf098d8aa9",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Powdery mildew?",
+    "pairs": [
+     {
+      "pair_id": "p_c9addb151be3dc10",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b6572645579f",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_9df68c8d9e153e3f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_49a570715a5a",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_34d7bf3bf65d564a",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_72b7e978d786",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_1fefc6dd31b50688",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d2d9430b404a",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm a diagnosis of Tomato mosaic virus?",
+    "pairs": [
+     {
+      "pair_id": "p_1996d402241d9909",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_43b2715af953",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm citrus greening disease presence on this orange leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_462b67e4bfaad1ad",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_65535d7205d0",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you detect citrus greening pathogen effects on this orange leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_000c82b02d68f0a7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_215429fe0c1c",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại nếu cây này hồi phục về tình trạng khỏe mạnh tối ưu?",
+    "pairs": [
+     {
+      "pair_id": "p_350e75632d3359a3",
+      "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_e38f2f02309251c2",
+      "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_d036c2aa58b144c3",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các đốm tròn với hoa văn hình bia."
+     },
+     {
+      "pair_id": "p_5381fa95ed68428b",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_ad3e792b287f74df",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_2918d9758146ac1b",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_94f0192af87e195c",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_5fc400b2f9ca4bb9",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm tròn với hoa văn hình bia."
+     },
+     {
+      "pair_id": "p_8b82b2e160582123",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_5cfd09efd5cccc5f",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_e558a96e19a7879a",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_73e92964ffc2",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "pairs": [
+     {
+      "pair_id": "p_ee74b0df9100501c",
+      "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_b961102d4f958018",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_1f8be2ffbe8fbc9f",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm tròn với hoa văn hình bia."
+     },
+     {
+      "pair_id": "p_875edd623c5e6ec4",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_dc77da5b23f50b82",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_d3d04d0dd09e0a3d",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_85ef9b97645f",
+    "question_vi": "Những dấu hiệu hình ảnh nào phân biệt cây này với một mẫu đối chứng khỏe mạnh?",
+    "pairs": [
+     {
+      "pair_id": "p_9decfaa37e2b7719",
+      "answer_vi": "Một lá khỏe mạnh sẽ xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_3957421f7149d090",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_e777737d15033894",
+      "answer_vi": "Phiên bản khỏe mạnh của cây này sẽ không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_1099f66cdde410d1",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_4d0c41079217a65c",
+      "answer_vi": "Điểm khác biệt chính về hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_4275554b5c74",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh ghẻ táo không?",
+    "pairs": [
+     {
+      "pair_id": "p_e59e495bcaab5a71",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d672fb403f06",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_27ca7a65ea1df584",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7442149996ec",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_9ac572c4f557f695",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4a7770b861a0",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "pairs": [
+     {
+      "pair_id": "p_98c697c698f58bd5",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8bfc21ab3af",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh gỉ sắt thông thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_427a856eeeb5a294",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d4710a4c9980",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_96174999098c51b4",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_10ea98c0bf0c",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_37e8bac271faaa7d",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f39b733226eb",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh mốc lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_bb43a63d332b6ba1",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3c128a798982",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh cháy mép lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_26c2b12ae2b52ecb",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c8775a6851f3",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh cháy lá lớn không?",
+    "pairs": [
+     {
+      "pair_id": "p_0984474cfe2b6c75",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_52bf098d8aa9",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh phấn trắng không?",
+    "pairs": [
+     {
+      "pair_id": "p_c9addb151be3dc10",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b6572645579f",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_9df68c8d9e153e3f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_49a570715a5a",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_34d7bf3bf65d564a",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_72b7e978d786",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_1fefc6dd31b50688",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d2d9430b404a",
+    "question_vi": "Bạn có thể xác nhận chẩn đoán virus khảm cà chua (ToMV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_1996d402241d9909",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_43b2715af953",
+    "question_vi": "Bạn có thể xác nhận sự hiện diện của bệnh vàng lá gân xanh (Huanglongbing) trên lá cam này không?",
+    "pairs": [
+     {
+      "pair_id": "p_462b67e4bfaad1ad",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_65535d7205d0",
+    "question_vi": "Bạn có thể phát hiện các tác động của tác nhân gây bệnh vàng lá gân xanh (Huanglongbing) trên lá cam này không?",
+    "pairs": [
+     {
+      "pair_id": "p_000c82b02d68f0a7",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 26.4,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6201,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3786,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6201,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3786,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 6201,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6201
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0631997,
+  "duration_ms": 23767,
+  "num_turns": 2,
+  "session_id": "018472cd-a64a-4fe6-9b82-eea36f68c1ac"
+ }
+}

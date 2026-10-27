@@ -1,0 +1,519 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_b013af64099b0abe",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng rồng cây có múi."
+   },
+   {
+    "id": "p_99e97b3793741756",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_5a330d77851fe5c9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_9b1d85f104dcbd53",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_7a1719a3ae4c6745",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_0f85a2418bc5e35b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_5a75c1e42e58aa0f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_432dfe86e4210455",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_c03084ba6f384f81",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Các đốm lốm đốm và lớp tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_33050f15a4803fda",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The symptoms are characteristic of Common rust.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh gỉ sắt thông thường."
+   },
+   {
+    "id": "p_6e76cf4db9f71ed8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "The symptoms are characteristic of Leaf blight Isariopsis Leaf Spot.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh cháy lá (đốm lá Isariopsis)."
+   },
+   {
+    "id": "p_638e8055220d8c62",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+   },
+   {
+    "id": "p_fab9bc73242816d4",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_b611ecabd06da8f8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_902b879f7e3d9530",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_98d57b9412543e49",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_13fd0cb026fc1ff8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the cause of this vegetation's appearance?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể truy ra nguyên nhân khiến lá cây này có biểu hiện như vậy không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_8af30551adc3e6e0",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng rồng cây có múi."
+   },
+   {
+    "id": "p_2050e8bf7d68a2a7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_3e4036ebe4f36c44",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_d26ddb79d3ab499f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_6ddb95b5bc959a61",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_0eb4a69bbb0d7ff1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_8a5d88e620cf0c72",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Sinh vật gây hại chịu trách nhiệm là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_f73cf0ded2ba2c1d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_d5aa69b39c7c7d45",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+   },
+   {
+    "id": "p_5499e5279a0e5e3e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_6bf251a151354ded",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the primary source of these symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc chính của những triệu chứng này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_2f387b41bc56604c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng rồng cây có múi."
+   },
+   {
+    "id": "p_97f952b6dc2f0964",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_e51aa54d9532a7ad",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_f2e4aae60085b882",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_277323b8b2135150",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_a064aad35dae5a14",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_64493be79fbc9d1b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_e6cb8eab9857d321",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_e8cf3be67a13ef38",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "The symptoms are characteristic of Leaf scorch.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh cháy mép lá."
+   },
+   {
+    "id": "p_5d9e6ab89b3930c8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_516217a3cc2843f0",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_aa8738944ec27350",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you trace the ultimate source of this pathology?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể truy ra nguồn gốc sâu xa của bệnh lý này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_b013af64099b0abe",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“bệnh vàng rồng cây có múi” is a nonstandard rendering of “citrus greening”; the standard term is “bệnh vàng lá gân xanh”."
+     }
+    ]
+   },
+   {
+    "id": "p_99e97b3793741756",
+    "errors": []
+   },
+   {
+    "id": "p_5a330d77851fe5c9",
+    "errors": []
+   },
+   {
+    "id": "p_9b1d85f104dcbd53",
+    "errors": []
+   },
+   {
+    "id": "p_7a1719a3ae4c6745",
+    "errors": []
+   },
+   {
+    "id": "p_0f85a2418bc5e35b",
+    "errors": []
+   },
+   {
+    "id": "p_5a75c1e42e58aa0f",
+    "errors": []
+   },
+   {
+    "id": "p_432dfe86e4210455",
+    "errors": []
+   },
+   {
+    "id": "p_c03084ba6f384f81",
+    "errors": []
+   },
+   {
+    "id": "p_33050f15a4803fda",
+    "errors": []
+   },
+   {
+    "id": "p_6e76cf4db9f71ed8",
+    "errors": []
+   },
+   {
+    "id": "p_638e8055220d8c62",
+    "errors": []
+   },
+   {
+    "id": "p_fab9bc73242816d4",
+    "errors": []
+   },
+   {
+    "id": "p_b611ecabd06da8f8",
+    "errors": []
+   },
+   {
+    "id": "p_902b879f7e3d9530",
+    "errors": []
+   },
+   {
+    "id": "p_98d57b9412543e49",
+    "errors": []
+   },
+   {
+    "id": "p_13fd0cb026fc1ff8",
+    "errors": []
+   },
+   {
+    "id": "p_8af30551adc3e6e0",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“bệnh vàng rồng cây có múi” is a nonstandard rendering of “citrus greening”; the standard term is “bệnh vàng lá gân xanh”."
+     }
+    ]
+   },
+   {
+    "id": "p_2050e8bf7d68a2a7",
+    "errors": []
+   },
+   {
+    "id": "p_3e4036ebe4f36c44",
+    "errors": []
+   },
+   {
+    "id": "p_d26ddb79d3ab499f",
+    "errors": []
+   },
+   {
+    "id": "p_6ddb95b5bc959a61",
+    "errors": []
+   },
+   {
+    "id": "p_0eb4a69bbb0d7ff1",
+    "errors": []
+   },
+   {
+    "id": "p_8a5d88e620cf0c72",
+    "errors": []
+   },
+   {
+    "id": "p_f73cf0ded2ba2c1d",
+    "errors": []
+   },
+   {
+    "id": "p_d5aa69b39c7c7d45",
+    "errors": []
+   },
+   {
+    "id": "p_5499e5279a0e5e3e",
+    "errors": []
+   },
+   {
+    "id": "p_6bf251a151354ded",
+    "errors": []
+   },
+   {
+    "id": "p_2f387b41bc56604c",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“bệnh vàng rồng cây có múi” is a nonstandard rendering of “citrus greening”; the standard term is “bệnh vàng lá gân xanh”."
+     }
+    ]
+   },
+   {
+    "id": "p_97f952b6dc2f0964",
+    "errors": []
+   },
+   {
+    "id": "p_e51aa54d9532a7ad",
+    "errors": []
+   },
+   {
+    "id": "p_f2e4aae60085b882",
+    "errors": []
+   },
+   {
+    "id": "p_277323b8b2135150",
+    "errors": []
+   },
+   {
+    "id": "p_a064aad35dae5a14",
+    "errors": []
+   },
+   {
+    "id": "p_64493be79fbc9d1b",
+    "errors": []
+   },
+   {
+    "id": "p_e6cb8eab9857d321",
+    "errors": []
+   },
+   {
+    "id": "p_e8cf3be67a13ef38",
+    "errors": []
+   },
+   {
+    "id": "p_5d9e6ab89b3930c8",
+    "errors": []
+   },
+   {
+    "id": "p_516217a3cc2843f0",
+    "errors": []
+   },
+   {
+    "id": "p_aa8738944ec27350",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.8,
+  "usage": {
+   "input_tokens": 13686,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1509,
+   "reasoning_output_tokens": 640
+  }
+ }
+}

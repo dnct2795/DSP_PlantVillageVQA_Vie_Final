@@ -1,0 +1,740 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_9cc4635444e4",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Leaf scorch?",
+    "pairs": [
+     {
+      "pair_id": "p_f472ea998d8e4ff5",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f3ec52db0baf",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_f663952f12875405",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b2c8a42ecfb7",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_facfe4101f24a58c",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_527ab3e26f6a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Cedar apple rust?",
+    "pairs": [
+     {
+      "pair_id": "p_00cbbde8007b5f26",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_140639ca9211",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Cercospora leaf spot Gray leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_81c58f457228631b",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_9f78e2bb963b",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_50af46c8e48631c1",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1c599fc2baac",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_902adda1cf2f55e2",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ec7d3caad97c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_57b6259f7a1fe437",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4cf906da81f3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf scorch?",
+    "pairs": [
+     {
+      "pair_id": "p_6052c07cedacf1d1",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_08a78d835b94",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_9d2d773eac26394e",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_cd4829ca77a0",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_19da6b873788e417",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ce14e48df2f8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_daae6d834455df06",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4d7c4fe89772",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_a6fa3ec0a2b7bae9",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_dd5ad4ff7ee3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this orange leaf displaying characteristic HLB infection symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_8726c113484a1cb9",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_30537d4a20c9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this tomato leaf displaying characteristic TYLCV manifestations?",
+    "pairs": [
+     {
+      "pair_id": "p_6d790b1b1584e9af",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e3ae9c3ddc0a",
+    "question_type": "Detailed Verification",
+    "question_en": "Is yellow leaf curl virus evident on this tomato leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_e2b5ec7b0d5c2500",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1ff3cedcdd12",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "Is there a plant leaf in this image?",
+    "pairs": [
+     {
+      "pair_id": "p_72ce57ca32c63107",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8ddc448ae8a0",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "What is the primary subject of this image?",
+    "pairs": [
+     {
+      "pair_id": "p_e22e3ee4aaa2b215",
+      "answer_en": "This is a background image without a plant leaf.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_7d1aa3348d76",
+    "question_type": "General Health Assessment",
+    "question_en": "Are characteristics present that indicate pathogen absence?",
+    "pairs": [
+     {
+      "pair_id": "p_5e8808dfaa1e67bd",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_fa627c64bfa03832",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_06e1de947f55",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-induced abnormalities visible?",
+    "pairs": [
+     {
+      "pair_id": "p_635bafe4491dd0e2",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_4b8f87c0f5bc29dd",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_33126fa1666f",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-related markers observable?",
+    "pairs": [
+     {
+      "pair_id": "p_10c47f4074af8222",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_3ff8b993557123dc",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1733f76f5b7",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological characteristics evident in this leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_25a4ab38fa9411d6",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_1d38e373f43c7b41",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4563862d4401",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological indicators present in the tissue sample?",
+    "pairs": [
+     {
+      "pair_id": "p_a1b1610ded3153a8",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_88138922fcb32761",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2aced52f5bf7",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological manifestations visible on this leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_7c5c991295778fd8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1648eebccac6",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological signatures detectable here?",
+    "pairs": [
+     {
+      "pair_id": "p_8697006d720b2734",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_3366697b1ff08dbb",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_0859c252ee2f",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological symptoms evident in this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_1810e1f8b692f4da",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b6965f090110",
+    "question_type": "General Health Assessment",
+    "question_en": "Are physiological health markers present in this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_e0da2680599bd18a",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_3a79054a952bb1c9",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_78e34f5260be",
+    "question_type": "General Health Assessment",
+    "question_en": "Are the leaf characteristics indicative of absence of pathogens?",
+    "pairs": [
+     {
+      "pair_id": "p_59a7eacb9a18d591",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2c1b7be50b7f7551",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_9cc4635444e4",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh cháy mép lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_f472ea998d8e4ff5",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f3ec52db0baf",
+    "question_vi": "Lá này có bị bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_f663952f12875405",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b2c8a42ecfb7",
+    "question_vi": "Lá này có bị bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_facfe4101f24a58c",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_527ab3e26f6a",
+    "question_vi": "Lá này có bị bệnh gỉ sắt táo tuyết tùng không?",
+    "pairs": [
+     {
+      "pair_id": "p_00cbbde8007b5f26",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_140639ca9211",
+    "question_vi": "Lá này có bị bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "pairs": [
+     {
+      "pair_id": "p_81c58f457228631b",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9f78e2bb963b",
+    "question_vi": "Lá này có bị bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_50af46c8e48631c1",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1c599fc2baac",
+    "question_vi": "Lá này có bị bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_902adda1cf2f55e2",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ec7d3caad97c",
+    "question_vi": "Lá này có bị bệnh mốc lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_57b6259f7a1fe437",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4cf906da81f3",
+    "question_vi": "Lá này có bị bệnh cháy mép lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_6052c07cedacf1d1",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_08a78d835b94",
+    "question_vi": "Lá này có bị bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_9d2d773eac26394e",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_cd4829ca77a0",
+    "question_vi": "Lá này có bị nhện đỏ (nhện đỏ hai chấm) gây hại không?",
+    "pairs": [
+     {
+      "pair_id": "p_19da6b873788e417",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ce14e48df2f8",
+    "question_vi": "Lá này có bị bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_daae6d834455df06",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4d7c4fe89772",
+    "question_vi": "Lá này có bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_a6fa3ec0a2b7bae9",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_dd5ad4ff7ee3",
+    "question_vi": "Lá cam này có biểu hiện các triệu chứng nhiễm HLB đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_8726c113484a1cb9",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_30537d4a20c9",
+    "question_vi": "Lá cà chua này có biểu hiện các triệu chứng TYLCV đặc trưng không?",
+    "pairs": [
+     {
+      "pair_id": "p_6d790b1b1584e9af",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e3ae9c3ddc0a",
+    "question_vi": "Virus xoăn vàng lá có hiện rõ trên lá cà chua này không?",
+    "pairs": [
+     {
+      "pair_id": "p_e2b5ec7b0d5c2500",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1ff3cedcdd12",
+    "question_vi": "Trong hình ảnh này có lá cây không?",
+    "pairs": [
+     {
+      "pair_id": "p_72ce57ca32c63107",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8ddc448ae8a0",
+    "question_vi": "Chủ thể chính của hình ảnh này là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_e22e3ee4aaa2b215",
+      "answer_vi": "Đây là hình ảnh nền không có lá cây."
+     }
+    ]
+   },
+   {
+    "question_key": "q_7d1aa3348d76",
+    "question_vi": "Có các đặc điểm cho thấy không có mầm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_5e8808dfaa1e67bd",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_fa627c64bfa03832",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_06e1de947f55",
+    "question_vi": "Có nhìn thấy các bất thường do bệnh gây ra không?",
+    "pairs": [
+     {
+      "pair_id": "p_635bafe4491dd0e2",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_4b8f87c0f5bc29dd",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_33126fa1666f",
+    "question_vi": "Có quan sát được các dấu hiệu liên quan đến bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_10c47f4074af8222",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_3ff8b993557123dc",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1733f76f5b7",
+    "question_vi": "Các đặc điểm bệnh lý có hiện rõ trên lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_25a4ab38fa9411d6",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_1d38e373f43c7b41",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4563862d4401",
+    "question_vi": "Có các dấu hiệu bệnh lý trong mẫu mô không?",
+    "pairs": [
+     {
+      "pair_id": "p_a1b1610ded3153a8",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_88138922fcb32761",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2aced52f5bf7",
+    "question_vi": "Có nhìn thấy các biểu hiện bệnh lý trên lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_7c5c991295778fd8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1648eebccac6",
+    "question_vi": "Có phát hiện được các dấu hiệu bệnh lý ở đây không?",
+    "pairs": [
+     {
+      "pair_id": "p_8697006d720b2734",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_3366697b1ff08dbb",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_0859c252ee2f",
+    "question_vi": "Các triệu chứng bệnh lý có hiện rõ trên mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_1810e1f8b692f4da",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b6965f090110",
+    "question_vi": "Có các dấu hiệu sinh lý khỏe mạnh trong mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_e0da2680599bd18a",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_3a79054a952bb1c9",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_78e34f5260be",
+    "question_vi": "Các đặc điểm của lá có cho thấy không có mầm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_59a7eacb9a18d591",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2c1b7be50b7f7551",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.3,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6074,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2881,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6074,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2881,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 6074,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6074
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0536417,
+  "duration_ms": 14600,
+  "num_turns": 2,
+  "session_id": "04941b28-0259-4d18-bce8-a31839d5f5ed"
+ }
+}

@@ -1,0 +1,685 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_fe40efa11268",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show pinnacle health indicators?",
+    "pairs": [
+     {
+      "pair_id": "p_f377023d26cfa407",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_63b90cbc3d83df57",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_25a2e6f70ac2",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this plant show proper developmental features?",
+    "pairs": [
+     {
+      "pair_id": "p_afcc49acc91a4e7f",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_60928f75db98a580",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f0ff6d0c53ba",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample display pathogen absence markers?",
+    "pairs": [
+     {
+      "pair_id": "p_5c9ebb03a496b4ae",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_eb5c7e8d5d2b176d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a76d922f7d85",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit definitive signs of health?",
+    "pairs": [
+     {
+      "pair_id": "p_19f416d51216e92c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_ed076a4ccb6f8eb7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_615e832d1ff1",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample exhibit pathological irregularities?",
+    "pairs": [
+     {
+      "pair_id": "p_155aa41b906b798b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_f890a32abc8fc56a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_957ed0d3100e",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample meet infection criteria?",
+    "pairs": [
+     {
+      "pair_id": "p_d35372f214c61ebf",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_853e97e4cac9b6c6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ed6d28e6617a",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show definite absence of disease?",
+    "pairs": [
+     {
+      "pair_id": "p_32c8ec72857d9faf",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_21246aeb0647c62b",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_092665ee58af",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show disease-related irregularities?",
+    "pairs": [
+     {
+      "pair_id": "p_b6ccd62d2943f96b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9b890bfeeda55717",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7f9d9a72136e",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show evidence of wellness indicators?",
+    "pairs": [
+     {
+      "pair_id": "p_448e230a15daafba",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_d86e3a83699fcee8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_229a708cbbf8",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this sample show plant disease characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_136fd27ccd2f9b11",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_d335d0f8c1432300",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e9095182a920",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display characteristics of health and vigor?",
+    "pairs": [
+     {
+      "pair_id": "p_2d568bf465fc9087",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0661a2bca0277311",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6b990c48f297",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display disease pathology markers?",
+    "pairs": [
+     {
+      "pair_id": "p_7c289921a7a2e502",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_fc039b1b85553bae",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7950cb98898c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display evident healthy characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_c654bfceae9e5829",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_088ea5bf056c2afc",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4230c8b51f8c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display pathological anomalies?",
+    "pairs": [
+     {
+      "pair_id": "p_aba2dcdc6456b51d",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_02a3b776aa014e1f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_80ab49f52ca3",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display perfect health characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_30e603c5645e4156",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2032d830051c96c0",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a96a68fc2e4c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display traits of pathogen-free foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_31239abe540db9a3",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ce1d1d265a82",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen display typical disease features?",
+    "pairs": [
+     {
+      "pair_id": "p_f25ef2bbd064ceab",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_d563a9beb3b3c639",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_4076d0c3e34c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit indicators of health and vitality?",
+    "pairs": [
+     {
+      "pair_id": "p_61d829675d345abf",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_628e467bc459f011",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7eb6f2d9bafd",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen exhibit normal developmental characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_fc0d7908f3f95409",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_e509ab5fb79301bb",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5decedd0d2f2",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all disease characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_0fb53bb4f74a697c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2f7a17acbc7eb883",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6c1d743d0244",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all disease manifestations?",
+    "pairs": [
+     {
+      "pair_id": "p_d679f78a620dc830",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_fe40efa11268",
+    "question_vi": "Cây này có cho thấy các chỉ báo sức khỏe ở mức tối ưu không?",
+    "pairs": [
+     {
+      "pair_id": "p_f377023d26cfa407",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_63b90cbc3d83df57",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_25a2e6f70ac2",
+    "question_vi": "Cây này có cho thấy các đặc điểm phát triển bình thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_afcc49acc91a4e7f",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_60928f75db98a580",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f0ff6d0c53ba",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu không có mầm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_5c9ebb03a496b4ae",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_eb5c7e8d5d2b176d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a76d922f7d85",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu rõ ràng của sự khỏe mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_19f416d51216e92c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_ed076a4ccb6f8eb7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_615e832d1ff1",
+    "question_vi": "Mẫu này có biểu hiện các bất thường do bệnh lý không?",
+    "pairs": [
+     {
+      "pair_id": "p_155aa41b906b798b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_f890a32abc8fc56a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_957ed0d3100e",
+    "question_vi": "Mẫu này có đáp ứng các tiêu chí nhiễm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_d35372f214c61ebf",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_853e97e4cac9b6c6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ed6d28e6617a",
+    "question_vi": "Mẫu này có cho thấy chắc chắn không có bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_32c8ec72857d9faf",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_21246aeb0647c62b",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_092665ee58af",
+    "question_vi": "Mẫu này có cho thấy các bất thường liên quan đến bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_b6ccd62d2943f96b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9b890bfeeda55717",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7f9d9a72136e",
+    "question_vi": "Mẫu này có cho thấy bằng chứng của các chỉ báo sức khỏe tốt không?",
+    "pairs": [
+     {
+      "pair_id": "p_448e230a15daafba",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_d86e3a83699fcee8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_229a708cbbf8",
+    "question_vi": "Mẫu này có cho thấy các đặc điểm của bệnh cây trồng không?",
+    "pairs": [
+     {
+      "pair_id": "p_136fd27ccd2f9b11",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_d335d0f8c1432300",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e9095182a920",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm của sự khỏe mạnh và sinh trưởng mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_2d568bf465fc9087",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0661a2bca0277311",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6b990c48f297",
+    "question_vi": "Mẫu này có biểu hiện các dấu hiệu bệnh lý của bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_7c289921a7a2e502",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_fc039b1b85553bae",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7950cb98898c",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm khỏe mạnh rõ ràng không?",
+    "pairs": [
+     {
+      "pair_id": "p_c654bfceae9e5829",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_088ea5bf056c2afc",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4230c8b51f8c",
+    "question_vi": "Mẫu này có biểu hiện các bất thường bệnh lý không?",
+    "pairs": [
+     {
+      "pair_id": "p_aba2dcdc6456b51d",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_02a3b776aa014e1f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_80ab49f52ca3",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm sức khỏe hoàn hảo không?",
+    "pairs": [
+     {
+      "pair_id": "p_30e603c5645e4156",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2032d830051c96c0",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a96a68fc2e4c",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm của tán lá không có mầm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_31239abe540db9a3",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ce1d1d265a82",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm bệnh điển hình không?",
+    "pairs": [
+     {
+      "pair_id": "p_f25ef2bbd064ceab",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_d563a9beb3b3c639",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_4076d0c3e34c",
+    "question_vi": "Mẫu này có thể hiện các chỉ báo của sự khỏe mạnh và sức sống không?",
+    "pairs": [
+     {
+      "pair_id": "p_61d829675d345abf",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_628e467bc459f011",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7eb6f2d9bafd",
+    "question_vi": "Mẫu này có thể hiện các đặc điểm phát triển bình thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_fc0d7908f3f95409",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_e509ab5fb79301bb",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5decedd0d2f2",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi đặc điểm của bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_0fb53bb4f74a697c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2f7a17acbc7eb883",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6c1d743d0244",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi biểu hiện của bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_d679f78a620dc830",
+      "answer_vi": "Không"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 20.6,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5647,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2721,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5647,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2721,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5647,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5647
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.050333699999999995,
+  "duration_ms": 17836,
+  "num_turns": 2,
+  "session_id": "d63dd7a0-eb2c-4142-b611-132b26de5d68"
+ }
+}

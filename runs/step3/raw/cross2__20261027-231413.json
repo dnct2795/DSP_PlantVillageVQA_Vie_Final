@@ -1,0 +1,513 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_b7a7ab796cdacb01",
+    "question_type": "Causal Reasoning",
+    "question_en": "What has caused this plant's current pathological state?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Điều gì đã gây ra tình trạng bệnh lý hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_3f2f261b4123494b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Pepper bell leaf?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ớt chuông này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_d6a3a23479f017dc",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which factor accounts for this specimen's condition?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Yếu tố nào gây ra tình trạng của mẫu này?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_4fb46612f0f074e6",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you assess the general health status of this plant specimen?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe chung của mẫu cây này như thế nào?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_167def7cd210400c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe circular spots featuring dark borders and pale centers?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm tròn có viền sẫm màu và tâm nhạt màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ee6d6d382a0b67a9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you identify this as originating from a tomato plant?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận định đây là mẫu có nguồn gốc từ cây cà chua không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4046559cda1767c8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine what's causing the visible distress in this tomato foliage?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây ra tình trạng suy yếu có thể thấy trên tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_f2117794abb30462",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this foliage exhibit signs of health and disease absence?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện dấu hiệu khỏe mạnh và không có bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1c90d37ee393d30b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which agent has led to this plant's current state?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Tác nhân nào đã dẫn đến tình trạng hiện tại của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_67e09119090b8356",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_4c599e2497b21167",
+    "question_type": "Comprehensive Description",
+    "question_en": "Communicate all available information concerning this plant's existing state.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Hãy cho biết tất cả thông tin có được về tình trạng hiện tại của cây này.",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_7d85d43706f0582a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this tomato leaf sample?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cà chua này không?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_b0662afbfe70e8a8",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which appearance attributes would be restored if this plant recovered wellness?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm hình thức nào sẽ được phục hồi nếu cây này khỏi bệnh và khỏe lại?",
+    "answer_vi": "Điểm khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e8c22a4664d17a55",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you clarify the source of these visual imperfections?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể làm rõ nguyên nhân của những khiếm khuyết nhìn thấy này không?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_63c93cc5817d6b71",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What exact disease or disorder is causing these symptoms?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Chính xác bệnh hoặc rối loạn nào đang gây ra những triệu chứng này?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_2d9e670c3c9ef772",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Cherry leaf with Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá anh đào bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6540ce583ce2b616",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is your authoritative diagnosis based on these indicators?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Dựa trên các dấu hiệu này, chẩn đoán chắc chắn của bạn là gì?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_61fb5c2630d3c3fe",
+    "question_type": "Comprehensive Description",
+    "question_en": "Assess this picture and provide a summarized botanical evaluation.",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Hãy đánh giá hình ảnh này và đưa ra một nhận định thực vật học tóm tắt.",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_3a239527fc26e9b4",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf-related observations in this photograph.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_ba3b42fe3e36dc98",
+    "question_type": "Comprehensive Description",
+    "question_en": "Assess this picture and provide a detailed plant analysis synopsis.",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Hãy đánh giá hình ảnh này và đưa ra bản tóm tắt phân tích chi tiết về cây.",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_49b7aafe29f6435d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What causative organism or condition produces these symptoms?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Tác nhân hoặc tình trạng nào gây ra những triệu chứng này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_c3216d749508d239",
+    "question_type": "Causal Reasoning",
+    "question_en": "What primary agent is at the core of this condition?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tác nhân chính nào là cốt lõi của tình trạng này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_be02b20a02bab8da",
+    "question_type": "Comprehensive Description",
+    "question_en": "Assess this picture and provide a detailed plant analysis synopsis.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Hãy đánh giá hình ảnh này và đưa ra bản tóm tắt phân tích chi tiết về cây.",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_b4524f2c781790b5",
+    "question_type": "Comprehensive Description",
+    "question_en": "Examine this photograph and deliver a comprehensive plant overview.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy xem xét bức ảnh này và đưa ra một mô tả tổng quan toàn diện về cây.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_1396216fd8b3bfd6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_a976813b67d63505",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine the affliction causing these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bạn có thể xác định bệnh gây ra những triệu chứng này không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_b02aa8f63f8e0de8",
+    "question_type": "Plant Species Identification",
+    "question_en": "Define the botanical classification of this plant sample.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy xác định phân loại thực vật của mẫu cây này.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_2fe5e6de4b25cd49",
+    "question_type": "Comprehensive Description",
+    "question_en": "What observable attributes and identifying characteristics are evident in this plant specimen?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Những đặc điểm quan sát được và đặc điểm nhận dạng nào thể hiện rõ trên mẫu cây này?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_950cbade76b06a95",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How would this plant appear different if it were in ideal condition?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Cây này sẽ trông khác như thế nào nếu ở trong tình trạng lý tưởng?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_cabdc87c9856ab34",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Soybean leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Đây có phải là lá đậu nành không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_435220341f4e51e9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What produces the disease manifestations in this image?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Điều gì gây ra các biểu hiện bệnh trong hình ảnh này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_2dd6d949b0e1875e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_7fbc3c65e363436e",
+    "question_type": "Comprehensive Description",
+    "question_en": "What visible attributes and distinguishing marks identify this plant specimen?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Những đặc điểm nhìn thấy được và dấu hiệu nhận biết nào giúp xác định mẫu cây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_67a3db2254ea51d0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Based on what's visible, what is the pathological diagnosis?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Dựa trên những gì có thể quan sát được, chẩn đoán bệnh lý là gì?",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_4a9cf39b1b7b6b57",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What exact disorder or disease is present in this plant?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Cây này mắc rối loạn hoặc bệnh cụ thể nào?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_b1cd757b916c527c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh HLB."
+   },
+   {
+    "id": "p_bf3fd07cddc00529",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you assess the general health status of this plant specimen?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe chung của mẫu cây này như thế nào?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_9b33ecfd38b451ec",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there chlorotic symptoms with characteristic curling and stunting?",
+    "answer_en": "No",
+    "question_vi": "Có các triệu chứng vàng lá kèm theo xoăn lá và còi cọc đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3d336368acb22413",
+    "question_type": "Causal Reasoning",
+    "question_en": "What creates these apparent symptomatic features?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Điều gì tạo ra những đặc điểm triệu chứng rõ rệt này?",
+    "answer_vi": "Lá cà chua này cho thấy các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_be4987da8c0e6b1d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "In what ways does this specimen visually diverge from healthy reference points?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Mẫu này khác biệt về mặt hình thái so với các mốc tham chiếu khỏe mạnh ở những điểm nào?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_b7a7ab796cdacb01",
+    "errors": []
+   },
+   {
+    "id": "p_3f2f261b4123494b",
+    "errors": []
+   },
+   {
+    "id": "p_d6a3a23479f017dc",
+    "errors": []
+   },
+   {
+    "id": "p_4fb46612f0f074e6",
+    "errors": []
+   },
+   {
+    "id": "p_167def7cd210400c",
+    "errors": []
+   },
+   {
+    "id": "p_ee6d6d382a0b67a9",
+    "errors": []
+   },
+   {
+    "id": "p_4046559cda1767c8",
+    "errors": []
+   },
+   {
+    "id": "p_f2117794abb30462",
+    "errors": []
+   },
+   {
+    "id": "p_1c90d37ee393d30b",
+    "errors": []
+   },
+   {
+    "id": "p_67e09119090b8356",
+    "errors": []
+   },
+   {
+    "id": "p_4c599e2497b21167",
+    "errors": []
+   },
+   {
+    "id": "p_7d85d43706f0582a",
+    "errors": []
+   },
+   {
+    "id": "p_b0662afbfe70e8a8",
+    "errors": []
+   },
+   {
+    "id": "p_e8c22a4664d17a55",
+    "errors": []
+   },
+   {
+    "id": "p_63c93cc5817d6b71",
+    "errors": []
+   },
+   {
+    "id": "p_2d9e670c3c9ef772",
+    "errors": []
+   },
+   {
+    "id": "p_6540ce583ce2b616",
+    "errors": []
+   },
+   {
+    "id": "p_61fb5c2630d3c3fe",
+    "errors": []
+   },
+   {
+    "id": "p_3a239527fc26e9b4",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "'Hướng dẫn tôi qua các quan sát' is an unnatural literal rendering of 'lead me through'; use 'trình bày lần lượt những quan sát về lá'."
+     }
+    ]
+   },
+   {
+    "id": "p_ba3b42fe3e36dc98",
+    "errors": []
+   },
+   {
+    "id": "p_49b7aafe29f6435d",
+    "errors": []
+   },
+   {
+    "id": "p_c3216d749508d239",
+    "errors": []
+   },
+   {
+    "id": "p_be02b20a02bab8da",
+    "errors": []
+   },
+   {
+    "id": "p_b4524f2c781790b5",
+    "errors": []
+   },
+   {
+    "id": "p_1396216fd8b3bfd6",
+    "errors": []
+   },
+   {
+    "id": "p_a976813b67d63505",
+    "errors": []
+   },
+   {
+    "id": "p_b02aa8f63f8e0de8",
+    "errors": []
+   },
+   {
+    "id": "p_2fe5e6de4b25cd49",
+    "errors": []
+   },
+   {
+    "id": "p_950cbade76b06a95",
+    "errors": []
+   },
+   {
+    "id": "p_cabdc87c9856ab34",
+    "errors": []
+   },
+   {
+    "id": "p_435220341f4e51e9",
+    "errors": []
+   },
+   {
+    "id": "p_2dd6d949b0e1875e",
+    "errors": []
+   },
+   {
+    "id": "p_7fbc3c65e363436e",
+    "errors": []
+   },
+   {
+    "id": "p_67a3db2254ea51d0",
+    "errors": []
+   },
+   {
+    "id": "p_4a9cf39b1b7b6b57",
+    "errors": []
+   },
+   {
+    "id": "p_b1cd757b916c527c",
+    "errors": []
+   },
+   {
+    "id": "p_bf3fd07cddc00529",
+    "errors": []
+   },
+   {
+    "id": "p_9b33ecfd38b451ec",
+    "errors": []
+   },
+   {
+    "id": "p_3d336368acb22413",
+    "errors": []
+   },
+   {
+    "id": "p_be4987da8c0e6b1d",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "'Các mốc tham chiếu khỏe mạnh' is an awkward literal rendering; 'các mẫu khỏe mạnh dùng làm đối chứng' would naturally express the intended comparison."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 51.8,
+  "usage": {
+   "input_tokens": 27112,
+   "cached_input_tokens": 13440,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2008,
+   "reasoning_output_tokens": 1011
+  }
+ }
+}

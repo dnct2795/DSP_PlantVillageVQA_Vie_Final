@@ -1,0 +1,387 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_4b24125219968f32",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_31ee490fe791aa84",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_186631ddda770bbf",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_28dc4ae162bd80bd",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_d3ae17456de67e66",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_307c3ace36f44ba0",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_6c0cfe6398b6f318",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_21545dc764651bcd",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_cdb5ae04105a10ec",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_2430d1e007886888",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm dạng hình bia."
+   },
+   {
+    "id": "p_f7eacbbbd5b3001a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_82c538b3272ec810",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_634054dc0063249a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_0b05973f162022c7",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_809f60a82ec3566a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_4930cf50d896cd9d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_f9e9be855edd90bb",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_8e25f43cd6e08102",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_6645a1ac399d149f",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_c4e6667b5f1ce9bf",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_57b0abecd6a829eb",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mảnh là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_9035a40c74f58a76",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_676081294f88d369",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_207199c5f6171e24",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm dạng hình bia trong các đốm."
+   },
+   {
+    "id": "p_a994e5bd0dbaf9c8",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_cf16fc8f53274ff5",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is a Grape leaf suffering from Esca Black Measles.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là lá nho bị bệnh Esca (sởi đen)."
+   },
+   {
+    "id": "p_e138ca1bbc0d9f02",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_cea65f34d5ecf50e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_a102b7353680558e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_77dcd96c37d4a610",
+    "question_type": "Comprehensive Description",
+    "question_en": "Characterize the main focal point and distinctive elements visible in this photograph.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy mô tả đặc điểm của trọng tâm chính và các yếu tố nổi bật có thể nhìn thấy trong bức ảnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_4b24125219968f32",
+    "errors": []
+   },
+   {
+    "id": "p_31ee490fe791aa84",
+    "errors": []
+   },
+   {
+    "id": "p_186631ddda770bbf",
+    "errors": []
+   },
+   {
+    "id": "p_28dc4ae162bd80bd",
+    "errors": []
+   },
+   {
+    "id": "p_d3ae17456de67e66",
+    "errors": []
+   },
+   {
+    "id": "p_307c3ace36f44ba0",
+    "errors": []
+   },
+   {
+    "id": "p_6c0cfe6398b6f318",
+    "errors": []
+   },
+   {
+    "id": "p_21545dc764651bcd",
+    "errors": []
+   },
+   {
+    "id": "p_cdb5ae04105a10ec",
+    "errors": []
+   },
+   {
+    "id": "p_2430d1e007886888",
+    "errors": []
+   },
+   {
+    "id": "p_f7eacbbbd5b3001a",
+    "errors": []
+   },
+   {
+    "id": "p_82c538b3272ec810",
+    "errors": []
+   },
+   {
+    "id": "p_634054dc0063249a",
+    "errors": []
+   },
+   {
+    "id": "p_0b05973f162022c7",
+    "errors": []
+   },
+   {
+    "id": "p_809f60a82ec3566a",
+    "errors": []
+   },
+   {
+    "id": "p_4930cf50d896cd9d",
+    "errors": []
+   },
+   {
+    "id": "p_f9e9be855edd90bb",
+    "errors": []
+   },
+   {
+    "id": "p_8e25f43cd6e08102",
+    "errors": []
+   },
+   {
+    "id": "p_6645a1ac399d149f",
+    "errors": []
+   },
+   {
+    "id": "p_c4e6667b5f1ce9bf",
+    "errors": []
+   },
+   {
+    "id": "p_57b0abecd6a829eb",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is repetitive and awkward Vietnamese for “stippling.”"
+     }
+    ]
+   },
+   {
+    "id": "p_9035a40c74f58a76",
+    "errors": []
+   },
+   {
+    "id": "p_676081294f88d369",
+    "errors": []
+   },
+   {
+    "id": "p_207199c5f6171e24",
+    "errors": []
+   },
+   {
+    "id": "p_a994e5bd0dbaf9c8",
+    "errors": []
+   },
+   {
+    "id": "p_cf16fc8f53274ff5",
+    "errors": []
+   },
+   {
+    "id": "p_e138ca1bbc0d9f02",
+    "errors": []
+   },
+   {
+    "id": "p_cea65f34d5ecf50e",
+    "errors": []
+   },
+   {
+    "id": "p_a102b7353680558e",
+    "errors": []
+   },
+   {
+    "id": "p_77dcd96c37d4a610",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.1,
+  "usage": {
+   "input_tokens": 12750,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1051,
+   "reasoning_output_tokens": 497
+  }
+ }
+}

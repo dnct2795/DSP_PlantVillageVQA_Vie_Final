@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_c6152552d87e299b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Apple",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_59df7be4b899b707",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Blueberry",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_84b4826e34918f8e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Cherry",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_5011102a921b6951",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Corn",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_a5c4cebee7c1de0a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Grape",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_e3e4e01f11224188",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Orange",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_bc5f7cbb4ace3452",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Peach",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_3190ec19fdf7c72c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_8ef8b0249ddc4621",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Potato",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_67caa4b502b89415",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Raspberry",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_b9f121c837cec05f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Soybean",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_a028495d147466d2",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Squash",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_b9e98e3b6a7adee1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Strawberry",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_ab6b39887bf97f7b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "answer_en": "Tomato",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_8ba9c577b9d4ad92",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Apple",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_13683479d04f6006",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Blueberry",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_f3cadde52bcfac25",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Cherry",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_9d88e62a547c575e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Corn",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_7aaa3f501aa678c6",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Grape",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_ea140bb5956b5e30",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Orange",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_dea31a3c648b0a24",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Peach",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_d128a41b2850d378",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_44904e24f46f69ad",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Potato",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_37772e1cc286d20b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Raspberry",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_13149e3f87bfcdea",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Soybean",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_0a2740fb891a2385",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Strawberry",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_33790e7606227809",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "answer_en": "Tomato",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_4369dbb6bff16106",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Blueberry",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_355428e1d45c9434",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Cherry",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_8c0636850fd41a8f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Corn",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_7a03397717a01b17",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Grape",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_e175ddc2916350b3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Orange",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_108a86bd10db424d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Peach",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_3305a2defc736513",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Potato",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_3a15d88a2274fd23",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Soybean",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_3beed430d41f5235",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Squash",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_f6687561ea1fd7cb",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Strawberry",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_86757644ffa17242",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "answer_en": "Tomato",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_7cf26cbfdfd9f74e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you verify this as citrus orange leaf tissue?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận đây là mô lá cam (cây có múi) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2ccda08c98f41fc3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you verify this as citrus orange leaf tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận đây là mô lá cam (cây có múi) không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_c6152552d87e299b",
+    "errors": []
+   },
+   {
+    "id": "p_59df7be4b899b707",
+    "errors": []
+   },
+   {
+    "id": "p_84b4826e34918f8e",
+    "errors": []
+   },
+   {
+    "id": "p_5011102a921b6951",
+    "errors": []
+   },
+   {
+    "id": "p_a5c4cebee7c1de0a",
+    "errors": []
+   },
+   {
+    "id": "p_e3e4e01f11224188",
+    "errors": []
+   },
+   {
+    "id": "p_bc5f7cbb4ace3452",
+    "errors": []
+   },
+   {
+    "id": "p_3190ec19fdf7c72c",
+    "errors": []
+   },
+   {
+    "id": "p_8ef8b0249ddc4621",
+    "errors": []
+   },
+   {
+    "id": "p_67caa4b502b89415",
+    "errors": []
+   },
+   {
+    "id": "p_b9f121c837cec05f",
+    "errors": []
+   },
+   {
+    "id": "p_a028495d147466d2",
+    "errors": []
+   },
+   {
+    "id": "p_b9e98e3b6a7adee1",
+    "errors": []
+   },
+   {
+    "id": "p_ab6b39887bf97f7b",
+    "errors": []
+   },
+   {
+    "id": "p_8ba9c577b9d4ad92",
+    "errors": []
+   },
+   {
+    "id": "p_13683479d04f6006",
+    "errors": []
+   },
+   {
+    "id": "p_f3cadde52bcfac25",
+    "errors": []
+   },
+   {
+    "id": "p_9d88e62a547c575e",
+    "errors": []
+   },
+   {
+    "id": "p_7aaa3f501aa678c6",
+    "errors": []
+   },
+   {
+    "id": "p_ea140bb5956b5e30",
+    "errors": []
+   },
+   {
+    "id": "p_dea31a3c648b0a24",
+    "errors": []
+   },
+   {
+    "id": "p_d128a41b2850d378",
+    "errors": []
+   },
+   {
+    "id": "p_44904e24f46f69ad",
+    "errors": []
+   },
+   {
+    "id": "p_37772e1cc286d20b",
+    "errors": []
+   },
+   {
+    "id": "p_13149e3f87bfcdea",
+    "errors": []
+   },
+   {
+    "id": "p_0a2740fb891a2385",
+    "errors": []
+   },
+   {
+    "id": "p_33790e7606227809",
+    "errors": []
+   },
+   {
+    "id": "p_4369dbb6bff16106",
+    "errors": []
+   },
+   {
+    "id": "p_355428e1d45c9434",
+    "errors": []
+   },
+   {
+    "id": "p_8c0636850fd41a8f",
+    "errors": []
+   },
+   {
+    "id": "p_7a03397717a01b17",
+    "errors": []
+   },
+   {
+    "id": "p_e175ddc2916350b3",
+    "errors": []
+   },
+   {
+    "id": "p_108a86bd10db424d",
+    "errors": []
+   },
+   {
+    "id": "p_3305a2defc736513",
+    "errors": []
+   },
+   {
+    "id": "p_3a15d88a2274fd23",
+    "errors": []
+   },
+   {
+    "id": "p_3beed430d41f5235",
+    "errors": []
+   },
+   {
+    "id": "p_f6687561ea1fd7cb",
+    "errors": []
+   },
+   {
+    "id": "p_86757644ffa17242",
+    "errors": []
+   },
+   {
+    "id": "p_7cf26cbfdfd9f74e",
+    "errors": []
+   },
+   {
+    "id": "p_2ccda08c98f41fc3",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 26.8,
+  "usage": {
+   "input_tokens": 12439,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1212,
+   "reasoning_output_tokens": 516
+  }
+ }
+}

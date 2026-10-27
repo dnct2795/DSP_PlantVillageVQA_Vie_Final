@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_8a6d6b629bffa9e3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you classify this foliage as exhibiting wellness indicators?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phân loại tán lá này là có biểu hiện khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_94d64d843fdba54d",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you classify this foliage as exhibiting wellness indicators?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phân loại tán lá này là có biểu hiện khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_341dab5a0f0840fe",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm absence of disease-related tissue damage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là không có tổn thương mô do bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_95be2f3acf140f03",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm absence of disease-related tissue damage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là không có tổn thương mô do bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_17322e473e2878ea",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete absence of disease symptoms?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6305093730e67b1c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete absence of disease symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7c37ba0463880cf8",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete symptom absence?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_08dfd79d62fd5148",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm complete symptom absence?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có triệu chứng nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_82b16fd1ce4d3055",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm healthy growth indicators are present?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là có các dấu hiệu sinh trưởng khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f14b0a22e51d6ab2",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm healthy growth indicators are present?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là có các dấu hiệu sinh trưởng khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_84fb757333fca487",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm healthy status without stress or disease?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận tình trạng khỏe mạnh, không bị căng thẳng hay bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3e3cc8eaca32b35c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm ideal physiological processes are occurring?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là các quá trình sinh lý đang diễn ra lý tưởng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_823040158b5fea38",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm ideal physiological processes are occurring?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là các quá trình sinh lý đang diễn ra lý tưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2433ae10681f283b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm lack of stress factors and disease?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là không có các yếu tố căng thẳng và bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7f4348b54f9b819f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm lack of stress factors and disease?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là không có các yếu tố căng thẳng và bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a289f9e8b23b9442",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm pathological affliction in this foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là tán lá này bị bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8ccff35a226a465e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm pathological affliction in this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là tán lá này bị bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b0220cef6bc26325",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this plant shows ideal wellness?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_06108b694da673ba",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this plant shows ideal wellness?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c8385e94a93bbb4a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this specimen displays healthy status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là mẫu này có tình trạng khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5d12bfecd9641d21",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this specimen displays healthy status?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là mẫu này có tình trạng khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ebde53bf772bf534",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this vegetation is prospering?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là thảm thực vật này đang phát triển tốt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_34da459366f8e74f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this vegetation is prospering?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là thảm thực vật này đang phát triển tốt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_51918d388170ccd6",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm total lack of disease indicators?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5484bb3eff6b7c67",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm total lack of disease indicators?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1fed7a610a3ffc9b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm traits consistent with disease-free condition?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là có các đặc điểm phù hợp với tình trạng sạch bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_982dcae1e1bc4f7e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm traits consistent with disease-free condition?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là có các đặc điểm phù hợp với tình trạng sạch bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_728e8777005f9250",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm zero pathological conditions present?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có tình trạng bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4fa66993c2e7d7ff",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm zero pathological conditions present?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn không có tình trạng bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_dd3a22f174549c50",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological indicators in the tissue?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu bệnh lý trong mô không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6594d246afe4f393",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological indicators in the tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu bệnh lý trong mô không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3789c4474299c3bc",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological traits in this foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm bệnh lý trên tán lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b5ebbc11c756c9bc",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect pathological traits in this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm bệnh lý trên tán lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4473155e8e6c3079",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs indicating absence of pathogens?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu cho thấy không có tác nhân gây bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5a069556ba63bae2",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs indicating absence of pathogens?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu cho thấy không có tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b36c9933e6c6e4e5",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of pathogen presence on this foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu có sự hiện diện của tác nhân gây bệnh trên tán lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7aa2d03263f3d6f7",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of pathogen presence on this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu có sự hiện diện của tác nhân gây bệnh trên tán lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f822c0656239a5e5",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of physiological health?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của sức khỏe sinh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d0f43dba407131db",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of physiological health?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của sức khỏe sinh lý không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_8a6d6b629bffa9e3",
+    "errors": []
+   },
+   {
+    "id": "p_94d64d843fdba54d",
+    "errors": []
+   },
+   {
+    "id": "p_341dab5a0f0840fe",
+    "errors": []
+   },
+   {
+    "id": "p_95be2f3acf140f03",
+    "errors": []
+   },
+   {
+    "id": "p_17322e473e2878ea",
+    "errors": []
+   },
+   {
+    "id": "p_6305093730e67b1c",
+    "errors": []
+   },
+   {
+    "id": "p_7c37ba0463880cf8",
+    "errors": []
+   },
+   {
+    "id": "p_08dfd79d62fd5148",
+    "errors": []
+   },
+   {
+    "id": "p_82b16fd1ce4d3055",
+    "errors": []
+   },
+   {
+    "id": "p_f14b0a22e51d6ab2",
+    "errors": []
+   },
+   {
+    "id": "p_84fb757333fca487",
+    "errors": []
+   },
+   {
+    "id": "p_3e3cc8eaca32b35c",
+    "errors": []
+   },
+   {
+    "id": "p_823040158b5fea38",
+    "errors": []
+   },
+   {
+    "id": "p_2433ae10681f283b",
+    "errors": []
+   },
+   {
+    "id": "p_7f4348b54f9b819f",
+    "errors": []
+   },
+   {
+    "id": "p_a289f9e8b23b9442",
+    "errors": []
+   },
+   {
+    "id": "p_8ccff35a226a465e",
+    "errors": []
+   },
+   {
+    "id": "p_b0220cef6bc26325",
+    "errors": []
+   },
+   {
+    "id": "p_06108b694da673ba",
+    "errors": []
+   },
+   {
+    "id": "p_c8385e94a93bbb4a",
+    "errors": []
+   },
+   {
+    "id": "p_5d12bfecd9641d21",
+    "errors": []
+   },
+   {
+    "id": "p_ebde53bf772bf534",
+    "errors": []
+   },
+   {
+    "id": "p_34da459366f8e74f",
+    "errors": []
+   },
+   {
+    "id": "p_51918d388170ccd6",
+    "errors": []
+   },
+   {
+    "id": "p_5484bb3eff6b7c67",
+    "errors": []
+   },
+   {
+    "id": "p_1fed7a610a3ffc9b",
+    "errors": []
+   },
+   {
+    "id": "p_982dcae1e1bc4f7e",
+    "errors": []
+   },
+   {
+    "id": "p_728e8777005f9250",
+    "errors": []
+   },
+   {
+    "id": "p_4fa66993c2e7d7ff",
+    "errors": []
+   },
+   {
+    "id": "p_dd3a22f174549c50",
+    "errors": []
+   },
+   {
+    "id": "p_6594d246afe4f393",
+    "errors": []
+   },
+   {
+    "id": "p_3789c4474299c3bc",
+    "errors": []
+   },
+   {
+    "id": "p_b5ebbc11c756c9bc",
+    "errors": []
+   },
+   {
+    "id": "p_4473155e8e6c3079",
+    "errors": []
+   },
+   {
+    "id": "p_5a069556ba63bae2",
+    "errors": []
+   },
+   {
+    "id": "p_b36c9933e6c6e4e5",
+    "errors": []
+   },
+   {
+    "id": "p_7aa2d03263f3d6f7",
+    "errors": []
+   },
+   {
+    "id": "p_f822c0656239a5e5",
+    "errors": []
+   },
+   {
+    "id": "p_d0f43dba407131db",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.7,
+  "usage": {
+   "input_tokens": 12237,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 886,
+   "reasoning_output_tokens": 200
+  }
+ }
+}

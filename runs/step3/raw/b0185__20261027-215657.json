@@ -1,0 +1,405 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_9d2c825f6a922f42",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_5bcfeff98fe1922b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_221f13b96be6246f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_e410482e4478ff42",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_ff5b570d303f7817",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_e84ba9e01f27bd73",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_63700df34c8202b4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_e0397548a75c984e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_c9e1acbda700099b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_be91160edd8c112c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu quan trọng của bệnh mốc sương."
+   },
+   {
+    "id": "p_42a654e913d695b8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_1a7503075453e18f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_9bdc210638bbd73b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_22c1472b528a5d1e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_44620de2a0a339cb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b18cb3510bb2e5a0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_1168aaec240a0e84",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_9c9505b29e594bbf",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_371b59e7c2afeba1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_c6038ba9daad18a4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý nào."
+   },
+   {
+    "id": "p_a70f9f9c4a77c744",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_433405362cb78477",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_a223b8b668dd7997",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_42d75824b4f356f9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_28099e2840726876",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_456970464086b69d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_71df6dd2ff94b953",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_a38cbbca4adff1f4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_844e513f3c0d018b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_8cd968a19dff3d55",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_1e18464c2ff35f6c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Đây là tổn hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_a7fb27f57321197f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you identify any pathological conditions affecting this tomato foliage?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể xác định tình trạng bệnh lý nào đang ảnh hưởng đến tán lá cà chua này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_9d2c825f6a922f42",
+    "errors": []
+   },
+   {
+    "id": "p_5bcfeff98fe1922b",
+    "errors": []
+   },
+   {
+    "id": "p_221f13b96be6246f",
+    "errors": []
+   },
+   {
+    "id": "p_e410482e4478ff42",
+    "errors": []
+   },
+   {
+    "id": "p_ff5b570d303f7817",
+    "errors": []
+   },
+   {
+    "id": "p_e84ba9e01f27bd73",
+    "errors": []
+   },
+   {
+    "id": "p_63700df34c8202b4",
+    "errors": []
+   },
+   {
+    "id": "p_e0397548a75c984e",
+    "errors": []
+   },
+   {
+    "id": "p_c9e1acbda700099b",
+    "errors": []
+   },
+   {
+    "id": "p_be91160edd8c112c",
+    "errors": []
+   },
+   {
+    "id": "p_42a654e913d695b8",
+    "errors": []
+   },
+   {
+    "id": "p_1a7503075453e18f",
+    "errors": []
+   },
+   {
+    "id": "p_9bdc210638bbd73b",
+    "errors": []
+   },
+   {
+    "id": "p_22c1472b528a5d1e",
+    "errors": []
+   },
+   {
+    "id": "p_44620de2a0a339cb",
+    "errors": []
+   },
+   {
+    "id": "p_b18cb3510bb2e5a0",
+    "errors": []
+   },
+   {
+    "id": "p_1168aaec240a0e84",
+    "errors": []
+   },
+   {
+    "id": "p_9c9505b29e594bbf",
+    "errors": []
+   },
+   {
+    "id": "p_371b59e7c2afeba1",
+    "errors": []
+   },
+   {
+    "id": "p_c6038ba9daad18a4",
+    "errors": []
+   },
+   {
+    "id": "p_a70f9f9c4a77c744",
+    "errors": []
+   },
+   {
+    "id": "p_433405362cb78477",
+    "errors": []
+   },
+   {
+    "id": "p_a223b8b668dd7997",
+    "errors": []
+   },
+   {
+    "id": "p_42d75824b4f356f9",
+    "errors": []
+   },
+   {
+    "id": "p_28099e2840726876",
+    "errors": []
+   },
+   {
+    "id": "p_456970464086b69d",
+    "errors": []
+   },
+   {
+    "id": "p_71df6dd2ff94b953",
+    "errors": []
+   },
+   {
+    "id": "p_a38cbbca4adff1f4",
+    "errors": []
+   },
+   {
+    "id": "p_844e513f3c0d018b",
+    "errors": []
+   },
+   {
+    "id": "p_8cd968a19dff3d55",
+    "errors": []
+   },
+   {
+    "id": "p_1e18464c2ff35f6c",
+    "errors": []
+   },
+   {
+    "id": "p_a7fb27f57321197f",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.0,
+  "usage": {
+   "input_tokens": 12711,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 860,
+   "reasoning_output_tokens": 300
+  }
+ }
+}

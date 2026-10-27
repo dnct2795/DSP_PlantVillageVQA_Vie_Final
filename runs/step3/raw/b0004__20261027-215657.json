@@ -1,0 +1,273 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_e460100e54a2ed0c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_8529a7a5b327e3cf",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_16ad7aa7af0e04c0",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_9433fa1026f77177",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_03cb9e8b3bfca986",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_1c693c6ec295ba69",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_ceea55bcd8d8d203",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_76c3d6b5ba7391be",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e7d3a1114eb47040",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_224389d34642b09f",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_12ad1e69ea6d3361",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua."
+   },
+   {
+    "id": "p_c12af0cfd34f6f44",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_06b761e18294824d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_12da80f3d80a69e6",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Những vết bệnh hình bia này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_cf4ffa2228d44262",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_7dda5adf132463ee",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn với viền sẫm màu."
+   },
+   {
+    "id": "p_cf732fba9c67c791",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_f220caec7b589de1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_1a7455532ec6f89d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_93c3a2fec03b9cef",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_c01a5cc79a5de87d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the etiology behind this citrus leaf's compromised state?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gây bệnh khiến lá cây có múi này suy yếu không?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_e460100e54a2ed0c",
+    "errors": []
+   },
+   {
+    "id": "p_8529a7a5b327e3cf",
+    "errors": []
+   },
+   {
+    "id": "p_16ad7aa7af0e04c0",
+    "errors": []
+   },
+   {
+    "id": "p_9433fa1026f77177",
+    "errors": []
+   },
+   {
+    "id": "p_03cb9e8b3bfca986",
+    "errors": []
+   },
+   {
+    "id": "p_1c693c6ec295ba69",
+    "errors": []
+   },
+   {
+    "id": "p_ceea55bcd8d8d203",
+    "errors": []
+   },
+   {
+    "id": "p_76c3d6b5ba7391be",
+    "errors": []
+   },
+   {
+    "id": "p_e7d3a1114eb47040",
+    "errors": []
+   },
+   {
+    "id": "p_224389d34642b09f",
+    "errors": []
+   },
+   {
+    "id": "p_12ad1e69ea6d3361",
+    "errors": []
+   },
+   {
+    "id": "p_c12af0cfd34f6f44",
+    "errors": []
+   },
+   {
+    "id": "p_06b761e18294824d",
+    "errors": []
+   },
+   {
+    "id": "p_12da80f3d80a69e6",
+    "errors": []
+   },
+   {
+    "id": "p_cf4ffa2228d44262",
+    "errors": []
+   },
+   {
+    "id": "p_7dda5adf132463ee",
+    "errors": []
+   },
+   {
+    "id": "p_cf732fba9c67c791",
+    "errors": []
+   },
+   {
+    "id": "p_f220caec7b589de1",
+    "errors": []
+   },
+   {
+    "id": "p_1a7455532ec6f89d",
+    "errors": []
+   },
+   {
+    "id": "p_93c3a2fec03b9cef",
+    "errors": []
+   },
+   {
+    "id": "p_c01a5cc79a5de87d",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 8.8,
+  "usage": {
+   "input_tokens": 11412,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 628,
+   "reasoning_output_tokens": 248
+  }
+ }
+}

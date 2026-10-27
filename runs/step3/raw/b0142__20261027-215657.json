@@ -1,0 +1,441 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_a73175646b09e58c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3f0575f8a85ed2a2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_203ed93334769f74",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_dadda707e962e10a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_3d29231795af938d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có."
+   },
+   {
+    "id": "p_9ff59e440819b0e5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_9626ed397e245448",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3cd18472459ce9ae",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting characteristics separate this plant from optimal health references?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt cây này với các tham chiếu về tình trạng sức khỏe tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_412439e05b516118",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn với dạng hình bia."
+   },
+   {
+    "id": "p_efdb2d67a93f1904",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_874ae447e028c1e9",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_748dc2285acd2e55",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_4345c573f15418a0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_0e380265f3d3434b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What contrasting features distinguish this specimen from healthy reference points?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm tương phản nào phân biệt mẫu này với các mốc tham chiếu khỏe mạnh?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_f833dbb1e8fd25e0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_8528c6cbfda85621",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_6f289f061c933036",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_2381e7112024ed8a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_4c3e7b76cbc290e4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_92609caf1bab2458",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn với dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_a08079dfcb4cc6d5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_b5d4d626b8e24452",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_c5be275f24b787a2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_57097bd4dd02679a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_20b3c706c4d4ecf8",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_6c9278478758392e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_4169261017dad72c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có."
+   },
+   {
+    "id": "p_49f5f78756550597",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_e2ea814a6d12ebfc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_65fd7f98f96d12ad",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating features separate this plant from healthy reference standards?",
+    "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm khác biệt nào phân biệt cây này với các tiêu chuẩn tham chiếu khỏe mạnh?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_63e52edf07e70866",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would be missing in a healthy version of this plant?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không có ở một cây khỏe mạnh thuộc loại này?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_12c02e418ab28510",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would be missing in a healthy version of this plant?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không có ở một cây khỏe mạnh thuộc loại này?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_0f247d25db419c05",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would be missing in a healthy version of this plant?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không có ở một cây khỏe mạnh thuộc loại này?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_980cc20a9934d7ac",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would be missing in a healthy version of this plant?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không có ở một cây khỏe mạnh thuộc loại này?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn với dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_6ab8c32a459dcfb0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What disease indicators would be missing in a healthy version of this plant?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu bệnh nào sẽ không có ở một cây khỏe mạnh thuộc loại này?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_a73175646b09e58c",
+    "errors": []
+   },
+   {
+    "id": "p_3f0575f8a85ed2a2",
+    "errors": []
+   },
+   {
+    "id": "p_203ed93334769f74",
+    "errors": []
+   },
+   {
+    "id": "p_dadda707e962e10a",
+    "errors": []
+   },
+   {
+    "id": "p_3d29231795af938d",
+    "errors": []
+   },
+   {
+    "id": "p_9ff59e440819b0e5",
+    "errors": []
+   },
+   {
+    "id": "p_9626ed397e245448",
+    "errors": []
+   },
+   {
+    "id": "p_3cd18472459ce9ae",
+    "errors": []
+   },
+   {
+    "id": "p_412439e05b516118",
+    "errors": []
+   },
+   {
+    "id": "p_efdb2d67a93f1904",
+    "errors": []
+   },
+   {
+    "id": "p_874ae447e028c1e9",
+    "errors": []
+   },
+   {
+    "id": "p_748dc2285acd2e55",
+    "errors": []
+   },
+   {
+    "id": "p_4345c573f15418a0",
+    "errors": []
+   },
+   {
+    "id": "p_0e380265f3d3434b",
+    "errors": []
+   },
+   {
+    "id": "p_f833dbb1e8fd25e0",
+    "errors": []
+   },
+   {
+    "id": "p_8528c6cbfda85621",
+    "errors": []
+   },
+   {
+    "id": "p_6f289f061c933036",
+    "errors": []
+   },
+   {
+    "id": "p_2381e7112024ed8a",
+    "errors": []
+   },
+   {
+    "id": "p_4c3e7b76cbc290e4",
+    "errors": []
+   },
+   {
+    "id": "p_92609caf1bab2458",
+    "errors": []
+   },
+   {
+    "id": "p_a08079dfcb4cc6d5",
+    "errors": []
+   },
+   {
+    "id": "p_b5d4d626b8e24452",
+    "errors": []
+   },
+   {
+    "id": "p_c5be275f24b787a2",
+    "errors": []
+   },
+   {
+    "id": "p_57097bd4dd02679a",
+    "errors": []
+   },
+   {
+    "id": "p_20b3c706c4d4ecf8",
+    "errors": []
+   },
+   {
+    "id": "p_6c9278478758392e",
+    "errors": []
+   },
+   {
+    "id": "p_4169261017dad72c",
+    "errors": []
+   },
+   {
+    "id": "p_49f5f78756550597",
+    "errors": []
+   },
+   {
+    "id": "p_e2ea814a6d12ebfc",
+    "errors": []
+   },
+   {
+    "id": "p_65fd7f98f96d12ad",
+    "errors": []
+   },
+   {
+    "id": "p_63e52edf07e70866",
+    "errors": []
+   },
+   {
+    "id": "p_12c02e418ab28510",
+    "errors": []
+   },
+   {
+    "id": "p_0f247d25db419c05",
+    "errors": []
+   },
+   {
+    "id": "p_980cc20a9934d7ac",
+    "errors": []
+   },
+   {
+    "id": "p_6ab8c32a459dcfb0",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 49.7,
+  "usage": {
+   "input_tokens": 13578,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 761,
+   "reasoning_output_tokens": 156
+  }
+ }
+}

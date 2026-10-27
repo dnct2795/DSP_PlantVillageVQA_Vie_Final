@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_d5712855e7386c53",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you verify this as potato leaf tissue?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận đây là mô lá khoai tây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_16ece9f9fbe64511",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you verify this as potato leaf tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận đây là mô lá khoai tây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4140c62c05526252",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_e5a4ede40b6f86b8",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_abda28167916850e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_baa36ab97e41b83c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_a0bbddbeea26e430",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_09b740e64444351f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_95c76a769ce5f7e5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_79dec2938cf93406",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_a13c50a70a94d4c1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_3dd60def40102a90",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_c89c36e0e19c68ea",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_c90a46b104497f2c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_4006d0c0a4170715",
+    "question_type": "Plant Species Identification",
+    "question_en": "Categorize this plant according to its scientific nomenclature.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy phân loại cây này theo danh pháp khoa học của nó.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_edb310d626dea2d4",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_8dba7e142f750856",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Blueberry",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_619f8e826a402053",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_443fec3eef6f1765",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_d1e85b6df6d8cfb0",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_cf90eda5461fd88f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_98c34091910cab08",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_3224601696b8ea42",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_c9a6a26fec67beb0",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Raspberry",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_84269289f9ed6ec1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_1f507dfb5bbd15de",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Squash",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_92ece8572d61f313",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_5a4c779de0157092",
+    "question_type": "Plant Species Identification",
+    "question_en": "Characterize this vegetation based on its taxonomic features.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy mô tả đặc điểm của thực vật này dựa trên các đặc trưng phân loại học của nó.",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_69334b3c55a53e1f",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Apple",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_109a7e305392546e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Cherry",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_2ae5fc2157622a55",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Corn",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_1de64231e9940503",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Grape",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_98d81d080060c16e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Orange",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_c97a07bab1952b5e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Peach",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_2dd6d949b0e1875e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Pepper bell",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_cdb222d01fbf319e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Potato",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_66228556c499d7e9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Raspberry",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_0c8e897ef59ddbb7",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Soybean",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_2fb32eef34c2f4ca",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Strawberry",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_5a00ca9eff87a1c4",
+    "question_type": "Plant Species Identification",
+    "question_en": "Classify this flora according to its species designation.",
+    "answer_en": "Tomato",
+    "question_vi": "Hãy phân loại thực vật này theo tên loài của nó.",
+    "answer_vi": "Cà chua"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_d5712855e7386c53",
+    "errors": []
+   },
+   {
+    "id": "p_16ece9f9fbe64511",
+    "errors": []
+   },
+   {
+    "id": "p_4140c62c05526252",
+    "errors": []
+   },
+   {
+    "id": "p_e5a4ede40b6f86b8",
+    "errors": []
+   },
+   {
+    "id": "p_abda28167916850e",
+    "errors": []
+   },
+   {
+    "id": "p_baa36ab97e41b83c",
+    "errors": []
+   },
+   {
+    "id": "p_a0bbddbeea26e430",
+    "errors": []
+   },
+   {
+    "id": "p_09b740e64444351f",
+    "errors": []
+   },
+   {
+    "id": "p_95c76a769ce5f7e5",
+    "errors": []
+   },
+   {
+    "id": "p_79dec2938cf93406",
+    "errors": []
+   },
+   {
+    "id": "p_a13c50a70a94d4c1",
+    "errors": []
+   },
+   {
+    "id": "p_3dd60def40102a90",
+    "errors": []
+   },
+   {
+    "id": "p_c89c36e0e19c68ea",
+    "errors": []
+   },
+   {
+    "id": "p_c90a46b104497f2c",
+    "errors": []
+   },
+   {
+    "id": "p_4006d0c0a4170715",
+    "errors": []
+   },
+   {
+    "id": "p_edb310d626dea2d4",
+    "errors": []
+   },
+   {
+    "id": "p_8dba7e142f750856",
+    "errors": []
+   },
+   {
+    "id": "p_619f8e826a402053",
+    "errors": []
+   },
+   {
+    "id": "p_443fec3eef6f1765",
+    "errors": []
+   },
+   {
+    "id": "p_d1e85b6df6d8cfb0",
+    "errors": []
+   },
+   {
+    "id": "p_cf90eda5461fd88f",
+    "errors": []
+   },
+   {
+    "id": "p_98c34091910cab08",
+    "errors": []
+   },
+   {
+    "id": "p_3224601696b8ea42",
+    "errors": []
+   },
+   {
+    "id": "p_c9a6a26fec67beb0",
+    "errors": []
+   },
+   {
+    "id": "p_84269289f9ed6ec1",
+    "errors": []
+   },
+   {
+    "id": "p_1f507dfb5bbd15de",
+    "errors": []
+   },
+   {
+    "id": "p_92ece8572d61f313",
+    "errors": []
+   },
+   {
+    "id": "p_5a4c779de0157092",
+    "errors": []
+   },
+   {
+    "id": "p_69334b3c55a53e1f",
+    "errors": []
+   },
+   {
+    "id": "p_109a7e305392546e",
+    "errors": []
+   },
+   {
+    "id": "p_2ae5fc2157622a55",
+    "errors": []
+   },
+   {
+    "id": "p_1de64231e9940503",
+    "errors": []
+   },
+   {
+    "id": "p_98d81d080060c16e",
+    "errors": []
+   },
+   {
+    "id": "p_c97a07bab1952b5e",
+    "errors": []
+   },
+   {
+    "id": "p_2dd6d949b0e1875e",
+    "errors": []
+   },
+   {
+    "id": "p_cdb222d01fbf319e",
+    "errors": []
+   },
+   {
+    "id": "p_66228556c499d7e9",
+    "errors": []
+   },
+   {
+    "id": "p_0c8e897ef59ddbb7",
+    "errors": []
+   },
+   {
+    "id": "p_2fb32eef34c2f4ca",
+    "errors": []
+   },
+   {
+    "id": "p_5a00ca9eff87a1c4",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 14.4,
+  "usage": {
+   "input_tokens": 12498,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 842,
+   "reasoning_output_tokens": 147
+  }
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_820afdfd8308a1fb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_477fa57502ae0bac",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_67f82c94caa8b048",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_df6053896ceb0f92",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_c46c74fbbb7fb75a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_49b039cef200aa9a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Nguyên nhân là nấm Alternaria solani, tác nhân gây bệnh đốm vòng."
+   },
+   {
+    "id": "p_b1cd757b916c527c",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh HLB."
+   },
+   {
+    "id": "p_3342e356c3cb0d2a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_fd3ca468c7003412",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e8afc322076caab2",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_3c78c1ba4835cf13",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_abd3f7e0f633de79",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_daf8fb238b036790",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The symptoms are characteristic of Leaf blight Isariopsis Leaf Spot.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh cháy lá (đốm lá Isariopsis)."
+   },
+   {
+    "id": "p_f2a838b1c1fe6ce7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The symptoms are characteristic of Powdery mildew.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh phấn trắng."
+   },
+   {
+    "id": "p_ca7c714ebc3ab407",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_427fc541b4681201",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_98eea925cae973e5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_e1b8fe778928fc41",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_ebe20ff52656bf98",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_884312568e5be255",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you determine the underlying cause of these symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể xác định nguyên nhân gốc rễ của những triệu chứng này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_820afdfd8308a1fb",
+    "errors": []
+   },
+   {
+    "id": "p_477fa57502ae0bac",
+    "errors": []
+   },
+   {
+    "id": "p_67f82c94caa8b048",
+    "errors": []
+   },
+   {
+    "id": "p_df6053896ceb0f92",
+    "errors": []
+   },
+   {
+    "id": "p_c46c74fbbb7fb75a",
+    "errors": []
+   },
+   {
+    "id": "p_49b039cef200aa9a",
+    "errors": []
+   },
+   {
+    "id": "p_b1cd757b916c527c",
+    "errors": []
+   },
+   {
+    "id": "p_3342e356c3cb0d2a",
+    "errors": []
+   },
+   {
+    "id": "p_fd3ca468c7003412",
+    "errors": []
+   },
+   {
+    "id": "p_e8afc322076caab2",
+    "errors": []
+   },
+   {
+    "id": "p_3c78c1ba4835cf13",
+    "errors": []
+   },
+   {
+    "id": "p_abd3f7e0f633de79",
+    "errors": []
+   },
+   {
+    "id": "p_daf8fb238b036790",
+    "errors": []
+   },
+   {
+    "id": "p_f2a838b1c1fe6ce7",
+    "errors": []
+   },
+   {
+    "id": "p_ca7c714ebc3ab407",
+    "errors": []
+   },
+   {
+    "id": "p_427fc541b4681201",
+    "errors": []
+   },
+   {
+    "id": "p_98eea925cae973e5",
+    "errors": []
+   },
+   {
+    "id": "p_e1b8fe778928fc41",
+    "errors": []
+   },
+   {
+    "id": "p_ebe20ff52656bf98",
+    "errors": []
+   },
+   {
+    "id": "p_884312568e5be255",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.3,
+  "usage": {
+   "input_tokens": 11280,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 649,
+   "reasoning_output_tokens": 304
+  }
+ }
+}

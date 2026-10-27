@@ -1,0 +1,435 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_1203c5aa9b13f1eb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "Apple scab",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Bệnh ghẻ táo"
+   },
+   {
+    "id": "p_f66fb960d3a4cc0f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "Esca Black Measles",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Bệnh Esca (sởi đen)"
+   },
+   {
+    "id": "p_59caa6467b604182",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "Leaf blight Isariopsis Leaf Spot",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Bệnh cháy lá (đốm lá Isariopsis)"
+   },
+   {
+    "id": "p_6d96f595b6f29e63",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_bd66ae49e169eafd",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_5b3cc547d4a0342f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_8809b6f4c451577a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_88b56599463ac082",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_5dc20f9c46779405",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_e9ff439eb185790f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_71cbada0ebe98e95",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_a841db454f686c66",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_dc6b17e4646c3f5f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_ad708532d79460ca",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_31c53780df82e2b7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given the observable symptoms, what disease is present?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Dựa trên các triệu chứng quan sát được, đây là bệnh gì?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_9fb345ca0036479a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_04b6525c62de6a03",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "Esca Black Measles",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Bệnh Esca (sởi đen)"
+   },
+   {
+    "id": "p_22e1d56e6092a6c3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_ec673f4bc1030e2e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "Powdery mildew",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Bệnh phấn trắng"
+   },
+   {
+    "id": "p_c2336111b7b5b9af",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_97ba326ae4be0bf0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_49dd624f096a7cc8",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Tình trạng được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_a2d394864eca2e28",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_51f76ac09af16b71",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_63c6362f886617c9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_a3b1bc40721a959b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_9d83375dd4062c20",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_c0a0e1eec3814820",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_05a8d3f6282669fc",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_ca0b916787a545ae",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Các vết bệnh hình bia này là dấu hiệu đặc trưng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_4096d17bff3f02ce",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_1396216fd8b3bfd6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_2ddc6ac4649a800d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Given these manifestations, what is your formal assessment?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Dựa trên những biểu hiện này, đánh giá chính thức của bạn là gì?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_1203c5aa9b13f1eb",
+    "errors": []
+   },
+   {
+    "id": "p_f66fb960d3a4cc0f",
+    "errors": []
+   },
+   {
+    "id": "p_59caa6467b604182",
+    "errors": []
+   },
+   {
+    "id": "p_6d96f595b6f29e63",
+    "errors": []
+   },
+   {
+    "id": "p_bd66ae49e169eafd",
+    "errors": []
+   },
+   {
+    "id": "p_5b3cc547d4a0342f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Bệnh là bệnh đốm hình bia” redundantly repeats “bệnh.”"
+     }
+    ]
+   },
+   {
+    "id": "p_8809b6f4c451577a",
+    "errors": []
+   },
+   {
+    "id": "p_88b56599463ac082",
+    "errors": []
+   },
+   {
+    "id": "p_5dc20f9c46779405",
+    "errors": []
+   },
+   {
+    "id": "p_e9ff439eb185790f",
+    "errors": []
+   },
+   {
+    "id": "p_71cbada0ebe98e95",
+    "errors": []
+   },
+   {
+    "id": "p_a841db454f686c66",
+    "errors": []
+   },
+   {
+    "id": "p_dc6b17e4646c3f5f",
+    "errors": []
+   },
+   {
+    "id": "p_ad708532d79460ca",
+    "errors": []
+   },
+   {
+    "id": "p_31c53780df82e2b7",
+    "errors": []
+   },
+   {
+    "id": "p_9fb345ca0036479a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Bệnh vàng lá gân xanh” is repeated in the same sentence, making the synonym phrasing redundant."
+     }
+    ]
+   },
+   {
+    "id": "p_04b6525c62de6a03",
+    "errors": []
+   },
+   {
+    "id": "p_22e1d56e6092a6c3",
+    "errors": []
+   },
+   {
+    "id": "p_ec673f4bc1030e2e",
+    "errors": []
+   },
+   {
+    "id": "p_c2336111b7b5b9af",
+    "errors": []
+   },
+   {
+    "id": "p_97ba326ae4be0bf0",
+    "errors": []
+   },
+   {
+    "id": "p_49dd624f096a7cc8",
+    "errors": []
+   },
+   {
+    "id": "p_a2d394864eca2e28",
+    "errors": []
+   },
+   {
+    "id": "p_51f76ac09af16b71",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Bệnh là bệnh đốm hình bia” redundantly repeats “bệnh.”"
+     }
+    ]
+   },
+   {
+    "id": "p_63c6362f886617c9",
+    "errors": []
+   },
+   {
+    "id": "p_a3b1bc40721a959b",
+    "errors": []
+   },
+   {
+    "id": "p_9d83375dd4062c20",
+    "errors": []
+   },
+   {
+    "id": "p_c0a0e1eec3814820",
+    "errors": []
+   },
+   {
+    "id": "p_05a8d3f6282669fc",
+    "errors": []
+   },
+   {
+    "id": "p_ca0b916787a545ae",
+    "errors": []
+   },
+   {
+    "id": "p_4096d17bff3f02ce",
+    "errors": []
+   },
+   {
+    "id": "p_1396216fd8b3bfd6",
+    "errors": []
+   },
+   {
+    "id": "p_2ddc6ac4649a800d",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 16.9,
+  "usage": {
+   "input_tokens": 12567,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1180,
+   "reasoning_output_tokens": 496
+  }
+ }
+}

@@ -1,0 +1,711 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "smoke_crop_05",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What infectious agent, if any, is causing symptoms on this tomato leaf?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Tác nhân gây bệnh nào, nếu có, đang gây ra các triệu chứng trên lá khoai tây này?",
+    "answer_vi": "Tình trạng được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "smoke_crop_03",
+    "question_type": "Comprehensive Description",
+    "question_en": "Guide me through the leaf-related elements visible in this photograph.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá khoai tây (TYLCV)."
+   },
+   {
+    "id": "smoke_polarity_09",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there absence of both stress and disease markers?",
+    "answer_en": "Yes",
+    "question_vi": "Có hoàn toàn có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "smoke_polarity_01",
+    "question_type": "General Health Assessment",
+    "question_en": "Are there signs of physiological wellness and strength?",
+    "answer_en": "No",
+    "question_vi": "Có dấu hiệu của sự bị bệnh và cường tráng về mặt sinh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_control_04",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this plant shows ideal wellness?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "smoke_conditional_05",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this plant to healthy norms and identify the distinguishing factors.",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Hãy so sánh cây này với tiêu chuẩn khỏe mạnh và xác định các yếu tố khác biệt.",
+    "answer_vi": "Dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu không có."
+   },
+   {
+    "id": "smoke_crop_06",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease manifestation can be observed on this tomato foliage?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Có thể quan sát thấy biểu hiện bệnh nào trên lá khoai tây này?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "smoke_control_09",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Is there a white, dusty powder covering the leaf surface?",
+    "answer_en": "No",
+    "question_vi": "Có lớp bột trắng như bụi phủ lên bề mặt lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_crop_09",
+    "question_type": "Causal Reasoning",
+    "question_en": "What primary agent is at the core of this condition?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Tác nhân chính nào là cốt lõi của tình trạng này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá khoai tây."
+   },
+   {
+    "id": "smoke_polarity_06",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Lá này có khỏe mạnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_disease_01",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh mốc lá."
+   },
+   {
+    "id": "smoke_crop_01",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá khoai tây này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "smoke_polarity_02",
+    "question_type": "General Health Assessment",
+    "question_en": "Can clear signs of disease-free condition be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy dấu hiệu rõ ràng của tình trạng nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_control_03",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental factors are affecting this tomato leaf's health?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "smoke_disease_09",
+    "question_type": "Comprehensive Description",
+    "question_en": "Provide a comprehensive assessment of this plant's visual condition and wellness status.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy đưa ra đánh giá toàn diện về tình trạng hình thái và sức khỏe của cây này.",
+    "answer_vi": "Đây là bệnh đốm vòng, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "smoke_disease_08",
+    "question_type": "Causal Reasoning",
+    "question_en": "What specific factors have led to this tomato leaf's unhealthy manifestation?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh đốm vòng."
+   },
+   {
+    "id": "smoke_polarity_00",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm this plant shows ideal wellness?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận là cây này có tình trạng bị bệnh lý tưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "smoke_crop_04",
+    "question_type": "Causal Reasoning",
+    "question_en": "What specific factors have led to this tomato leaf's unhealthy manifestation?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá khoai tây này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "smoke_disease_05",
+    "question_type": "Comprehensive Description",
+    "question_en": "Would you provide a detailed visual assessment of this plant material?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Bạn có thể đưa ra đánh giá trực quan chi tiết về mẫu thực vật này không?",
+    "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh mốc sương."
+   },
+   {
+    "id": "smoke_control_00",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có."
+   },
+   {
+    "id": "smoke_conditional_03",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which observable features separate this specimen from healthy plant standards?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm quan sát được nào phân biệt mẫu này với các tiêu chuẩn của cây khỏe mạnh?",
+    "answer_vi": "Lá này không biểu hiện các đốm vàng đi kèm nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "smoke_polarity_08",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you confirm total lack of disease indicators?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận là hoàn toàn có dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_disease_03",
+    "question_type": "Comprehensive Description",
+    "question_en": "Review the photograph and deliver a comprehensive plant overview.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây.",
+    "answer_vi": "Chẩn đoán: bệnh khảm (Huanglongbing, HLB), hay bệnh khảm trên cây có múi."
+   },
+   {
+    "id": "smoke_conditional_08",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which disease symptoms would be absent following successful treatment?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng bệnh nào sẽ không còn sau khi điều trị thành công?",
+    "answer_vi": "Lá này không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "smoke_conditional_01",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Picture this plant in optimal condition - how would its appearance alter?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung cây này ở điều kiện tối ưu - hình dạng bên ngoài của nó sẽ thay đổi như thế nào?",
+    "answer_vi": "Lá này không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "smoke_disease_00",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh mốc sương, là nguyên nhân."
+   },
+   {
+    "id": "smoke_crop_08",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you ascertain the specific pathology present in this photograph?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể xác định bệnh cụ thể xuất hiện trong bức ảnh này không?",
+    "answer_vi": "Lá khoai tây này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "smoke_crop_00",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What disease, if any, is visible on this Potato leaf?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bệnh nào, nếu có, có thể nhìn thấy trên lá cà chua này?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "smoke_crop_02",
+    "question_type": "Causal Reasoning",
+    "question_en": "Can you identify the basic cause of these manifestations?",
+    "answer_en": "The plant is infected with Tomato Mosaic Virus.",
+    "question_vi": "Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không?",
+    "answer_vi": "Cây bị nhiễm virus khảm khoai tây."
+   },
+   {
+    "id": "smoke_conditional_02",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What visual features would return upon this specimen's complete health restoration?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại khi mẫu này hoàn toàn khỏe mạnh trở lại?",
+    "answer_vi": "Lá này không biểu hiện các triệu chứng bệnh."
+   },
+   {
+    "id": "smoke_conditional_06",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which pathological indicators would not exist in an uninfected specimen?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những dấu hiệu bệnh lý nào sẽ không có ở một mẫu không bị nhiễm bệnh?",
+    "answer_vi": "Các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá không có."
+   },
+   {
+    "id": "smoke_disease_06",
+    "question_type": "Comprehensive Description",
+    "question_en": "Guide me through the leaf-related elements visible in this photograph.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus đốm vi khuẩn cà chua (TYLCV)."
+   },
+   {
+    "id": "smoke_disease_02",
+    "question_type": "Causal Reasoning",
+    "question_en": "What rationale explains these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Lý do nào giải thích các triệu chứng này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh khảm (Huanglongbing)."
+   },
+   {
+    "id": "smoke_conditional_04",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this leaf with healthy foliage standards - what's most distinctive?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Hãy so sánh lá này với tiêu chuẩn của lá khỏe mạnh - điểm nổi bật nhất là gì?",
+    "answer_vi": "Lá này có màu xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "smoke_polarity_03",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify clear markers of disease-free status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_conditional_09",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Imagine this plant restored to wellness - how would its appearance change?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung cây này được phục hồi khỏe mạnh - hình dạng bên ngoài của nó sẽ thay đổi như thế nào?",
+    "answer_vi": "Lá này có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "smoke_conditional_07",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What differentiating elements separate this specimen from healthy standards?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh?",
+    "answer_vi": "Lá này có màu xanh đồng đều và không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "smoke_control_02",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "smoke_crop_07",
+    "question_type": "Comprehensive Description",
+    "question_en": "Review the photograph and deliver a comprehensive plant overview.",
+    "answer_en": "This is a Grape leaf suffering from Esca Black Measles.",
+    "question_vi": "Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây.",
+    "answer_vi": "Đây là lá táo bị bệnh Esca (sởi đen)."
+   },
+   {
+    "id": "smoke_disease_07",
+    "question_type": "Causal Reasoning",
+    "question_en": "What's behind this plant's compromised visual state?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh phấn trắng."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "smoke_crop_05",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "The question says “lá khoai tây” (potato leaf), but the English says tomato leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_03",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“virus xoăn vàng lá khoai tây” changes the crop; TYLCV is the tomato virus in the English answer."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_09",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“Có ... dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?” asks whether both markers are present, reversing the English question about their absence."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_01",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“sự bị bệnh” changes physiological wellness into illness, reversing the question’s proposition."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_04",
+    "errors": []
+   },
+   {
+    "id": "smoke_conditional_05",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits “If the plant were healthy”; “không có” presents the absence of pustules as a direct statement rather than a hypothetical."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_06",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "The question says “lá khoai tây” (potato leaf), but the English says tomato foliage."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_09",
+    "errors": []
+   },
+   {
+    "id": "smoke_crop_09",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“virus xoăn vàng lá khoai tây” changes the crop; the English names Tomato Yellow Leaf Curl Virus."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_06",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“có khỏe mạnh mốc lá không?” changes the question about suffering from Leaf Mold into an unclear question combining health and mold."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_01",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh mốc lá” is Leaf Mold, not the English Bacterial Spot disease."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_01",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "The question says “lá khoai tây” (potato leaf), but the English says tomato leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_02",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“tình trạng nhiễm bệnh” means infected condition, reversing the English question about a disease-free condition."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_03",
+    "errors": []
+   },
+   {
+    "id": "smoke_disease_09",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh đốm vòng” is Early Blight, whereas the English identifies Late Blight."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_08",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh đốm vòng” is Early Blight, whereas the English says Late Blight."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_00",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“tình trạng bị bệnh lý tưởng” asks about an ideal diseased condition, reversing “ideal wellness.”"
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_04",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "The question says “lá khoai tây” (potato leaf), but the English says tomato leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_05",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh mốc sương” is Late Blight, but the English identifies Early Blight."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_00",
+    "errors": []
+   },
+   {
+    "id": "smoke_conditional_03",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the hypothetical “A healthy version ... would not”; “Lá này không biểu hiện” states directly that this leaf lacks the symptoms."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_08",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“hoàn toàn có dấu hiệu bệnh” asks about having disease indicators, reversing the English question about their total absence."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_03",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh khảm” means mosaic disease, not Huanglongbing/citrus greening."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_08",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the hypothetical healthy-plant condition; “Lá này không biểu hiện” makes a direct claim about this leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_01",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits “A healthy version ... would not”; it instead directly says “Lá này không biểu hiện.”"
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_00",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh mốc sương” is Late Blight, but the English names Early Blight."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_08",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“Lá khoai tây này” changes the English tomato leaf to a potato leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_00",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "The question says “lá cà chua” (tomato leaf), but the English says potato leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_crop_02",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“virus khảm khoai tây” changes the crop; the English names Tomato Mosaic Virus."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_02",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the hypothetical healthy-version condition; “Lá này không biểu hiện” makes a direct claim about this leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_06",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits “If the plant were healthy”; it states directly that the spots and fungus are absent."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_06",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“virus đốm vi khuẩn cà chua” identifies bacterial spot rather than Tomato Yellow Leaf Curl Virus."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_02",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh khảm” means mosaic disease, not Huanglongbing."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_04",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits “A healthy leaf would be”; “Lá này có màu xanh đồng đều” states directly that this leaf is uniformly green."
+     }
+    ]
+   },
+   {
+    "id": "smoke_polarity_03",
+    "errors": [
+     {
+      "category": "polarity",
+      "severity": "critical",
+      "explanation": "“dấu hiệu ... tình trạng nhiễm bệnh” asks about signs of infection, reversing the English question about disease-free status."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_09",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the hypothetical “A healthy leaf would be”; “Lá này có màu xanh đồng đều” makes a direct claim about this leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_conditional_07",
+    "errors": [
+     {
+      "category": "omission",
+      "severity": "major",
+      "explanation": "The answer omits the hypothetical “A healthy leaf would be”; “Lá này có màu xanh đồng đều” makes a direct claim about this leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_control_02",
+    "errors": []
+   },
+   {
+    "id": "smoke_crop_07",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“lá táo” changes the English grape leaf to an apple leaf."
+     }
+    ]
+   },
+   {
+    "id": "smoke_disease_07",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "critical",
+      "explanation": "“bệnh phấn trắng” is Powdery Mildew, not Target Spot."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 26.3,
+  "usage": {
+   "input_tokens": 13202,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2712,
+   "reasoning_output_tokens": 876
+  }
+ }
+}

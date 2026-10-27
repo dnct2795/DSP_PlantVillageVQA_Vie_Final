@@ -1,0 +1,424 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_0eb74a7105ee",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "pairs": [
+     {
+      "pair_id": "p_89a4d706c118cc37",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_690787f7d2b2e462",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_232e27a0aa872c28",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1326eea5938f858d",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0a01500ab9879582",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c20fa57892e8feb4",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c3da345e84eb64ab",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_328243167aa314ad",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5615ad6e78958f0a",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dcde028c6458fbe7",
+      "answer_en": "Raspberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d3a6da6dac1be85d",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bef3d849c2b3a878",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_79e7ea88fd811f61",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_6e24480e8678",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "pairs": [
+     {
+      "pair_id": "p_e80acd41171f44f4",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f44bb2e0fd2d654b",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_30da1ea290b8a9cf",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ec272e7c05353235",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_cb2da4ce3063e0ca",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6d8321653fa86fb6",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6320acc1a9b3ffd8",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_065f74e236b10961",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d0853917b052bbe4",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0644a83c590d48fc",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0612770bd58e0c3a",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3015de63650e228a",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_dcfdb59415e7",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "pairs": [
+     {
+      "pair_id": "p_83f6c12ded6ac0b7",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_41956883c7232f93",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_742b149352975221",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_59a79d362191b3ea",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7f43c0036c2cb17a",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8d18df4fb3449bc3",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9aea3e16b14e889c",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c2d637591f5c4e2c",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_eea81d16e99367cc",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3c73247767ec9daa",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_46dca74efc328e96",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c4e2f3a518b8f2d1",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_0eb74a7105ee",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_89a4d706c118cc37",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_690787f7d2b2e462",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_232e27a0aa872c28",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_1326eea5938f858d",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_0a01500ab9879582",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_c20fa57892e8feb4",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_c3da345e84eb64ab",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_328243167aa314ad",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_5615ad6e78958f0a",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_dcde028c6458fbe7",
+      "answer_vi": "Mâm xôi"
+     },
+     {
+      "pair_id": "p_d3a6da6dac1be85d",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_bef3d849c2b3a878",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_79e7ea88fd811f61",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6e24480e8678",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "pairs": [
+     {
+      "pair_id": "p_e80acd41171f44f4",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_f44bb2e0fd2d654b",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_30da1ea290b8a9cf",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_ec272e7c05353235",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_cb2da4ce3063e0ca",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_6d8321653fa86fb6",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_6320acc1a9b3ffd8",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_065f74e236b10961",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_d0853917b052bbe4",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_0644a83c590d48fc",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_0612770bd58e0c3a",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_3015de63650e228a",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_dcfdb59415e7",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "pairs": [
+     {
+      "pair_id": "p_83f6c12ded6ac0b7",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_41956883c7232f93",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_742b149352975221",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_59a79d362191b3ea",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_7f43c0036c2cb17a",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_8d18df4fb3449bc3",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_9aea3e16b14e889c",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_c2d637591f5c4e2c",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_eea81d16e99367cc",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_3c73247767ec9daa",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_46dca74efc328e96",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_c4e2f3a518b8f2d1",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 18.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4145,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3136,
+   "output_tokens_details": {
+    "thinking_tokens": 150
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4145,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3136,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4145,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4145
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0484757,
+  "duration_ms": 15346,
+  "num_turns": 2,
+  "session_id": "a27dabff-de19-47a8-b599-f20f41dac4f7"
+ }
+}

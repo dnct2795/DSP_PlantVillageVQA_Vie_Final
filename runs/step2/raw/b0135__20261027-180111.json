@@ -1,0 +1,423 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_a30c8c4b76d6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this leaf with healthy foliage standards - what's most distinctive?",
+    "pairs": [
+     {
+      "pair_id": "p_683f34761f38a246",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b44750d7b2426ee8",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2636d1777266bbf8",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_73aa7f889cdb2355",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a21c9bbfd2ba26a2",
+      "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b817bbb546813f31",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c03b14abbad5147f",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e651812329e4763b",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9ffa96e88259237e",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_f379d0b489dc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this leaf's condition with healthy foliage standards - what's notable?",
+    "pairs": [
+     {
+      "pair_id": "p_0d52294918a6ebc5",
+      "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a3448248868f2c70",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_29be3efb8af77954",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_297e02f17fe20b50",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_210f286b3298839f",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ff3c97ca4e618053",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8d047b0dd28347a5",
+      "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_469248684439a60c",
+      "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2984cddecd611f2d",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_5ac048eac0bc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this plant with optimal health examples and note the variations.",
+    "pairs": [
+     {
+      "pair_id": "p_066396280beacbb6",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7a9e90ee1d32c25e",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b83bdf83fa317f90",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b455d2b49c85303a",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dd5e1b4b90022c5c",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_f48e2a5727ed",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this specimen with healthy leaves - what differences are most apparent?",
+    "pairs": [
+     {
+      "pair_id": "p_75f1c4bec31f04f3",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_903014197a9a6462",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0f13a7c7268e3961",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5a413e68197e202f",
+      "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_9aad95b94c60",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Contrast this specimen with optimal health examples and note the distinctions.",
+    "pairs": [
+     {
+      "pair_id": "p_cc26ca0b9ca635d1",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ff44b734b4b29416",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dbc8a9c76af6d41f",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c2fb3e4b4bfaa8c0",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2c208528c506ebaf",
+      "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0fdffe7a0cb6c953",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_78bdc8a372125c72",
+      "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_a30c8c4b76d6",
+    "question_vi": "Hãy so sánh lá này với tiêu chuẩn của lá khỏe mạnh - điểm nổi bật nhất là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_683f34761f38a246",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_b44750d7b2426ee8",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_2636d1777266bbf8",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_73aa7f889cdb2355",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_a21c9bbfd2ba26a2",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_b817bbb546813f31",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_c03b14abbad5147f",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     },
+     {
+      "pair_id": "p_e651812329e4763b",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_9ffa96e88259237e",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các triệu chứng bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_f379d0b489dc",
+    "question_vi": "Hãy so sánh tình trạng của lá này với tiêu chuẩn của lá khỏe mạnh - điều gì đáng chú ý?",
+    "pairs": [
+     {
+      "pair_id": "p_0d52294918a6ebc5",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn với dạng hình bia."
+     },
+     {
+      "pair_id": "p_a3448248868f2c70",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_29be3efb8af77954",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_297e02f17fe20b50",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_210f286b3298839f",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_ff3c97ca4e618053",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     },
+     {
+      "pair_id": "p_8d047b0dd28347a5",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+     },
+     {
+      "pair_id": "p_469248684439a60c",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm tròn với dạng hình bia."
+     },
+     {
+      "pair_id": "p_2984cddecd611f2d",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_5ac048eac0bc",
+    "question_vi": "Hãy so sánh cây này với các ví dụ về cây có sức khỏe tối ưu và nêu những điểm khác biệt.",
+    "pairs": [
+     {
+      "pair_id": "p_066396280beacbb6",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_7a9e90ee1d32c25e",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_b83bdf83fa317f90",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_b455d2b49c85303a",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_dd5e1b4b90022c5c",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các triệu chứng bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_f48e2a5727ed",
+    "question_vi": "Hãy so sánh mẫu này với những lá khỏe mạnh - những khác biệt nào rõ ràng nhất?",
+    "pairs": [
+     {
+      "pair_id": "p_75f1c4bec31f04f3",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_903014197a9a6462",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_0f13a7c7268e3961",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_5a413e68197e202f",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_9aad95b94c60",
+    "question_vi": "Hãy so sánh mẫu này với các ví dụ về cây có sức khỏe tối ưu và nêu những điểm khác biệt.",
+    "pairs": [
+     {
+      "pair_id": "p_cc26ca0b9ca635d1",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_ff44b734b4b29416",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_dbc8a9c76af6d41f",
+      "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_c2fb3e4b4bfaa8c0",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_2c208528c506ebaf",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+     },
+     {
+      "pair_id": "p_0fdffe7a0cb6c953",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_78bdc8a372125c72",
+      "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 19.9,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5055,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3180,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5055,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3180,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5055,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5055
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0525557,
+  "duration_ms": 17234,
+  "num_turns": 2,
+  "session_id": "15e42044-ba74-42db-bfe9-e7ef16dfc04e"
+ }
+}

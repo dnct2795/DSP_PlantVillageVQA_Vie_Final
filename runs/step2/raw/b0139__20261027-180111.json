@@ -1,0 +1,476 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_433be3be0021",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "If this specimen reached optimal health, what visual changes would be evident?",
+    "pairs": [
+     {
+      "pair_id": "p_e5badc318607ec2d",
+      "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_61976a7f4ed463fe",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8c55b3eead993345",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ceb07c34a49bf9a5",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_858cb25c11614b7c",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee9cf0fcbd5c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Imagine this plant in ideal wellness - how would its appearance transform?",
+    "pairs": [
+     {
+      "pair_id": "p_0d14293eadc209c3",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6f82ec8a84e68550",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_64e1a44cb1cd65b3",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_b0172f51a6ee",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Imagine this plant restored to wellness - how would its appearance change?",
+    "pairs": [
+     {
+      "pair_id": "p_6fec9d0911ed2562",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_47dbcbd1d82e7b9a",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_86ef0f32bde5c177",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1dc706bac3c4003d",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_c330db8f348cb398",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_94e3802ae538e6fb",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_dcb61a67a4b7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "In what ways does this plant's appearance differ from optimal health conditions?",
+    "pairs": [
+     {
+      "pair_id": "p_9d98e3b6f1bd8fc2",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_af85d9217a8ece12",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6465455bf5512b61",
+      "answer_en": "If the plant were healthy, the light-dark green mosaic arrangements would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d69d41fe0871321a",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_d7c269efce56",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "In what ways does this specimen visually diverge from healthy reference points?",
+    "pairs": [
+     {
+      "pair_id": "p_be4987da8c0e6b1d",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6d78c7880fc99c8b",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_77ea9b55bad1e312",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_586e51629229d9b9",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_e22aaac06101",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "In what ways does this specimen's appearance differ from healthy norms?",
+    "pairs": [
+     {
+      "pair_id": "p_1b4d2e2141a90ce3",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e3a01bec420a37e2",
+      "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_50137f387137d94b",
+      "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f2cee75276cbfbac",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_806fc48e0e3a6210",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1001ddaf8ecf0eb3",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_758dee42068599eb",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3fd5f122df672f3b",
+      "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_62e0737d28c4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Picture this plant in optimal condition - how would its appearance alter?",
+    "pairs": [
+     {
+      "pair_id": "p_ee8083f22e3d83e9",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e92c455add8253b8",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_187d861748e6150f",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_760662e6f9b204bd",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1d02d5cef3f8cd0b",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b70e59841a906ba5",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_32b3c230196ed191",
+      "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+      "is_yes_no": false
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_433be3be0021",
+    "question_vi": "Nếu mẫu này đạt được trạng thái sức khỏe tối ưu, những thay đổi nào về hình thái sẽ thể hiện rõ?",
+    "pairs": [
+     {
+      "pair_id": "p_e5badc318607ec2d",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn với dạng hình bia."
+     },
+     {
+      "pair_id": "p_61976a7f4ed463fe",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_8c55b3eead993345",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn với dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_ceb07c34a49bf9a5",
+      "answer_vi": "Nếu cây khỏe mạnh, các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_858cb25c11614b7c",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee9cf0fcbd5c",
+    "question_vi": "Hãy hình dung cây này ở trạng thái hoàn toàn khỏe mạnh - hình dạng bên ngoài của nó sẽ thay đổi như thế nào?",
+    "pairs": [
+     {
+      "pair_id": "p_0d14293eadc209c3",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_6f82ec8a84e68550",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_64e1a44cb1cd65b3",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_b0172f51a6ee",
+    "question_vi": "Hãy hình dung cây này được phục hồi khỏe mạnh - hình dạng bên ngoài của nó sẽ thay đổi như thế nào?",
+    "pairs": [
+     {
+      "pair_id": "p_6fec9d0911ed2562",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_47dbcbd1d82e7b9a",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_86ef0f32bde5c177",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_1dc706bac3c4003d",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_c330db8f348cb398",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_94e3802ae538e6fb",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+     }
+    ]
+   },
+   {
+    "question_key": "q_dcb61a67a4b7",
+    "question_vi": "Hình dạng bên ngoài của cây này khác với điều kiện sức khỏe tối ưu ở những điểm nào?",
+    "pairs": [
+     {
+      "pair_id": "p_9d98e3b6f1bd8fc2",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_af85d9217a8ece12",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn với dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_6465455bf5512b61",
+      "answer_vi": "Nếu cây khỏe mạnh, các mảng khảm xanh nhạt - xanh đậm sẽ không có."
+     },
+     {
+      "pair_id": "p_d69d41fe0871321a",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_d7c269efce56",
+    "question_vi": "Mẫu này khác biệt về mặt hình thái so với các mốc tham chiếu khỏe mạnh ở những điểm nào?",
+    "pairs": [
+     {
+      "pair_id": "p_be4987da8c0e6b1d",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_6d78c7880fc99c8b",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_77ea9b55bad1e312",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_586e51629229d9b9",
+      "answer_vi": "Nếu cây khỏe mạnh, các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     }
+    ]
+   },
+   {
+    "question_key": "q_e22aaac06101",
+    "question_vi": "Hình dạng bên ngoài của mẫu này khác với các chuẩn mực khỏe mạnh ở những điểm nào?",
+    "pairs": [
+     {
+      "pair_id": "p_1b4d2e2141a90ce3",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_e3a01bec420a37e2",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_50137f387137d94b",
+      "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn với dạng hình bia sẽ không có."
+     },
+     {
+      "pair_id": "p_f2cee75276cbfbac",
+      "answer_vi": "Nếu cây khỏe mạnh, các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_806fc48e0e3a6210",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     },
+     {
+      "pair_id": "p_1001ddaf8ecf0eb3",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_758dee42068599eb",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_3fd5f122df672f3b",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     }
+    ]
+   },
+   {
+    "question_key": "q_62e0737d28c4",
+    "question_vi": "Hãy hình dung cây này ở điều kiện tối ưu - hình dạng bên ngoài của nó sẽ thay đổi như thế nào?",
+    "pairs": [
+     {
+      "pair_id": "p_ee8083f22e3d83e9",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_e92c455add8253b8",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_187d861748e6150f",
+      "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_760662e6f9b204bd",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_1d02d5cef3f8cd0b",
+      "answer_vi": "Nếu cây khỏe mạnh, các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_b70e59841a906ba5",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     },
+     {
+      "pair_id": "p_32b3c230196ed191",
+      "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 22.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5445,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 3656,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5445,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 3656,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5445,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5445
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0588757,
+  "duration_ms": 19282,
+  "num_turns": 2,
+  "session_id": "1e6e15f7-61cf-41bb-8002-f3b3095164d3"
+ }
+}

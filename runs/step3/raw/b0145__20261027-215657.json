@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_74d4f7035790edda",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_f690c12582c89803",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_0c51f212dd67365e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_66c2775eae381ce4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_7a2dd4b91561734b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3b1e4bf5d60627e4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_4ced462c8ef82460",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_c6c9087131849050",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_3312fef67324e49b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_30fe1532df56d439",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What observable signs would be removed if the plant were healed?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu quan sát được nào sẽ biến mất nếu cây được chữa khỏi?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_0fdeba5df211f929",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_ae097ef2a5402480",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_fabf17ba3fba4eed",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_724bf162c17cb2c3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_2c419b8f5e4d4dfe",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_9d153ed1a6aff19a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_5377cffecba4c2d1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptomatic features would vanish upon complete recovery?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm triệu chứng nào sẽ biến mất khi cây hồi phục hoàn toàn?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3f03250e15532267",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Apple scab?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh ghẻ táo?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_92a915d1b828e36c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Apple scab?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh ghẻ táo?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_9803da164087477a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Black rot?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_7a184dc039f30d65",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Black rot?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_0ab9f6fe633b8a57",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Black rot?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_19d8449db57ac83f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Black rot?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_8b83ec1290cb387c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Cedar apple rust?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh gỉ sắt táo tuyết tùng?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_83d6104321e341cf",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Cedar apple rust?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh gỉ sắt táo tuyết tùng?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_09129acf71e51dd0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Cedar apple rust?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh gỉ sắt táo tuyết tùng?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_c9d4f645f232f69c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Apple were infected with Cedar apple rust?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh gỉ sắt táo tuyết tùng?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_fc263ffcd9a8e413",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Cercospora leaf spot Gray leaf spot?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh đốm lá Cercospora (đốm lá xám)?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_be6f77d64fe19041",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Common rust?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh gỉ sắt thông thường?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_8043c405191ac90f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Northern Leaf Blight?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh cháy lá lớn?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_a11df827f094f3cc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Corn were infected with Northern Leaf Blight?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ngô này bị nhiễm bệnh cháy lá lớn?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_4ffa0fd83c7ee7ca",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Peach were infected with Bacterial spot?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây đào này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_4bb92c9a0da6cf3d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Pepper bell were infected with Bacterial spot?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ớt chuông này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_2af261049e2fd069",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Pepper bell were infected with Bacterial spot?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ớt chuông này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_be790440a4a69113",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Pepper bell were infected with Bacterial spot?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ớt chuông này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có dạng hình bia sẽ không có."
+   },
+   {
+    "id": "p_a3828c9907d714ef",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Pepper bell were infected with Bacterial spot?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây ớt chuông này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_0a72389f1949b3ed",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Potato were infected with Late blight?",
+    "answer_en": "The key visual difference would be the absence of leaf edge browning and necrosis.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây khoai tây này bị nhiễm bệnh mốc sương?",
+    "answer_vi": "Sự khác biệt chính về mặt hình ảnh sẽ là không có hiện tượng mép lá hóa nâu và hoại tử."
+   },
+   {
+    "id": "p_8b84ffb16bb3df77",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Strawberry were infected with Leaf scorch?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây dâu tây này bị nhiễm bệnh cháy mép lá?",
+    "answer_vi": "Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_0075abbad51f3c0f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Strawberry were infected with Leaf scorch?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây dâu tây này bị nhiễm bệnh cháy mép lá?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_74d4f7035790edda",
+    "errors": []
+   },
+   {
+    "id": "p_f690c12582c89803",
+    "errors": []
+   },
+   {
+    "id": "p_0c51f212dd67365e",
+    "errors": []
+   },
+   {
+    "id": "p_66c2775eae381ce4",
+    "errors": []
+   },
+   {
+    "id": "p_7a2dd4b91561734b",
+    "errors": []
+   },
+   {
+    "id": "p_3b1e4bf5d60627e4",
+    "errors": []
+   },
+   {
+    "id": "p_4ced462c8ef82460",
+    "errors": []
+   },
+   {
+    "id": "p_c6c9087131849050",
+    "errors": []
+   },
+   {
+    "id": "p_3312fef67324e49b",
+    "errors": []
+   },
+   {
+    "id": "p_30fe1532df56d439",
+    "errors": []
+   },
+   {
+    "id": "p_0fdeba5df211f929",
+    "errors": []
+   },
+   {
+    "id": "p_ae097ef2a5402480",
+    "errors": []
+   },
+   {
+    "id": "p_fabf17ba3fba4eed",
+    "errors": []
+   },
+   {
+    "id": "p_724bf162c17cb2c3",
+    "errors": []
+   },
+   {
+    "id": "p_2c419b8f5e4d4dfe",
+    "errors": []
+   },
+   {
+    "id": "p_9d153ed1a6aff19a",
+    "errors": []
+   },
+   {
+    "id": "p_5377cffecba4c2d1",
+    "errors": []
+   },
+   {
+    "id": "p_3f03250e15532267",
+    "errors": []
+   },
+   {
+    "id": "p_92a915d1b828e36c",
+    "errors": []
+   },
+   {
+    "id": "p_9803da164087477a",
+    "errors": []
+   },
+   {
+    "id": "p_7a184dc039f30d65",
+    "errors": []
+   },
+   {
+    "id": "p_0ab9f6fe633b8a57",
+    "errors": []
+   },
+   {
+    "id": "p_19d8449db57ac83f",
+    "errors": []
+   },
+   {
+    "id": "p_8b83ec1290cb387c",
+    "errors": []
+   },
+   {
+    "id": "p_83d6104321e341cf",
+    "errors": []
+   },
+   {
+    "id": "p_09129acf71e51dd0",
+    "errors": []
+   },
+   {
+    "id": "p_c9d4f645f232f69c",
+    "errors": []
+   },
+   {
+    "id": "p_fc263ffcd9a8e413",
+    "errors": []
+   },
+   {
+    "id": "p_be6f77d64fe19041",
+    "errors": []
+   },
+   {
+    "id": "p_8043c405191ac90f",
+    "errors": []
+   },
+   {
+    "id": "p_a11df827f094f3cc",
+    "errors": []
+   },
+   {
+    "id": "p_4ffa0fd83c7ee7ca",
+    "errors": []
+   },
+   {
+    "id": "p_4bb92c9a0da6cf3d",
+    "errors": []
+   },
+   {
+    "id": "p_2af261049e2fd069",
+    "errors": []
+   },
+   {
+    "id": "p_be790440a4a69113",
+    "errors": []
+   },
+   {
+    "id": "p_a3828c9907d714ef",
+    "errors": []
+   },
+   {
+    "id": "p_0a72389f1949b3ed",
+    "errors": []
+   },
+   {
+    "id": "p_8b84ffb16bb3df77",
+    "errors": []
+   },
+   {
+    "id": "p_0075abbad51f3c0f",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.0,
+  "usage": {
+   "input_tokens": 14287,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 852,
+   "reasoning_output_tokens": 172
+  }
+ }
+}

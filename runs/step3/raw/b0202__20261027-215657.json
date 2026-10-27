@@ -1,0 +1,357 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_97a8cbc30b36ace3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Không thấy dấu hiệu bệnh; cây khỏe mạnh."
+   },
+   {
+    "id": "p_9c16dc4e3ccf5be1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_d81ade4b10471bf0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_bb412825dc1ff7e6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_1d0e340f6549c579",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_2ff9ba9ea399c9d6",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_c09517a49ae65b87",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_55642f2b8d7ec0be",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Mẫu khỏe mạnh."
+   },
+   {
+    "id": "p_728bdb55a0a89875",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_7df4f5290c61f0a0",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_b2b88275ec6ffb61",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Đây là lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_003b0539c689d04d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_b33365df2f132205",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Đây là tổn hại do nhện đỏ."
+   },
+   {
+    "id": "p_620471849a979c7e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_2d76feffa23e2803",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most exact pathological identification.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh lý chính xác nhất.",
+    "answer_vi": "Lá cà chua này cho thấy các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_317bd461fb277a99",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "Black rot",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Bệnh thối đen"
+   },
+   {
+    "id": "p_7c8848f82a245b91",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) trên cây có múi."
+   },
+   {
+    "id": "p_8d1951ae59c13c47",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_8dfb5a72c09d50b1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_8213145f50c94a70",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_85d8129e0c4e2a4e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_7f7e3ca963d06764",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_9d2b48373c8adb64",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_6cc6458349ad519c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_30953b318611c732",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_acbdb9d1ed1b827b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_542d733d58ae5562",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_d7282be17673becf",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Provide the most precise disease identification you can.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy đưa ra chẩn đoán bệnh chính xác nhất mà bạn có thể.",
+    "answer_vi": "Lá cà chua này cho thấy các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_97a8cbc30b36ace3",
+    "errors": []
+   },
+   {
+    "id": "p_9c16dc4e3ccf5be1",
+    "errors": []
+   },
+   {
+    "id": "p_d81ade4b10471bf0",
+    "errors": []
+   },
+   {
+    "id": "p_bb412825dc1ff7e6",
+    "errors": []
+   },
+   {
+    "id": "p_1d0e340f6549c579",
+    "errors": []
+   },
+   {
+    "id": "p_2ff9ba9ea399c9d6",
+    "errors": []
+   },
+   {
+    "id": "p_c09517a49ae65b87",
+    "errors": []
+   },
+   {
+    "id": "p_55642f2b8d7ec0be",
+    "errors": []
+   },
+   {
+    "id": "p_728bdb55a0a89875",
+    "errors": []
+   },
+   {
+    "id": "p_7df4f5290c61f0a0",
+    "errors": []
+   },
+   {
+    "id": "p_b2b88275ec6ffb61",
+    "errors": []
+   },
+   {
+    "id": "p_003b0539c689d04d",
+    "errors": []
+   },
+   {
+    "id": "p_b33365df2f132205",
+    "errors": []
+   },
+   {
+    "id": "p_620471849a979c7e",
+    "errors": []
+   },
+   {
+    "id": "p_2d76feffa23e2803",
+    "errors": []
+   },
+   {
+    "id": "p_317bd461fb277a99",
+    "errors": []
+   },
+   {
+    "id": "p_7c8848f82a245b91",
+    "errors": []
+   },
+   {
+    "id": "p_8d1951ae59c13c47",
+    "errors": []
+   },
+   {
+    "id": "p_8dfb5a72c09d50b1",
+    "errors": []
+   },
+   {
+    "id": "p_8213145f50c94a70",
+    "errors": []
+   },
+   {
+    "id": "p_85d8129e0c4e2a4e",
+    "errors": []
+   },
+   {
+    "id": "p_7f7e3ca963d06764",
+    "errors": []
+   },
+   {
+    "id": "p_9d2b48373c8adb64",
+    "errors": []
+   },
+   {
+    "id": "p_6cc6458349ad519c",
+    "errors": []
+   },
+   {
+    "id": "p_30953b318611c732",
+    "errors": []
+   },
+   {
+    "id": "p_acbdb9d1ed1b827b",
+    "errors": []
+   },
+   {
+    "id": "p_542d733d58ae5562",
+    "errors": []
+   },
+   {
+    "id": "p_d7282be17673becf",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 8.4,
+  "usage": {
+   "input_tokens": 11912,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 702,
+   "reasoning_output_tokens": 200
+  }
+ }
+}

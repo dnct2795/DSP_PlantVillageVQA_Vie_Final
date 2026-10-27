@@ -1,0 +1,381 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_e82abe9e74347b6b",
+    "question_type": "Comprehensive Description",
+    "question_en": "What apparent characteristics and observable properties define this plant specimen?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Những đặc điểm bên ngoài và tính chất quan sát được nào xác định mẫu cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_780835e571f13d31",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you identify Huanglongbing infection indicators on this orange foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận biết được các dấu hiệu nhiễm bệnh vàng lá gân xanh (Huanglongbing) trên lá cam này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1450b0536e6930fa",
+    "question_type": "General Health Assessment",
+    "question_en": "What pathological signs are visible on this leaf specimen?",
+    "answer_en": "No",
+    "question_vi": "Mẫu lá này có thấy được dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a3c640ea79f2450e",
+    "question_type": "General Health Assessment",
+    "question_en": "What pathological signs are visible on this leaf specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu lá này có thấy được dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d2f4da38371cd583",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which factor is the source of these disease manifestations?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Yếu tố nào là nguồn gốc của những biểu hiện bệnh này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_8c687a940ca1b9dc",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which pathogenic infection, if present, is manifesting on this citrus leaf?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Nhiễm bệnh nào, nếu có, đang biểu hiện trên lá cây có múi này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) ở cây có múi."
+   },
+   {
+    "id": "p_c4117246f115ef2f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which pathogenic infection, if present, is manifesting on this citrus leaf?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Nhiễm bệnh nào, nếu có, đang biểu hiện trên lá cây có múi này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_6dded4ab1eb53b7d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which pathogenic infection, if present, is manifesting on this citrus leaf?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Nhiễm bệnh nào, nếu có, đang biểu hiện trên lá cây có múi này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_cf5b76a66346bb7a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which pathogenic infection, if present, is manifesting on this citrus leaf?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Nhiễm bệnh nào, nếu có, đang biểu hiện trên lá cây có múi này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) của cây có múi."
+   },
+   {
+    "id": "p_b126e16818a67bac",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which pathological disorder is visible on this citrus plant specimen?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Mẫu cây có múi này có rối loạn bệnh lý nào?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) ở cây có múi."
+   },
+   {
+    "id": "p_28ce90efd288ccb4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe yellow lesions above with velvety green growth beneath?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các vết bệnh màu vàng ở mặt trên với lớp phát triển màu xanh như nhung ở mặt dưới không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_24b01e65e00c4c11",
+    "question_type": "Causal Reasoning",
+    "question_en": "What organism or condition is generating these manifestations?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Sinh vật hoặc tình trạng nào đang gây ra những biểu hiện này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_010da6175361c377",
+    "question_type": "Comprehensive Description",
+    "question_en": "Please deliver a thorough account of this plant and its visible status.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy mô tả thật chi tiết về cây này và tình trạng có thể quan sát được của nó.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) ở cây có múi."
+   },
+   {
+    "id": "p_145dbc6b27d34fae",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Please give the official disease classification for this foliage.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy cho biết tên phân loại bệnh chính thức của tán lá này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB) ở cây có múi."
+   },
+   {
+    "id": "p_b7ce03bbf30ff148",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark, saturated spots with chlorotic borders?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu, bão hòa màu với viền úa vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_af0a122e3f7b2c68",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen show dark, saturated spots with chlorotic borders?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đốm sẫm màu, bão hòa màu với viền úa vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6ea7ab46738816e0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm sẫm màu, bão hòa màu với viền úa vàng."
+   },
+   {
+    "id": "p_c3c2cd39816f997a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "A healthy version of this plant would not exhibit the dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm sẫm màu, bão hòa màu với viền úa vàng."
+   },
+   {
+    "id": "p_6f19e922e2ae1c54",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "The key visual difference would be the absence of dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm sẫm màu, bão hòa màu với viền úa vàng."
+   },
+   {
+    "id": "p_9cebfb8280fa4c09",
+    "question_type": "General Health Assessment",
+    "question_en": "What symptomatic characteristics are present here?",
+    "answer_en": "Yes",
+    "question_vi": "Ở đây có xuất hiện các đặc điểm triệu chứng nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_76a1b6a3e311b084",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Is there a specific disease that can be identified on this orange leaf?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Có thể xác định được một bệnh cụ thể trên lá cam này không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_700f4adaf7b35640",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What conclusion can be drawn from these visual symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Có thể rút ra kết luận gì từ những triệu chứng quan sát được này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_b8c29913d4c2152f",
+    "question_type": "General Health Assessment",
+    "question_en": "Are both stress and disease indicators absent?",
+    "answer_en": "No",
+    "question_vi": "Cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh có hoàn toàn không có không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8e9b7259b1b2de78",
+    "question_type": "General Health Assessment",
+    "question_en": "Are both stress and disease indicators absent?",
+    "answer_en": "Yes",
+    "question_vi": "Cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh có hoàn toàn không có không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_923dde4600e0567d",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Which particular pathology is impacting this specimen?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bệnh lý cụ thể nào đang ảnh hưởng đến mẫu này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_dabab3a79ab2d176",
+    "question_type": "Comprehensive Description",
+    "question_en": "Walk me through the vegetation characteristics depicted in this image.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy mô tả cho tôi các đặc điểm của thực vật thể hiện trong hình ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_aec3e57991eabab9",
+    "question_type": "General Health Assessment",
+    "question_en": "What disease indicators appear on this vegetation?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có xuất hiện dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d14a07aca35d94ad",
+    "question_type": "General Health Assessment",
+    "question_en": "What disease indicators appear on this vegetation?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có xuất hiện dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_81368a5598b05ed7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which factor or pathogen creates these disease indicators?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Yếu tố hoặc tác nhân gây bệnh nào tạo ra những dấu hiệu bệnh này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_e82abe9e74347b6b",
+    "errors": []
+   },
+   {
+    "id": "p_780835e571f13d31",
+    "errors": []
+   },
+   {
+    "id": "p_1450b0536e6930fa",
+    "errors": []
+   },
+   {
+    "id": "p_a3c640ea79f2450e",
+    "errors": []
+   },
+   {
+    "id": "p_d2f4da38371cd583",
+    "errors": []
+   },
+   {
+    "id": "p_8c687a940ca1b9dc",
+    "errors": []
+   },
+   {
+    "id": "p_c4117246f115ef2f",
+    "errors": []
+   },
+   {
+    "id": "p_6dded4ab1eb53b7d",
+    "errors": []
+   },
+   {
+    "id": "p_cf5b76a66346bb7a",
+    "errors": []
+   },
+   {
+    "id": "p_b126e16818a67bac",
+    "errors": []
+   },
+   {
+    "id": "p_28ce90efd288ccb4",
+    "errors": []
+   },
+   {
+    "id": "p_24b01e65e00c4c11",
+    "errors": []
+   },
+   {
+    "id": "p_010da6175361c377",
+    "errors": []
+   },
+   {
+    "id": "p_145dbc6b27d34fae",
+    "errors": []
+   },
+   {
+    "id": "p_b7ce03bbf30ff148",
+    "errors": []
+   },
+   {
+    "id": "p_af0a122e3f7b2c68",
+    "errors": []
+   },
+   {
+    "id": "p_6ea7ab46738816e0",
+    "errors": []
+   },
+   {
+    "id": "p_c3c2cd39816f997a",
+    "errors": []
+   },
+   {
+    "id": "p_6f19e922e2ae1c54",
+    "errors": []
+   },
+   {
+    "id": "p_9cebfb8280fa4c09",
+    "errors": []
+   },
+   {
+    "id": "p_76a1b6a3e311b084",
+    "errors": []
+   },
+   {
+    "id": "p_700f4adaf7b35640",
+    "errors": []
+   },
+   {
+    "id": "p_b8c29913d4c2152f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có hoàn toàn không có không” is an awkward double-negative construction; the intended absence question remains understandable."
+     }
+    ]
+   },
+   {
+    "id": "p_8e9b7259b1b2de78",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có hoàn toàn không có không” is an awkward double-negative construction; the intended absence question remains understandable."
+     }
+    ]
+   },
+   {
+    "id": "p_923dde4600e0567d",
+    "errors": []
+   },
+   {
+    "id": "p_dabab3a79ab2d176",
+    "errors": []
+   },
+   {
+    "id": "p_aec3e57991eabab9",
+    "errors": []
+   },
+   {
+    "id": "p_d14a07aca35d94ad",
+    "errors": []
+   },
+   {
+    "id": "p_81368a5598b05ed7",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 24.0,
+  "usage": {
+   "input_tokens": 12248,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1534,
+   "reasoning_output_tokens": 949
+  }
+ }
+}

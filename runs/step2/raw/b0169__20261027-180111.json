@@ -1,0 +1,464 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_8672770ea2e9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you determine the taxonomic identity of this flora?",
+    "pairs": [
+     {
+      "pair_id": "p_c6152552d87e299b",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_59df7be4b899b707",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_84b4826e34918f8e",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5011102a921b6951",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a5c4cebee7c1de0a",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e3e4e01f11224188",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bc5f7cbb4ace3452",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3190ec19fdf7c72c",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8ef8b0249ddc4621",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_67caa4b502b89415",
+      "answer_en": "Raspberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b9f121c837cec05f",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_a028495d147466d2",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b9e98e3b6a7adee1",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ab6b39887bf97f7b",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_9fcbd0568a51",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you identify the species of this plant specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_8ba9c577b9d4ad92",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_13683479d04f6006",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f3cadde52bcfac25",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9d88e62a547c575e",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7aaa3f501aa678c6",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ea140bb5956b5e30",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dea31a3c648b0a24",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d128a41b2850d378",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_44904e24f46f69ad",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_37772e1cc286d20b",
+      "answer_en": "Raspberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_13149e3f87bfcdea",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_0a2740fb891a2385",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_33790e7606227809",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_55d26b28314c",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you specify the genus and species of this vegetation?",
+    "pairs": [
+     {
+      "pair_id": "p_4369dbb6bff16106",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_355428e1d45c9434",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_8c0636850fd41a8f",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_7a03397717a01b17",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e175ddc2916350b3",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_108a86bd10db424d",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3305a2defc736513",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3a15d88a2274fd23",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3beed430d41f5235",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f6687561ea1fd7cb",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_86757644ffa17242",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_9c827d7cacd6",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you verify this as citrus orange leaf tissue?",
+    "pairs": [
+     {
+      "pair_id": "p_7cf26cbfdfd9f74e",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2ccda08c98f41fc3",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_8672770ea2e9",
+    "question_vi": "Bạn có thể xác định danh tính phân loại của loài thực vật này không?",
+    "pairs": [
+     {
+      "pair_id": "p_c6152552d87e299b",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_59df7be4b899b707",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_84b4826e34918f8e",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_5011102a921b6951",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_a5c4cebee7c1de0a",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_e3e4e01f11224188",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_bc5f7cbb4ace3452",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_3190ec19fdf7c72c",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_8ef8b0249ddc4621",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_67caa4b502b89415",
+      "answer_vi": "Mâm xôi"
+     },
+     {
+      "pair_id": "p_b9f121c837cec05f",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_a028495d147466d2",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_b9e98e3b6a7adee1",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_ab6b39887bf97f7b",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9fcbd0568a51",
+    "question_vi": "Bạn có thể xác định loài của mẫu cây này không?",
+    "pairs": [
+     {
+      "pair_id": "p_8ba9c577b9d4ad92",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_13683479d04f6006",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_f3cadde52bcfac25",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_9d88e62a547c575e",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_7aaa3f501aa678c6",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_ea140bb5956b5e30",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_dea31a3c648b0a24",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_d128a41b2850d378",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_44904e24f46f69ad",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_37772e1cc286d20b",
+      "answer_vi": "Mâm xôi"
+     },
+     {
+      "pair_id": "p_13149e3f87bfcdea",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_0a2740fb891a2385",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_33790e7606227809",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_55d26b28314c",
+    "question_vi": "Bạn có thể chỉ rõ chi và loài của thảm thực vật này không?",
+    "pairs": [
+     {
+      "pair_id": "p_4369dbb6bff16106",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_355428e1d45c9434",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_8c0636850fd41a8f",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_7a03397717a01b17",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_e175ddc2916350b3",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_108a86bd10db424d",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_3305a2defc736513",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_3a15d88a2274fd23",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_3beed430d41f5235",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_f6687561ea1fd7cb",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_86757644ffa17242",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9c827d7cacd6",
+    "question_vi": "Bạn có thể xác nhận đây là mô lá cam (cây có múi) không?",
+    "pairs": [
+     {
+      "pair_id": "p_7cf26cbfdfd9f74e",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2ccda08c98f41fc3",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4382,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1687,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4382,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1687,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4382,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4382
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0349337,
+  "duration_ms": 9263,
+  "num_turns": 2,
+  "session_id": "83feca9b-1d5f-4673-8201-63d78bb5cbef"
+ }
+}

@@ -1,0 +1,561 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_8a49340c5c571f04",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all symptomatic signs?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi dấu hiệu triệu chứng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f7b4f887d303e402",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen lack all symptomatic signs?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có hoàn toàn không có mọi dấu hiệu triệu chứng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f857c627eaac6e20",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen merit disease classification?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có đáng được xếp vào loại bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1f0be11b1ce6dc8c",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen merit disease classification?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có đáng được xếp vào loại bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_522cc721506eb480",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show characteristics of sterile tissue?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện đặc điểm của mô vô trùng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ccbaee53276f0a63",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show characteristics of sterile tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện đặc điểm của mô vô trùng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1831de93c702ea68",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show features aligned with healthy status?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm phù hợp với tình trạng khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_63866b37001e2a88",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show features aligned with healthy status?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm phù hợp với tình trạng khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2b39219d4a8bc8bb",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show neither stress nor disease signs?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1df5f305b3113f94",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show neither stress nor disease signs?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_41444478776d88b6",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show tissue integrity without disease impact?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy mô còn nguyên vẹn, không bị bệnh ảnh hưởng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dcf8f75c7af2d4da",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen show tissue integrity without disease impact?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cho thấy mô còn nguyên vẹn, không bị bệnh ảnh hưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_52ddd47dd905775e",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen warrant infection classification?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cần được xếp vào loại bị nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3c40fcefac15cae6",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this specimen warrant infection classification?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có cần được xếp vào loại bị nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_003b86b9f1911846",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation demonstrate healthy vigor?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có thể hiện sức sống khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_655ce51095f3849f",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation demonstrate healthy vigor?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có thể hiện sức sống khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_05544a364b64c563",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation lack stress and disease symptoms?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có không có triệu chứng căng thẳng và triệu chứng bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8008fa266570feb8",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation lack stress and disease symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có không có triệu chứng căng thẳng và triệu chứng bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8f31364e876a2545",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation show signs of vigorous growth?",
+    "answer_en": "No",
+    "question_vi": "Thảm thực vật này có dấu hiệu sinh trưởng mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6d59445b9ea31681",
+    "question_type": "General Health Assessment",
+    "question_en": "Does this vegetation show signs of vigorous growth?",
+    "answer_en": "Yes",
+    "question_vi": "Thảm thực vật này có dấu hiệu sinh trưởng mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5aa721db5e47af6e",
+    "question_type": "General Health Assessment",
+    "question_en": "Is complete symptom absence evident?",
+    "answer_en": "No",
+    "question_vi": "Có thấy rõ hoàn toàn không có triệu chứng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_50a9a739b3689f65",
+    "question_type": "General Health Assessment",
+    "question_en": "Is complete symptom absence evident?",
+    "answer_en": "Yes",
+    "question_vi": "Có thấy rõ hoàn toàn không có triệu chứng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ca232da4064c1aa4",
+    "question_type": "General Health Assessment",
+    "question_en": "Is optimal plant health evident in this sample?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có cho thấy rõ sức khỏe tối ưu của cây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_47642fdfae523d3e",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the leaf tissue displaying unaffected characteristics?",
+    "answer_en": "No",
+    "question_vi": "Mô lá có biểu hiện các đặc điểm không bị ảnh hưởng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_485e4d9309713ee7",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the leaf tissue displaying unaffected characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Mô lá có biểu hiện các đặc điểm không bị ảnh hưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d2cb961e244a4e29",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the leaf tissue free from pathological damage?",
+    "answer_en": "No",
+    "question_vi": "Mô lá có không bị tổn thương do bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f7063650aeecc35d",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the leaf tissue free from pathological damage?",
+    "answer_en": "Yes",
+    "question_vi": "Mô lá có không bị tổn thương do bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8f375b682e44f224",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the overall condition of this plant indicative of good health?",
+    "answer_en": "No",
+    "question_vi": "Tình trạng chung của cây này có cho thấy sức khỏe tốt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a343ff66c0cc804e",
+    "question_type": "General Health Assessment",
+    "question_en": "Is the overall condition of this plant indicative of good health?",
+    "answer_en": "Yes",
+    "question_vi": "Tình trạng chung của cây này có cho thấy sức khỏe tốt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_33f526f06059d22f",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there absence of both stress and disease markers?",
+    "answer_en": "No",
+    "question_vi": "Có hoàn toàn không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4857c026d1a13e2b",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there absence of both stress and disease markers?",
+    "answer_en": "Yes",
+    "question_vi": "Có hoàn toàn không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4c14aa679b574e1f",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there evidence of healthy, undamaged leaf tissue?",
+    "answer_en": "No",
+    "question_vi": "Có bằng chứng về mô lá khỏe mạnh, không bị tổn thương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3db06ff899b88b50",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there evidence of healthy, undamaged leaf tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Có bằng chứng về mô lá khỏe mạnh, không bị tổn thương không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d45b7f0000abd5e4",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there total absence of pathological symptoms?",
+    "answer_en": "No",
+    "question_vi": "Có hoàn toàn không có triệu chứng bệnh lý không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_26836b2d719fb448",
+    "question_type": "General Health Assessment",
+    "question_en": "Is there total absence of pathological symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Có hoàn toàn không có triệu chứng bệnh lý không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_23f1f1ba420f41f7",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage completely symptom-free?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có hoàn toàn không có triệu chứng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ebc2ee72e650e52f",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage completely symptom-free?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có hoàn toàn không có triệu chứng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_19bd52ba5f3632db",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage demonstrating freedom from disease?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có biểu hiện sạch bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d5d6eee0279cadd8",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage entirely without disease symptoms?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_00120b803928a7d7",
+    "question_type": "General Health Assessment",
+    "question_en": "Is this foliage entirely without disease symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có hoàn toàn không có triệu chứng bệnh không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_8a49340c5c571f04",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“hoàn toàn không có mọi dấu hiệu triệu chứng” is awkward and redundant phrasing."
+     }
+    ]
+   },
+   {
+    "id": "p_f7b4f887d303e402",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“hoàn toàn không có mọi dấu hiệu triệu chứng” is awkward and redundant phrasing."
+     }
+    ]
+   },
+   {
+    "id": "p_f857c627eaac6e20",
+    "errors": []
+   },
+   {
+    "id": "p_1f0be11b1ce6dc8c",
+    "errors": []
+   },
+   {
+    "id": "p_522cc721506eb480",
+    "errors": []
+   },
+   {
+    "id": "p_ccbaee53276f0a63",
+    "errors": []
+   },
+   {
+    "id": "p_1831de93c702ea68",
+    "errors": []
+   },
+   {
+    "id": "p_63866b37001e2a88",
+    "errors": []
+   },
+   {
+    "id": "p_2b39219d4a8bc8bb",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không có cả dấu hiệu” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_1df5f305b3113f94",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không có cả dấu hiệu” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_41444478776d88b6",
+    "errors": []
+   },
+   {
+    "id": "p_dcf8f75c7af2d4da",
+    "errors": []
+   },
+   {
+    "id": "p_52ddd47dd905775e",
+    "errors": []
+   },
+   {
+    "id": "p_3c40fcefac15cae6",
+    "errors": []
+   },
+   {
+    "id": "p_003b86b9f1911846",
+    "errors": []
+   },
+   {
+    "id": "p_655ce51095f3849f",
+    "errors": []
+   },
+   {
+    "id": "p_05544a364b64c563",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không có triệu chứng” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_8008fa266570feb8",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không có triệu chứng” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_8f31364e876a2545",
+    "errors": []
+   },
+   {
+    "id": "p_6d59445b9ea31681",
+    "errors": []
+   },
+   {
+    "id": "p_5aa721db5e47af6e",
+    "errors": []
+   },
+   {
+    "id": "p_50a9a739b3689f65",
+    "errors": []
+   },
+   {
+    "id": "p_ca232da4064c1aa4",
+    "errors": []
+   },
+   {
+    "id": "p_47642fdfae523d3e",
+    "errors": []
+   },
+   {
+    "id": "p_485e4d9309713ee7",
+    "errors": []
+   },
+   {
+    "id": "p_d2cb961e244a4e29",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không bị tổn thương” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_f7063650aeecc35d",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“có không bị tổn thương” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_8f375b682e44f224",
+    "errors": []
+   },
+   {
+    "id": "p_a343ff66c0cc804e",
+    "errors": []
+   },
+   {
+    "id": "p_33f526f06059d22f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Có hoàn toàn không có cả dấu hiệu” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_4857c026d1a13e2b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Có hoàn toàn không có cả dấu hiệu” is an awkward double-negative construction."
+     }
+    ]
+   },
+   {
+    "id": "p_4c14aa679b574e1f",
+    "errors": []
+   },
+   {
+    "id": "p_3db06ff899b88b50",
+    "errors": []
+   },
+   {
+    "id": "p_d45b7f0000abd5e4",
+    "errors": []
+   },
+   {
+    "id": "p_26836b2d719fb448",
+    "errors": []
+   },
+   {
+    "id": "p_23f1f1ba420f41f7",
+    "errors": []
+   },
+   {
+    "id": "p_ebc2ee72e650e52f",
+    "errors": []
+   },
+   {
+    "id": "p_19bd52ba5f3632db",
+    "errors": []
+   },
+   {
+    "id": "p_d5d6eee0279cadd8",
+    "errors": []
+   },
+   {
+    "id": "p_00120b803928a7d7",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 20.7,
+  "usage": {
+   "input_tokens": 12235,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1970,
+   "reasoning_output_tokens": 965
+  }
+ }
+}

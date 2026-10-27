@@ -1,0 +1,461 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_0e66ab33938b",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you consider this specimen to display uncompromised characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_3b95d9c173b08c38",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2568c075d14f02f7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8da74764297b",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you label this sample as diseased?",
+    "pairs": [
+     {
+      "pair_id": "p_d356685c0a9b7660",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_d1f2afe560f2e371",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8f9bdceef994",
+    "question_type": "General Health Assessment",
+    "question_en": "Would you rate this specimen's health as excellent?",
+    "pairs": [
+     {
+      "pair_id": "p_c8b0d8c43585a95b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0aac134bb49f0ed8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b7517ab2ff02",
+    "question_type": "Plant Species Identification",
+    "question_en": "Ascertain the specific identity of this flora specimen.",
+    "pairs": [
+     {
+      "pair_id": "p_4b1f3de61f568229",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fcf8b9346ea4cffe",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9d5f78f331a8e2c6",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_d764ef48b770e8b2",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2d469bec56418193",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1b12e93803d0f479",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ee0dc8958932590b",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ace575c7f1eb3c1d",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bd048510f087702a",
+      "answer_en": "Raspberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_6499b1dac3568a25",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f51e4a8b83a71726",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_78267ec6e5c4a269",
+      "answer_en": "Strawberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_3cb13534468c0620",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_3ada7171e464",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can this leaf be classified as tomato plant tissue?",
+    "pairs": [
+     {
+      "pair_id": "p_368993467b1d5233",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_3f3d0f1690a141a9",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_0201231f81b2",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can this leaf be identified as coming from an orange plant?",
+    "pairs": [
+     {
+      "pair_id": "p_4cd00a50726c21ac",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_801e5a77b130350c",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_2d7da12f9672",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you authenticate this as a tomato leaf specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_40ef48abe706e452",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_898624d719305231",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c45d45f8ca79",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you confirm this specimen as potato plant foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_13e9b78f15c36f72",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9d548ca669091720",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_088c9964f68a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you confirm this specimen belongs to an orange tree?",
+    "pairs": [
+     {
+      "pair_id": "p_be12c8aa6f651e85",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_8675abe976b19054",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_0c0612bcf476",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can you confirm this specimen is tomato foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_9fd936c6694a52c1",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_44ae254c9c9ef963",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_0e66ab33938b",
+    "question_vi": "Bạn có cho rằng mẫu này thể hiện các đặc điểm còn nguyên vẹn không?",
+    "pairs": [
+     {
+      "pair_id": "p_3b95d9c173b08c38",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2568c075d14f02f7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8da74764297b",
+    "question_vi": "Bạn có xếp mẫu này vào loại bị bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_d356685c0a9b7660",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_d1f2afe560f2e371",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8f9bdceef994",
+    "question_vi": "Bạn có đánh giá tình trạng sức khỏe của mẫu này là xuất sắc không?",
+    "pairs": [
+     {
+      "pair_id": "p_c8b0d8c43585a95b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0aac134bb49f0ed8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b7517ab2ff02",
+    "question_vi": "Hãy xác định loài cụ thể của mẫu thực vật này.",
+    "pairs": [
+     {
+      "pair_id": "p_4b1f3de61f568229",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_fcf8b9346ea4cffe",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_9d5f78f331a8e2c6",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_d764ef48b770e8b2",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_2d469bec56418193",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_1b12e93803d0f479",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_ee0dc8958932590b",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_ace575c7f1eb3c1d",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_bd048510f087702a",
+      "answer_vi": "Mâm xôi"
+     },
+     {
+      "pair_id": "p_6499b1dac3568a25",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_f51e4a8b83a71726",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_78267ec6e5c4a269",
+      "answer_vi": "Dâu tây"
+     },
+     {
+      "pair_id": "p_3cb13534468c0620",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3ada7171e464",
+    "question_vi": "Có thể phân loại lá này là mô của cây cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_368993467b1d5233",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_3f3d0f1690a141a9",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_0201231f81b2",
+    "question_vi": "Có thể nhận biết lá này đến từ cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_4cd00a50726c21ac",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_801e5a77b130350c",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_2d7da12f9672",
+    "question_vi": "Bạn có thể xác nhận đây là mẫu lá cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_40ef48abe706e452",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_898624d719305231",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c45d45f8ca79",
+    "question_vi": "Bạn có thể xác nhận mẫu này là lá cây khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_13e9b78f15c36f72",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9d548ca669091720",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_088c9964f68a",
+    "question_vi": "Bạn có thể xác nhận mẫu này thuộc về một cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_be12c8aa6f651e85",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_8675abe976b19054",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_0c0612bcf476",
+    "question_vi": "Bạn có thể xác nhận mẫu này là lá cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_9fd936c6694a52c1",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_44ae254c9c9ef963",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.9,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4355,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1686,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4355,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1686,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4355,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4355
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.034815700000000005,
+  "duration_ms": 11123,
+  "num_turns": 2,
+  "session_id": "d6f9e925-afbb-49cb-92f3-8d16b8568ee1"
+ }
+}

@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_ffbce9e708711e84",
+    "question_type": "General Health Assessment",
+    "question_en": "Can disease indicators be found in this tissue?",
+    "answer_en": "No",
+    "question_vi": "Có thể tìm thấy dấu hiệu bệnh trong mô này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a1f11dcb53f5868d",
+    "question_type": "General Health Assessment",
+    "question_en": "Can disease indicators be found in this tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể tìm thấy dấu hiệu bệnh trong mô này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_552fc7345037086d",
+    "question_type": "General Health Assessment",
+    "question_en": "Can disease manifestations be observed in this foliage?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy biểu hiện bệnh trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_002ef0e0391bab84",
+    "question_type": "General Health Assessment",
+    "question_en": "Can disease manifestations be observed in this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy biểu hiện bệnh trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_74a4d04eba660a5b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can evidence of disease-free condition be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy bằng chứng của tình trạng sạch bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8dc1c7921a7e0b6a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can evidence of disease-free condition be observed?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy bằng chứng của tình trạng sạch bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_13627e48cf1984a8",
+    "question_type": "General Health Assessment",
+    "question_en": "Can evidence of plant disease be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy bằng chứng của bệnh cây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4f9f4d4c3eee4957",
+    "question_type": "General Health Assessment",
+    "question_en": "Can evidence of plant disease be observed?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy bằng chứng của bệnh cây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d1a0066c3ed0cebe",
+    "question_type": "General Health Assessment",
+    "question_en": "Can healthy growth characteristics be identified?",
+    "answer_en": "No",
+    "question_vi": "Có thể nhận biết được các đặc điểm sinh trưởng khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c5e0f3cbc24360f4",
+    "question_type": "General Health Assessment",
+    "question_en": "Can healthy growth characteristics be identified?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể nhận biết được các đặc điểm sinh trưởng khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5f2ade67ff4c28e3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can infection status be assigned to this leaf?",
+    "answer_en": "No",
+    "question_vi": "Có thể xác định tình trạng nhiễm bệnh cho lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3c0305fd9f48ba18",
+    "question_type": "General Health Assessment",
+    "question_en": "Can infection status be assigned to this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể xác định tình trạng nhiễm bệnh cho lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b0f257eb4bd78b4f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can maximum health status be observed here?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy tình trạng sức khỏe tối đa ở đây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3362b5f855ab34bf",
+    "question_type": "General Health Assessment",
+    "question_en": "Can maximum health status be observed here?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy tình trạng sức khỏe tối đa ở đây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ec5b4ce23b940a58",
+    "question_type": "General Health Assessment",
+    "question_en": "Can optimal biological functioning be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy hoạt động sinh học tối ưu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_004c4c15fc368aa6",
+    "question_type": "General Health Assessment",
+    "question_en": "Can optimal biological functioning be observed?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy hoạt động sinh học tối ưu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_03822ce9522dceea",
+    "question_type": "General Health Assessment",
+    "question_en": "Can signs of proper physiological function be observed?",
+    "answer_en": "No",
+    "question_vi": "Có thể quan sát thấy dấu hiệu của chức năng sinh lý bình thường không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7f9c9f757655c7e4",
+    "question_type": "General Health Assessment",
+    "question_en": "Can signs of proper physiological function be observed?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể quan sát thấy dấu hiệu của chức năng sinh lý bình thường không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6709f04ef60d17a3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be categorized as pathogen-infected?",
+    "answer_en": "No",
+    "question_vi": "Có thể phân loại lá này là bị nhiễm tác nhân gây bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_99203744ca0bb4c5",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be categorized as pathogen-infected?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phân loại lá này là bị nhiễm tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2d5c4d7f19af5c61",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be categorized as showing healthy, pathogen-free traits?",
+    "answer_en": "No",
+    "question_vi": "Có thể phân loại lá này là có các đặc điểm khỏe mạnh, không có tác nhân gây bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0dcbfe0b9835b56f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be categorized as showing healthy, pathogen-free traits?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phân loại lá này là có các đặc điểm khỏe mạnh, không có tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_69d2113cd95efe00",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be considered free from any infectious agents?",
+    "answer_en": "No",
+    "question_vi": "Có thể coi lá này không có bất kỳ tác nhân lây nhiễm nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c5736646dbd1a803",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be considered free from any infectious agents?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể coi lá này không có bất kỳ tác nhân lây nhiễm nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c85df4eb6b41a88c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be deemed as showing pathogen-free attributes?",
+    "answer_en": "No",
+    "question_vi": "Có thể xem lá này là có các đặc tính không có tác nhân gây bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_32d77d9077f9fe8f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this leaf be deemed as showing pathogen-free attributes?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể xem lá này là có các đặc tính không có tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a1f2a3287fd49c8a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this plant be classified as showing healthy development?",
+    "answer_en": "No",
+    "question_vi": "Có thể phân loại cây này là đang phát triển khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_94bd7113d74cd600",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this plant be classified as showing healthy development?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phân loại cây này là đang phát triển khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6596b4500cf0b1a3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this plant be classified as thriving?",
+    "answer_en": "No",
+    "question_vi": "Có thể phân loại cây này là đang phát triển tốt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9e7887e064f38dcc",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this plant be classified as thriving?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể phân loại cây này là đang phát triển tốt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4cf24d45528f27a1",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this specimen be considered pathogen-free?",
+    "answer_en": "No",
+    "question_vi": "Có thể coi mẫu này không có tác nhân gây bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_936ae811fcfee28c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can this specimen be considered pathogen-free?",
+    "answer_en": "Yes",
+    "question_vi": "Có thể coi mẫu này không có tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_53ac58ec4352f959",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you assess this specimen as flourishing?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể đánh giá mẫu này là đang phát triển mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_28b540e59097cf0f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you assess this specimen as flourishing?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể đánh giá mẫu này là đang phát triển mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5a1315839d5f7678",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you attest to the absence of pathological signs?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận không có dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c83553abbc9b9e83",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you attest to the absence of pathological signs?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận không có dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f75c10eaae5fb9c1",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you categorize this as infected foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phân loại đây là lá bị nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_369224649bf0441a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you categorize this as infected foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phân loại đây là lá bị nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4931d3c3cc9b3529",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you certify no pathological signs are visible?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác nhận không nhìn thấy dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fee713ec4ff12c0f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you certify no pathological signs are visible?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác nhận không nhìn thấy dấu hiệu bệnh lý nào không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_ffbce9e708711e84",
+    "errors": []
+   },
+   {
+    "id": "p_a1f11dcb53f5868d",
+    "errors": []
+   },
+   {
+    "id": "p_552fc7345037086d",
+    "errors": []
+   },
+   {
+    "id": "p_002ef0e0391bab84",
+    "errors": []
+   },
+   {
+    "id": "p_74a4d04eba660a5b",
+    "errors": []
+   },
+   {
+    "id": "p_8dc1c7921a7e0b6a",
+    "errors": []
+   },
+   {
+    "id": "p_13627e48cf1984a8",
+    "errors": []
+   },
+   {
+    "id": "p_4f9f4d4c3eee4957",
+    "errors": []
+   },
+   {
+    "id": "p_d1a0066c3ed0cebe",
+    "errors": []
+   },
+   {
+    "id": "p_c5e0f3cbc24360f4",
+    "errors": []
+   },
+   {
+    "id": "p_5f2ade67ff4c28e3",
+    "errors": []
+   },
+   {
+    "id": "p_3c0305fd9f48ba18",
+    "errors": []
+   },
+   {
+    "id": "p_b0f257eb4bd78b4f",
+    "errors": []
+   },
+   {
+    "id": "p_3362b5f855ab34bf",
+    "errors": []
+   },
+   {
+    "id": "p_ec5b4ce23b940a58",
+    "errors": []
+   },
+   {
+    "id": "p_004c4c15fc368aa6",
+    "errors": []
+   },
+   {
+    "id": "p_03822ce9522dceea",
+    "errors": []
+   },
+   {
+    "id": "p_7f9c9f757655c7e4",
+    "errors": []
+   },
+   {
+    "id": "p_6709f04ef60d17a3",
+    "errors": []
+   },
+   {
+    "id": "p_99203744ca0bb4c5",
+    "errors": []
+   },
+   {
+    "id": "p_2d5c4d7f19af5c61",
+    "errors": []
+   },
+   {
+    "id": "p_0dcbfe0b9835b56f",
+    "errors": []
+   },
+   {
+    "id": "p_69d2113cd95efe00",
+    "errors": []
+   },
+   {
+    "id": "p_c5736646dbd1a803",
+    "errors": []
+   },
+   {
+    "id": "p_c85df4eb6b41a88c",
+    "errors": []
+   },
+   {
+    "id": "p_32d77d9077f9fe8f",
+    "errors": []
+   },
+   {
+    "id": "p_a1f2a3287fd49c8a",
+    "errors": []
+   },
+   {
+    "id": "p_94bd7113d74cd600",
+    "errors": []
+   },
+   {
+    "id": "p_6596b4500cf0b1a3",
+    "errors": []
+   },
+   {
+    "id": "p_9e7887e064f38dcc",
+    "errors": []
+   },
+   {
+    "id": "p_4cf24d45528f27a1",
+    "errors": []
+   },
+   {
+    "id": "p_936ae811fcfee28c",
+    "errors": []
+   },
+   {
+    "id": "p_53ac58ec4352f959",
+    "errors": []
+   },
+   {
+    "id": "p_28b540e59097cf0f",
+    "errors": []
+   },
+   {
+    "id": "p_5a1315839d5f7678",
+    "errors": []
+   },
+   {
+    "id": "p_c83553abbc9b9e83",
+    "errors": []
+   },
+   {
+    "id": "p_f75c10eaae5fb9c1",
+    "errors": []
+   },
+   {
+    "id": "p_369224649bf0441a",
+    "errors": []
+   },
+   {
+    "id": "p_4931d3c3cc9b3529",
+    "errors": []
+   },
+   {
+    "id": "p_fee713ec4ff12c0f",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.3,
+  "usage": {
+   "input_tokens": 12259,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1079,
+   "reasoning_output_tokens": 359
+  }
+ }
+}

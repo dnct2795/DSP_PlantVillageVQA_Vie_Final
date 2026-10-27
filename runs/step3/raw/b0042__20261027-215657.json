@@ -1,0 +1,393 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_53cc4a906f5337b1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_3c832ab6f0a29983",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_57ccdc70df1fb38d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_3475815bfd4f88fc",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_e30a5320c67728ca",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_0098271d332d76c7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_a6df12fea63a297e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_30efafa235773450",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_63a863bd5cc2c962",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_15e45fc2f62ed6b8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_4743dd22c4c77468",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_56758f7eeb6714ab",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The symptoms are characteristic of Apple scab.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh ghẻ táo."
+   },
+   {
+    "id": "p_d68f41bd067ffaf4",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "The symptoms are characteristic of Common rust.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Các triệu chứng này đặc trưng của bệnh gỉ sắt thông thường."
+   },
+   {
+    "id": "p_b841e3a4d5337f52",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_41ac8cfd358336e6",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Đây là bệnh do nấm, gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_64f2be1ba299c423",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_3e281f86aa863b42",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which element is behind this plant's condition?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Yếu tố nào đứng sau tình trạng của cây này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_7aa6d75d23f14f20",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_7dd742c854de97cb",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_db5b7367c4450943",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_cfb1d5a32ddbdb4a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_e54ae5ba300b6e51",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_5f027c467e231482",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_8d07b57cc348fde7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_14ab6026ed967766",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_de47e6dea164144b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết qua các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_7c4f178f914d277d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_2554e0a13e07dc2a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_690bcde1024ea885",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Đây là bệnh do nấm, gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_cea8bb7973df91b5",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh ở cây có múi."
+   },
+   {
+    "id": "p_5ecf6449908b5e88",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which elements generate these visual indicators?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Những yếu tố nào tạo ra các dấu hiệu quan sát được này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_53cc4a906f5337b1",
+    "errors": []
+   },
+   {
+    "id": "p_3c832ab6f0a29983",
+    "errors": []
+   },
+   {
+    "id": "p_57ccdc70df1fb38d",
+    "errors": []
+   },
+   {
+    "id": "p_3475815bfd4f88fc",
+    "errors": []
+   },
+   {
+    "id": "p_e30a5320c67728ca",
+    "errors": []
+   },
+   {
+    "id": "p_0098271d332d76c7",
+    "errors": []
+   },
+   {
+    "id": "p_a6df12fea63a297e",
+    "errors": []
+   },
+   {
+    "id": "p_30efafa235773450",
+    "errors": []
+   },
+   {
+    "id": "p_63a863bd5cc2c962",
+    "errors": []
+   },
+   {
+    "id": "p_15e45fc2f62ed6b8",
+    "errors": []
+   },
+   {
+    "id": "p_4743dd22c4c77468",
+    "errors": []
+   },
+   {
+    "id": "p_56758f7eeb6714ab",
+    "errors": []
+   },
+   {
+    "id": "p_d68f41bd067ffaf4",
+    "errors": []
+   },
+   {
+    "id": "p_b841e3a4d5337f52",
+    "errors": []
+   },
+   {
+    "id": "p_41ac8cfd358336e6",
+    "errors": []
+   },
+   {
+    "id": "p_64f2be1ba299c423",
+    "errors": []
+   },
+   {
+    "id": "p_3e281f86aa863b42",
+    "errors": []
+   },
+   {
+    "id": "p_7aa6d75d23f14f20",
+    "errors": []
+   },
+   {
+    "id": "p_7dd742c854de97cb",
+    "errors": []
+   },
+   {
+    "id": "p_db5b7367c4450943",
+    "errors": []
+   },
+   {
+    "id": "p_cfb1d5a32ddbdb4a",
+    "errors": []
+   },
+   {
+    "id": "p_e54ae5ba300b6e51",
+    "errors": []
+   },
+   {
+    "id": "p_5f027c467e231482",
+    "errors": []
+   },
+   {
+    "id": "p_8d07b57cc348fde7",
+    "errors": []
+   },
+   {
+    "id": "p_14ab6026ed967766",
+    "errors": []
+   },
+   {
+    "id": "p_de47e6dea164144b",
+    "errors": []
+   },
+   {
+    "id": "p_7c4f178f914d277d",
+    "errors": []
+   },
+   {
+    "id": "p_2554e0a13e07dc2a",
+    "errors": []
+   },
+   {
+    "id": "p_690bcde1024ea885",
+    "errors": []
+   },
+   {
+    "id": "p_cea8bb7973df91b5",
+    "errors": []
+   },
+   {
+    "id": "p_5ecf6449908b5e88",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 15.6,
+  "usage": {
+   "input_tokens": 12349,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 819,
+   "reasoning_output_tokens": 279
+  }
+ }
+}

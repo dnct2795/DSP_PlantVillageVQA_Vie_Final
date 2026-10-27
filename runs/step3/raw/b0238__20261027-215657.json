@@ -1,0 +1,513 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_14389daa561f1469",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show olive-green spots with soft, velvety surfaces?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có biểu hiện đốm màu xanh ô liu với bề mặt mềm như nhung không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1786d1c81ff6c308",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show webbing structures and stippled appearance?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có biểu hiện cấu trúc tơ nhện và vẻ ngoài lốm đốm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7d500ffc70e84e53",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show webbing structures and stippled appearance?",
+    "answer_en": "Yes",
+    "question_vi": "Tán lá này có biểu hiện cấu trúc tơ nhện và vẻ ngoài lốm đốm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_bc28ff5ef53523fe",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this foliage show yellow spots paired with olive-green undersurface fungus?",
+    "answer_en": "No",
+    "question_vi": "Tán lá này có biểu hiện đốm vàng kèm theo nấm màu xanh ô liu ở mặt dưới lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d6445fdf55c40753",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display characteristic rust-like pustular formations?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện các cấu trúc dạng mụn giống gỉ sắt đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dd3fe9e71dd6574f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display characteristic rust-like pustular formations?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất hiện các cấu trúc dạng mụn giống gỉ sắt đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_bba061b9affad120",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display edge browning with tissue necrosis?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện hiện tượng cháy nâu ở mép lá kèm theo mô hoại tử không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_08318d8696e6a27d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display edge browning with tissue necrosis?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất hiện hiện tượng cháy nâu ở mép lá kèm theo mô hoại tử không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0a79c3bbec559c53",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular brown-black spot patterns?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện các kiểu đốm không đều màu nâu đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_44e0128a5d64433a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular brown-black spot patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất hiện các kiểu đốm không đều màu nâu đen không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ddfa356aa3324639",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular yellowing with uneven distribution?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện hiện tượng vàng lá không đều với sự phân bố không đồng đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0eaddb1ba0c52cfd",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display irregular yellowing with uneven distribution?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có xuất hiện hiện tượng vàng lá không đều với sự phân bố không đồng đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e6d850e4979abb9d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display webbing and characteristic stippling patterns?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện tơ nhện và các kiểu lốm đốm đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2a832495a0076c3d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf display white, flour-like coating on its surface?",
+    "answer_en": "No",
+    "question_vi": "Lá này có xuất hiện lớp phủ màu trắng như bột mì trên bề mặt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4d4255bac2941999",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit bull's-eye necrotic spot patterns?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các đốm hoại tử hình bia (vòng đồng tâm) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8899ab911dc0aa56",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit bull's-eye necrotic spot patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện các đốm hoại tử hình bia (vòng đồng tâm) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c8cf025481a9c650",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit characteristic mosaic color patterning?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện kiểu khảm màu đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_df7b91a3bb65aad2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit cigar-shaped lesions in gray-green or tan colors?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vết bệnh hình điếu xì gà màu xanh xám hoặc nâu vàng nhạt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b8625abaaee2a151",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit dark, moisture-filled spots with yellow edges?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các đốm sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cd5cf82f9fada1b7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit dark, moisture-filled spots with yellow edges?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện các đốm sẫm màu, úng nước với viền vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4d0f655bc24a6854",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit large dark lesions with white peripheral mold?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vết bệnh lớn sẫm màu với lớp nấm mốc trắng ở rìa không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e9bb62ab982cb2d5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit large dark lesions with white peripheral mold?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện các vết bệnh lớn sẫm màu với lớp nấm mốc trắng ở rìa không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7e6a69022b9a68ff",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit orange-yellow lesions with dark punctate features?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vết bệnh màu vàng cam với các chấm nhỏ sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_890b58fac4453762",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit round lesions with dark perimeters and light centers?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vết bệnh tròn với viền sẫm màu và tâm nhạt màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_5e544df394255cd1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit round spots with concentric ring structures?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các đốm tròn với cấu trúc vòng đồng tâm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_938d3b018b80f0b6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit round spots with concentric ring structures?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện các đốm tròn với cấu trúc vòng đồng tâm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f2926118b4b0015e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit tan lesions with distinctive dark borders?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vết bệnh màu nâu vàng nhạt với viền sẫm màu đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_cbedf51f18fb4595",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit target-resembling dark ring formations?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện các vòng sẫm màu giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b50add6eafe80cf7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit white, dusty surface contamination?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện lớp bụi màu trắng bám trên bề mặt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_21ef93203889b36f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit white, dusty surface contamination?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện lớp bụi màu trắng bám trên bề mặt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_94a639acfd627ba3",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit yellowing, curling, and developmental restrictions?",
+    "answer_en": "No",
+    "question_vi": "Lá này có biểu hiện vàng lá, xoăn lá và sinh trưởng bị hạn chế không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ef09da0883f85df6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf exhibit yellowing, curling, and developmental restrictions?",
+    "answer_en": "Yes",
+    "question_vi": "Lá này có biểu hiện vàng lá, xoăn lá và sinh trưởng bị hạn chế không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f9acf514f68c4d20",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf show olive-brown spots with characteristic fuzziness?",
+    "answer_en": "No",
+    "question_vi": "Lá này có đốm màu nâu ô liu với lớp lông tơ đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e70315794a0ec9e1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this leaf show yellow surface spots and velvety green undersurface?",
+    "answer_en": "No",
+    "question_vi": "Lá này có đốm vàng trên mặt lá và mặt dưới lá màu xanh như nhung không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_61da0b593f24f829",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display olive-green spots with characteristic texture?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện đốm màu xanh ô liu với kết cấu đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_27975905b9b73bd0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display olive-green spots with characteristic texture?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện đốm màu xanh ô liu với kết cấu đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e1a53e9d53c8ecec",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display yellow spots and olive-green undersurface coating?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện đốm vàng và lớp phủ màu xanh ô liu ở mặt dưới lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b22dba0faef86fa3",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen display yellow spots and olive-green undersurface coating?",
+    "answer_en": "Yes",
+    "question_vi": "Mẫu này có biểu hiện đốm vàng và lớp phủ màu xanh ô liu ở mặt dưới lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7a82c6bbe8d18f1a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen exhibit fine webbing and speckled leaf texture?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện tơ nhện mịn và kết cấu lá lốm đốm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1061aeb933b97edb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Does this specimen exhibit irregular brown or black spot formations?",
+    "answer_en": "No",
+    "question_vi": "Mẫu này có biểu hiện các đốm không đều màu nâu hoặc đen không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_14389daa561f1469",
+    "errors": []
+   },
+   {
+    "id": "p_1786d1c81ff6c308",
+    "errors": []
+   },
+   {
+    "id": "p_7d500ffc70e84e53",
+    "errors": []
+   },
+   {
+    "id": "p_bc28ff5ef53523fe",
+    "errors": []
+   },
+   {
+    "id": "p_d6445fdf55c40753",
+    "errors": []
+   },
+   {
+    "id": "p_dd3fe9e71dd6574f",
+    "errors": []
+   },
+   {
+    "id": "p_bba061b9affad120",
+    "errors": []
+   },
+   {
+    "id": "p_08318d8696e6a27d",
+    "errors": []
+   },
+   {
+    "id": "p_0a79c3bbec559c53",
+    "errors": []
+   },
+   {
+    "id": "p_44e0128a5d64433a",
+    "errors": []
+   },
+   {
+    "id": "p_ddfa356aa3324639",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The repeated wording “không đều ... phân bố không đồng đều” is redundant and awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_0eaddb1ba0c52cfd",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The repeated wording “không đều ... phân bố không đồng đều” is redundant and awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_e6d850e4979abb9d",
+    "errors": []
+   },
+   {
+    "id": "p_2a832495a0076c3d",
+    "errors": []
+   },
+   {
+    "id": "p_4d4255bac2941999",
+    "errors": []
+   },
+   {
+    "id": "p_8899ab911dc0aa56",
+    "errors": []
+   },
+   {
+    "id": "p_c8cf025481a9c650",
+    "errors": []
+   },
+   {
+    "id": "p_df7b91a3bb65aad2",
+    "errors": []
+   },
+   {
+    "id": "p_b8625abaaee2a151",
+    "errors": []
+   },
+   {
+    "id": "p_cd5cf82f9fada1b7",
+    "errors": []
+   },
+   {
+    "id": "p_4d0f655bc24a6854",
+    "errors": []
+   },
+   {
+    "id": "p_e9bb62ab982cb2d5",
+    "errors": []
+   },
+   {
+    "id": "p_7e6a69022b9a68ff",
+    "errors": []
+   },
+   {
+    "id": "p_890b58fac4453762",
+    "errors": []
+   },
+   {
+    "id": "p_5e544df394255cd1",
+    "errors": []
+   },
+   {
+    "id": "p_938d3b018b80f0b6",
+    "errors": []
+   },
+   {
+    "id": "p_f2926118b4b0015e",
+    "errors": []
+   },
+   {
+    "id": "p_cbedf51f18fb4595",
+    "errors": []
+   },
+   {
+    "id": "p_b50add6eafe80cf7",
+    "errors": []
+   },
+   {
+    "id": "p_21ef93203889b36f",
+    "errors": []
+   },
+   {
+    "id": "p_94a639acfd627ba3",
+    "errors": []
+   },
+   {
+    "id": "p_ef09da0883f85df6",
+    "errors": []
+   },
+   {
+    "id": "p_f9acf514f68c4d20",
+    "errors": []
+   },
+   {
+    "id": "p_e70315794a0ec9e1",
+    "errors": []
+   },
+   {
+    "id": "p_61da0b593f24f829",
+    "errors": []
+   },
+   {
+    "id": "p_27975905b9b73bd0",
+    "errors": []
+   },
+   {
+    "id": "p_e1a53e9d53c8ecec",
+    "errors": []
+   },
+   {
+    "id": "p_b22dba0faef86fa3",
+    "errors": []
+   },
+   {
+    "id": "p_7a82c6bbe8d18f1a",
+    "errors": []
+   },
+   {
+    "id": "p_1061aeb933b97edb",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.3,
+  "usage": {
+   "input_tokens": 12713,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1113,
+   "reasoning_output_tokens": 354
+  }
+ }
+}

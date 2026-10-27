@@ -1,0 +1,237 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_32343cddeff6ca10",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_a8593d8ac1927fbe",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_d2d0a5930439023f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_7c6c03789caba738",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_c62db66b64f1f83c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_a0ca0635e63ad9a9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_75a865da7a7dc0a9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_29d6d9aef958d036",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_c81c02aaa9405342",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_35cd7716e351f84e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_5e2bb42e4e7d6aa3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_d54bc47ddd2cd1de",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_50b37045f56854e9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_9079e9e275b2efec",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_acc5ce6c5c70db38",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_f670c279cb3451f7",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_ab496e0c96433566",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, hình tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_5448ea26514ae133",
+    "question_type": "Specific Disease Identification",
+    "question_en": "What is the accurate diagnostic term for these symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Thuật ngữ chẩn đoán chính xác cho các triệu chứng này là gì?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh cây có múi."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_32343cddeff6ca10",
+    "errors": []
+   },
+   {
+    "id": "p_a8593d8ac1927fbe",
+    "errors": []
+   },
+   {
+    "id": "p_d2d0a5930439023f",
+    "errors": []
+   },
+   {
+    "id": "p_7c6c03789caba738",
+    "errors": []
+   },
+   {
+    "id": "p_c62db66b64f1f83c",
+    "errors": []
+   },
+   {
+    "id": "p_a0ca0635e63ad9a9",
+    "errors": []
+   },
+   {
+    "id": "p_75a865da7a7dc0a9",
+    "errors": []
+   },
+   {
+    "id": "p_29d6d9aef958d036",
+    "errors": []
+   },
+   {
+    "id": "p_c81c02aaa9405342",
+    "errors": []
+   },
+   {
+    "id": "p_35cd7716e351f84e",
+    "errors": []
+   },
+   {
+    "id": "p_5e2bb42e4e7d6aa3",
+    "errors": []
+   },
+   {
+    "id": "p_d54bc47ddd2cd1de",
+    "errors": []
+   },
+   {
+    "id": "p_50b37045f56854e9",
+    "errors": []
+   },
+   {
+    "id": "p_9079e9e275b2efec",
+    "errors": []
+   },
+   {
+    "id": "p_acc5ce6c5c70db38",
+    "errors": []
+   },
+   {
+    "id": "p_f670c279cb3451f7",
+    "errors": []
+   },
+   {
+    "id": "p_ab496e0c96433566",
+    "errors": []
+   },
+   {
+    "id": "p_5448ea26514ae133",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.3,
+  "usage": {
+   "input_tokens": 10990,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 650,
+   "reasoning_output_tokens": 326
+  }
+ }
+}

@@ -1,0 +1,477 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_c10c0238e471cdb7",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "Diagnosis: Leaf Mold.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Chẩn đoán: bệnh mốc lá."
+   },
+   {
+    "id": "p_a7d7bce88193f0d9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_e9bb64f4ea0aace1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_deb25036ed1a1066",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_44ca09a11b3cf500",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_2f0251750b1bd8ee",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_7daf8ae7cdb513a1",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu, hình bia (vòng đồng tâm)."
+   },
+   {
+    "id": "p_00bc3807159a1f0b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_3b8258d162dbc038",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The mosaic pattern of light and dark green areas is a classic symptom of ToMV.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Kiểu khảm với các vùng xanh nhạt và xanh đậm xen kẽ là triệu chứng điển hình của ToMV."
+   },
+   {
+    "id": "p_0db712410bb6195b",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_1ee647dcd3fb8350",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_770868220220d564",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_942af5cfbecc8f0a",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_4e16be20e9f9047d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_b07b4d853951c518",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_10f8bfca4f5e55c8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm nhện đỏ."
+   },
+   {
+    "id": "p_80d8ddc1bc62f5ee",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy đây là bệnh mốc lá."
+   },
+   {
+    "id": "p_e53bba8f619bd85d",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu dễ nhận biết của bệnh đốm vòng."
+   },
+   {
+    "id": "p_f948c09cc8873a44",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_f6bc438146e4d4f2",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_dec88f9741c74213",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_ff2005332a3adec9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_e9299013bbfe2867",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_eab55ffbe5b7d570",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_650ddba961cd67cd",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Đây là thiệt hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_67651c71f5d69ced",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causal agents are responsible for this tomato leaf's abnormal appearance?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Những tác nhân gây bệnh nào chịu trách nhiệm cho hình dạng bất thường của lá cà chua này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_5aa14118575ba0dd",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_db8b2e52ee31bf08",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_b737046d27cc7a15",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, là triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_fc45d30002568ef2",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_d23d3421e7d76384",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_6f0d69e7d625f552",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_ae60923f31b8942e",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_861d0dd4f2de8dc9",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "The symptoms are characteristic of Leaf scorch.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy mép lá."
+   },
+   {
+    "id": "p_a9ca8a9914154f03",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_d6c7ab2de941e997",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_5661a9632305b4d3",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_ecf4ba00267f47f8",
+    "question_type": "Causal Reasoning",
+    "question_en": "Which causative agent is responsible for these disease signs?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tác nhân nào gây ra những dấu hiệu bệnh này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_c10c0238e471cdb7",
+    "errors": []
+   },
+   {
+    "id": "p_a7d7bce88193f0d9",
+    "errors": []
+   },
+   {
+    "id": "p_e9bb64f4ea0aace1",
+    "errors": []
+   },
+   {
+    "id": "p_deb25036ed1a1066",
+    "errors": []
+   },
+   {
+    "id": "p_44ca09a11b3cf500",
+    "errors": []
+   },
+   {
+    "id": "p_2f0251750b1bd8ee",
+    "errors": []
+   },
+   {
+    "id": "p_7daf8ae7cdb513a1",
+    "errors": []
+   },
+   {
+    "id": "p_00bc3807159a1f0b",
+    "errors": []
+   },
+   {
+    "id": "p_3b8258d162dbc038",
+    "errors": []
+   },
+   {
+    "id": "p_0db712410bb6195b",
+    "errors": []
+   },
+   {
+    "id": "p_1ee647dcd3fb8350",
+    "errors": []
+   },
+   {
+    "id": "p_770868220220d564",
+    "errors": []
+   },
+   {
+    "id": "p_942af5cfbecc8f0a",
+    "errors": []
+   },
+   {
+    "id": "p_4e16be20e9f9047d",
+    "errors": []
+   },
+   {
+    "id": "p_b07b4d853951c518",
+    "errors": []
+   },
+   {
+    "id": "p_10f8bfca4f5e55c8",
+    "errors": []
+   },
+   {
+    "id": "p_80d8ddc1bc62f5ee",
+    "errors": []
+   },
+   {
+    "id": "p_e53bba8f619bd85d",
+    "errors": []
+   },
+   {
+    "id": "p_f948c09cc8873a44",
+    "errors": []
+   },
+   {
+    "id": "p_f6bc438146e4d4f2",
+    "errors": []
+   },
+   {
+    "id": "p_dec88f9741c74213",
+    "errors": []
+   },
+   {
+    "id": "p_ff2005332a3adec9",
+    "errors": []
+   },
+   {
+    "id": "p_e9299013bbfe2867",
+    "errors": []
+   },
+   {
+    "id": "p_eab55ffbe5b7d570",
+    "errors": []
+   },
+   {
+    "id": "p_650ddba961cd67cd",
+    "errors": []
+   },
+   {
+    "id": "p_67651c71f5d69ced",
+    "errors": []
+   },
+   {
+    "id": "p_5aa14118575ba0dd",
+    "errors": []
+   },
+   {
+    "id": "p_db8b2e52ee31bf08",
+    "errors": []
+   },
+   {
+    "id": "p_b737046d27cc7a15",
+    "errors": []
+   },
+   {
+    "id": "p_fc45d30002568ef2",
+    "errors": []
+   },
+   {
+    "id": "p_d23d3421e7d76384",
+    "errors": []
+   },
+   {
+    "id": "p_6f0d69e7d625f552",
+    "errors": []
+   },
+   {
+    "id": "p_ae60923f31b8942e",
+    "errors": []
+   },
+   {
+    "id": "p_861d0dd4f2de8dc9",
+    "errors": []
+   },
+   {
+    "id": "p_a9ca8a9914154f03",
+    "errors": []
+   },
+   {
+    "id": "p_d6c7ab2de941e997",
+    "errors": []
+   },
+   {
+    "id": "p_5661a9632305b4d3",
+    "errors": []
+   },
+   {
+    "id": "p_ecf4ba00267f47f8",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.9,
+  "usage": {
+   "input_tokens": 13455,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1040,
+   "reasoning_output_tokens": 377
+  }
+ }
+}

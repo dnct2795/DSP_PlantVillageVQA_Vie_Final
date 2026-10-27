@@ -1,0 +1,579 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_38cbc0d773d563d5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_75e6702d579f06cd",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e0085f5352cb2e0d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_b8e1012ace6fffea",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_57b80c07fd75f378",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_5074af02733d3eb3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_66a9cac7e99bbdc5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+   },
+   {
+    "id": "p_0581f3c0a05b56e6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_8d5d93ee784cafbc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in ideal health - what visual modifications would occur?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái khỏe mạnh hoàn hảo - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_f1881822fe7dd7d0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_d2fa5c560ac5ec24",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_d6e36951dabc9a25",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+   },
+   {
+    "id": "p_9d7805b8f6d71f91",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_88974b867a62b075",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_805701040827a7c4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_c9889c8a8889eb69",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_236e8bc244f627b5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_11ca44ef24f4150b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen in perfect health - what visual changes would occur?",
+    "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Hãy hình dung mẫu này ở trạng thái hoàn toàn khỏe mạnh - những thay đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_3b9a49e4aca77149",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_a5de822c04579bb6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_e3d87fb57c73bd11",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_f7fa1e912a954c09",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_3d3c51330d8f8003",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_ac2f6bb82d033e6b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_57ffd6e49aa76174",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Envision this specimen restored to health - what visual alterations would occur?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Hãy hình dung mẫu này được phục hồi về trạng thái khỏe mạnh - những biến đổi nào về hình thái bên ngoài sẽ xảy ra?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_5fb8492c980eb68e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy examples, and what's most evident?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Chiếc lá này khác với những lá khỏe mạnh như thế nào, và điều gì rõ nhất?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_087a84dba44653b3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy examples, and what's most evident?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Chiếc lá này khác với những lá khỏe mạnh như thế nào, và điều gì rõ nhất?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_bdca9bfbd120a81d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy examples, and what's most evident?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Chiếc lá này khác với những lá khỏe mạnh như thế nào, và điều gì rõ nhất?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_2b7043cf35ac51e5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy examples, and what's most evident?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Chiếc lá này khác với những lá khỏe mạnh như thế nào, và điều gì rõ nhất?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_4185de55b7b5c707",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_480603e6113fc1cf",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các đốm tròn với hoa văn hình bia."
+   },
+   {
+    "id": "p_141ca5df51cde420",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_df2f163098cbca3c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Một cây khỏe mạnh sẽ không biểu hiện các triệu chứng bệnh."
+   },
+   {
+    "id": "p_54e72b61e36c5084",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_6392b4531668a900",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_31602e2673762ef8",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_6886489156a61da6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "How does this leaf differ from healthy specimens, and what's most prominent?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Chiếc lá này khác với các mẫu khỏe mạnh như thế nào, và điều gì nổi bật nhất?",
+    "answer_vi": "Sự khác biệt chính về hình thái sẽ là không có các triệu chứng bệnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_38cbc0d773d563d5",
+    "errors": []
+   },
+   {
+    "id": "p_75e6702d579f06cd",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_e0085f5352cb2e0d",
+    "errors": []
+   },
+   {
+    "id": "p_b8e1012ace6fffea",
+    "errors": []
+   },
+   {
+    "id": "p_57b80c07fd75f378",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_5074af02733d3eb3",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_66a9cac7e99bbdc5",
+    "errors": []
+   },
+   {
+    "id": "p_0581f3c0a05b56e6",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_8d5d93ee784cafbc",
+    "errors": []
+   },
+   {
+    "id": "p_f1881822fe7dd7d0",
+    "errors": []
+   },
+   {
+    "id": "p_d2fa5c560ac5ec24",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_d6e36951dabc9a25",
+    "errors": []
+   },
+   {
+    "id": "p_9d7805b8f6d71f91",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_88974b867a62b075",
+    "errors": []
+   },
+   {
+    "id": "p_805701040827a7c4",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_c9889c8a8889eb69",
+    "errors": []
+   },
+   {
+    "id": "p_236e8bc244f627b5",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_11ca44ef24f4150b",
+    "errors": []
+   },
+   {
+    "id": "p_3b9a49e4aca77149",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_a5de822c04579bb6",
+    "errors": []
+   },
+   {
+    "id": "p_e3d87fb57c73bd11",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_f7fa1e912a954c09",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_3d3c51330d8f8003",
+    "errors": []
+   },
+   {
+    "id": "p_ac2f6bb82d033e6b",
+    "errors": []
+   },
+   {
+    "id": "p_57ffd6e49aa76174",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_5fb8492c980eb68e",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_087a84dba44653b3",
+    "errors": []
+   },
+   {
+    "id": "p_bdca9bfbd120a81d",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_2b7043cf35ac51e5",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_4185de55b7b5c707",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_480603e6113fc1cf",
+    "errors": []
+   },
+   {
+    "id": "p_141ca5df51cde420",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_df2f163098cbca3c",
+    "errors": []
+   },
+   {
+    "id": "p_54e72b61e36c5084",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_6392b4531668a900",
+    "errors": []
+   },
+   {
+    "id": "p_31602e2673762ef8",
+    "errors": [
+     {
+      "category": "terminology",
+      "severity": "minor",
+      "explanation": "“Dạng mụn” is colloquial and ambiguous for “pustular”; “dạng mụn mủ” would convey the plant symptom more precisely."
+     }
+    ]
+   },
+   {
+    "id": "p_6886489156a61da6",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 160.6,
+  "usage": {
+   "input_tokens": 15403,
+   "cached_input_tokens": 13952,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1578,
+   "reasoning_output_tokens": 0
+  }
+ }
+}

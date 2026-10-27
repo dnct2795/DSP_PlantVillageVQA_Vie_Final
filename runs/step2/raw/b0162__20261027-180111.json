@@ -1,0 +1,676 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_763ab7691389",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of plant disease processes?",
+    "pairs": [
+     {
+      "pair_id": "p_5bc8f19c00f44b14",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_173b94cf7b26ae4b",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8e77c166fa2b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if this leaf has contracted disease?",
+    "pairs": [
+     {
+      "pair_id": "p_1f6053be7f07434e",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_ef0f832096e1e831",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d1429a5ea2ea",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if vitality indicators are present?",
+    "pairs": [
+     {
+      "pair_id": "p_8b81aeba7a6c80be",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_88a95652d873e0f2",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f662a8e6266a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine total pathology absence?",
+    "pairs": [
+     {
+      "pair_id": "p_d4ff2a1eab64d560",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_aabc0749f20f5b37",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_fc6364ddc9f7",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you diagnose disease presence in this leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_2ab5f3198aee4026",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6c6127a5e4b3da63",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_53867d2a50f6",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you evaluate if this plant displays robust condition?",
+    "pairs": [
+     {
+      "pair_id": "p_b66e8ce7efdf17c7",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_291c225984efeff0",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_309c0f29b3e1",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify clear markers of disease-free status?",
+    "pairs": [
+     {
+      "pair_id": "p_9894140de5221ea6",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2cd307a98a39a15a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_319b4ef135a0",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify disease biomarkers in this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_8fdf4833bde8141e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6908a3243e72",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify disease-related features in this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_e545e61618859478",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7c6759f22ca37567",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_da68c8c3436d",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify evidence of uninfected status?",
+    "pairs": [
+     {
+      "pair_id": "p_f020b54714cb9152",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_659b96446276cff8",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5048e1fef849",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify features suggesting healthy, uninfected status?",
+    "pairs": [
+     {
+      "pair_id": "p_17cf4bad8f6a4330",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9283bf8e2a734bb0",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c6148f0815c3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify markers of healthy plant physiology?",
+    "pairs": [
+     {
+      "pair_id": "p_85e244c9005bb58f",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_4f06d69119fa34f6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_207796cdf818",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological deviations present?",
+    "pairs": [
+     {
+      "pair_id": "p_fd1ec549a59623a0",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2ad8c2e23bdf0d29",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5431a7717743",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological evidence in this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_0b2b5dce36f6d491",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_217896ae3aa6631e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1606e0c0018b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify signs of robust physiological state?",
+    "pairs": [
+     {
+      "pair_id": "p_71175ed0b0410a8f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_964fb0db6f53",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe disease-caused abnormalities?",
+    "pairs": [
+     {
+      "pair_id": "p_e4e1bd3cd0e6c4bf",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9fc0f5224d64816c",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_0fb0d0a969ec",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe pathogen-induced changes on this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_ea68549de4f6d00b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_fd6ecc9ad4df85ef",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f8c71f2cdee3",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you recognize disease signs on this foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_cf02d9d824bd97aa",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_521dc9e46b0e8daa",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_768b5b86ee06",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you see clear evidence of pathogen-free status?",
+    "pairs": [
+     {
+      "pair_id": "p_2d29bf045124d05a",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_25b2f69e5a5cdb0d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_eea12193b39e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you see evidence of disease agent activity?",
+    "pairs": [
+     {
+      "pair_id": "p_41a43e73394acefd",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a0155b254449",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you spot symptomatic features in this leaf tissue?",
+    "pairs": [
+     {
+      "pair_id": "p_e2e6900a4ed36f92",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0b359b577806836b",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_763ab7691389",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của quá trình bệnh ở cây không?",
+    "pairs": [
+     {
+      "pair_id": "p_5bc8f19c00f44b14",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_173b94cf7b26ae4b",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8e77c166fa2b",
+    "question_vi": "Bạn có thể xác định chiếc lá này có bị nhiễm bệnh hay không?",
+    "pairs": [
+     {
+      "pair_id": "p_1f6053be7f07434e",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_ef0f832096e1e831",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d1429a5ea2ea",
+    "question_vi": "Bạn có thể xác định các chỉ dấu sức sống có hiện diện hay không?",
+    "pairs": [
+     {
+      "pair_id": "p_8b81aeba7a6c80be",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_88a95652d873e0f2",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f662a8e6266a",
+    "question_vi": "Bạn có thể xác định hoàn toàn không có bệnh lý hay không?",
+    "pairs": [
+     {
+      "pair_id": "p_d4ff2a1eab64d560",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_aabc0749f20f5b37",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_fc6364ddc9f7",
+    "question_vi": "Bạn có thể chẩn đoán sự hiện diện của bệnh trên chiếc lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_2ab5f3198aee4026",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6c6127a5e4b3da63",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_53867d2a50f6",
+    "question_vi": "Bạn có thể đánh giá cây này có biểu hiện tình trạng sinh trưởng mạnh khỏe không?",
+    "pairs": [
+     {
+      "pair_id": "p_b66e8ce7efdf17c7",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_291c225984efeff0",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_309c0f29b3e1",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng sạch bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_9894140de5221ea6",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2cd307a98a39a15a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_319b4ef135a0",
+    "question_vi": "Bạn có thể nhận ra các dấu ấn sinh học của bệnh trong mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_8fdf4833bde8141e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6908a3243e72",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm liên quan đến bệnh trong mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_e545e61618859478",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7c6759f22ca37567",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_da68c8c3436d",
+    "question_vi": "Bạn có thể nhận ra bằng chứng của tình trạng không bị nhiễm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_f020b54714cb9152",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_659b96446276cff8",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5048e1fef849",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm gợi ý tình trạng khỏe mạnh, không bị nhiễm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_17cf4bad8f6a4330",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9283bf8e2a734bb0",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c6148f0815c3",
+    "question_vi": "Bạn có thể nhận ra các chỉ dấu của sinh lý cây khỏe mạnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_85e244c9005bb58f",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_4f06d69119fa34f6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_207796cdf818",
+    "question_vi": "Bạn có thể nhận ra các sai lệch bệnh lý đang hiện diện không?",
+    "pairs": [
+     {
+      "pair_id": "p_fd1ec549a59623a0",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2ad8c2e23bdf0d29",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5431a7717743",
+    "question_vi": "Bạn có thể nhận ra bằng chứng bệnh lý trong mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_0b2b5dce36f6d491",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_217896ae3aa6631e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1606e0c0018b",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu của trạng thái sinh lý mạnh khỏe không?",
+    "pairs": [
+     {
+      "pair_id": "p_71175ed0b0410a8f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_964fb0db6f53",
+    "question_vi": "Bạn có thể quan sát thấy các bất thường do bệnh gây ra không?",
+    "pairs": [
+     {
+      "pair_id": "p_e4e1bd3cd0e6c4bf",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9fc0f5224d64816c",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_0fb0d0a969ec",
+    "question_vi": "Bạn có thể quan sát thấy những thay đổi do tác nhân gây bệnh gây ra trên mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_ea68549de4f6d00b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_fd6ecc9ad4df85ef",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f8c71f2cdee3",
+    "question_vi": "Bạn có thể nhận biết các dấu hiệu bệnh trên tán lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_cf02d9d824bd97aa",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_521dc9e46b0e8daa",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_768b5b86ee06",
+    "question_vi": "Bạn có thể thấy bằng chứng rõ ràng của tình trạng không có mầm bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_2d29bf045124d05a",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_25b2f69e5a5cdb0d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_eea12193b39e",
+    "question_vi": "Bạn có thể thấy bằng chứng về hoạt động của tác nhân gây bệnh không?",
+    "pairs": [
+     {
+      "pair_id": "p_41a43e73394acefd",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a0155b254449",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm triệu chứng trong mô lá này không?",
+    "pairs": [
+     {
+      "pair_id": "p_e2e6900a4ed36f92",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0b359b577806836b",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 17.1,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5616,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 2790,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5616,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 2790,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 5616,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5616
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.050899700000000006,
+  "duration_ms": 14362,
+  "num_turns": 2,
+  "session_id": "b2d9c790-9874-4d63-9ca0-52e74a1b4be4"
+ }
+}

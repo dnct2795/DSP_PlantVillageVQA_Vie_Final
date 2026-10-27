@@ -1,0 +1,489 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_9da5f4b54e2c4883",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_f88e7eb45d0bce6a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_b6eb2a2121f78569",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Tình trạng được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_28e9b7ea48d61097",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_25126f2d7af263b5",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_d00f8ed2e426c094",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_23e32cf635086c92",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_f8615e04058313ed",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_caf164b2eeab3723",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu quan trọng của bệnh mốc sương."
+   },
+   {
+    "id": "p_8d09d811e640dd7c",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_3c3d83a0455dbc33",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_ec4473093b657410",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_70e672f6c2844b79",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_307ece7a60cd6962",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The plant shows no symptoms of pathology.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Cây không có triệu chứng bệnh lý."
+   },
+   {
+    "id": "p_2282565441e2dfe6",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_e62d861375e4d537",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_ed987c5e100bf0ba",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy chú ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_64673993f12f8081",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vòng, nhận biết được nhờ các vòng đồng tâm hình bia trong các đốm."
+   },
+   {
+    "id": "p_994ff97c363e4c08",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_387ac30be145ca8a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is a Apple leaf suffering from Black rot.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là lá táo bị bệnh thối đen."
+   },
+   {
+    "id": "p_6364cb81fd302fab",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is a Squash leaf suffering from Powdery mildew.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là lá bí bị bệnh phấn trắng."
+   },
+   {
+    "id": "p_393bd376ba461c1a",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_33cba07795586e3e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_e33830238c6ec422",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+   },
+   {
+    "id": "p_cb3b11d79be824d5",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Đây là tổn thương do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_2fe2602ffecb93c2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Lead me through the leaf features and conditions present in this picture.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_9da5f4b54e2c4883",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_f88e7eb45d0bce6a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_b6eb2a2121f78569",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_28e9b7ea48d61097",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_25126f2d7af263b5",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_d00f8ed2e426c094",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_23e32cf635086c92",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_f8615e04058313ed",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_caf164b2eeab3723",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_8d09d811e640dd7c",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_3c3d83a0455dbc33",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_ec4473093b657410",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_70e672f6c2844b79",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_307ece7a60cd6962",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_2282565441e2dfe6",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_e62d861375e4d537",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_ed987c5e100bf0ba",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_64673993f12f8081",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_994ff97c363e4c08",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_387ac30be145ca8a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_6364cb81fd302fab",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_393bd376ba461c1a",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_33cba07795586e3e",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_e33830238c6ec422",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_cb3b11d79be824d5",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_2fe2602ffecb93c2",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "The shared question phrase “Hãy hướng dẫn tôi qua” is an awkward calque; “Hãy mô tả cho tôi” would sound more natural."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 22.0,
+  "usage": {
+   "input_tokens": 12016,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2609,
+   "reasoning_output_tokens": 960
+  }
+ }
+}

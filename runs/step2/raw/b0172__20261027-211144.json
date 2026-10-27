@@ -1,0 +1,546 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_cfd379d3ac47",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to Solanum tuberosum?",
+    "pairs": [
+     {
+      "pair_id": "p_59f6fbe5dfc16f5c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_f7277748b701ab0f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ef61fef0ca3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to a tomato plant species?",
+    "pairs": [
+     {
+      "pair_id": "p_70a7e2528a90913e",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_787cff9538718625",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b42b5d4bbc29",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf belong to an orange tree specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_7f35a5f92bca4b5e",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0e8b9f29b61cfe71",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_b4d4af2a5400",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from a potato plant?",
+    "pairs": [
+     {
+      "pair_id": "p_b1ee6353819d764e",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_eaaf5d9ae9fd035f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee9a334888e2",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this leaf originate from citrus sinensis (orange) plant?",
+    "pairs": [
+     {
+      "pair_id": "p_de49c7ff6cf986a3",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_b91b62365aff7f1a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1507797b938b",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen exhibit features typical of tomato leaves?",
+    "pairs": [
+     {
+      "pair_id": "p_b01f3881b267204f",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_0a6c332c62977c14",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ad9c8ec55448",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match orange tree leaf morphology?",
+    "pairs": [
+     {
+      "pair_id": "p_eab33efc6d140105",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6c18b88f0264c6f6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_295773181c63",
+    "question_type": "Plant Species Identification",
+    "question_en": "Does this specimen match potato leaf morphology?",
+    "pairs": [
+     {
+      "pair_id": "p_d7413d41f542a912",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2502815c112b2ff5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_aa8dfa446c90",
+    "question_type": "Plant Species Identification",
+    "question_en": "Establish the genus and species of this plant specimen.",
+    "pairs": [
+     {
+      "pair_id": "p_bd4fe23d06b9eabe",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_832dd6b70f1de0c5",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f114e7b19205b611",
+      "answer_en": "Cherry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e9bdb1e25ee59406",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_480c1eb3bde7ac72",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_859826522421fcb0",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5ce5f1c41d980393",
+      "answer_en": "Pepper bell",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_ede9022602f543f2",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_2ca74faa682f8d78",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_dc127ffa4a1b2b68",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5b1c1cf4a2757eed",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_42cd4a125a6e",
+    "question_type": "Plant Species Identification",
+    "question_en": "How would you classify this plant from a botanical perspective?",
+    "pairs": [
+     {
+      "pair_id": "p_2b3c886ae8c22963",
+      "answer_en": "Apple",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4d5a203add0e45ae",
+      "answer_en": "Blueberry",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_b4842a373cc412a3",
+      "answer_en": "Corn",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_9d9eb1169500a8d0",
+      "answer_en": "Grape",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fe6bca462ebd88af",
+      "answer_en": "Orange",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_1641460da4868b87",
+      "answer_en": "Peach",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_10de7d54ab293252",
+      "answer_en": "Potato",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f144bd787671ef8d",
+      "answer_en": "Soybean",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_f60687c57b403983",
+      "answer_en": "Squash",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fc9195643c8561d7",
+      "answer_en": "Tomato",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_112f9c8b16da",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Apple leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_bbb18bf29f332866",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_2fa6b64fd470cb20",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_cfd379d3ac47",
+    "question_vi": "Lá này có thuộc loài Solanum tuberosum không?",
+    "pairs": [
+     {
+      "pair_id": "p_59f6fbe5dfc16f5c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_f7277748b701ab0f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ef61fef0ca3",
+    "question_vi": "Lá này có thuộc loài cây cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_70a7e2528a90913e",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_787cff9538718625",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b42b5d4bbc29",
+    "question_vi": "Lá này có thuộc mẫu cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_7f35a5f92bca4b5e",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0e8b9f29b61cfe71",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_b4d4af2a5400",
+    "question_vi": "Lá này có xuất phát từ cây khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_b1ee6353819d764e",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_eaaf5d9ae9fd035f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ee9a334888e2",
+    "question_vi": "Lá này có xuất phát từ cây citrus sinensis (cam) không?",
+    "pairs": [
+     {
+      "pair_id": "p_de49c7ff6cf986a3",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_b91b62365aff7f1a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1507797b938b",
+    "question_vi": "Mẫu này có biểu hiện các đặc điểm điển hình của lá cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_b01f3881b267204f",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_0a6c332c62977c14",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ad9c8ec55448",
+    "question_vi": "Mẫu này có khớp với hình thái lá cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_eab33efc6d140105",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6c18b88f0264c6f6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_295773181c63",
+    "question_vi": "Mẫu này có khớp với hình thái lá khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_d7413d41f542a912",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2502815c112b2ff5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_aa8dfa446c90",
+    "question_vi": "Hãy xác định chi và loài của mẫu cây này.",
+    "pairs": [
+     {
+      "pair_id": "p_bd4fe23d06b9eabe",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_832dd6b70f1de0c5",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_f114e7b19205b611",
+      "answer_vi": "Anh đào"
+     },
+     {
+      "pair_id": "p_e9bdb1e25ee59406",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_480c1eb3bde7ac72",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_859826522421fcb0",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_5ce5f1c41d980393",
+      "answer_vi": "Ớt chuông"
+     },
+     {
+      "pair_id": "p_ede9022602f543f2",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_2ca74faa682f8d78",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_dc127ffa4a1b2b68",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_5b1c1cf4a2757eed",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_42cd4a125a6e",
+    "question_vi": "Bạn sẽ phân loại cây này như thế nào từ góc độ thực vật học?",
+    "pairs": [
+     {
+      "pair_id": "p_2b3c886ae8c22963",
+      "answer_vi": "Táo"
+     },
+     {
+      "pair_id": "p_4d5a203add0e45ae",
+      "answer_vi": "Việt quất"
+     },
+     {
+      "pair_id": "p_b4842a373cc412a3",
+      "answer_vi": "Ngô"
+     },
+     {
+      "pair_id": "p_9d9eb1169500a8d0",
+      "answer_vi": "Nho"
+     },
+     {
+      "pair_id": "p_fe6bca462ebd88af",
+      "answer_vi": "Cam"
+     },
+     {
+      "pair_id": "p_1641460da4868b87",
+      "answer_vi": "Đào"
+     },
+     {
+      "pair_id": "p_10de7d54ab293252",
+      "answer_vi": "Khoai tây"
+     },
+     {
+      "pair_id": "p_f144bd787671ef8d",
+      "answer_vi": "Đậu nành"
+     },
+     {
+      "pair_id": "p_f60687c57b403983",
+      "answer_vi": "Bí"
+     },
+     {
+      "pair_id": "p_fc9195643c8561d7",
+      "answer_vi": "Cà chua"
+     }
+    ]
+   },
+   {
+    "question_key": "q_112f9c8b16da",
+    "question_vi": "Đây có phải là lá táo không?",
+    "pairs": [
+     {
+      "pair_id": "p_bbb18bf29f332866",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_2fa6b64fd470cb20",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.4,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7155,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1988,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7155,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1988,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7155,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7155
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.048504000000000005,
+  "duration_ms": 10616,
+  "num_turns": 2,
+  "session_id": "b541e7fd-c5da-46c9-b973-b49332ccea01"
+ }
+}

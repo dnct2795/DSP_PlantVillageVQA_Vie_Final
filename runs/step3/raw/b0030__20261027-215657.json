@@ -1,0 +1,453 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_2f7c076be4dd37d9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_f962189c58c62637",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_99b03d975cccc101",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_f77fe1633c336292",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_af63ecbb7b023741",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_2efdbfeaf79e0ad1",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_8782fca3a4fbd93a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Lá có các triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_827d8cc460aceacb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_36142d5887d0fbec",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây bị bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_38259b90ba66fb28",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_3fcb5da30c1f71dc",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_0dfc1d27a4affc2d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The symptoms are characteristic of Leaf scorch.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy mép lá."
+   },
+   {
+    "id": "p_cc842757a84e0f35",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "The symptoms are characteristic of Powdery mildew.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh phấn trắng."
+   },
+   {
+    "id": "p_1c9485e9d71e1520",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Những vết bệnh 'hình bia' này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+   },
+   {
+    "id": "p_1cb3a1081cd811ef",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_f8d05ab4de904621",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This is Early Blight, identifiable by the 'target-like' concentric rings in the spots.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm vòng, có thể nhận biết nhờ các vòng đồng tâm 'hình bia' trong các đốm."
+   },
+   {
+    "id": "p_a73c0eee6a1a525a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_2126c1104c950eb4",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_c99f97b22ecef015",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_274b4f15699e37dd",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogen or environmental factor produces these symptoms?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_8c8c2bfd369ff948",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_df1a0f3e84aafe7a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_ddca1f9f4fdac20a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_137b79a1a595a5de",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_d0b3cc436a3ac07f",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_b989a30956312f96",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Lá bị vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_943c4359644247c7",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_e2f277d799efc058",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Sinh vật gây hại chịu trách nhiệm là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_a415794cb8a813fb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây bị bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_0644669647c2295d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_5b86214bb474ccbb",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "The symptoms are characteristic of Leaf scorch.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Các triệu chứng này là đặc trưng của bệnh cháy mép lá."
+   },
+   {
+    "id": "p_2d92d0d1234747ad",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "These 'bullseye' lesions are a tell-tale sign of Early Blight.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Những vết bệnh 'hình bia' này là dấu hiệu nhận biết rõ của bệnh đốm vòng."
+   },
+   {
+    "id": "p_a03a416c1f1bb603",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_91dae9fef5c02db9",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_57e3c2993798b95d",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh của cây có múi."
+   },
+   {
+    "id": "p_a925bc4e9d4c668a",
+    "question_type": "Causal Reasoning",
+    "question_en": "What pathogenic or environmental agent causes these symptoms?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Tác nhân gây bệnh hoặc yếu tố môi trường nào gây ra các triệu chứng này?",
+    "answer_vi": "Đây là tổn thương do nhện đỏ gây ra."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_2f7c076be4dd37d9",
+    "errors": []
+   },
+   {
+    "id": "p_f962189c58c62637",
+    "errors": []
+   },
+   {
+    "id": "p_99b03d975cccc101",
+    "errors": []
+   },
+   {
+    "id": "p_f77fe1633c336292",
+    "errors": []
+   },
+   {
+    "id": "p_af63ecbb7b023741",
+    "errors": []
+   },
+   {
+    "id": "p_2efdbfeaf79e0ad1",
+    "errors": []
+   },
+   {
+    "id": "p_8782fca3a4fbd93a",
+    "errors": []
+   },
+   {
+    "id": "p_827d8cc460aceacb",
+    "errors": []
+   },
+   {
+    "id": "p_36142d5887d0fbec",
+    "errors": []
+   },
+   {
+    "id": "p_38259b90ba66fb28",
+    "errors": []
+   },
+   {
+    "id": "p_3fcb5da30c1f71dc",
+    "errors": []
+   },
+   {
+    "id": "p_0dfc1d27a4affc2d",
+    "errors": []
+   },
+   {
+    "id": "p_cc842757a84e0f35",
+    "errors": []
+   },
+   {
+    "id": "p_1c9485e9d71e1520",
+    "errors": []
+   },
+   {
+    "id": "p_1cb3a1081cd811ef",
+    "errors": []
+   },
+   {
+    "id": "p_f8d05ab4de904621",
+    "errors": []
+   },
+   {
+    "id": "p_a73c0eee6a1a525a",
+    "errors": []
+   },
+   {
+    "id": "p_2126c1104c950eb4",
+    "errors": []
+   },
+   {
+    "id": "p_c99f97b22ecef015",
+    "errors": []
+   },
+   {
+    "id": "p_274b4f15699e37dd",
+    "errors": []
+   },
+   {
+    "id": "p_8c8c2bfd369ff948",
+    "errors": []
+   },
+   {
+    "id": "p_df1a0f3e84aafe7a",
+    "errors": []
+   },
+   {
+    "id": "p_ddca1f9f4fdac20a",
+    "errors": []
+   },
+   {
+    "id": "p_137b79a1a595a5de",
+    "errors": []
+   },
+   {
+    "id": "p_d0b3cc436a3ac07f",
+    "errors": []
+   },
+   {
+    "id": "p_b989a30956312f96",
+    "errors": []
+   },
+   {
+    "id": "p_943c4359644247c7",
+    "errors": []
+   },
+   {
+    "id": "p_e2f277d799efc058",
+    "errors": []
+   },
+   {
+    "id": "p_a415794cb8a813fb",
+    "errors": []
+   },
+   {
+    "id": "p_0644669647c2295d",
+    "errors": []
+   },
+   {
+    "id": "p_5b86214bb474ccbb",
+    "errors": []
+   },
+   {
+    "id": "p_2d92d0d1234747ad",
+    "errors": []
+   },
+   {
+    "id": "p_a03a416c1f1bb603",
+    "errors": []
+   },
+   {
+    "id": "p_91dae9fef5c02db9",
+    "errors": []
+   },
+   {
+    "id": "p_57e3c2993798b95d",
+    "errors": []
+   },
+   {
+    "id": "p_a925bc4e9d4c668a",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 14.0,
+  "usage": {
+   "input_tokens": 13060,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1011,
+   "reasoning_output_tokens": 381
+  }
+ }
+}

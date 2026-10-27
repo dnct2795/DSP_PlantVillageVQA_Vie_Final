@@ -1,0 +1,519 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_5bc8f19c00f44b14",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of plant disease processes?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của quá trình bệnh ở cây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_173b94cf7b26ae4b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you detect signs of plant disease processes?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các dấu hiệu của quá trình bệnh ở cây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1f6053be7f07434e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if this leaf has contracted disease?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác định chiếc lá này có bị nhiễm bệnh hay không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ef0f832096e1e831",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if this leaf has contracted disease?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác định chiếc lá này có bị nhiễm bệnh hay không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8b81aeba7a6c80be",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if vitality indicators are present?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác định các chỉ dấu sức sống có hiện diện hay không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_88a95652d873e0f2",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine if vitality indicators are present?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác định các chỉ dấu sức sống có hiện diện hay không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_d4ff2a1eab64d560",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine total pathology absence?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể xác định hoàn toàn không có bệnh lý hay không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_aabc0749f20f5b37",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you determine total pathology absence?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể xác định hoàn toàn không có bệnh lý hay không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2ab5f3198aee4026",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you diagnose disease presence in this leaf?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể chẩn đoán sự hiện diện của bệnh trên chiếc lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6c6127a5e4b3da63",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you diagnose disease presence in this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể chẩn đoán sự hiện diện của bệnh trên chiếc lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_b66e8ce7efdf17c7",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you evaluate if this plant displays robust condition?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể đánh giá cây này có biểu hiện tình trạng sinh trưởng mạnh khỏe không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_291c225984efeff0",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you evaluate if this plant displays robust condition?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể đánh giá cây này có biểu hiện tình trạng sinh trưởng mạnh khỏe không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9894140de5221ea6",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify clear markers of disease-free status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng sạch bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2cd307a98a39a15a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify clear markers of disease-free status?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng sạch bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8fdf4833bde8141e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify disease biomarkers in this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các dấu ấn sinh học của bệnh trong mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e545e61618859478",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify disease-related features in this specimen?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm liên quan đến bệnh trong mẫu này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7c6759f22ca37567",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify disease-related features in this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm liên quan đến bệnh trong mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f020b54714cb9152",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify evidence of uninfected status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra bằng chứng của tình trạng không bị nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_659b96446276cff8",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify evidence of uninfected status?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra bằng chứng của tình trạng không bị nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_17cf4bad8f6a4330",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify features suggesting healthy, uninfected status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm gợi ý tình trạng khỏe mạnh, không bị nhiễm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9283bf8e2a734bb0",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify features suggesting healthy, uninfected status?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các đặc điểm gợi ý tình trạng khỏe mạnh, không bị nhiễm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_85e244c9005bb58f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify markers of healthy plant physiology?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các chỉ dấu của sinh lý cây khỏe mạnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4f06d69119fa34f6",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify markers of healthy plant physiology?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các chỉ dấu của sinh lý cây khỏe mạnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_fd1ec549a59623a0",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological deviations present?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các sai lệch bệnh lý đang hiện diện không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2ad8c2e23bdf0d29",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological deviations present?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra các sai lệch bệnh lý đang hiện diện không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0b2b5dce36f6d491",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological evidence in this specimen?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra bằng chứng bệnh lý trong mẫu này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_217896ae3aa6631e",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify pathological evidence in this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận ra bằng chứng bệnh lý trong mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_71175ed0b0410a8f",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you identify signs of robust physiological state?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận ra các dấu hiệu của trạng thái sinh lý mạnh khỏe không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e4e1bd3cd0e6c4bf",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe disease-caused abnormalities?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể quan sát thấy các bất thường do bệnh gây ra không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9fc0f5224d64816c",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe disease-caused abnormalities?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể quan sát thấy các bất thường do bệnh gây ra không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ea68549de4f6d00b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe pathogen-induced changes on this specimen?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể quan sát thấy những thay đổi do tác nhân gây bệnh gây ra trên mẫu này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_fd6ecc9ad4df85ef",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you observe pathogen-induced changes on this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể quan sát thấy những thay đổi do tác nhân gây bệnh gây ra trên mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_cf02d9d824bd97aa",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you recognize disease signs on this foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể nhận biết các dấu hiệu bệnh trên tán lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_521dc9e46b0e8daa",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you recognize disease signs on this foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể nhận biết các dấu hiệu bệnh trên tán lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_2d29bf045124d05a",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you see clear evidence of pathogen-free status?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể thấy bằng chứng rõ ràng của tình trạng không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_25b2f69e5a5cdb0d",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you see clear evidence of pathogen-free status?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể thấy bằng chứng rõ ràng của tình trạng không có mầm bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_41a43e73394acefd",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you see evidence of disease agent activity?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể thấy bằng chứng về hoạt động của tác nhân gây bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e2e6900a4ed36f92",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you spot symptomatic features in this leaf tissue?",
+    "answer_en": "No",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm triệu chứng trong mô lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0b359b577806836b",
+    "question_type": "General Health Assessment",
+    "question_en": "Can you spot symptomatic features in this leaf tissue?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có thể phát hiện các đặc điểm triệu chứng trong mô lá này không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_5bc8f19c00f44b14",
+    "errors": []
+   },
+   {
+    "id": "p_173b94cf7b26ae4b",
+    "errors": []
+   },
+   {
+    "id": "p_1f6053be7f07434e",
+    "errors": []
+   },
+   {
+    "id": "p_ef0f832096e1e831",
+    "errors": []
+   },
+   {
+    "id": "p_8b81aeba7a6c80be",
+    "errors": []
+   },
+   {
+    "id": "p_88a95652d873e0f2",
+    "errors": []
+   },
+   {
+    "id": "p_d4ff2a1eab64d560",
+    "errors": []
+   },
+   {
+    "id": "p_aabc0749f20f5b37",
+    "errors": []
+   },
+   {
+    "id": "p_2ab5f3198aee4026",
+    "errors": []
+   },
+   {
+    "id": "p_6c6127a5e4b3da63",
+    "errors": []
+   },
+   {
+    "id": "p_b66e8ce7efdf17c7",
+    "errors": []
+   },
+   {
+    "id": "p_291c225984efeff0",
+    "errors": []
+   },
+   {
+    "id": "p_9894140de5221ea6",
+    "errors": []
+   },
+   {
+    "id": "p_2cd307a98a39a15a",
+    "errors": []
+   },
+   {
+    "id": "p_8fdf4833bde8141e",
+    "errors": []
+   },
+   {
+    "id": "p_e545e61618859478",
+    "errors": []
+   },
+   {
+    "id": "p_7c6759f22ca37567",
+    "errors": []
+   },
+   {
+    "id": "p_f020b54714cb9152",
+    "errors": []
+   },
+   {
+    "id": "p_659b96446276cff8",
+    "errors": []
+   },
+   {
+    "id": "p_17cf4bad8f6a4330",
+    "errors": []
+   },
+   {
+    "id": "p_9283bf8e2a734bb0",
+    "errors": []
+   },
+   {
+    "id": "p_85e244c9005bb58f",
+    "errors": []
+   },
+   {
+    "id": "p_4f06d69119fa34f6",
+    "errors": []
+   },
+   {
+    "id": "p_fd1ec549a59623a0",
+    "errors": []
+   },
+   {
+    "id": "p_2ad8c2e23bdf0d29",
+    "errors": []
+   },
+   {
+    "id": "p_0b2b5dce36f6d491",
+    "errors": []
+   },
+   {
+    "id": "p_217896ae3aa6631e",
+    "errors": []
+   },
+   {
+    "id": "p_71175ed0b0410a8f",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“trạng thái sinh lý mạnh khỏe” is awkward; “trạng thái sinh lý khỏe mạnh” is more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_e4e1bd3cd0e6c4bf",
+    "errors": []
+   },
+   {
+    "id": "p_9fc0f5224d64816c",
+    "errors": []
+   },
+   {
+    "id": "p_ea68549de4f6d00b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“do tác nhân gây bệnh gây ra” is repetitive and awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_fd6ecc9ad4df85ef",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“do tác nhân gây bệnh gây ra” is repetitive and awkward."
+     }
+    ]
+   },
+   {
+    "id": "p_cf02d9d824bd97aa",
+    "errors": []
+   },
+   {
+    "id": "p_521dc9e46b0e8daa",
+    "errors": []
+   },
+   {
+    "id": "p_2d29bf045124d05a",
+    "errors": []
+   },
+   {
+    "id": "p_25b2f69e5a5cdb0d",
+    "errors": []
+   },
+   {
+    "id": "p_41a43e73394acefd",
+    "errors": []
+   },
+   {
+    "id": "p_e2e6900a4ed36f92",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“đặc điểm triệu chứng” is awkward; “đặc điểm biểu hiện triệu chứng” would be more natural."
+     }
+    ]
+   },
+   {
+    "id": "p_0b359b577806836b",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“đặc điểm triệu chứng” is awkward; “đặc điểm biểu hiện triệu chứng” would be more natural."
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 24.4,
+  "usage": {
+   "input_tokens": 12269,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1271,
+   "reasoning_output_tokens": 400
+  }
+ }
+}

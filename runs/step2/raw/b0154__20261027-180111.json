@@ -1,0 +1,932 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_8f9aadc803dc",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you detect yellow leaf curl virus symptoms on this tomato specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_d91f9846ee97d051",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1cf8ebe06837",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you identify Huanglongbing infection indicators on this orange foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_780835e571f13d31",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d1b306bf3a69",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you identify Tomato Yellow Leaf Curl Virus on this specimen?",
+    "pairs": [
+     {
+      "pair_id": "p_2930f94778e44369",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_71ac33acc21a",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Apple leaf show signs of Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_d149914abf63ad6f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_8390c2428ddf",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Apple leaf show signs of Cedar apple rust?",
+    "pairs": [
+     {
+      "pair_id": "p_302542abe071f8f8",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_879eaf189bbb",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Corn leaf show signs of Common rust?",
+    "pairs": [
+     {
+      "pair_id": "p_c0d5d9ff1916a04f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd7854219a94",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Grape leaf show signs of Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_f2fbd40a2b21212f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ffd9ebb22406",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Grape leaf show signs of Esca Black Measles?",
+    "pairs": [
+     {
+      "pair_id": "p_0a5d9372a3f5ea46",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_ec48ffbe96f0",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Grape leaf show signs of Leaf blight Isariopsis Leaf Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_dacf156922916616",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_433d9321e48a",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Potato leaf show signs of Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_fc6739ef3787a6e0",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_1179c94b1a66",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Potato leaf show signs of Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_500ea6484f36b216",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1bc9120a312",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_b7f87d5504d76eb9",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7c2601d2bc2",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_4e16250fecbc8b19",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3e4431683216",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Late blight?",
+    "pairs": [
+     {
+      "pair_id": "p_846b738ec523a7f6",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_e38fbeed1d98",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Leaf Mold?",
+    "pairs": [
+     {
+      "pair_id": "p_8b185b817b9ef3b6",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7a005c7fbd0c",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Septoria leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_72756e2b0492e969",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_9391644ac2bc",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Spider mites Two-spotted spider mite?",
+    "pairs": [
+     {
+      "pair_id": "p_2aa10a035da2a5bf",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3227a03bd6d5",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Target Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_5dc0104989019cff",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_9e539cafbc41",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Tomato Yellow Leaf Curl Virus?",
+    "pairs": [
+     {
+      "pair_id": "p_1b376cbb49cdf873",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_aeb74ba1a2f1",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this Tomato leaf show signs of Tomato mosaic virus?",
+    "pairs": [
+     {
+      "pair_id": "p_b14d5251964cc790",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3b13b2556263",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this citrus foliage show symptoms of HLB (Huanglongbing) disease?",
+    "pairs": [
+     {
+      "pair_id": "p_ae725edbef795bd7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c6673d1e8f48",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this citrus specimen exhibit signs of greening disease pathology?",
+    "pairs": [
+     {
+      "pair_id": "p_ea54147ed764ca57",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_64e2d1a12b35",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this orange leaf manifest symptoms consistent with HLB?",
+    "pairs": [
+     {
+      "pair_id": "p_563682bd1afd1fad",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_5dc7b1f88d41",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this specimen exhibit tomato yellow leaf curl viral symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_c0fbd6bc1a97253e",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_998170521775",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this tomato foliage show TYLCV infection symptoms?",
+    "pairs": [
+     {
+      "pair_id": "p_fd9e167e55c73369",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_dc92496d8261",
+    "question_type": "Detailed Verification",
+    "question_en": "Does this tomato leaf show signs of TYLCV infection?",
+    "pairs": [
+     {
+      "pair_id": "p_a91146f8400a4115",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_74f8e3ecd358",
+    "question_type": "Detailed Verification",
+    "question_en": "Is citrus greening disease evident on this orange leaf sample?",
+    "pairs": [
+     {
+      "pair_id": "p_1099e0a824c36cde",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_94398474e3a3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Apple leaf infected with Apple scab?",
+    "pairs": [
+     {
+      "pair_id": "p_7458d43bae1bdffe",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_16a9f3e95fce",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Apple leaf infected with Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_0b5e96fa49c73c88",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_63249a51bf42",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Apple leaf infected with Cedar apple rust?",
+    "pairs": [
+     {
+      "pair_id": "p_67229dc3a5c5d461",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_355e628f0e17",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Cherry leaf infected with Powdery mildew?",
+    "pairs": [
+     {
+      "pair_id": "p_1e5999745c12eaf6",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_aae477a48a99",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Corn leaf infected with Cercospora leaf spot Gray leaf spot?",
+    "pairs": [
+     {
+      "pair_id": "p_291484e8ddc425eb",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_746bd6f786bd",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Corn leaf infected with Common rust?",
+    "pairs": [
+     {
+      "pair_id": "p_66c174ed9165bba3",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_545279b480a3",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Corn leaf infected with Northern Leaf Blight?",
+    "pairs": [
+     {
+      "pair_id": "p_eb7d1031cf0ff14f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a670a361723e",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Grape leaf infected with Black rot?",
+    "pairs": [
+     {
+      "pair_id": "p_133dc9a2110f20f7",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_077616073c54",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Grape leaf infected with Esca Black Measles?",
+    "pairs": [
+     {
+      "pair_id": "p_ea545ad74058f0e5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_7125544dd7f8",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Grape leaf infected with Leaf blight Isariopsis Leaf Spot?",
+    "pairs": [
+     {
+      "pair_id": "p_8e164c4a04c70962",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_55482d93a744",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Peach leaf infected with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_eeda0a40e908ce97",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d6b550bd3a55",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Pepper bell leaf infected with Bacterial spot?",
+    "pairs": [
+     {
+      "pair_id": "p_42c7dccded266c51",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_26f32896cfaa",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this Potato leaf infected with Early blight?",
+    "pairs": [
+     {
+      "pair_id": "p_c91a07b38573315c",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_8f9aadc803dc",
+    "question_vi": "Bạn có phát hiện được các triệu chứng của virus xoăn vàng lá trên mẫu cà chua này không?",
+    "pairs": [
+     {
+      "pair_id": "p_d91f9846ee97d051",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1cf8ebe06837",
+    "question_vi": "Bạn có nhận biết được các dấu hiệu nhiễm bệnh Huanglongbing trên lá cam này không?",
+    "pairs": [
+     {
+      "pair_id": "p_780835e571f13d31",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d1b306bf3a69",
+    "question_vi": "Bạn có nhận biết được virus xoăn vàng lá cà chua (TYLCV) trên mẫu này không?",
+    "pairs": [
+     {
+      "pair_id": "p_2930f94778e44369",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_71ac33acc21a",
+    "question_vi": "Lá táo này có dấu hiệu của bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_d149914abf63ad6f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_8390c2428ddf",
+    "question_vi": "Lá táo này có dấu hiệu của bệnh gỉ sắt táo tuyết tùng không?",
+    "pairs": [
+     {
+      "pair_id": "p_302542abe071f8f8",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_879eaf189bbb",
+    "question_vi": "Lá ngô này có dấu hiệu của bệnh gỉ sắt thông thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_c0d5d9ff1916a04f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd7854219a94",
+    "question_vi": "Lá nho này có dấu hiệu của bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_f2fbd40a2b21212f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ffd9ebb22406",
+    "question_vi": "Lá nho này có dấu hiệu của bệnh Esca (sởi đen) không?",
+    "pairs": [
+     {
+      "pair_id": "p_0a5d9372a3f5ea46",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_ec48ffbe96f0",
+    "question_vi": "Lá nho này có dấu hiệu của bệnh cháy lá (đốm lá Isariopsis) không?",
+    "pairs": [
+     {
+      "pair_id": "p_dacf156922916616",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_433d9321e48a",
+    "question_vi": "Lá khoai tây này có dấu hiệu của bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_fc6739ef3787a6e0",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_1179c94b1a66",
+    "question_vi": "Lá khoai tây này có dấu hiệu của bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_500ea6484f36b216",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a1bc9120a312",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_b7f87d5504d76eb9",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c7c2601d2bc2",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_4e16250fecbc8b19",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3e4431683216",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh mốc sương không?",
+    "pairs": [
+     {
+      "pair_id": "p_846b738ec523a7f6",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_e38fbeed1d98",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh mốc lá không?",
+    "pairs": [
+     {
+      "pair_id": "p_8b185b817b9ef3b6",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7a005c7fbd0c",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh đốm lá Septoria không?",
+    "pairs": [
+     {
+      "pair_id": "p_72756e2b0492e969",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9391644ac2bc",
+    "question_vi": "Lá cà chua này có dấu hiệu của nhện đỏ (nhện đỏ hai chấm) không?",
+    "pairs": [
+     {
+      "pair_id": "p_2aa10a035da2a5bf",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3227a03bd6d5",
+    "question_vi": "Lá cà chua này có dấu hiệu của bệnh đốm hình bia không?",
+    "pairs": [
+     {
+      "pair_id": "p_5dc0104989019cff",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9e539cafbc41",
+    "question_vi": "Lá cà chua này có dấu hiệu của virus xoăn vàng lá cà chua (TYLCV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_1b376cbb49cdf873",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_aeb74ba1a2f1",
+    "question_vi": "Lá cà chua này có dấu hiệu của virus khảm cà chua (ToMV) không?",
+    "pairs": [
+     {
+      "pair_id": "p_b14d5251964cc790",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3b13b2556263",
+    "question_vi": "Tán lá cây có múi này có biểu hiện triệu chứng của bệnh vàng lá gân xanh (Huanglongbing, HLB) không?",
+    "pairs": [
+     {
+      "pair_id": "p_ae725edbef795bd7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c6673d1e8f48",
+    "question_vi": "Mẫu cây có múi này có biểu hiện dấu hiệu bệnh lý của bệnh vàng lá gân xanh không?",
+    "pairs": [
+     {
+      "pair_id": "p_ea54147ed764ca57",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_64e2d1a12b35",
+    "question_vi": "Lá cam này có biểu hiện các triệu chứng phù hợp với bệnh vàng lá gân xanh (HLB) không?",
+    "pairs": [
+     {
+      "pair_id": "p_563682bd1afd1fad",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_5dc7b1f88d41",
+    "question_vi": "Mẫu này có biểu hiện các triệu chứng do virus xoăn vàng lá cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_c0fbd6bc1a97253e",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_998170521775",
+    "question_vi": "Tán lá cà chua này có biểu hiện triệu chứng nhiễm TYLCV không?",
+    "pairs": [
+     {
+      "pair_id": "p_fd9e167e55c73369",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_dc92496d8261",
+    "question_vi": "Lá cà chua này có dấu hiệu nhiễm TYLCV không?",
+    "pairs": [
+     {
+      "pair_id": "p_a91146f8400a4115",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_74f8e3ecd358",
+    "question_vi": "Bệnh vàng lá gân xanh có biểu hiện rõ trên mẫu lá cam này không?",
+    "pairs": [
+     {
+      "pair_id": "p_1099e0a824c36cde",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_94398474e3a3",
+    "question_vi": "Lá táo này có bị nhiễm bệnh ghẻ táo không?",
+    "pairs": [
+     {
+      "pair_id": "p_7458d43bae1bdffe",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_16a9f3e95fce",
+    "question_vi": "Lá táo này có bị nhiễm bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_0b5e96fa49c73c88",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_63249a51bf42",
+    "question_vi": "Lá táo này có bị nhiễm bệnh gỉ sắt táo tuyết tùng không?",
+    "pairs": [
+     {
+      "pair_id": "p_67229dc3a5c5d461",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_355e628f0e17",
+    "question_vi": "Lá anh đào này có bị nhiễm bệnh phấn trắng không?",
+    "pairs": [
+     {
+      "pair_id": "p_1e5999745c12eaf6",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_aae477a48a99",
+    "question_vi": "Lá ngô này có bị nhiễm bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "pairs": [
+     {
+      "pair_id": "p_291484e8ddc425eb",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_746bd6f786bd",
+    "question_vi": "Lá ngô này có bị nhiễm bệnh gỉ sắt thông thường không?",
+    "pairs": [
+     {
+      "pair_id": "p_66c174ed9165bba3",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_545279b480a3",
+    "question_vi": "Lá ngô này có bị nhiễm bệnh cháy lá lớn không?",
+    "pairs": [
+     {
+      "pair_id": "p_eb7d1031cf0ff14f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a670a361723e",
+    "question_vi": "Lá nho này có bị nhiễm bệnh thối đen không?",
+    "pairs": [
+     {
+      "pair_id": "p_133dc9a2110f20f7",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_077616073c54",
+    "question_vi": "Lá nho này có bị nhiễm bệnh Esca (sởi đen) không?",
+    "pairs": [
+     {
+      "pair_id": "p_ea545ad74058f0e5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_7125544dd7f8",
+    "question_vi": "Lá nho này có bị nhiễm bệnh cháy lá (đốm lá Isariopsis) không?",
+    "pairs": [
+     {
+      "pair_id": "p_8e164c4a04c70962",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_55482d93a744",
+    "question_vi": "Lá đào này có bị nhiễm bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_eeda0a40e908ce97",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d6b550bd3a55",
+    "question_vi": "Lá ớt chuông này có bị nhiễm bệnh đốm vi khuẩn không?",
+    "pairs": [
+     {
+      "pair_id": "p_42c7dccded266c51",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_26f32896cfaa",
+    "question_vi": "Lá khoai tây này có bị nhiễm bệnh đốm vòng không?",
+    "pairs": [
+     {
+      "pair_id": "p_c91a07b38573315c",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 26.6,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7391,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 4032,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7391,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 4032,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 7391,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7391
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0704197,
+  "duration_ms": 23871,
+  "num_turns": 2,
+  "session_id": "b97c7c33-b24f-47ff-94ed-e54fa156a52d"
+ }
+}

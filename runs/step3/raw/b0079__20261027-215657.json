@@ -1,0 +1,321 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_91a95b1c78a845f6",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh cây có múi."
+   },
+   {
+    "id": "p_f55ccc4b8c80f1d4",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây đang khỏe mạnh."
+   },
+   {
+    "id": "p_f508fcfda4d6e423",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_fc03f4eff25b32f1",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_a0842a2de693638e",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_219a6091d94eec85",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_8505b0a18b9090de",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The diagnosis is Target Spot.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Chẩn đoán là bệnh đốm hình bia."
+   },
+   {
+    "id": "p_3dcd647381672080",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_75e530d66ad75cc7",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_16c2c55b50dbe7d9",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_22bebc38bc3c8dfd",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_a2e7b4431f9d94ea",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_b788797abee7ae72",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The numerous small, angular spots are characteristic of Bacterial Spot.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Nhiều đốm nhỏ có góc cạnh là đặc trưng của bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_4d3d75bcd574f42f",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_883632c5a209a69b",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_28c970d7059fdcfe",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The specimen is healthy.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Mẫu này khỏe mạnh."
+   },
+   {
+    "id": "p_54ca5a8e18f1b82e",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_19797e4877f04f72",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "The symptoms, especially the olive-green mold on the leaf underside, indicate Leaf Mold.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Các triệu chứng, đặc biệt là lớp nấm mốc màu xanh ô liu ở mặt dưới lá, cho thấy bệnh mốc lá."
+   },
+   {
+    "id": "p_44ccf90f33dc851e",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_64c19bf1e9779368",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is Tomato Mosaic Virus (ToMV).",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là virus khảm cà chua (ToMV)."
+   },
+   {
+    "id": "p_45b3af3165ee1a31",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is a Apple leaf suffering from Apple scab.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là lá táo bị bệnh ghẻ táo."
+   },
+   {
+    "id": "p_69fafac5dd208023",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_3fb904ef37e4c0a2",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is a healthy plant leaf.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là một lá cây khỏe mạnh."
+   },
+   {
+    "id": "p_7cf4d0a9542f8e85",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Đây là tổn hại do nhện đỏ gây ra."
+   },
+   {
+    "id": "p_fc2f56ff854d9481",
+    "question_type": "Comprehensive Description",
+    "question_en": "How would you characterize the overall wellness status of this botanical sample?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bạn đánh giá tình trạng sức khỏe tổng thể của mẫu thực vật này như thế nào?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_91a95b1c78a845f6",
+    "errors": []
+   },
+   {
+    "id": "p_f55ccc4b8c80f1d4",
+    "errors": []
+   },
+   {
+    "id": "p_f508fcfda4d6e423",
+    "errors": []
+   },
+   {
+    "id": "p_fc03f4eff25b32f1",
+    "errors": []
+   },
+   {
+    "id": "p_a0842a2de693638e",
+    "errors": []
+   },
+   {
+    "id": "p_219a6091d94eec85",
+    "errors": []
+   },
+   {
+    "id": "p_8505b0a18b9090de",
+    "errors": []
+   },
+   {
+    "id": "p_3dcd647381672080",
+    "errors": []
+   },
+   {
+    "id": "p_75e530d66ad75cc7",
+    "errors": []
+   },
+   {
+    "id": "p_16c2c55b50dbe7d9",
+    "errors": []
+   },
+   {
+    "id": "p_22bebc38bc3c8dfd",
+    "errors": []
+   },
+   {
+    "id": "p_a2e7b4431f9d94ea",
+    "errors": []
+   },
+   {
+    "id": "p_b788797abee7ae72",
+    "errors": []
+   },
+   {
+    "id": "p_4d3d75bcd574f42f",
+    "errors": []
+   },
+   {
+    "id": "p_883632c5a209a69b",
+    "errors": []
+   },
+   {
+    "id": "p_28c970d7059fdcfe",
+    "errors": []
+   },
+   {
+    "id": "p_54ca5a8e18f1b82e",
+    "errors": []
+   },
+   {
+    "id": "p_19797e4877f04f72",
+    "errors": []
+   },
+   {
+    "id": "p_44ccf90f33dc851e",
+    "errors": []
+   },
+   {
+    "id": "p_64c19bf1e9779368",
+    "errors": []
+   },
+   {
+    "id": "p_45b3af3165ee1a31",
+    "errors": []
+   },
+   {
+    "id": "p_69fafac5dd208023",
+    "errors": []
+   },
+   {
+    "id": "p_3fb904ef37e4c0a2",
+    "errors": []
+   },
+   {
+    "id": "p_7cf4d0a9542f8e85",
+    "errors": []
+   },
+   {
+    "id": "p_fc2f56ff854d9481",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 16.0,
+  "usage": {
+   "input_tokens": 11854,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1363,
+   "reasoning_output_tokens": 908
+  }
+ }
+}

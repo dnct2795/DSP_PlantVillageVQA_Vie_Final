@@ -1,0 +1,429 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_f472ea998d8e4ff5",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this a Tomato leaf with Leaf scorch?",
+    "answer_en": "No",
+    "question_vi": "Đây có phải là lá cà chua bị bệnh cháy mép lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f663952f12875405",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Bacterial spot?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh đốm vi khuẩn không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_facfe4101f24a58c",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Black rot?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh thối đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_00cbbde8007b5f26",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Cedar apple rust?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh gỉ sắt táo tuyết tùng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_81c58f457228631b",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Cercospora leaf spot Gray leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh đốm lá Cercospora (đốm lá xám) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_50af46c8e48631c1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Early blight?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh đốm vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_902adda1cf2f55e2",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Late blight?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh mốc sương không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_57b6259f7a1fe437",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf Mold?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh mốc lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6052c07cedacf1d1",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Leaf scorch?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh cháy mép lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9d2d773eac26394e",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Septoria leaf spot?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh đốm lá Septoria không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_19da6b873788e417",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Spider mites Two-spotted spider mite?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị nhện đỏ (nhện đỏ hai chấm) gây hại không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_daae6d834455df06",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Target Spot?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị bệnh đốm hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a6fa3ec0a2b7bae9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this leaf suffering from Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "No",
+    "question_vi": "Lá này có bị virus xoăn vàng lá cà chua (TYLCV) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8726c113484a1cb9",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this orange leaf displaying characteristic HLB infection symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cam này có biểu hiện các triệu chứng nhiễm HLB đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_6d790b1b1584e9af",
+    "question_type": "Detailed Verification",
+    "question_en": "Is this tomato leaf displaying characteristic TYLCV manifestations?",
+    "answer_en": "Yes",
+    "question_vi": "Lá cà chua này có biểu hiện các triệu chứng TYLCV đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e2b5ec7b0d5c2500",
+    "question_type": "Detailed Verification",
+    "question_en": "Is yellow leaf curl virus evident on this tomato leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Virus xoăn vàng lá có hiện rõ trên lá cà chua này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_72ce57ca32c63107",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "Is there a plant leaf in this image?",
+    "answer_en": "No",
+    "question_vi": "Trong hình ảnh này có lá cây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e22e3ee4aaa2b215",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "What is the primary subject of this image?",
+    "answer_en": "This is a background image without a plant leaf.",
+    "question_vi": "Chủ thể chính của hình ảnh này là gì?",
+    "answer_vi": "Đây là hình ảnh nền không có lá cây."
+   },
+   {
+    "id": "p_635bafe4491dd0e2",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-induced abnormalities visible?",
+    "answer_en": "No",
+    "question_vi": "Có nhìn thấy các bất thường do bệnh gây ra không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4b8f87c0f5bc29dd",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-induced abnormalities visible?",
+    "answer_en": "Yes",
+    "question_vi": "Có nhìn thấy các bất thường do bệnh gây ra không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_10c47f4074af8222",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-related markers observable?",
+    "answer_en": "No",
+    "question_vi": "Có quan sát được các dấu hiệu liên quan đến bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3ff8b993557123dc",
+    "question_type": "General Health Assessment",
+    "question_en": "Are disease-related markers observable?",
+    "answer_en": "Yes",
+    "question_vi": "Có quan sát được các dấu hiệu liên quan đến bệnh không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_25a4ab38fa9411d6",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological characteristics evident in this leaf?",
+    "answer_en": "No",
+    "question_vi": "Các đặc điểm bệnh lý có hiện rõ trên lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1d38e373f43c7b41",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological characteristics evident in this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Các đặc điểm bệnh lý có hiện rõ trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a1b1610ded3153a8",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological indicators present in the tissue sample?",
+    "answer_en": "No",
+    "question_vi": "Có các dấu hiệu bệnh lý trong mẫu mô không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_88138922fcb32761",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological indicators present in the tissue sample?",
+    "answer_en": "Yes",
+    "question_vi": "Có các dấu hiệu bệnh lý trong mẫu mô không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7c5c991295778fd8",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological manifestations visible on this leaf?",
+    "answer_en": "Yes",
+    "question_vi": "Có nhìn thấy các biểu hiện bệnh lý trên lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8697006d720b2734",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological signatures detectable here?",
+    "answer_en": "No",
+    "question_vi": "Có phát hiện được các dấu hiệu bệnh lý ở đây không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3366697b1ff08dbb",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological signatures detectable here?",
+    "answer_en": "Yes",
+    "question_vi": "Có phát hiện được các dấu hiệu bệnh lý ở đây không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1810e1f8b692f4da",
+    "question_type": "General Health Assessment",
+    "question_en": "Are pathological symptoms evident in this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Các triệu chứng bệnh lý có hiện rõ trên mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e0da2680599bd18a",
+    "question_type": "General Health Assessment",
+    "question_en": "Are physiological health markers present in this specimen?",
+    "answer_en": "No",
+    "question_vi": "Có các dấu hiệu sinh lý khỏe mạnh trong mẫu này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3a79054a952bb1c9",
+    "question_type": "General Health Assessment",
+    "question_en": "Are physiological health markers present in this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Có các dấu hiệu sinh lý khỏe mạnh trong mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_59a7eacb9a18d591",
+    "question_type": "General Health Assessment",
+    "question_en": "Are the leaf characteristics indicative of absence of pathogens?",
+    "answer_en": "No",
+    "question_vi": "Các đặc điểm của lá có cho thấy không có mầm bệnh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2c1b7be50b7f7551",
+    "question_type": "General Health Assessment",
+    "question_en": "Are the leaf characteristics indicative of absence of pathogens?",
+    "answer_en": "Yes",
+    "question_vi": "Các đặc điểm của lá có cho thấy không có mầm bệnh không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_f472ea998d8e4ff5",
+    "errors": []
+   },
+   {
+    "id": "p_f663952f12875405",
+    "errors": []
+   },
+   {
+    "id": "p_facfe4101f24a58c",
+    "errors": []
+   },
+   {
+    "id": "p_00cbbde8007b5f26",
+    "errors": []
+   },
+   {
+    "id": "p_81c58f457228631b",
+    "errors": []
+   },
+   {
+    "id": "p_50af46c8e48631c1",
+    "errors": []
+   },
+   {
+    "id": "p_902adda1cf2f55e2",
+    "errors": []
+   },
+   {
+    "id": "p_57b6259f7a1fe437",
+    "errors": []
+   },
+   {
+    "id": "p_6052c07cedacf1d1",
+    "errors": []
+   },
+   {
+    "id": "p_9d2d773eac26394e",
+    "errors": []
+   },
+   {
+    "id": "p_19da6b873788e417",
+    "errors": []
+   },
+   {
+    "id": "p_daae6d834455df06",
+    "errors": []
+   },
+   {
+    "id": "p_a6fa3ec0a2b7bae9",
+    "errors": []
+   },
+   {
+    "id": "p_8726c113484a1cb9",
+    "errors": []
+   },
+   {
+    "id": "p_6d790b1b1584e9af",
+    "errors": []
+   },
+   {
+    "id": "p_e2b5ec7b0d5c2500",
+    "errors": []
+   },
+   {
+    "id": "p_72ce57ca32c63107",
+    "errors": []
+   },
+   {
+    "id": "p_e22e3ee4aaa2b215",
+    "errors": []
+   },
+   {
+    "id": "p_635bafe4491dd0e2",
+    "errors": []
+   },
+   {
+    "id": "p_4b8f87c0f5bc29dd",
+    "errors": []
+   },
+   {
+    "id": "p_10c47f4074af8222",
+    "errors": []
+   },
+   {
+    "id": "p_3ff8b993557123dc",
+    "errors": []
+   },
+   {
+    "id": "p_25a4ab38fa9411d6",
+    "errors": []
+   },
+   {
+    "id": "p_1d38e373f43c7b41",
+    "errors": []
+   },
+   {
+    "id": "p_a1b1610ded3153a8",
+    "errors": []
+   },
+   {
+    "id": "p_88138922fcb32761",
+    "errors": []
+   },
+   {
+    "id": "p_7c5c991295778fd8",
+    "errors": []
+   },
+   {
+    "id": "p_8697006d720b2734",
+    "errors": []
+   },
+   {
+    "id": "p_3366697b1ff08dbb",
+    "errors": []
+   },
+   {
+    "id": "p_1810e1f8b692f4da",
+    "errors": []
+   },
+   {
+    "id": "p_e0da2680599bd18a",
+    "errors": []
+   },
+   {
+    "id": "p_3a79054a952bb1c9",
+    "errors": []
+   },
+   {
+    "id": "p_59a7eacb9a18d591",
+    "errors": []
+   },
+   {
+    "id": "p_2c1b7be50b7f7551",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 11.5,
+  "usage": {
+   "input_tokens": 11723,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 769,
+   "reasoning_output_tokens": 163
+  }
+ }
+}

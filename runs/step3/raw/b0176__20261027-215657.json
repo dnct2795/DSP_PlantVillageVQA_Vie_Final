@@ -1,0 +1,369 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_147bca4de56e89a3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Apple",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_121856c46c53c467",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Blueberry",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_3f895a935d0ff008",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Cherry",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_cdec41bb05d04cfe",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Corn",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_ab3100ca836c5ddb",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Grape",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_07ac0a4d41aad8d0",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Orange",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_fc47501b7d87a4c6",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_2d707c94327a0db1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Potato",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_736a05075a81d285",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Soybean",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_d238894f75fc2eea",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Squash",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_1737c9f284c54a77",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Strawberry",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_68dad0ff92c13c07",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which plant variety is depicted in this photograph?",
+    "answer_en": "Tomato",
+    "question_vi": "Loại cây nào được thể hiện trong bức ảnh này?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_935a3b94c2a154ce",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Apple",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_ffc0ca0c84b24c33",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Blueberry",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_76e6498261f8c4dd",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Cherry",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_f33282143c9e66d3",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Corn",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_4e6a05f79aa9b2c5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Grape",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_334eade4c5bef6c9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Orange",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_209f7f2c5ee5d2fc",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Peach",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_79c35b75e17068bd",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Potato",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_68d5998a00e46174",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Raspberry",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_6c0a85f1817df425",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Soybean",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_e2b15298c33d0d7e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Squash",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_6286e6f7d00e11d1",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Strawberry",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_149df7132bc10f79",
+    "question_type": "Plant Species Identification",
+    "question_en": "Which type of flora is illustrated in this image?",
+    "answer_en": "Tomato",
+    "question_vi": "Loại thực vật nào được minh họa trong hình ảnh này?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_b53048ed6fd8cbc5",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you identify this as originating from a tomato plant?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận định đây là mẫu có nguồn gốc từ cây cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_ee6d6d382a0b67a9",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you identify this as originating from a tomato plant?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận định đây là mẫu có nguồn gốc từ cây cà chua không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_873f5acffc077287",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you verify this as tomato plant foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có xác nhận đây là lá của cây cà chua không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9f93e76dda1f03a4",
+    "question_type": "Plant Species Identification",
+    "question_en": "Would you verify this as tomato plant foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có xác nhận đây là lá của cây cà chua không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_147bca4de56e89a3",
+    "errors": []
+   },
+   {
+    "id": "p_121856c46c53c467",
+    "errors": []
+   },
+   {
+    "id": "p_3f895a935d0ff008",
+    "errors": []
+   },
+   {
+    "id": "p_cdec41bb05d04cfe",
+    "errors": []
+   },
+   {
+    "id": "p_ab3100ca836c5ddb",
+    "errors": []
+   },
+   {
+    "id": "p_07ac0a4d41aad8d0",
+    "errors": []
+   },
+   {
+    "id": "p_fc47501b7d87a4c6",
+    "errors": []
+   },
+   {
+    "id": "p_2d707c94327a0db1",
+    "errors": []
+   },
+   {
+    "id": "p_736a05075a81d285",
+    "errors": []
+   },
+   {
+    "id": "p_d238894f75fc2eea",
+    "errors": []
+   },
+   {
+    "id": "p_1737c9f284c54a77",
+    "errors": []
+   },
+   {
+    "id": "p_68dad0ff92c13c07",
+    "errors": []
+   },
+   {
+    "id": "p_935a3b94c2a154ce",
+    "errors": []
+   },
+   {
+    "id": "p_ffc0ca0c84b24c33",
+    "errors": []
+   },
+   {
+    "id": "p_76e6498261f8c4dd",
+    "errors": []
+   },
+   {
+    "id": "p_f33282143c9e66d3",
+    "errors": []
+   },
+   {
+    "id": "p_4e6a05f79aa9b2c5",
+    "errors": []
+   },
+   {
+    "id": "p_334eade4c5bef6c9",
+    "errors": []
+   },
+   {
+    "id": "p_209f7f2c5ee5d2fc",
+    "errors": []
+   },
+   {
+    "id": "p_79c35b75e17068bd",
+    "errors": []
+   },
+   {
+    "id": "p_68d5998a00e46174",
+    "errors": []
+   },
+   {
+    "id": "p_6c0a85f1817df425",
+    "errors": []
+   },
+   {
+    "id": "p_e2b15298c33d0d7e",
+    "errors": []
+   },
+   {
+    "id": "p_6286e6f7d00e11d1",
+    "errors": []
+   },
+   {
+    "id": "p_149df7132bc10f79",
+    "errors": []
+   },
+   {
+    "id": "p_b53048ed6fd8cbc5",
+    "errors": []
+   },
+   {
+    "id": "p_ee6d6d382a0b67a9",
+    "errors": []
+   },
+   {
+    "id": "p_873f5acffc077287",
+    "errors": []
+   },
+   {
+    "id": "p_9f93e76dda1f03a4",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.0,
+  "usage": {
+   "input_tokens": 11394,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 618,
+   "reasoning_output_tokens": 90
+  }
+ }
+}

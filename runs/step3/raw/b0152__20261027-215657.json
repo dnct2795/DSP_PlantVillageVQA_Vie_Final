@@ -1,0 +1,477 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_95e70d67008319fc",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_87b68d82297ee89b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_7e82bb815bcf9a35",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_e072f5ffafe8127e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_433743f38702f61e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_bc4a57b9d9c352f0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_c1ee4e5bfe64805f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which symptoms would vanish upon successful disease treatment?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những triệu chứng nào sẽ biến mất sau khi điều trị bệnh thành công?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_03d005c42591784b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual abnormalities would disappear after disease elimination?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những bất thường nhìn thấy được nào sẽ biến mất sau khi loại bỏ bệnh?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_c237ade94660034a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual abnormalities would disappear after disease elimination?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những bất thường nhìn thấy được nào sẽ biến mất sau khi loại bỏ bệnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_d8472eea039f35a9",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual abnormalities would disappear after disease elimination?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những bất thường nhìn thấy được nào sẽ biến mất sau khi loại bỏ bệnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_3347b69e3114275c",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual abnormalities would disappear after disease elimination?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những bất thường nhìn thấy được nào sẽ biến mất sau khi loại bỏ bệnh?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_dc3873c1c1500216",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_26000e0a7d41d7d1",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_2c035a38930ac581",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_df2fdc436ca824b7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_d6e11b4061b1537b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có."
+   },
+   {
+    "id": "p_8dd04af4e3aa7c27",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_9971f23562551e33",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant achieved health restoration?",
+    "answer_en": "The key visual difference would be the absence of symptoms of disease.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_fff7d814d852d0b5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e431f23bf77ef3cf",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_fa9eac9f4794a5f5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_cbc6d987b46babb5",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_988a4095d4984aa2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có."
+   },
+   {
+    "id": "p_64f8859e18bb5b3f",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_e880fd5e1e15a439",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual characteristics would reappear if this plant recovered optimal condition?",
+    "answer_en": "The key visual difference would be the absence of yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi về tình trạng tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_9368e1cfff9dc9f7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual cues differentiate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu trực quan nào giúp phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_be55bbb6c946575d",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual cues differentiate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những dấu hiệu trực quan nào giúp phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_2bc8f55a06c33e15",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual cues differentiate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những dấu hiệu trực quan nào giúp phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_635a7931407b8ce7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual cues differentiate this specimen from healthy plant characteristics?",
+    "answer_en": "A healthy version of this plant would not exhibit the symptoms of disease.",
+    "question_vi": "Những dấu hiệu trực quan nào giúp phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng của bệnh."
+   },
+   {
+    "id": "p_76782645d662e12e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual cues differentiate this specimen from healthy plant characteristics?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những dấu hiệu trực quan nào giúp phân biệt mẫu này với các đặc điểm của cây khỏe mạnh?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_53ece0fd63a671d2",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_f1489cef789a76d6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_d387806fe7f38ae6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_68282ca436d22297",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_0b897f331452eaeb",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_5e82c16981591973",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô-liu ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_144dfdf9ca2b5da3",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có các đốm tròn có dạng hình bia."
+   },
+   {
+    "id": "p_3a2a0263dd92e0ed",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Which visual features would return if this plant achieved optimal restoration?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những đặc điểm nhìn thấy được nào sẽ trở lại nếu cây này được phục hồi tối ưu?",
+    "answer_vi": "Sự khác biệt trực quan chính sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_95e70d67008319fc",
+    "errors": []
+   },
+   {
+    "id": "p_87b68d82297ee89b",
+    "errors": []
+   },
+   {
+    "id": "p_7e82bb815bcf9a35",
+    "errors": []
+   },
+   {
+    "id": "p_e072f5ffafe8127e",
+    "errors": []
+   },
+   {
+    "id": "p_433743f38702f61e",
+    "errors": []
+   },
+   {
+    "id": "p_bc4a57b9d9c352f0",
+    "errors": []
+   },
+   {
+    "id": "p_c1ee4e5bfe64805f",
+    "errors": []
+   },
+   {
+    "id": "p_03d005c42591784b",
+    "errors": []
+   },
+   {
+    "id": "p_c237ade94660034a",
+    "errors": []
+   },
+   {
+    "id": "p_d8472eea039f35a9",
+    "errors": []
+   },
+   {
+    "id": "p_3347b69e3114275c",
+    "errors": []
+   },
+   {
+    "id": "p_dc3873c1c1500216",
+    "errors": []
+   },
+   {
+    "id": "p_26000e0a7d41d7d1",
+    "errors": []
+   },
+   {
+    "id": "p_2c035a38930ac581",
+    "errors": []
+   },
+   {
+    "id": "p_df2fdc436ca824b7",
+    "errors": []
+   },
+   {
+    "id": "p_d6e11b4061b1537b",
+    "errors": []
+   },
+   {
+    "id": "p_8dd04af4e3aa7c27",
+    "errors": []
+   },
+   {
+    "id": "p_9971f23562551e33",
+    "errors": []
+   },
+   {
+    "id": "p_fff7d814d852d0b5",
+    "errors": []
+   },
+   {
+    "id": "p_e431f23bf77ef3cf",
+    "errors": []
+   },
+   {
+    "id": "p_fa9eac9f4794a5f5",
+    "errors": []
+   },
+   {
+    "id": "p_cbc6d987b46babb5",
+    "errors": []
+   },
+   {
+    "id": "p_988a4095d4984aa2",
+    "errors": []
+   },
+   {
+    "id": "p_64f8859e18bb5b3f",
+    "errors": []
+   },
+   {
+    "id": "p_e880fd5e1e15a439",
+    "errors": []
+   },
+   {
+    "id": "p_9368e1cfff9dc9f7",
+    "errors": []
+   },
+   {
+    "id": "p_be55bbb6c946575d",
+    "errors": []
+   },
+   {
+    "id": "p_2bc8f55a06c33e15",
+    "errors": []
+   },
+   {
+    "id": "p_635a7931407b8ce7",
+    "errors": []
+   },
+   {
+    "id": "p_76782645d662e12e",
+    "errors": []
+   },
+   {
+    "id": "p_53ece0fd63a671d2",
+    "errors": []
+   },
+   {
+    "id": "p_f1489cef789a76d6",
+    "errors": []
+   },
+   {
+    "id": "p_d387806fe7f38ae6",
+    "errors": []
+   },
+   {
+    "id": "p_68282ca436d22297",
+    "errors": []
+   },
+   {
+    "id": "p_0b897f331452eaeb",
+    "errors": []
+   },
+   {
+    "id": "p_5e82c16981591973",
+    "errors": []
+   },
+   {
+    "id": "p_144dfdf9ca2b5da3",
+    "errors": []
+   },
+   {
+    "id": "p_3a2a0263dd92e0ed",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 10.0,
+  "usage": {
+   "input_tokens": 13947,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 955,
+   "reasoning_output_tokens": 290
+  }
+ }
+}

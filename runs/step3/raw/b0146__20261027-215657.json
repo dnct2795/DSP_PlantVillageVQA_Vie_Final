@@ -1,0 +1,471 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_93b0b32714a9c221",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Bacterial spot?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có hoa văn giống hình bia."
+   },
+   {
+    "id": "p_2e44137fc4602f04",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Bacterial spot?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có hoa văn giống hình bia sẽ không có."
+   },
+   {
+    "id": "p_2a43f4c0730224f7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Bacterial spot?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vi khuẩn?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có hoa văn giống hình bia."
+   },
+   {
+    "id": "p_0fe0db66695afd75",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Early blight?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the round lesions with bull's-eye appearances.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vòng?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các vết bệnh tròn có hình bia."
+   },
+   {
+    "id": "p_2ccc7059c7167085",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Early blight?",
+    "answer_en": "A healthy version of this plant would not exhibit the round lesions with bull's-eye appearances.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vòng?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các vết bệnh tròn có hình bia."
+   },
+   {
+    "id": "p_33bfaf72ba6f32c7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Early blight?",
+    "answer_en": "If the plant were healthy, the round lesions with bull's-eye appearances would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vòng?",
+    "answer_vi": "Nếu cây khỏe mạnh, các vết bệnh tròn có hình bia sẽ không có."
+   },
+   {
+    "id": "p_17c10f9cf75ca7b7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Early blight?",
+    "answer_en": "The key visual difference would be the absence of round lesions with bull's-eye appearances.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm vòng?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các vết bệnh tròn có hình bia."
+   },
+   {
+    "id": "p_bbf2dd703f592c73",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Late blight?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the leaf edge browning and necrosis.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc sương?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có hiện tượng mép lá hóa nâu và hoại tử."
+   },
+   {
+    "id": "p_5911d553bac41b50",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Late blight?",
+    "answer_en": "A healthy version of this plant would not exhibit the leaf edge browning and necrosis.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc sương?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện hiện tượng mép lá hóa nâu và hoại tử."
+   },
+   {
+    "id": "p_93dda2d57360e63b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Late blight?",
+    "answer_en": "The key visual difference would be the absence of leaf edge browning and necrosis.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc sương?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có hiện tượng mép lá hóa nâu và hoại tử."
+   },
+   {
+    "id": "p_ff12ff84be780728",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Leaf Mold?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the yellow surface spots and velvety green undersurface.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc lá?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+   },
+   {
+    "id": "p_bd9dde47cb600250",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Leaf Mold?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow surface spots and velvety green undersurface.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc lá?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+   },
+   {
+    "id": "p_4444d2cee7cc6da9",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Leaf Mold?",
+    "answer_en": "If the plant were healthy, the yellow surface spots and velvety green undersurface would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc lá?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá sẽ không có."
+   },
+   {
+    "id": "p_af1d97437888367b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Leaf Mold?",
+    "answer_en": "The key visual difference would be the absence of yellow surface spots and velvety green undersurface.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh mốc lá?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm vàng trên mặt lá và lớp mốc xanh mịn như nhung ở mặt dưới lá."
+   },
+   {
+    "id": "p_3ed625016ead78d0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Septoria leaf spot?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm lá Septoria?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm tròn có hoa văn giống hình bia."
+   },
+   {
+    "id": "p_fcf941bd6c61d5b7",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Septoria leaf spot?",
+    "answer_en": "A healthy version of this plant would not exhibit the circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm lá Septoria?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm tròn có hoa văn giống hình bia."
+   },
+   {
+    "id": "p_a37d31ae691dbc9b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Septoria leaf spot?",
+    "answer_en": "If the plant were healthy, the circular spots with target-like patterns would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm lá Septoria?",
+    "answer_vi": "Nếu cây khỏe mạnh, các đốm tròn có hoa văn giống hình bia sẽ không có."
+   },
+   {
+    "id": "p_f4611613d010930e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Septoria leaf spot?",
+    "answer_en": "The key visual difference would be the absence of circular spots with target-like patterns.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm lá Septoria?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm tròn có hoa văn giống hình bia."
+   },
+   {
+    "id": "p_aeac892db70159a6",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_d51309599b598f58",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_67e09119090b8356",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_4d624ce7bae62c34",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Spider mites Two-spotted spider mite?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm nhện đỏ (nhện đỏ hai chấm)?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_6ea7ab46738816e0",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm sẫm màu, úng nước với viền úa vàng."
+   },
+   {
+    "id": "p_c3c2cd39816f997a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "A healthy version of this plant would not exhibit the dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm sẫm màu, úng nước với viền úa vàng."
+   },
+   {
+    "id": "p_6f19e922e2ae1c54",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Target Spot?",
+    "answer_en": "The key visual difference would be the absence of dark, saturated spots with chlorotic borders.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm bệnh đốm hình bia?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các đốm sẫm màu, úng nước với viền úa vàng."
+   },
+   {
+    "id": "p_d48bd7f170fc8499",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus xoăn vàng lá cà chua (TYLCV)?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_ec9a0f21380b2500",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus xoăn vàng lá cà chua (TYLCV)?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_d4b0d2d901bb92bb",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus xoăn vàng lá cà chua (TYLCV)?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+   },
+   {
+    "id": "p_275b10478784284a",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato Yellow Leaf Curl Virus?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus xoăn vàng lá cà chua (TYLCV)?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_2610ea70905cc802",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_7f423dd55c931420",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "A healthy leaf would be uniformly green and free of the light-dark green mosaic arrangements.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các kiểu khảm xanh nhạt xen xanh đậm."
+   },
+   {
+    "id": "p_981c9b0bfdff8513",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "A healthy version of this plant would not exhibit the light-dark green mosaic arrangements.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các kiểu khảm xanh nhạt xen xanh đậm."
+   },
+   {
+    "id": "p_5dfb823aa6f7ea6e",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+   },
+   {
+    "id": "p_9570c5174638f86b",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "If the plant were healthy, the light-dark green mosaic arrangements would be absent.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Nếu cây khỏe mạnh, các kiểu khảm xanh nhạt xen xanh đậm sẽ không có."
+   },
+   {
+    "id": "p_8f6c7d41a98e7677",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+   },
+   {
+    "id": "p_1e82faf57618a052",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "What symptoms might appear if this Tomato were infected with Tomato mosaic virus?",
+    "answer_en": "The key visual difference would be the absence of light-dark green mosaic arrangements.",
+    "question_vi": "Những triệu chứng nào có thể xuất hiện nếu cây cà chua này bị nhiễm virus khảm cà chua (ToMV)?",
+    "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có các kiểu khảm xanh nhạt xen xanh đậm."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_93b0b32714a9c221",
+    "errors": []
+   },
+   {
+    "id": "p_2e44137fc4602f04",
+    "errors": []
+   },
+   {
+    "id": "p_2a43f4c0730224f7",
+    "errors": []
+   },
+   {
+    "id": "p_0fe0db66695afd75",
+    "errors": []
+   },
+   {
+    "id": "p_2ccc7059c7167085",
+    "errors": []
+   },
+   {
+    "id": "p_33bfaf72ba6f32c7",
+    "errors": []
+   },
+   {
+    "id": "p_17c10f9cf75ca7b7",
+    "errors": []
+   },
+   {
+    "id": "p_bbf2dd703f592c73",
+    "errors": []
+   },
+   {
+    "id": "p_5911d553bac41b50",
+    "errors": []
+   },
+   {
+    "id": "p_93dda2d57360e63b",
+    "errors": []
+   },
+   {
+    "id": "p_ff12ff84be780728",
+    "errors": []
+   },
+   {
+    "id": "p_bd9dde47cb600250",
+    "errors": []
+   },
+   {
+    "id": "p_4444d2cee7cc6da9",
+    "errors": []
+   },
+   {
+    "id": "p_af1d97437888367b",
+    "errors": []
+   },
+   {
+    "id": "p_3ed625016ead78d0",
+    "errors": []
+   },
+   {
+    "id": "p_fcf941bd6c61d5b7",
+    "errors": []
+   },
+   {
+    "id": "p_a37d31ae691dbc9b",
+    "errors": []
+   },
+   {
+    "id": "p_f4611613d010930e",
+    "errors": []
+   },
+   {
+    "id": "p_aeac892db70159a6",
+    "errors": []
+   },
+   {
+    "id": "p_d51309599b598f58",
+    "errors": []
+   },
+   {
+    "id": "p_67e09119090b8356",
+    "errors": []
+   },
+   {
+    "id": "p_4d624ce7bae62c34",
+    "errors": []
+   },
+   {
+    "id": "p_6ea7ab46738816e0",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "“Úng nước” means waterlogged/water-soaked, not color-saturated; this changes the described spot appearance."
+     }
+    ]
+   },
+   {
+    "id": "p_c3c2cd39816f997a",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "“Úng nước” means waterlogged/water-soaked, not color-saturated; this changes the described spot appearance."
+     }
+    ]
+   },
+   {
+    "id": "p_6f19e922e2ae1c54",
+    "errors": [
+     {
+      "category": "mistranslation",
+      "severity": "major",
+      "explanation": "“Úng nước” means waterlogged/water-soaked, not color-saturated; this changes the described spot appearance."
+     }
+    ]
+   },
+   {
+    "id": "p_d48bd7f170fc8499",
+    "errors": []
+   },
+   {
+    "id": "p_ec9a0f21380b2500",
+    "errors": []
+   },
+   {
+    "id": "p_d4b0d2d901bb92bb",
+    "errors": []
+   },
+   {
+    "id": "p_275b10478784284a",
+    "errors": []
+   },
+   {
+    "id": "p_2610ea70905cc802",
+    "errors": []
+   },
+   {
+    "id": "p_7f423dd55c931420",
+    "errors": []
+   },
+   {
+    "id": "p_981c9b0bfdff8513",
+    "errors": []
+   },
+   {
+    "id": "p_5dfb823aa6f7ea6e",
+    "errors": []
+   },
+   {
+    "id": "p_9570c5174638f86b",
+    "errors": []
+   },
+   {
+    "id": "p_8f6c7d41a98e7677",
+    "errors": []
+   },
+   {
+    "id": "p_1e82faf57618a052",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 14.3,
+  "usage": {
+   "input_tokens": 14110,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1085,
+   "reasoning_output_tokens": 344
+  }
+ }
+}

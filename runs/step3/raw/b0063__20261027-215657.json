@@ -1,0 +1,315 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_2f29a3945226520d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay còn gọi là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_e09b179e5b9f4beb",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_73a7325fcc0e8daa",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_77e5d45d6b659c52",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_97d35b275727de46",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Bệnh được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_fec91deecd996edf",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_3491efbb90c3db5c",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_05be5ac598573c7c",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_57ed25eaf4707c58",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The fungus Alternaria solani, which causes Early Blight, is responsible.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân."
+   },
+   {
+    "id": "p_37850ddfa66be4e2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_54da9356ad3c415b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Lá có hiện tượng vàng lốm đốm, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh (HLB)."
+   },
+   {
+    "id": "p_4fab172565c74a18",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The leaf shows symptoms of Early Blight.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Lá có triệu chứng của bệnh đốm vòng."
+   },
+   {
+    "id": "p_c48f6de6908d4ccc",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The plant is affected by Bacterial Spot disease.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_aa9826adbb71fcb8",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The plant is infected with Target Spot fungus.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Cây bị nhiễm nấm gây bệnh đốm hình bia."
+   },
+   {
+    "id": "p_e29a67ae69507a99",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_b6074f8a324aeb79",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_fcf731ef7c0b9dae",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm hại của nhện đỏ."
+   },
+   {
+    "id": "p_0906e744d099358d",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_d2500249232b886e",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is Late Blight, caused by the oomycete Phytophthora infestans.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra."
+   },
+   {
+    "id": "p_b6d63e5d411b47db",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm nhỏ, tròn có viền sẫm màu."
+   },
+   {
+    "id": "p_5239e967fa0023d2",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là một bệnh do nấm, được gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_a7663b6263cc3257",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là bệnh nhiễm virus: TYLCV."
+   },
+   {
+    "id": "p_d557b05c6fcde94b",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This is citrus greening disease.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Đây là bệnh vàng lá gân xanh trên cây có múi."
+   },
+   {
+    "id": "p_c4f08966862e0177",
+    "question_type": "Comprehensive Description",
+    "question_en": "Describe the plant materials and their distinguishing characteristics in this picture.",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Hãy mô tả vật liệu thực vật và các đặc điểm nhận dạng của chúng trong hình ảnh này.",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_2f29a3945226520d",
+    "errors": []
+   },
+   {
+    "id": "p_e09b179e5b9f4beb",
+    "errors": []
+   },
+   {
+    "id": "p_73a7325fcc0e8daa",
+    "errors": []
+   },
+   {
+    "id": "p_77e5d45d6b659c52",
+    "errors": []
+   },
+   {
+    "id": "p_97d35b275727de46",
+    "errors": []
+   },
+   {
+    "id": "p_fec91deecd996edf",
+    "errors": []
+   },
+   {
+    "id": "p_3491efbb90c3db5c",
+    "errors": []
+   },
+   {
+    "id": "p_05be5ac598573c7c",
+    "errors": []
+   },
+   {
+    "id": "p_57ed25eaf4707c58",
+    "errors": []
+   },
+   {
+    "id": "p_37850ddfa66be4e2",
+    "errors": []
+   },
+   {
+    "id": "p_54da9356ad3c415b",
+    "errors": []
+   },
+   {
+    "id": "p_4fab172565c74a18",
+    "errors": []
+   },
+   {
+    "id": "p_c48f6de6908d4ccc",
+    "errors": []
+   },
+   {
+    "id": "p_aa9826adbb71fcb8",
+    "errors": []
+   },
+   {
+    "id": "p_e29a67ae69507a99",
+    "errors": []
+   },
+   {
+    "id": "p_b6074f8a324aeb79",
+    "errors": []
+   },
+   {
+    "id": "p_fcf731ef7c0b9dae",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is redundant and awkward; “các đốm lấm tấm” would convey “stippling” more naturally."
+     }
+    ]
+   },
+   {
+    "id": "p_0906e744d099358d",
+    "errors": []
+   },
+   {
+    "id": "p_d2500249232b886e",
+    "errors": []
+   },
+   {
+    "id": "p_b6d63e5d411b47db",
+    "errors": []
+   },
+   {
+    "id": "p_5239e967fa0023d2",
+    "errors": []
+   },
+   {
+    "id": "p_a7663b6263cc3257",
+    "errors": []
+   },
+   {
+    "id": "p_d557b05c6fcde94b",
+    "errors": []
+   },
+   {
+    "id": "p_c4f08966862e0177",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 16.8,
+  "usage": {
+   "input_tokens": 11887,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1406,
+   "reasoning_output_tokens": 936
+  }
+ }
+}

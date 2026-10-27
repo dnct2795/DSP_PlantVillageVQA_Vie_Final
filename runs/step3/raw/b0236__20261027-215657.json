@@ -1,0 +1,501 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_0aba58e468e70780",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify edge browning with tissue death symptoms?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy triệu chứng cháy nâu mép lá kèm hoại tử mô không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bfaa49040a8e52a0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify irregular chlorotic blotching patterns?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các mảng úa vàng không đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_6214fdab364962fa",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify irregular chlorotic blotching patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các mảng úa vàng không đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e62b28e25e70f7fd",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify large cylindrical lesions with gray-tan appearance?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các vết bệnh lớn hình trụ có màu xám nâu nhạt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c72d1da05dfcb7a1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify large cylindrical lesions with gray-tan appearance?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các vết bệnh lớn hình trụ có màu xám nâu nhạt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_13675cf7b5e8bd4f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify necrotic zones with concentric ring formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các vùng hoại tử với vòng đồng tâm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_1782534ca3408524",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify olive-colored spots with velvety surface texture?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các đốm màu ô liu với bề mặt mịn như nhung không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_dfc3de5f314f19f6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify olive-colored spots with velvety surface texture?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các đốm màu ô liu với bề mặt mịn như nhung không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_beccc43fc3a93db6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify orange-brown pustular eruptions on this specimen?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các mụn nổi màu cam nâu trên mẫu này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0524540fa33a8e85",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify orange-brown pustular eruptions on this specimen?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các mụn nổi màu cam nâu trên mẫu này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_86407758e5130e9e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify tan-colored spots with dark perimeter markings?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các đốm màu nâu nhạt với viền sẫm màu xung quanh không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0c49142dd6f54e71",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify tessellated light and dark green areas?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các vùng xanh nhạt và xanh đậm xen kẽ dạng ô bàn cờ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a67e67fbb5153231",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify tessellated light and dark green areas?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các vùng xanh nhạt và xanh đậm xen kẽ dạng ô bàn cờ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7d1ba26c0e521387",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify uneven dark spots with varied morphologies?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các đốm sẫm màu không đều với hình dạng đa dạng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b3c07515b5ae4733",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify uneven dark spots with varied morphologies?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các đốm sẫm màu không đều với hình dạng đa dạng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e5aea80529613e8b",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify water-soaked spots with characteristic yellow halos?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các đốm úng nước với quầng vàng đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d21ebf2c3f02d2e7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify water-soaked spots with characteristic yellow halos?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy các đốm úng nước với quầng vàng đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_617228b6423b1657",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify white, powder-like coating on the foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy lớp phủ màu trắng như bột trên lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e14a8a774da396f1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify white, powder-like coating on the foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận thấy lớp phủ màu trắng như bột trên lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_1b11fd1581fb7633",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify yellow spots with corresponding olive-green undersurface?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận thấy các đốm vàng với mặt dưới lá tương ứng có màu xanh ô liu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_176a6d7647f3a39a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe asymmetric chlorotic blotching on the foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các mảng úa vàng không đối xứng trên lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_38ce040bc54520fb",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe asymmetric chlorotic blotching on the foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy các mảng úa vàng không đối xứng trên lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_645c336b4cbc222d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe asymmetric dark spots with varied shapes?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm sẫm màu không đối xứng với hình dạng đa dạng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_63571327d7af04da",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe bright colored spots containing small black points?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm màu sáng chứa những chấm đen nhỏ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2c27e38afdf434a7",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe circular dark spots with concentric ring formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm tròn sẫm màu với vòng đồng tâm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_01bb0321ce7c242d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe circular dark spots with concentric ring formations?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy các đốm tròn sẫm màu với vòng đồng tâm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_167def7cd210400c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe circular spots featuring dark borders and pale centers?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm tròn có viền sẫm màu và tâm nhạt màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9f10a7c241174fae",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe concentric dark circles resembling bull's-eyes?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các vòng tròn đồng tâm sẫm màu giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_283f246ac812cb4a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe dark lesions arranged in stripe-like formations between veins?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các vết bệnh sẫm màu xếp thành dạng sọc giữa các gân lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0e2b7f8062886210",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe dark lesions arranged in stripe-like formations between veins?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy các vết bệnh sẫm màu xếp thành dạng sọc giữa các gân lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_3fe06e74ba149687",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe delicate webbing with stippled leaf surfaces?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy tơ nhện mảnh cùng bề mặt lá lốm đốm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_3fd8e50e267d20a1",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe extensive water-soaked spots with white moldy margins?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các đốm úng nước lan rộng với mép có lớp mốc trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_29cccdb5b12f01a0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe extensive water-soaked spots with white moldy margins?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy các đốm úng nước lan rộng với mép có lớp mốc trắng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_18cb5738662ca74c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe fine webbing accompanied by leaf speckling?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy tơ nhện mảnh đi kèm lá lốm đốm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_43faabf736cd1f63",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe fine webbing accompanied by leaf speckling?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy tơ nhện mảnh đi kèm lá lốm đốm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4b2df46685c3c422",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe large cylindrical lesions in grayish-green or tan hues?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các vết bệnh lớn hình trụ có màu xanh xám hoặc nâu nhạt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c27332e34cd36be2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe large cylindrical lesions in grayish-green or tan hues?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy các vết bệnh lớn hình trụ có màu xanh xám hoặc nâu nhạt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_be81ae0498e32dd4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe light and dark green tessellated patterns?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy các mảng xanh nhạt và xanh đậm xen kẽ dạng ô bàn cờ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_316bf241f2b30e8f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe marginal browning and tissue death on the foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có quan sát thấy hiện tượng nâu mép lá và hoại tử mô trên lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_d37ab7d016e471e0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you observe marginal browning and tissue death on the foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có quan sát thấy hiện tượng nâu mép lá và hoại tử mô trên lá không?",
+    "answer_vi": "Có"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_0aba58e468e70780",
+    "errors": []
+   },
+   {
+    "id": "p_bfaa49040a8e52a0",
+    "errors": []
+   },
+   {
+    "id": "p_6214fdab364962fa",
+    "errors": []
+   },
+   {
+    "id": "p_e62b28e25e70f7fd",
+    "errors": []
+   },
+   {
+    "id": "p_c72d1da05dfcb7a1",
+    "errors": []
+   },
+   {
+    "id": "p_13675cf7b5e8bd4f",
+    "errors": []
+   },
+   {
+    "id": "p_1782534ca3408524",
+    "errors": []
+   },
+   {
+    "id": "p_dfc3de5f314f19f6",
+    "errors": []
+   },
+   {
+    "id": "p_beccc43fc3a93db6",
+    "errors": []
+   },
+   {
+    "id": "p_0524540fa33a8e85",
+    "errors": []
+   },
+   {
+    "id": "p_86407758e5130e9e",
+    "errors": []
+   },
+   {
+    "id": "p_0c49142dd6f54e71",
+    "errors": []
+   },
+   {
+    "id": "p_a67e67fbb5153231",
+    "errors": []
+   },
+   {
+    "id": "p_7d1ba26c0e521387",
+    "errors": []
+   },
+   {
+    "id": "p_b3c07515b5ae4733",
+    "errors": []
+   },
+   {
+    "id": "p_e5aea80529613e8b",
+    "errors": []
+   },
+   {
+    "id": "p_d21ebf2c3f02d2e7",
+    "errors": []
+   },
+   {
+    "id": "p_617228b6423b1657",
+    "errors": []
+   },
+   {
+    "id": "p_e14a8a774da396f1",
+    "errors": []
+   },
+   {
+    "id": "p_1b11fd1581fb7633",
+    "errors": []
+   },
+   {
+    "id": "p_176a6d7647f3a39a",
+    "errors": []
+   },
+   {
+    "id": "p_38ce040bc54520fb",
+    "errors": []
+   },
+   {
+    "id": "p_645c336b4cbc222d",
+    "errors": []
+   },
+   {
+    "id": "p_63571327d7af04da",
+    "errors": []
+   },
+   {
+    "id": "p_2c27e38afdf434a7",
+    "errors": []
+   },
+   {
+    "id": "p_01bb0321ce7c242d",
+    "errors": []
+   },
+   {
+    "id": "p_167def7cd210400c",
+    "errors": []
+   },
+   {
+    "id": "p_9f10a7c241174fae",
+    "errors": []
+   },
+   {
+    "id": "p_283f246ac812cb4a",
+    "errors": []
+   },
+   {
+    "id": "p_0e2b7f8062886210",
+    "errors": []
+   },
+   {
+    "id": "p_3fe06e74ba149687",
+    "errors": []
+   },
+   {
+    "id": "p_3fd8e50e267d20a1",
+    "errors": []
+   },
+   {
+    "id": "p_29cccdb5b12f01a0",
+    "errors": []
+   },
+   {
+    "id": "p_18cb5738662ca74c",
+    "errors": []
+   },
+   {
+    "id": "p_43faabf736cd1f63",
+    "errors": []
+   },
+   {
+    "id": "p_4b2df46685c3c422",
+    "errors": []
+   },
+   {
+    "id": "p_c27332e34cd36be2",
+    "errors": []
+   },
+   {
+    "id": "p_be81ae0498e32dd4",
+    "errors": []
+   },
+   {
+    "id": "p_316bf241f2b30e8f",
+    "errors": []
+   },
+   {
+    "id": "p_d37ab7d016e471e0",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 9.5,
+  "usage": {
+   "input_tokens": 12659,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 935,
+   "reasoning_output_tokens": 238
+  }
+ }
+}

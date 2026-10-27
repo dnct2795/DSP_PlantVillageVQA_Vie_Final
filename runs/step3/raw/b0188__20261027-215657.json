@@ -1,0 +1,369 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_2ce780e4f794a04b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "Common rust",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Bệnh gỉ sắt thông thường"
+   },
+   {
+    "id": "p_a037d4aedcc04470",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "Esca Black Measles",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Bệnh Esca (sởi đen)"
+   },
+   {
+    "id": "p_91102b63d7e2f931",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "No signs of disease are visible; the plant is in good health.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Không thấy dấu hiệu bệnh nào; cây khỏe mạnh."
+   },
+   {
+    "id": "p_ca22b3504c5436d3",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "Powdery mildew",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Bệnh phấn trắng"
+   },
+   {
+    "id": "p_0dcf8498efb3155f",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "The condition is identified as Late Blight.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Tình trạng này được xác định là bệnh mốc sương."
+   },
+   {
+    "id": "p_aebcefac9e1bdf65",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV)."
+   },
+   {
+    "id": "p_0bc2a4c8310de96c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "The disease is Target Spot, marked by dark, concentric 'bullseye' lesions.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Bệnh là bệnh đốm hình bia, đặc trưng bởi các vết bệnh sẫm màu có vòng đồng tâm hình bia."
+   },
+   {
+    "id": "p_92c26602ebf7d830",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_4930851dad1ac444",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "The plant is suffering from a Late Blight infection.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Cây đang bị nhiễm bệnh mốc sương."
+   },
+   {
+    "id": "p_f96216ee90c53ac4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_3f1b47e35a6910cf",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "This is a fungal disease known as Leaf Mold.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Đây là một bệnh do nấm gọi là bệnh mốc lá."
+   },
+   {
+    "id": "p_9090dddf85552c0c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "This is damage from Spider Mites.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Đây là tổn hại do nhện đỏ."
+   },
+   {
+    "id": "p_bca10f4f48c1cd3c",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   },
+   {
+    "id": "p_d3ec35c23d523198",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise diagnosis for this plant's condition?",
+    "answer_en": "This tomato leaf shows classic signs of TYLCV, like yellowing and curling.",
+    "question_vi": "Bạn có thể đưa ra chẩn đoán chính xác về tình trạng của cây này không?",
+    "answer_vi": "Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá."
+   },
+   {
+    "id": "p_5e79920d895fcf0e",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+   },
+   {
+    "id": "p_49004f5be6a516bb",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The causal agent is the Tomato Yellow Leaf Curl Virus.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua."
+   },
+   {
+    "id": "p_3ea5eaf9284914e2",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+   },
+   {
+    "id": "p_823ed5fdda3a7267",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The diagnosis is Bacterial Spot.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm vi khuẩn."
+   },
+   {
+    "id": "p_f77d3d4e0f586ad9",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The diagnosis is Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Chẩn đoán là bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_17fd5b8302108f7b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The large, dark, water-soaked lesions are a key sign of Late Blight.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Các vết bệnh lớn, sẫm màu, úng nước là dấu hiệu chính của bệnh mốc sương."
+   },
+   {
+    "id": "p_342c02d429cd54b1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Lá có hiện tượng vàng lá loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+   },
+   {
+    "id": "p_aef39cb021c5897b",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The pest responsible is the Two-spotted spider mite.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Sinh vật gây hại là nhện đỏ hai chấm."
+   },
+   {
+    "id": "p_5e5473a3759d5831",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The plant is suffering from a fungal infection: Septoria Leaf Spot.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Cây đang bị nhiễm nấm: bệnh đốm lá Septoria."
+   },
+   {
+    "id": "p_2d5ec89a6074e6a4",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "The stippling and fine webbing are clear signs of a Spider Mite infestation.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Các đốm lốm đốm và tơ nhện mịn là dấu hiệu rõ ràng của sự xâm nhiễm của nhện đỏ."
+   },
+   {
+    "id": "p_df09725de12359ef",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "This is Bacterial Spot. Note the small, dark, water-soaked lesions.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Đây là bệnh đốm vi khuẩn. Hãy lưu ý các vết bệnh nhỏ, sẫm màu, úng nước."
+   },
+   {
+    "id": "p_402fddc06384b3c1",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "This is Septoria Leaf Spot, characterized by small, circular spots with dark borders.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Đây là bệnh đốm lá Septoria, đặc trưng bởi các đốm tròn nhỏ có viền sẫm màu."
+   },
+   {
+    "id": "p_b9a8f0e81452c920",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "This is a viral infection: TYLCV.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Đây là một bệnh do virus: TYLCV."
+   },
+   {
+    "id": "p_20519502386fc921",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you provide a precise disease identification based on visual evidence?",
+    "answer_en": "This plant appears to be healthy and free of disease.",
+    "question_vi": "Bạn có thể đưa ra nhận định chính xác về bệnh dựa trên bằng chứng quan sát được không?",
+    "answer_vi": "Cây này có vẻ khỏe mạnh và sạch bệnh."
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_2ce780e4f794a04b",
+    "errors": []
+   },
+   {
+    "id": "p_a037d4aedcc04470",
+    "errors": []
+   },
+   {
+    "id": "p_91102b63d7e2f931",
+    "errors": []
+   },
+   {
+    "id": "p_ca22b3504c5436d3",
+    "errors": []
+   },
+   {
+    "id": "p_0dcf8498efb3155f",
+    "errors": []
+   },
+   {
+    "id": "p_aebcefac9e1bdf65",
+    "errors": []
+   },
+   {
+    "id": "p_0bc2a4c8310de96c",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Bệnh là bệnh đốm hình bia” redundantly repeats “bệnh.”"
+     }
+    ]
+   },
+   {
+    "id": "p_92c26602ebf7d830",
+    "errors": []
+   },
+   {
+    "id": "p_4930851dad1ac444",
+    "errors": []
+   },
+   {
+    "id": "p_f96216ee90c53ac4",
+    "errors": []
+   },
+   {
+    "id": "p_3f1b47e35a6910cf",
+    "errors": []
+   },
+   {
+    "id": "p_9090dddf85552c0c",
+    "errors": []
+   },
+   {
+    "id": "p_bca10f4f48c1cd3c",
+    "errors": []
+   },
+   {
+    "id": "p_d3ec35c23d523198",
+    "errors": []
+   },
+   {
+    "id": "p_5e79920d895fcf0e",
+    "errors": []
+   },
+   {
+    "id": "p_49004f5be6a516bb",
+    "errors": []
+   },
+   {
+    "id": "p_3ea5eaf9284914e2",
+    "errors": []
+   },
+   {
+    "id": "p_823ed5fdda3a7267",
+    "errors": []
+   },
+   {
+    "id": "p_f77d3d4e0f586ad9",
+    "errors": []
+   },
+   {
+    "id": "p_17fd5b8302108f7b",
+    "errors": []
+   },
+   {
+    "id": "p_342c02d429cd54b1",
+    "errors": []
+   },
+   {
+    "id": "p_aef39cb021c5897b",
+    "errors": []
+   },
+   {
+    "id": "p_5e5473a3759d5831",
+    "errors": []
+   },
+   {
+    "id": "p_2d5ec89a6074e6a4",
+    "errors": [
+     {
+      "category": "fluency",
+      "severity": "minor",
+      "explanation": "“Các đốm lốm đốm” is awkwardly repetitive for “stippling.”"
+     }
+    ]
+   },
+   {
+    "id": "p_df09725de12359ef",
+    "errors": []
+   },
+   {
+    "id": "p_402fddc06384b3c1",
+    "errors": []
+   },
+   {
+    "id": "p_b9a8f0e81452c920",
+    "errors": []
+   },
+   {
+    "id": "p_20519502386fc921",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.5,
+  "usage": {
+   "input_tokens": 12244,
+   "cached_input_tokens": 0,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1252,
+   "reasoning_output_tokens": 683
+  }
+ }
+}

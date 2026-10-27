@@ -1,0 +1,314 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_de6fcc4a1bc4",
+    "question_type": "Counterfactual Reasoning",
+    "question_en": "Compare this leaf to normal healthy specimens - what stands out most?",
+    "pairs": [
+     {
+      "pair_id": "p_063a5f137a5fd657",
+      "answer_en": "A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_396c9820a6109e21",
+      "answer_en": "A healthy leaf would be uniformly green and free of the symptoms of disease.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4c11f5c2ea18cc98",
+      "answer_en": "A healthy leaf would be uniformly green and free of the yellow spots paired with olive-green undersurface fungus.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_52be9ff76b53471f",
+      "answer_en": "A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_fd2d161e3733f794",
+      "answer_en": "If the plant were healthy, the evidence of orange or brown pustular structures would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_e7c783f50304c059",
+      "answer_en": "If the plant were healthy, the symptoms of disease would be absent.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_eadffb143c0df1e1",
+      "answer_en": "The key visual difference would be the absence of evidence of orange or brown pustular structures.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_d577555e2d85",
+    "question_type": "Detailed Verification",
+    "question_en": "Can you confirm TYLCV presence on this tomato foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_921698454f5081ec",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd4c6780b06c",
+    "question_type": "Existence & Sanity Check",
+    "question_en": "Does this picture contain any foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_8b050358735b607f",
+      "answer_en": "No",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a98b2cb2b7bf",
+    "question_type": "General Health Assessment",
+    "question_en": "Are both stress and disease indicators absent?",
+    "pairs": [
+     {
+      "pair_id": "p_b8c29913d4c2152f",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_8e9b7259b1b2de78",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_26c80d44a12d",
+    "question_type": "Plant Species Identification",
+    "question_en": "Can this be identified as a potato plant leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_b1f50ba8eba4c673",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_bfaf40c77ce03413",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_97a025089a6a",
+    "question_type": "Specific Disease Identification",
+    "question_en": "Can you determine what disease is impacting this orange leaf sample?",
+    "pairs": [
+     {
+      "pair_id": "p_e4426ae4348b338c",
+      "answer_en": "Diagnosis: Huanglongbing (HLB), or citrus greening.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_bc503d550b6eb948",
+      "answer_en": "The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_4fa0efa7dbfd9807",
+      "answer_en": "The leaf shows blotchy, asymmetrical yellowing, a classic symptom of HLB.",
+      "is_yes_no": false
+     },
+     {
+      "pair_id": "p_5cdaa0d93790feea",
+      "answer_en": "This is citrus greening disease.",
+      "is_yes_no": false
+     }
+    ]
+   },
+   {
+    "question_key": "q_eda19e7cc485",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are interveinal areas showing dark striations reminiscent of tiger markings?",
+    "pairs": [
+     {
+      "pair_id": "p_3ed622dd1012a943",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_56e1f5be1b3bb733",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_de6fcc4a1bc4",
+    "question_vi": "So sánh lá này với các mẫu khỏe mạnh bình thường - điểm nổi bật nhất là gì?",
+    "pairs": [
+     {
+      "pair_id": "p_063a5f137a5fd657",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_396c9820a6109e21",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh."
+     },
+     {
+      "pair_id": "p_4c11f5c2ea18cc98",
+      "answer_vi": "Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá."
+     },
+     {
+      "pair_id": "p_52be9ff76b53471f",
+      "answer_vi": "Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     },
+     {
+      "pair_id": "p_fd2d161e3733f794",
+      "answer_vi": "Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có."
+     },
+     {
+      "pair_id": "p_e7c783f50304c059",
+      "answer_vi": "Nếu cây khỏe mạnh, các triệu chứng bệnh sẽ không có."
+     },
+     {
+      "pair_id": "p_eadffb143c0df1e1",
+      "answer_vi": "Điểm khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu."
+     }
+    ]
+   },
+   {
+    "question_key": "q_d577555e2d85",
+    "question_vi": "Bạn có thể xác nhận sự hiện diện của TYLCV trên tán lá cà chua này không?",
+    "pairs": [
+     {
+      "pair_id": "p_921698454f5081ec",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_fd4c6780b06c",
+    "question_vi": "Bức ảnh này có chứa lá nào không?",
+    "pairs": [
+     {
+      "pair_id": "p_8b050358735b607f",
+      "answer_vi": "Không"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a98b2cb2b7bf",
+    "question_vi": "Cả dấu hiệu stress lẫn dấu hiệu bệnh đều không có phải không?",
+    "pairs": [
+     {
+      "pair_id": "p_b8c29913d4c2152f",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_8e9b7259b1b2de78",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_26c80d44a12d",
+    "question_vi": "Có thể xác định đây là lá cây khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_b1f50ba8eba4c673",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_bfaf40c77ce03413",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_97a025089a6a",
+    "question_vi": "Bạn có thể xác định bệnh nào đang ảnh hưởng đến mẫu lá cam này không?",
+    "pairs": [
+     {
+      "pair_id": "p_e4426ae4348b338c",
+      "answer_vi": "Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB)."
+     },
+     {
+      "pair_id": "p_bc503d550b6eb948",
+      "answer_vi": "Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing)."
+     },
+     {
+      "pair_id": "p_4fa0efa7dbfd9807",
+      "answer_vi": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của HLB."
+     },
+     {
+      "pair_id": "p_5cdaa0d93790feea",
+      "answer_vi": "Đây là bệnh vàng lá gân xanh (Huanglongbing) trên cây có múi."
+     }
+    ]
+   },
+   {
+    "question_key": "q_eda19e7cc485",
+    "question_vi": "Các vùng giữa các gân lá có xuất hiện những vệt sẫm màu gợi nhớ đến vằn hổ không?",
+    "pairs": [
+     {
+      "pair_id": "p_3ed622dd1012a943",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_56e1f5be1b3bb733",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.5,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3794,
+   "cache_read_input_tokens": 5218,
+   "output_tokens": 1663,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3794,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1663,
+     "cache_read_input_tokens": 5218,
+     "cache_creation_input_tokens": 3794,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3794
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0323318,
+  "duration_ms": 9694,
+  "num_turns": 2,
+  "session_id": "e9915238-73cc-4c4f-a185-28e4fa1f10b1"
+ }
+}

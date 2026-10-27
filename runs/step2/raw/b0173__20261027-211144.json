@@ -1,0 +1,548 @@
+{
+ "input": {
+  "questions": [
+   {
+    "question_key": "q_82ce94d71838",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Blueberry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_dfe3f6ce8d4375a9",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_8dda266f92de719f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_f623175a920e",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Cherry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_6c98e9a3ef27dc89",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_5d51ff20af1f696f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8d5379994fa",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Corn leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_0306d577afa61307",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_b4b18d2f49c6608d",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_69ddfec359db",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Grape leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_62276e0c53fe17c4",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_7eb5224c34a0e802",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_59ae583a3502",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Peach leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_c2f6f1e00724f7ae",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_fc32d5fc9de86c73",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_524c6b7c4c39",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Pepper bell leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_2120a58fa5a1bb23",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_9f37ecd24bef4bd5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_64b3b17e8743",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Raspberry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_669780b9ba6895a5",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_c8b7d1d84d7ce152",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_384cb5e355e8",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Soybean leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_7da0df035939be1f",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_cabdc87c9856ab34",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_c39629fd290a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Squash leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_4b50a459e2c198c8",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_e417b2db39b638e1",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ea85a81d2d7",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this a Strawberry leaf?",
+    "pairs": [
+     {
+      "pair_id": "p_b24fedc1f45aadcd",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_36513d4fad2ce35c",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_82b29c2cad2a",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with orange tree foliage characteristics?",
+    "pairs": [
+     {
+      "pair_id": "p_83f68b806d815571",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_67769576e288299a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_9ef95621ba22",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this consistent with potato plant foliage?",
+    "pairs": [
+     {
+      "pair_id": "p_6bf67f4c2a99401c",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_61b67152c059c32a",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3304d4dd2e82",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of orange tree vegetation?",
+    "pairs": [
+     {
+      "pair_id": "p_1186e2e7274d643b",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6bd6745de8dbe5b5",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_67238fe76f93",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage characteristic of potato vegetation?",
+    "pairs": [
+     {
+      "pair_id": "p_a8c592a51105e406",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_3bdd7ef5f19b3deb",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_d6b84466d712",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this foliage sample characteristic of tomato vegetation?",
+    "pairs": [
+     {
+      "pair_id": "p_9c563dc1077dce50",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_74999475021cd82f",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   },
+   {
+    "question_key": "q_3f744c220772",
+    "question_type": "Plant Species Identification",
+    "question_en": "Is this leaf consistent with tomato plant morphology?",
+    "pairs": [
+     {
+      "pair_id": "p_7476f6dcaab605d1",
+      "answer_en": "No",
+      "is_yes_no": true
+     },
+     {
+      "pair_id": "p_6f8203d556e45d47",
+      "answer_en": "Yes",
+      "is_yes_no": true
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "questions": [
+   {
+    "question_key": "q_82ce94d71838",
+    "question_vi": "Đây có phải là lá việt quất không?",
+    "pairs": [
+     {
+      "pair_id": "p_dfe3f6ce8d4375a9",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_8dda266f92de719f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_f623175a920e",
+    "question_vi": "Đây có phải là lá anh đào không?",
+    "pairs": [
+     {
+      "pair_id": "p_6c98e9a3ef27dc89",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_5d51ff20af1f696f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_a8d5379994fa",
+    "question_vi": "Đây có phải là lá ngô không?",
+    "pairs": [
+     {
+      "pair_id": "p_0306d577afa61307",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_b4b18d2f49c6608d",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_69ddfec359db",
+    "question_vi": "Đây có phải là lá nho không?",
+    "pairs": [
+     {
+      "pair_id": "p_62276e0c53fe17c4",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_7eb5224c34a0e802",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_59ae583a3502",
+    "question_vi": "Đây có phải là lá đào không?",
+    "pairs": [
+     {
+      "pair_id": "p_c2f6f1e00724f7ae",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_fc32d5fc9de86c73",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_524c6b7c4c39",
+    "question_vi": "Đây có phải là lá ớt chuông không?",
+    "pairs": [
+     {
+      "pair_id": "p_2120a58fa5a1bb23",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_9f37ecd24bef4bd5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_64b3b17e8743",
+    "question_vi": "Đây có phải là lá mâm xôi không?",
+    "pairs": [
+     {
+      "pair_id": "p_669780b9ba6895a5",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_c8b7d1d84d7ce152",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_384cb5e355e8",
+    "question_vi": "Đây có phải là lá đậu nành không?",
+    "pairs": [
+     {
+      "pair_id": "p_7da0df035939be1f",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_cabdc87c9856ab34",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_c39629fd290a",
+    "question_vi": "Đây có phải là lá bí không?",
+    "pairs": [
+     {
+      "pair_id": "p_4b50a459e2c198c8",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_e417b2db39b638e1",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_6ea85a81d2d7",
+    "question_vi": "Đây có phải là lá dâu tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_b24fedc1f45aadcd",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_36513d4fad2ce35c",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_82b29c2cad2a",
+    "question_vi": "Đây có phù hợp với đặc điểm tán lá của cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_83f68b806d815571",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_67769576e288299a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_9ef95621ba22",
+    "question_vi": "Đây có phù hợp với tán lá của cây khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_6bf67f4c2a99401c",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_61b67152c059c32a",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3304d4dd2e82",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật cây cam không?",
+    "pairs": [
+     {
+      "pair_id": "p_1186e2e7274d643b",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6bd6745de8dbe5b5",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_67238fe76f93",
+    "question_vi": "Tán lá này có phải là đặc trưng của thảm thực vật khoai tây không?",
+    "pairs": [
+     {
+      "pair_id": "p_a8c592a51105e406",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_3bdd7ef5f19b3deb",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_d6b84466d712",
+    "question_vi": "Mẫu lá này có phải là đặc trưng của thảm thực vật cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_9c563dc1077dce50",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_74999475021cd82f",
+      "answer_vi": "Có"
+     }
+    ]
+   },
+   {
+    "question_key": "q_3f744c220772",
+    "question_vi": "Chiếc lá này có phù hợp với hình thái của cây cà chua không?",
+    "pairs": [
+     {
+      "pair_id": "p_7476f6dcaab605d1",
+      "answer_vi": "Không"
+     },
+     {
+      "pair_id": "p_6f8203d556e45d47",
+      "answer_vi": "Có"
+     }
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.8,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4835,
+   "cache_read_input_tokens": 5317,
+   "output_tokens": 1932,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4835,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1932,
+     "cache_read_input_tokens": 5317,
+     "cache_creation_input_tokens": 4835,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4835
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "total_cost_usd": 0.0391957,
+  "duration_ms": 9967,
+  "num_turns": 2,
+  "session_id": "ec2446c3-6480-4cf4-a791-58b6342297d6"
+ }
+}

@@ -1,0 +1,513 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_64e5f0115eac5db5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect fine webbing with characteristic leaf speckling?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được tơ nhện mảnh cùng với lá lốm đốm đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_94244a139d2ef910",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect fine webbing with characteristic leaf speckling?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được tơ nhện mảnh cùng với lá lốm đốm đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_06926416a3ca712d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect irregular brown or black discoloration areas?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vùng đổi màu nâu hoặc đen không đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4cb4acd7462ea466",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect irregular brown or black discoloration areas?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vùng đổi màu nâu hoặc đen không đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_af364c23b19e6db2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect large saturated lesions with characteristic white borders?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết bệnh lớn úng nước đậm với viền trắng đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_177d49ec643cd5de",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect large saturated lesions with characteristic white borders?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vết bệnh lớn úng nước đậm với viền trắng đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_dc961c6dd90d0c33",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect large, cylindrical gray-green or tan lesion formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các cấu trúc vết bệnh lớn, hình trụ màu xám xanh hoặc vàng nâu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a5414f04f426debe",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect marginal tissue death with browning symptoms?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được mô ở mép lá chết kèm triệu chứng hóa nâu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_130089176f1663f8",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect marginal tissue death with browning symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được mô ở mép lá chết kèm triệu chứng hóa nâu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_9fc66f16c12b308f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect mosaic-like green color pattern variations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được sự thay đổi mẫu màu xanh dạng khảm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bdca27b5e91e6cc0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect necrotic areas exhibiting concentric circle patterns?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vùng hoại tử có dạng vòng tròn đồng tâm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7553d93610f8be25",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect necrotic areas exhibiting concentric circle patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vùng hoại tử có dạng vòng tròn đồng tâm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c3078f01b154eb43",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect ring patterns resembling archery targets?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vòng giống bia bắn cung không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_4984aeccb9e3e29a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with concentric dark ring formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với các vòng sẫm đồng tâm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_507bd2a8696e83d8",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with concentric dark ring formations?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với các vòng sẫm đồng tâm không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_ec43355b64af83c0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with dark boundaries and light central areas?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với viền sẫm và vùng trung tâm sáng màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_75672bd9934bd44f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect round lesions with dark boundaries and light central areas?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vết bệnh tròn với viền sẫm và vùng trung tâm sáng màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4c2ab4121da91565",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect small dark markings forming tiger-like stripes between the leaf veins?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết sẫm nhỏ tạo thành các sọc giống vằn hổ giữa các gân lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_b06609c9c825002a",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect small dark markings forming tiger-like stripes between the leaf veins?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các vết sẫm nhỏ tạo thành các sọc giống vằn hổ giữa các gân lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_73eb21bbef74f274",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect spots with olive-brown coloration and velvety feel?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các đốm có màu nâu ô liu và cảm giác mịn như nhung không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_0e77886c0d2ddb8d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect spots with olive-brown coloration and velvety feel?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các đốm có màu nâu ô liu và cảm giác mịn như nhung không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_5989aac66e49c832",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect tan lesions with distinct dark boundary formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết bệnh màu vàng nâu với viền sẫm rõ rệt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_eb34602ecf966dda",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect water-soaked spots exhibiting yellow halo symptoms?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các đốm úng nước có triệu chứng quầng vàng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_be34d5340001fc7d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect water-soaked spots exhibiting yellow halo symptoms?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được các đốm úng nước có triệu chứng quầng vàng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f5a7dc4823973573",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect white powdery substance coating the foliage?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được lớp bột trắng phủ trên lá không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_85d1001d09ee5376",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect white powdery substance coating the foliage?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được lớp bột trắng phủ trên lá không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_0b3f40a16e81ad9d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect yellow surface lesions with velvety undersurface growth?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được các vết bệnh màu vàng trên bề mặt lá cùng lớp mọc mịn như nhung ở mặt dưới không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_caac6a541a7cc6fc",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect yellowing, leaf curl patterns, and stunted development?",
+    "answer_en": "No",
+    "question_vi": "Bạn có phát hiện được hiện tượng vàng lá, xoăn lá và chậm phát triển không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7e6c2c3ace59042e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you detect yellowing, leaf curl patterns, and stunted development?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có phát hiện được hiện tượng vàng lá, xoăn lá và chậm phát triển không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_973cda5dfc4e0397",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify big water-soaked spots with white fungal borders?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các đốm úng nước lớn với viền nấm trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_047306e412f632d5",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify big water-soaked spots with white fungal borders?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận ra các đốm úng nước lớn với viền nấm trắng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_a588147778d49e76",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify bright spots with embedded black dot formations?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các đốm sáng màu có các chấm đen nhỏ nằm bên trong không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_44498f8de1c7c779",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify bull's-eye patterns of dark ring structures?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các mẫu hình bia gồm các vòng sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_671406e90fa748fa",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify bull's-eye patterns of dark ring structures?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận ra các mẫu hình bia gồm các vòng sẫm màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_7a07bfbe15076227",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify chlorotic changes with curl and growth abnormalities?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra những thay đổi úa vàng kèm xoăn lá và bất thường về sinh trưởng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f945a8bd1db41a7f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify chlorotic changes with curl and growth abnormalities?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận ra những thay đổi úa vàng kèm xoăn lá và bất thường về sinh trưởng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_f3785f828c384c81",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify circular lesions with characteristic target patterns?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các vết bệnh tròn với mẫu hình bia đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_2d6a4956ee5a888c",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify circular spots with dark margins and tan-gray centers?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các đốm tròn với viền sẫm và tâm màu nâu xám nhạt không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c5e27fcccd3bcffe",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify circular spots with dark margins and tan-gray centers?",
+    "answer_en": "Yes",
+    "question_vi": "Bạn có nhận ra các đốm tròn với viền sẫm và tâm màu nâu xám nhạt không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_57df6c6037e894ab",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Can you identify delicate webs with stippled foliage symptoms?",
+    "answer_en": "No",
+    "question_vi": "Bạn có nhận ra các mạng tơ mảnh cùng triệu chứng lá lốm đốm không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_64e5f0115eac5db5",
+    "errors": []
+   },
+   {
+    "id": "p_94244a139d2ef910",
+    "errors": []
+   },
+   {
+    "id": "p_06926416a3ca712d",
+    "errors": []
+   },
+   {
+    "id": "p_4cb4acd7462ea466",
+    "errors": []
+   },
+   {
+    "id": "p_af364c23b19e6db2",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "“úng nước đậm” adds “đậm” (dark/intense), which is not stated in “saturated lesions.”"
+     }
+    ]
+   },
+   {
+    "id": "p_177d49ec643cd5de",
+    "errors": [
+     {
+      "category": "addition",
+      "severity": "minor",
+      "explanation": "“úng nước đậm” adds “đậm” (dark/intense), which is not stated in “saturated lesions.”"
+     }
+    ]
+   },
+   {
+    "id": "p_dc961c6dd90d0c33",
+    "errors": []
+   },
+   {
+    "id": "p_a5414f04f426debe",
+    "errors": []
+   },
+   {
+    "id": "p_130089176f1663f8",
+    "errors": []
+   },
+   {
+    "id": "p_9fc66f16c12b308f",
+    "errors": []
+   },
+   {
+    "id": "p_bdca27b5e91e6cc0",
+    "errors": []
+   },
+   {
+    "id": "p_7553d93610f8be25",
+    "errors": []
+   },
+   {
+    "id": "p_c3078f01b154eb43",
+    "errors": []
+   },
+   {
+    "id": "p_4984aeccb9e3e29a",
+    "errors": []
+   },
+   {
+    "id": "p_507bd2a8696e83d8",
+    "errors": []
+   },
+   {
+    "id": "p_ec43355b64af83c0",
+    "errors": []
+   },
+   {
+    "id": "p_75672bd9934bd44f",
+    "errors": []
+   },
+   {
+    "id": "p_4c2ab4121da91565",
+    "errors": []
+   },
+   {
+    "id": "p_b06609c9c825002a",
+    "errors": []
+   },
+   {
+    "id": "p_73eb21bbef74f274",
+    "errors": []
+   },
+   {
+    "id": "p_0e77886c0d2ddb8d",
+    "errors": []
+   },
+   {
+    "id": "p_5989aac66e49c832",
+    "errors": []
+   },
+   {
+    "id": "p_eb34602ecf966dda",
+    "errors": []
+   },
+   {
+    "id": "p_be34d5340001fc7d",
+    "errors": []
+   },
+   {
+    "id": "p_f5a7dc4823973573",
+    "errors": []
+   },
+   {
+    "id": "p_85d1001d09ee5376",
+    "errors": []
+   },
+   {
+    "id": "p_0b3f40a16e81ad9d",
+    "errors": []
+   },
+   {
+    "id": "p_caac6a541a7cc6fc",
+    "errors": []
+   },
+   {
+    "id": "p_7e6c2c3ace59042e",
+    "errors": []
+   },
+   {
+    "id": "p_973cda5dfc4e0397",
+    "errors": []
+   },
+   {
+    "id": "p_047306e412f632d5",
+    "errors": []
+   },
+   {
+    "id": "p_a588147778d49e76",
+    "errors": []
+   },
+   {
+    "id": "p_44498f8de1c7c779",
+    "errors": []
+   },
+   {
+    "id": "p_671406e90fa748fa",
+    "errors": []
+   },
+   {
+    "id": "p_7a07bfbe15076227",
+    "errors": []
+   },
+   {
+    "id": "p_f945a8bd1db41a7f",
+    "errors": []
+   },
+   {
+    "id": "p_f3785f828c384c81",
+    "errors": []
+   },
+   {
+    "id": "p_2d6a4956ee5a888c",
+    "errors": []
+   },
+   {
+    "id": "p_c5e27fcccd3bcffe",
+    "errors": []
+   },
+   {
+    "id": "p_57df6c6037e894ab",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 13.8,
+  "usage": {
+   "input_tokens": 12678,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1280,
+   "reasoning_output_tokens": 509
+  }
+ }
+}

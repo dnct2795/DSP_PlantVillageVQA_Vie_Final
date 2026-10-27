@@ -1,0 +1,477 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_47fd9d9bdbea5e6d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are rust-colored eruptions visible on this leaf surface?",
+    "answer_en": "No",
+    "question_vi": "Có thấy các mụn nổi màu gỉ sắt trên bề mặt lá này không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_bab1b1be8d73ec23",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are rust-colored eruptions visible on this leaf surface?",
+    "answer_en": "Yes",
+    "question_vi": "Có thấy các mụn nổi màu gỉ sắt trên bề mặt lá này không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c3eff2a4f4d2ebea",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there alternating light and dark green mosaic formations?",
+    "answer_en": "No",
+    "question_vi": "Có các mảng khảm xen kẽ xanh nhạt và xanh đậm không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_19690a93a7ab5be4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there asymmetric dark lesions with irregular boundaries?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh sẫm màu không đối xứng với ranh giới không đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_f901a1b06c10d444",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there asymmetric dark lesions with irregular boundaries?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh sẫm màu không đối xứng với ranh giới không đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8394d4abedd762d6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there big, dark, wet-appearing spots with white edge formations?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm lớn, sẫm màu, trông úng nước với viền trắng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_c309f251219a2052",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there blotchy, irregular yellow discoloration formations?",
+    "answer_en": "No",
+    "question_vi": "Có các vùng đổi màu vàng loang lổ, không đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e287e151aa021171",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there blotchy, irregular yellow discoloration formations?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vùng đổi màu vàng loang lổ, không đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_cda1ec76be632215",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there blotchy, non-uniform yellow discoloration areas?",
+    "answer_en": "No",
+    "question_vi": "Có các vùng đổi màu vàng loang lổ, không đồng đều không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9b0e4f38f2450f56",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there blotchy, non-uniform yellow discoloration areas?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vùng đổi màu vàng loang lổ, không đồng đều không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_febfa46ff62025e4",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there bright colored spots displaying small black structural elements?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm màu sáng cho thấy những cấu trúc nhỏ màu đen không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_68cb1141e25bd46e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there bright orange or yellow lesions featuring small dark structures?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu cam hoặc vàng sáng có những cấu trúc nhỏ sẫm màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_8ba6e57cc34be06d",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there bright orange or yellow lesions featuring small dark structures?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh màu cam hoặc vàng sáng có những cấu trúc nhỏ sẫm màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_66c1ff132295ae63",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there brown-olive lesions exhibiting fuzzy texture features?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu nâu ô liu có đặc điểm bề mặt xù lông tơ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_05529b38bf472e73",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there brown-olive lesions exhibiting fuzzy texture features?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh màu nâu ô liu có đặc điểm bề mặt xù lông tơ không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_c30f682c0f922b0e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there brown-olive lesions with soft, fuzzy surface qualities?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh màu nâu ô liu với bề mặt mềm, xù lông tơ không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_9b33ecfd38b451ec",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there chlorotic symptoms with characteristic curling and stunting?",
+    "answer_en": "No",
+    "question_vi": "Có các triệu chứng vàng lá kèm theo xoăn lá và còi cọc đặc trưng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_917bc085707a7682",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there chlorotic symptoms with characteristic curling and stunting?",
+    "answer_en": "Yes",
+    "question_vi": "Có các triệu chứng vàng lá kèm theo xoăn lá và còi cọc đặc trưng không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_4ec2d1b7c1aea7da",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there circular dark lesions resembling target formations?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh sẫm màu hình tròn giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_24d7c7350f2b40a2",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there circular dark lesions resembling target formations?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh sẫm màu hình tròn giống hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_e49af26159efcb17",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there circular spots displaying dark borders and pale central zones?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm tròn với viền sẫm màu và vùng giữa nhạt màu không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_77f0b54b0c5fb0b6",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there circular spots displaying dark borders and pale central zones?",
+    "answer_en": "Yes",
+    "question_vi": "Có các đốm tròn với viền sẫm màu và vùng giữa nhạt màu không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_fd7254c46647858e",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there concentric dark circles creating target-like patterns?",
+    "answer_en": "No",
+    "question_vi": "Có các vòng tròn sẫm màu đồng tâm tạo thành hoa văn giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_a506f499d8187895",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there concentric dark circles creating target-like patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vòng tròn sẫm màu đồng tâm tạo thành hoa văn giống hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_770661d95fea13f0",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark circular spots featuring target pattern characteristics?",
+    "answer_en": "No",
+    "question_vi": "Có các đốm tròn sẫm màu có đặc điểm hoa văn hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_e4db0015e0f998b3",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark circular spots featuring target pattern characteristics?",
+    "answer_en": "Yes",
+    "question_vi": "Có các đốm tròn sẫm màu có đặc điểm hoa văn hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_00b33b47ad133570",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark concentric circles creating target appearances?",
+    "answer_en": "No",
+    "question_vi": "Có các vòng tròn đồng tâm sẫm màu tạo nên hình dạng giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_743b9a939df9c402",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark concentric circles creating target appearances?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vòng tròn đồng tâm sẫm màu tạo nên hình dạng giống hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_fa183a7621d8e723",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark interveinal lesions creating a striped appearance?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh sẫm màu giữa các gân lá tạo nên hình dạng như sọc không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_79d40c930d7ed36f",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark interveinal lesions creating a striped appearance?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh sẫm màu giữa các gân lá tạo nên hình dạng như sọc không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_8b51cb6859baa965",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark ring patterns creating target-like formations?",
+    "answer_en": "No",
+    "question_vi": "Có các hoa văn vòng sẫm màu tạo thành hình giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_eab1435d5ac8a421",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark, round lesions displaying bull's-eye formations?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh tròn, sẫm màu có hình bia (vòng đồng tâm) không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_54ccebcb8339ab72",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark, round lesions displaying bull's-eye formations?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh tròn, sẫm màu có hình bia (vòng đồng tâm) không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_af92fb852ee1b7cf",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark, round lesions with target-like ring patterns?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh tròn, sẫm màu với hoa văn vòng giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_252520f8c2302705",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dark, round lesions with target-like ring patterns?",
+    "answer_en": "Yes",
+    "question_vi": "Có các vết bệnh tròn, sẫm màu với hoa văn vòng giống hình bia không?",
+    "answer_vi": "Có"
+   },
+   {
+    "id": "p_eacc615b20c22797",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dead tissue areas showing target-like ring patterns?",
+    "answer_en": "No",
+    "question_vi": "Có các vùng mô chết cho thấy hoa văn vòng giống hình bia không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_7fb58d998a2135d8",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dead tissue lesions displaying ring-like structures?",
+    "answer_en": "No",
+    "question_vi": "Có các vết bệnh mô chết cho thấy cấu trúc dạng vòng không?",
+    "answer_vi": "Không"
+   },
+   {
+    "id": "p_66c9a012bd299a49",
+    "question_type": "Visual Attribute Grounding",
+    "question_en": "Are there dead tissue zones with distinctive ring formations?",
+    "answer_en": "No",
+    "question_vi": "Có các vùng mô chết với các vòng đặc trưng rõ rệt không?",
+    "answer_vi": "Không"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_47fd9d9bdbea5e6d",
+    "errors": []
+   },
+   {
+    "id": "p_bab1b1be8d73ec23",
+    "errors": []
+   },
+   {
+    "id": "p_c3eff2a4f4d2ebea",
+    "errors": []
+   },
+   {
+    "id": "p_19690a93a7ab5be4",
+    "errors": []
+   },
+   {
+    "id": "p_f901a1b06c10d444",
+    "errors": []
+   },
+   {
+    "id": "p_8394d4abedd762d6",
+    "errors": []
+   },
+   {
+    "id": "p_c309f251219a2052",
+    "errors": []
+   },
+   {
+    "id": "p_e287e151aa021171",
+    "errors": []
+   },
+   {
+    "id": "p_cda1ec76be632215",
+    "errors": []
+   },
+   {
+    "id": "p_9b0e4f38f2450f56",
+    "errors": []
+   },
+   {
+    "id": "p_febfa46ff62025e4",
+    "errors": []
+   },
+   {
+    "id": "p_68cb1141e25bd46e",
+    "errors": []
+   },
+   {
+    "id": "p_8ba6e57cc34be06d",
+    "errors": []
+   },
+   {
+    "id": "p_66c1ff132295ae63",
+    "errors": []
+   },
+   {
+    "id": "p_05529b38bf472e73",
+    "errors": []
+   },
+   {
+    "id": "p_c30f682c0f922b0e",
+    "errors": []
+   },
+   {
+    "id": "p_9b33ecfd38b451ec",
+    "errors": []
+   },
+   {
+    "id": "p_917bc085707a7682",
+    "errors": []
+   },
+   {
+    "id": "p_4ec2d1b7c1aea7da",
+    "errors": []
+   },
+   {
+    "id": "p_24d7c7350f2b40a2",
+    "errors": []
+   },
+   {
+    "id": "p_e49af26159efcb17",
+    "errors": []
+   },
+   {
+    "id": "p_77f0b54b0c5fb0b6",
+    "errors": []
+   },
+   {
+    "id": "p_fd7254c46647858e",
+    "errors": []
+   },
+   {
+    "id": "p_a506f499d8187895",
+    "errors": []
+   },
+   {
+    "id": "p_770661d95fea13f0",
+    "errors": []
+   },
+   {
+    "id": "p_e4db0015e0f998b3",
+    "errors": []
+   },
+   {
+    "id": "p_00b33b47ad133570",
+    "errors": []
+   },
+   {
+    "id": "p_743b9a939df9c402",
+    "errors": []
+   },
+   {
+    "id": "p_fa183a7621d8e723",
+    "errors": []
+   },
+   {
+    "id": "p_79d40c930d7ed36f",
+    "errors": []
+   },
+   {
+    "id": "p_8b51cb6859baa965",
+    "errors": []
+   },
+   {
+    "id": "p_eab1435d5ac8a421",
+    "errors": []
+   },
+   {
+    "id": "p_54ccebcb8339ab72",
+    "errors": []
+   },
+   {
+    "id": "p_af92fb852ee1b7cf",
+    "errors": []
+   },
+   {
+    "id": "p_252520f8c2302705",
+    "errors": []
+   },
+   {
+    "id": "p_eacc615b20c22797",
+    "errors": []
+   },
+   {
+    "id": "p_7fb58d998a2135d8",
+    "errors": []
+   },
+   {
+    "id": "p_66c9a012bd299a49",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 12.3,
+  "usage": {
+   "input_tokens": 12382,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1155,
+   "reasoning_output_tokens": 494
+  }
+ }
+}

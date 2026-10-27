@@ -1,0 +1,461 @@
+{
+ "input": {
+  "items": [
+   {
+    "id": "p_89a4d706c118cc37",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Apple",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_690787f7d2b2e462",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Blueberry",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_232e27a0aa872c28",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Cherry",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Anh đào"
+   },
+   {
+    "id": "p_1326eea5938f858d",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Corn",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_0a01500ab9879582",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Grape",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_c20fa57892e8feb4",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Orange",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_c3da345e84eb64ab",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Peach",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_328243167aa314ad",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_5615ad6e78958f0a",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Potato",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_dcde028c6458fbe7",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Raspberry",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Mâm xôi"
+   },
+   {
+    "id": "p_d3a6da6dac1be85d",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Soybean",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_bef3d849c2b3a878",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Strawberry",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_79e7ea88fd811f61",
+    "question_type": "Plant Species Identification",
+    "question_en": "What is the scientific identification of this plant sample?",
+    "answer_en": "Tomato",
+    "question_vi": "Định danh khoa học của mẫu cây này là gì?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_e80acd41171f44f4",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Apple",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_f44bb2e0fd2d654b",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Blueberry",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_30da1ea290b8a9cf",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Corn",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_ec272e7c05353235",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Grape",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_cb2da4ce3063e0ca",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Orange",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_6d8321653fa86fb6",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Peach",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_6320acc1a9b3ffd8",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_065f74e236b10961",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Potato",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_d0853917b052bbe4",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Soybean",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_0644a83c590d48fc",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Squash",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_0612770bd58e0c3a",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Strawberry",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_3015de63650e228a",
+    "question_type": "Plant Species Identification",
+    "question_en": "What plant family does this specimen belong to?",
+    "answer_en": "Tomato",
+    "question_vi": "Mẫu này thuộc họ thực vật nào?",
+    "answer_vi": "Cà chua"
+   },
+   {
+    "id": "p_83f6c12ded6ac0b7",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Apple",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Táo"
+   },
+   {
+    "id": "p_41956883c7232f93",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Blueberry",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Việt quất"
+   },
+   {
+    "id": "p_742b149352975221",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Corn",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Ngô"
+   },
+   {
+    "id": "p_59a79d362191b3ea",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Grape",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Nho"
+   },
+   {
+    "id": "p_7f43c0036c2cb17a",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Orange",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Cam"
+   },
+   {
+    "id": "p_8d18df4fb3449bc3",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Peach",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Đào"
+   },
+   {
+    "id": "p_9aea3e16b14e889c",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Pepper bell",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Ớt chuông"
+   },
+   {
+    "id": "p_c2d637591f5c4e2c",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Potato",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Khoai tây"
+   },
+   {
+    "id": "p_eea81d16e99367cc",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Soybean",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Đậu nành"
+   },
+   {
+    "id": "p_3c73247767ec9daa",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Squash",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Bí"
+   },
+   {
+    "id": "p_46dca74efc328e96",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Strawberry",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Dâu tây"
+   },
+   {
+    "id": "p_c4e2f3a518b8f2d1",
+    "question_type": "Plant Species Identification",
+    "question_en": "What specific plant species does this specimen represent?",
+    "answer_en": "Tomato",
+    "question_vi": "Mẫu này đại diện cho loài thực vật cụ thể nào?",
+    "answer_vi": "Cà chua"
+   }
+  ]
+ },
+ "output": {
+  "items": [
+   {
+    "id": "p_89a4d706c118cc37",
+    "errors": []
+   },
+   {
+    "id": "p_690787f7d2b2e462",
+    "errors": []
+   },
+   {
+    "id": "p_232e27a0aa872c28",
+    "errors": []
+   },
+   {
+    "id": "p_1326eea5938f858d",
+    "errors": []
+   },
+   {
+    "id": "p_0a01500ab9879582",
+    "errors": []
+   },
+   {
+    "id": "p_c20fa57892e8feb4",
+    "errors": []
+   },
+   {
+    "id": "p_c3da345e84eb64ab",
+    "errors": []
+   },
+   {
+    "id": "p_328243167aa314ad",
+    "errors": []
+   },
+   {
+    "id": "p_5615ad6e78958f0a",
+    "errors": []
+   },
+   {
+    "id": "p_dcde028c6458fbe7",
+    "errors": []
+   },
+   {
+    "id": "p_d3a6da6dac1be85d",
+    "errors": []
+   },
+   {
+    "id": "p_bef3d849c2b3a878",
+    "errors": []
+   },
+   {
+    "id": "p_79e7ea88fd811f61",
+    "errors": []
+   },
+   {
+    "id": "p_e80acd41171f44f4",
+    "errors": []
+   },
+   {
+    "id": "p_f44bb2e0fd2d654b",
+    "errors": []
+   },
+   {
+    "id": "p_30da1ea290b8a9cf",
+    "errors": []
+   },
+   {
+    "id": "p_ec272e7c05353235",
+    "errors": []
+   },
+   {
+    "id": "p_cb2da4ce3063e0ca",
+    "errors": []
+   },
+   {
+    "id": "p_6d8321653fa86fb6",
+    "errors": []
+   },
+   {
+    "id": "p_6320acc1a9b3ffd8",
+    "errors": []
+   },
+   {
+    "id": "p_065f74e236b10961",
+    "errors": []
+   },
+   {
+    "id": "p_d0853917b052bbe4",
+    "errors": []
+   },
+   {
+    "id": "p_0644a83c590d48fc",
+    "errors": []
+   },
+   {
+    "id": "p_0612770bd58e0c3a",
+    "errors": []
+   },
+   {
+    "id": "p_3015de63650e228a",
+    "errors": []
+   },
+   {
+    "id": "p_83f6c12ded6ac0b7",
+    "errors": []
+   },
+   {
+    "id": "p_41956883c7232f93",
+    "errors": []
+   },
+   {
+    "id": "p_742b149352975221",
+    "errors": []
+   },
+   {
+    "id": "p_59a79d362191b3ea",
+    "errors": []
+   },
+   {
+    "id": "p_7f43c0036c2cb17a",
+    "errors": []
+   },
+   {
+    "id": "p_8d18df4fb3449bc3",
+    "errors": []
+   },
+   {
+    "id": "p_9aea3e16b14e889c",
+    "errors": []
+   },
+   {
+    "id": "p_c2d637591f5c4e2c",
+    "errors": []
+   },
+   {
+    "id": "p_eea81d16e99367cc",
+    "errors": []
+   },
+   {
+    "id": "p_3c73247767ec9daa",
+    "errors": []
+   },
+   {
+    "id": "p_46dca74efc328e96",
+    "errors": []
+   }
+  ]
+ },
+ "meta": {
+  "returncode": 0,
+  "elapsed_s": 14.5,
+  "usage": {
+   "input_tokens": 11983,
+   "cached_input_tokens": 7424,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 731,
+   "reasoning_output_tokens": 105
+  }
+ }
+}
