@@ -2,6 +2,28 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-28 00:00 — Chuẩn hoá thuật ngữ (3.4) + gói Kaggle (chưa upload)
+
+**Quyết định của người dùng**
+- Viết tắt HLB / TYLCV / ToMV luôn dịch thành tên tiếng Việt đầy đủ (không giữ, kể cả trong ngoặc).
+  Đã cập nhật glossary (`abbr` giờ bị cấm), luật (`abbr:<X>`), prompt dịch, prompt judge, CLAUDE.md.
+- Báo cáo trình bày thành một pipeline thống nhất (Step 1 → 2 → 3.1–3.4); các lần chạy bị ngắt là chạy tiếp
+  từ checkpoint. Ghi rõ 3.4 là bước thay chuỗi theo luật + chấm lại (không phải Claude dịch như vậy từ đầu).
+
+**Bước 3.4** (`python -m pvvqa.step3_expand`): 1.195 cặp (3.095 dòng) bị đổi; 0 trượt luật; Codex chấm lại
+1.195 cặp: 1.191 PASS, 4 NEEDS_REPAIR → UNRESOLVED (3 cặp "bệnh vàng rồng cây có múi", 1 cặp thiếu
+"asymmetrical" — lỗi có sẵn, lần chấm đầu chỉ xếp minor; 1 cặp khác cùng câu "vàng rồng" vẫn PASS).
+7 phút model, 0,41M token vào.
+- Kiểm tra toàn bộ 7.522 cặp cuối theo luật mới: 0 trượt, 0 viết tắt còn sót.
+
+**Kết quả cuối**: PASS 7.489 cặp / 23.972 dòng; PASS_AFTER_REPAIR 29 / 222; UNRESOLVED 4 / 7.
+Dataset huấn luyện 24.194 dòng; 0 câu hỏi EN có > 1 question_vi.
+
+**Gói Kaggle** (`python -m pvvqa.package_kaggle`, `outputs/kaggle/`, git-ignored, ~330 MB):
+CSV/JSON tiếng Việt (cột như gốc), bản đối chiếu, quality report, 18.747 ảnh đặt đúng `image_path`
+(`images/<split>/<file>`), `dataset-metadata.json` (CC BY 4.0, id `ngnguyncngthnh/plantvillagevqa-vietnamese`).
+Zip HF gốc: `data/raw/hf/PlantVillageVQA.zip` (870 MB). **Chưa upload** — chờ người dùng.
+
 ## 2026-10-27 23:25 — Kiểm tra chéo judge + xuất kết quả cuối
 
 - `python -m pvvqa.step3_judge --crosscheck 120 --model gpt-6.1-sol --reasoning high`: 120 cặp ngẫu nhiên

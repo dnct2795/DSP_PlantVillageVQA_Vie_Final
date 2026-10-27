@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-27T16:18:30+00:00",
- "git_commit": "90ddb79",
+ "generated": "2026-10-27T16:34:56+00:00",
+ "git_commit": "5d262f1",
  "source": {
   "repo_id": "SyedNazmusSakib/PlantVillageVQA",
   "revision": "a025a438308eff9a7289231ebc09e27e8ec6678c",
@@ -27,12 +27,14 @@
  },
  "status": {
   "pairs": {
-   "PASS": 7493,
-   "PASS_AFTER_REPAIR": 29
+   "PASS": 7489,
+   "PASS_AFTER_REPAIR": 29,
+   "UNRESOLVED": 4
   },
   "rows": {
-   "PASS": 23979,
-   "PASS_AFTER_REPAIR": 222
+   "PASS": 23972,
+   "PASS_AFTER_REPAIR": 222,
+   "UNRESOLVED": 7
   },
   "questions_with_multiple_question_vi": 0
  },
@@ -86,10 +88,10 @@
    "model_elapsed_s": 4512.8
   },
   "step3_all": {
-   "input_tokens": 3154623,
-   "output_tokens": 249513,
-   "model_elapsed_s": 3638.2
+   "input_tokens": 3567168,
+   "output_tokens": 287529,
+   "model_elapsed_s": 4079.6
   }
  },
- "final_rows_trainable": 24201
+ "final_rows_trainable": 24194
 }

@@ -124,6 +124,17 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
          f"- HF `{src['repo_id']}`, revision `{src['revision_sha']}`, file QA `{src['qa_file']}`.",
          f"- {rep['source']['rows']:,} dòng QA; split thực tế: {', '.join(rep['source']['splits'])} (không có val).",
          f"- Cột: `{', '.join(SOURCE_COLS)}` — dataset tiếng Việt giữ đúng các cột và thứ tự này.", "",
+         "## Pipeline (một lần chạy, tự động hoàn toàn, có checkpoint)", "",
+         "1. **Step 1 — Lấy mẫu đại diện:** phân tầng tỷ lệ theo `split × question_type`, 12,5%, seed 42.",
+         "2. **Step 2 — Dịch EN→VI theo ngữ cảnh (Claude Sonnet):** gom cặp QA trùng, glossary cố định (viết tắt "
+         "HLB/TYLCV/ToMV luôn dịch thành tên tiếng Việt đầy đủ), một `question_vi` dùng chung cho mỗi câu hỏi EN, "
+         "quy tắc Yes/No; kiểm tra bằng luật.",
+         f"3. **Step 3 — Đánh giá độc lập và sửa chọn lọc:** 3.1 smoke test judge; 3.2 Codex `{s3['judge_model']}` "
+         f"(reasoning `{s3['judge_reasoning']}`) chấm mọi cặp qua luật (lỗi kiểu MQM); 3.3 Claude sửa đúng một lần "
+         "các cặp trượt luật hoặc NEEDS_REPAIR, rồi chấm lại; 3.4 chuẩn hoá thuật ngữ — thay viết tắt còn sót bằng "
+         "tên tiếng Việt đầy đủ theo luật cố định, kiểm tra luật và chấm lại các cặp bị đổi.",
+         "- Lần chạy bị ngắt (hết quota, lỗi gọi model) được chạy tiếp từ checkpoint; không cặp nào được dịch "
+         "hay chấm hai lần ngoài các bước chấm lại nêu trên.", "",
          "## 2. Phân phối split × question_type", "",
          f"Subset: lấy mẫu phân tầng tỷ lệ {cfg['sampling']['fraction']:.1%}, seed {cfg['sampling']['seed']}.", "",
          "| split | question_type | gốc | % | subset EN | % | VI cuối | % | mất |", "|---|---|---|---|---|---|---|---|---|"]
@@ -140,6 +151,8 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           f"- PASS_AFTER_REPAIR = trượt luật hoặc bị judge đánh NEEDS_REPAIR, Claude sửa đúng một lần, "
           f"qua luật và judge chấm lại PASS. Trong đó {repaired_same} cặp không đổi chữ nào sau repair "
           "nhưng lần chấm lại cho PASS (xem mục 6).",
+          "- UNRESOLVED = không đạt sau repair, hoặc không đạt khi chấm lại ở bước chuẩn hoá thuật ngữ (3.4); "
+          "không sửa thêm, không thay mẫu.",
           "- Chỉ PASS + PASS_AFTER_REPAIR có trong `PlantVillageVQA_vi.csv/.json`; mọi dòng (kể cả UNRESOLVED) "
           "có trong `PlantVillageVQA_vi_en_alignment.csv`.", "",
           "## 4. Tính nhất quán câu hỏi", "",
@@ -168,9 +181,10 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           "số dòng); subset giữ nguyên phân phối này.",
           "- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.",
           "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.",
-          f"- Step 3.4 (theo yêu cầu người dùng, sau khi đã chấm): viết đầy đủ tên tiếng Việt thay cho viết tắt "
-          f"HLB / TYLCV / ToMV bằng luật thay chuỗi cố định; {int(rows.expanded.groupby(rows.pair_id).first().sum()):,} "
-          "cặp bị đổi được kiểm tra luật và Codex chấm lại; cặp không đạt -> UNRESOLVED.", "",
+          f"- Bước 3.4 đổi {int(rows.expanded.groupby(rows.pair_id).first().sum()):,} cặp bằng luật thay chuỗi "
+          "(không qua model dịch); các cặp này được kiểm tra luật và chấm lại. Một số cặp UNRESOLVED ở bước này do "
+          "lỗi có sẵn trong bản dịch (ví dụ \"bệnh vàng rồng cây có múi\" — dịch sát chữ Hán của Huanglongbing), "
+          "lần chấm đầu chỉ xếp minor; cùng câu trả lời đó ở một cặp khác vẫn được chấm PASS.", "",
           "## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)", "",
           *[f"- {name}: {u['input_tokens']:,} token vào, {u['output_tokens']:,} token ra, "
             f"{u['model_elapsed_s'] / 60:.0f} phút model"
