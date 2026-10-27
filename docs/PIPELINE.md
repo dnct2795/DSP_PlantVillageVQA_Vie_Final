@@ -11,7 +11,8 @@ Summary of what the code must respect:
 - **Step 2**: unique pairs `(question_type, question_en, answer_en)` → `pair_id`; glossary fixed
   once; pairs sharing `(question_type, question_en)` translated in one batch and share one
   `question_vi`; Yes/No: keep proposition + polarity, answers "Có"/"Không", `answer_label`
-  copied; rule checks; append-only checkpoints.
+  copied; rule-based terminology normalisation (HLB/TYLCV/ToMV → full Vietnamese names); rule checks;
+  append-only checkpoints.
 - **Step 3**: mandatory smoke test (~10 injected errors per type: polarity flip, crop swap,
   disease swap, dropped hypothetical; ~10 correct controls) → Codex judges every pair
   (MQM-style) → PASS / NEEDS_REPAIR → one repair → PASS_AFTER_REPAIR / UNRESOLVED.

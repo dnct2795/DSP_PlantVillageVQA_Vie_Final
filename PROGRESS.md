@@ -2,6 +2,13 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-28 02:00 — README GitHub + dataset card Kaggle; push; Kaggle public
+
+- `README.md` viết lại: pipeline chi tiết (input/quá trình/output từng step), kết quả, giới hạn, cách tái lập,
+  link Kaggle. `docs/kaggle_dataset_card.md`: mô tả dataset trên Kaggle (cũng là README.md trong gói), link GitHub.
+- Kaggle: `ngnguyncngthnh/plantvillagevqa-vietnamese` (public, CC BY 4.0), tạo bằng
+  `kaggle datasets create -p outputs/kaggle --dir-mode zip --public`.
+
 ## 2026-10-28 01:30 — Tài liệu pipeline + mục Giới hạn chi tiết
 
 - Tài liệu Claude Docs "Pipeline PlantVillageVQA tiếng Việt": https://claude.ai/artifact/QoYQdAmchJ1wBua4Ybareb
