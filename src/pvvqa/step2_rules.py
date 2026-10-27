@@ -47,8 +47,15 @@ def gloss_errors(en: str, vi: str, glossary: dict) -> list[str]:
     vi_l = vi.lower()
     for k in ("crops", "diseases"):
         for e in glossary[k]:
-            if e["_re"].search(en) and e["check"].lower() not in vi_l:
-                out.append(f"gloss:{e['en']}")
+            if not e["_re"].search(en) or e["check"].lower() in vi_l:
+                continue
+            # Câu EN chỉ nêu bằng viết tắt (vd. "signs of TYLCV") -> giữ viết tắt ở VI cũng đạt.
+            abbr = e.get("abbr")
+            if abbr:
+                ab = re.compile(rf"\b{re.escape(abbr)}\b")
+                if not e["_re"].search(ab.sub(" ", en)) and ab.search(vi):
+                    continue
+            out.append(f"gloss:{e['en']}")
     return out
 
 
@@ -69,7 +76,10 @@ def untranslated(en: str, vi: str, glossary: dict) -> list[str]:
 def yn_question_errors(q_vi: str) -> list[str]:
     q = q_vi.strip()
     errs = []
-    if re.search(r",\s*(phải|đúng)\s+không\s*\?$", q, re.IGNORECASE):
+    # Câu hỏi đuôi "…(,) phải không?" / "…(,) đúng không?", có hay không có dấu phẩy.
+    # Kết thúc bằng "phải không?" luôn là câu hỏi đuôi ("có phải … không?" thì có nội dung ở giữa);
+    # "… có đúng không?" vẫn là dạng "có … không?" nên không tính.
+    if re.search(r"(phải|(?<!có )đúng)\s+không\s*\?$", q, re.IGNORECASE):
         errs.append("yn_tag")
     if not re.search(r"không\s*\?$", q, re.IGNORECASE) or not re.search(r"\bcó\b", q, re.IGNORECASE):
         errs.append("yn_form")

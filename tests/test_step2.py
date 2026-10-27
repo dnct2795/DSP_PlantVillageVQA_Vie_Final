@@ -115,7 +115,7 @@ def project(tmp_path, monkeypatch):
 
 def _args(**kw):
     import argparse
-    d = dict(pilot=None, batches=None, max_batches=None, status=False, dry_run=False,
+    d = dict(pilot=None, batches=None, max_batches=None, status=False, dry_run=False, recheck=False,
              claude_cmd=f"{sys.executable} {FAKE}")
     d.update(kw)
     return argparse.Namespace(**d)
@@ -165,3 +165,43 @@ def test_runner_broken_output_stops_after_3(project, monkeypatch):
     assert st.run(_args()) == 3
     log = st.read_jsonl(project / "runs/step2/run_log.jsonl")[-1]
     assert "liên tiếp" in log["stop_reason"] and log["pairs_translated"] == 0
+
+
+def test_rules_abbreviation_only_when_source_uses_it():
+    item = _item("What is this?", ["This tomato leaf shows classic signs of TYLCV."],
+                 qt="Causal Reasoning")
+    out = {"question_key": "q1", "question_vi": "Đây là gì?",
+           "pairs": [{"pair_id": "p0", "answer_vi": "Lá cà chua này có dấu hiệu điển hình của TYLCV."}]}
+    assert check_question(item, out, G)["p0"] == []
+    # EN có tên đầy đủ -> VI vẫn phải có tên tiếng Việt, chỉ viết tắt thì trượt
+    item["pairs"][0]["answer_en"] = "This leaf shows Tomato Yellow Leaf Curl Virus (TYLCV)."
+    assert "gloss:Tomato Yellow Leaf Curl Virus (TYLCV)" in check_question(item, out, G)["p0"]
+
+
+def test_rules_tag_question_without_comma():
+    item = _item("Are both stress and disease indicators absent?", ["Yes", "No"],
+                 qt="General Health Assessment")
+    out = {"question_key": "q1",
+           "question_vi": "Cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh đều không có phải không?",
+           "pairs": [{"pair_id": "p0", "answer_vi": "Có"}, {"pair_id": "p1", "answer_vi": "Không"}]}
+    assert "yn_tag" in check_question(item, out, G)["p0"]
+    out["question_vi"] = "Lá có hoàn toàn không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?"
+    assert check_question(item, out, G)["p0"] == []
+    out["question_vi"] = "Nhận định lá này bị bệnh có đúng không?"  # dạng "có … không?", hợp lệ
+    assert "yn_tag" not in check_question(item, out, G)["p0"]
+
+
+def test_recheck_appends_without_calling_model(project, monkeypatch):
+    monkeypatch.setenv("FAKE_MODE", "good")
+    assert st.run(_args()) == 0
+    trans = project / "runs/step2/translations.jsonl"
+    recs = st.read_jsonl(trans)
+    i = next(k for k, r in enumerate(recs) if r["rule_pass"])
+    recs[i]["rule_errors"], recs[i]["rule_pass"] = ["gloss:stale"], False  # kết quả luật cũ
+    trans.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in recs), encoding="utf-8")
+    monkeypatch.setenv("FAKE_MODE", "broken")  # nếu gọi model thì sẽ hỏng
+    assert st.run(_args(recheck=True)) == 0
+    after = st.read_jsonl(trans)
+    assert len(after) == 8 and after[-1]["pair_id"] == recs[i]["pair_id"]
+    assert after[-1]["rule_pass"] and after[-1]["question_vi"] == recs[i]["question_vi"]
+    assert st.run(_args(recheck=True)) == 0 and len(st.read_jsonl(trans)) == 8  # idempotent

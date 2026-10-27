@@ -22,7 +22,10 @@ Return ONLY a JSON object (no prose, no code fences):
   negative: "free of disease" → "sạch bệnh"; "symptom-free" → "không có triệu chứng";
   "infected" → "bị nhiễm bệnh". Do not turn "Is it healthy?" into "Is it diseased?" or vice versa.
 - Form: "… có … không?" or "… có phải … không?". The question MUST end with "không?".
-  No negative questions, no tag questions ("…, phải không?", "…, đúng không?").
+  No negative questions, no tag questions: never end with "phải không?" or "đúng không?",
+  with or without a comma.
+- If P itself is negative ("absent", "free of", "lacks"), put it inside the "có … không?"
+  frame: "Are both X and Y absent?" → "Lá có hoàn toàn không có cả X lẫn Y không?".
 - answer_vi is exactly "Có" for Yes and exactly "Không" for No.
 
 ## Open questions

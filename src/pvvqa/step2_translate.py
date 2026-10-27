@@ -6,6 +6,7 @@ Chạy trên Terminal của Mac (nơi đã đăng nhập Claude):
   python -m pvvqa.step2_translate --pilot 50     # dịch thử ~50 cặp
   python -m pvvqa.step2_translate                # dịch toàn bộ phần còn lại
   python -m pvvqa.step2_translate --status       # xem tiến độ
+  python -m pvvqa.step2_translate --recheck      # áp lại luật mới, không gọi model
 
 Kết quả: runs/step2/translations.jsonl — mỗi dòng một cặp:
   {pair_id, question_key, batch_id, question_vi, answer_vi, rule_errors, rule_pass, error, ts, run_id}
@@ -206,6 +207,34 @@ def status(run_dir: Path, batches: list[dict]) -> dict:
             "batches_pending": len(pending_batches(batches, done_pairs(recs)))}
 
 
+def recheck(run_dir: Path, batches: list[dict], glossary: dict, run_id: str) -> dict:
+    """Áp lại luật hiện tại lên bản dịch đã có (không gọi model). Chỉ ghi thêm dòng mới
+    (append-only) cho cặp có kết quả luật thay đổi; bản dịch giữ nguyên."""
+    trans_p = run_dir / "translations.jsonl"
+    latest = {}
+    for r in read_jsonl(trans_p):
+        latest[r["pair_id"]] = r
+    rows, n_checked = [], 0
+    for b in batches:
+        for q in b["questions"]:
+            recs = [latest.get(p["pair_id"]) for p in q["pairs"]]
+            if not all(r and not r.get("error") for r in recs):
+                continue
+            qo = {"question_key": q["question_key"], "question_vi": recs[0]["question_vi"],
+                  "pairs": [{"pair_id": r["pair_id"], "answer_vi": r["answer_vi"]} for r in recs]}
+            res = check_question(q, qo, glossary)
+            for r in recs:
+                n_checked += 1
+                errs = res.get(r["pair_id"], [])
+                if errs != r.get("rule_errors"):
+                    rows.append({**r, "ts": now(), "run_id": run_id, "recheck_of": r["run_id"],
+                                 "rule_errors": errs, "rule_pass": not errs})
+    append_jsonl(trans_p, rows)
+    return {"pairs_rechecked": n_checked, "pairs_changed": len(rows),
+            "now_pass": sum(1 for r in rows if r["rule_pass"]),
+            "now_fail": sum(1 for r in rows if not r["rule_pass"])}
+
+
 def run(args) -> int:
     cfg = load_config()
     s2 = cfg["step2"]
@@ -231,6 +260,15 @@ def run(args) -> int:
     config_hash = sha(ROOT / "config" / "phase1.yaml", gloss_p, prompt_p, schema_p)
 
     trans_p = run_dir / "translations.jsonl"
+    if args.recheck:
+        run_id = datetime.now().strftime("%Y%m%d-%H%M%S")
+        res = recheck(run_dir, batches, glossary, run_id)
+        append_jsonl(run_dir / "run_log.jsonl", [{
+            "run_id": run_id, "started": now(), "cmd": " ".join(sys.argv), "git_commit": git_commit(),
+            "config_hash": config_hash, "mode": "recheck", **res, "stop_reason": "completed",
+            **status(run_dir, batches)}])
+        print(json.dumps(res, ensure_ascii=False))
+        return 0
     todo = pending_batches(batches, done_pairs(read_jsonl(trans_p)))
     if args.batches:
         want = set(args.batches.split(","))
@@ -335,6 +373,8 @@ def main() -> None:
     ap.add_argument("--max-batches", type=int)
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--recheck", action="store_true",
+                    help="áp lại luật hiện tại lên bản dịch đã có, không gọi model")
     ap.add_argument("--claude-cmd", help="ghi đè lệnh claude (dùng cho test)")
     sys.exit(run(ap.parse_args()))
 

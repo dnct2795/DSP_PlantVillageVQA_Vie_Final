@@ -2,6 +2,52 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 18:05 — Step 2: sửa luật sau pilot (chưa dịch toàn bộ)
+
+**Đã làm**
+- Glossary: thêm trường `abbr` (HLB, TYLCV, ToMV). Nếu câu EN chỉ nêu bằng viết tắt, câu VI giữ
+  viết tắt cũng đạt; EN có tên đầy đủ thì VI vẫn phải có tên tiếng Việt. Thêm term `stress → căng thẳng`.
+- Luật `yn_tag`: câu kết thúc bằng "phải không?" luôn là hỏi đuôi (có/không dấu phẩy);
+  "đúng không?" là hỏi đuôi trừ khi là "… có đúng không?". (Bản đầu dùng lookbehind "có " nên bỏ
+  sót đúng câu pilot "…không có phải không?" — đã sửa.)
+- Prompt: cấm kết thúc bằng "phải không?/đúng không?"; ví dụ cách giữ mệnh đề phủ định ("absent")
+  trong khung "có … không?".
+- `step2_translate --recheck`: áp lại luật hiện tại lên bản dịch đã có, không gọi model, ghi thêm
+  dòng mới (append-only, trường `recheck_of`), idempotent.
+- Tests: thêm 3 test, `pytest -q`: 15 passed.
+
+**Số liệu**
+- `--recheck` trên 53 cặp pilot: 7 cặp đổi kết quả → 5 qua, 2 vẫn trượt (`untranslated:stress`,
+  `yn_tag`) → 51/53 qua luật. Không có cặp nào khác bị luật mới báo sai.
+- 2 cặp trượt theo thiết kế sẽ sang repair ở Step 3 (không dịch lại ở Step 2).
+
+**Tiếp theo**
+- Chờ người dùng cho phép dịch toàn bộ: `PYTHONPATH=src python3 -m pvvqa.step2_translate`.
+- Push các commit lên GitHub.
+
+## 2026-10-27 17:46 — Step 2: pilot 50 cặp (Claude Sonnet, gói Pro)
+
+**Đã làm**
+- `claude -p --model sonnet "Reply with exactly: pong"` → "pong" (không API key).
+- `PYTHONPATH=src python3 -m pvvqa.step2_translate --pilot 50` (run `20261027-174543`, commit `b04000d`).
+
+**Số liệu**
+- 53 cặp, 2 lần gọi, 28,9 s thời gian model; 18.824 token vào, 4.089 token ra; 0 lỗi gọi.
+- Qua luật 46/53, trượt 7/53.
+- Ước lượng toàn bộ 7.522 cặp (×142): ~70 phút model, ~2,7M token vào, ~0,58M token ra.
+
+**Phân tích 7 cặp trượt**
+- 5 cặp là **luật báo nhầm**: câu gốc EN đã dùng viết tắt TYLCV/HLB, bản dịch giữ nguyên viết tắt
+  (đúng), nhưng luật glossary đòi tên đầy đủ.
+- 2 cặp lỗi thật ("Are both stress and disease indicators absent?"): còn từ "stress", và câu hỏi
+  "… đều không có phải không?" là câu hỏi đuôi + phủ định. Luật `yn_tag` **không bắt** vì regex
+  đòi dấu phẩy trước "phải không".
+
+**Tiếp theo (chờ người dùng quyết)**
+- Sửa luật: chấp nhận viết tắt khi EN dùng viết tắt; `yn_tag` bắt cả "phải không?" không có dấu phẩy.
+  Thêm vào prompt: "stress" → "căng thẳng/stress sinh lý", tránh dạng "phải không?".
+- Sau đó dịch toàn bộ.
+
 ## 2026-10-27 17:50 — Step 2: code chuẩn bị + runner dịch (chưa gọi model)
 
 **Đã làm**
