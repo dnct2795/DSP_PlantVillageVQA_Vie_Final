@@ -7,7 +7,7 @@ File này là **plan pipeline chính thức + quy tắc khi chạy**. Đọc h�
   https://claude.ai/artifact/AyFdKhWsCixoMn1SRFXTVU
 - Ghi chú dự án trên claude.ai (project "DSP_VQA_Final"): `claude/critical_review_phase1.md`,
   `claude/step1_results.md`
-- Repo: https://github.com/dnct2795/DSP391m_DSP391_PlantVillageVQA_v2
+- Repo: https://github.com/dnct2795/DSP_PlantVillageVQA_Vie_Final
 - Thư mục trên Mac: `/Users/mac/Documents/FPTU/FA26/DSP/DSP391_PlantVillageVQA_Final`
 
 ---
@@ -206,7 +206,7 @@ cd /Users/mac/Documents/FPTU/FA26/DSP/DSP391_PlantVillageVQA_Final
 git init -b main
 git fetch DSP391m_DSP391_PlantVillageVQA_v2.bundle main:main
 git reset main                 # working tree đã có file, chỉ đồng bộ index
-git remote add origin https://github.com/dnct2795/DSP391m_DSP391_PlantVillageVQA_v2.git
+git remote add origin https://github.com/dnct2795/DSP_PlantVillageVQA_Vie_Final.git
 git push -u origin main
 ```
 Nếu phiên chạy trên cloud: repo phải được chọn làm nguồn của phiên lúc tạo task, nếu không proxy

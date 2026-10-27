@@ -6,7 +6,7 @@ images**, translated from a representative 12.5% subset of
 and validated by a fully automatic pipeline. The files keep **the same columns and JSON structure as the
 original dataset**, so code written for PlantVillageVQA runs on this one unchanged.
 
-- **Code, pipeline and full run logs:** https://github.com/dnct2795/DSP391m_DSP391_PlantVillageVQA_v2
+- **Code, pipeline and full run logs:** https://github.com/dnct2795/DSP_PlantVillageVQA_Vie_Final
 - **Source dataset:** `SyedNazmusSakib/PlantVillageVQA`, revision `a025a438308eff9a7289231ebc09e27e8ec6678c`
 - Built for the DSP391 course project (FPT University). No paid API was used.
 
@@ -109,5 +109,5 @@ CC BY 4.0, inherited from PlantVillageVQA. Please cite the original dataset and 
 - PlantVillage images — Hughes & Salathé, *An open access repository of images on plant health to enable the
   development of mobile disease diagnostics*, arXiv:1511.08060.
 
-and link this dataset and https://github.com/dnct2795/DSP391m_DSP391_PlantVillageVQA_v2 for the Vietnamese
+and link this dataset and https://github.com/dnct2795/DSP_PlantVillageVQA_Vie_Final for the Vietnamese
 version.
