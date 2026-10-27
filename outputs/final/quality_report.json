@@ -1,0 +1,95 @@
+{
+ "generated": "2026-10-27T16:18:17+00:00",
+ "git_commit": "0ae6928",
+ "source": {
+  "repo_id": "SyedNazmusSakib/PlantVillageVQA",
+  "revision": "a025a438308eff9a7289231ebc09e27e8ec6678c",
+  "qa_file": "PlantVillageVQA/PlantVillageVQA.csv",
+  "rows": 193609,
+  "splits": [
+   "test",
+   "train"
+  ],
+  "columns": [
+   "image_id",
+   "question_type",
+   "question",
+   "answer",
+   "image_path",
+   "split"
+  ]
+ },
+ "subset": {
+  "fraction": 0.125,
+  "seed": 42,
+  "rows": 24201,
+  "pairs": 7522
+ },
+ "status": {
+  "pairs": {
+   "PASS": 7493,
+   "PASS_AFTER_REPAIR": 29
+  },
+  "rows": {
+   "PASS": 23979,
+   "PASS_AFTER_REPAIR": 222
+  },
+  "questions_with_multiple_question_vi": 0
+ },
+ "repaired_without_text_change_pairs": 5,
+ "smoke_test": {
+  "conditional": {
+   "n": 10,
+   "judged": 10,
+   "caught": 10,
+   "any_error": 10
+  },
+  "control": {
+   "n": 10,
+   "judged": 10,
+   "false_alarm": 0,
+   "any_error": 0
+  },
+  "crop": {
+   "n": 10,
+   "judged": 10,
+   "caught": 10,
+   "any_error": 10
+  },
+  "disease": {
+   "n": 10,
+   "judged": 10,
+   "caught": 10,
+   "any_error": 10
+  },
+  "polarity": {
+   "n": 10,
+   "judged": 10,
+   "caught": 10,
+   "any_error": 10
+  }
+ },
+ "crosscheck": {
+  "gpt-6.1-sol__high": {
+   "n": 120,
+   "agree": 120,
+   "main_pass_other_needs_repair": 0,
+   "main_needs_repair_other_pass": 0,
+   "main_any_error": 5,
+   "other_any_error": 7
+  }
+ },
+ "usage": {
+  "step2_claude": {
+   "input_tokens": 2359115,
+   "output_tokens": 558748,
+   "model_elapsed_s": 4512.8
+  },
+  "step3_all": {
+   "input_tokens": 3154623,
+   "output_tokens": 249513,
+   "model_elapsed_s": 3638.2
+  }
+ },
+ "final_rows_trainable": 24201
+}

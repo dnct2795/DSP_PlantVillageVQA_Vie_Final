@@ -2,6 +2,24 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 23:25 — Kiểm tra chéo judge + xuất kết quả cuối
+
+- `python -m pvvqa.step3_judge --crosscheck 120 --model gpt-6.1-sol --reasoning high`: 120 cặp ngẫu nhiên
+  (seed 42) — đồng ý verdict 120/120, 0 cặp luna PASS mà sol NEEDS_REPAIR. Lỗi minor: luna 5, sol 7.
+  Lưu ý: tỷ lệ NEEDS_REPAIR thật chỉ ~0,2% nên mẫu 120 gần như toàn PASS; kết quả chỉ cho thấy sol không
+  tìm thêm lỗi major mà luna bỏ sót (quy tắc "3/n": tỷ lệ bỏ sót < ~2,5% ở độ tin cậy 95%).
+  221 s, 98k token vào. Báo cáo: `outputs/step3/crosscheck_report__gpt-6.1-sol__high.md`.
+- `src/pvvqa/export_final.py` → `outputs/final/`:
+  - `PlantVillageVQA_vi.csv` / `.json`: CÙNG cột, thứ tự cột, kiểu dữ liệu và cấu trúc JSON với dataset gốc
+    (`image_id, question_type, question, answer, image_path, split`); 24.201 dòng, 18.751 ảnh;
+    `image_id/question_type/image_path/split` giữ nguyên từng dòng (đã kiểm tra).
+  - `PlantVillageVQA_vi_en_alignment.csv`: qa_id, EN, VI, answer_label, pair_id, status, judge, log repair.
+  - `quality_report.md/.json`, `manifest.json` (sha256).
+  - File dữ liệu lớn (CSV/JSON ~5–10 MB) không commit; report + manifest được commit.
+- Tests: 28 passed.
+
+**Tiếp theo**: đưa `outputs/final/` lên Kaggle (theo yêu cầu người dùng).
+
 ## 2026-10-27 22:55 — Step 3 XONG: chấm toàn bộ + repair
 
 **Lệnh**: `python -m pvvqa.step3_judge` (run 20261027-215657 + 1 lần chấm bù 1 cặp `missing_item`),

@@ -1,0 +1,29 @@
+{
+ "generated": "2026-10-27T16:18:17+00:00",
+ "git_commit": "0ae6928",
+ "source_revision": "a025a438308eff9a7289231ebc09e27e8ec6678c",
+ "files": {
+  "PlantVillageVQA_vi.csv": {
+   "sha256": "fcfe10556026417f8f28ac3c4f86fcfd3e3ba00952752b1645292de081cd78fe",
+   "bytes": 4970969
+  },
+  "PlantVillageVQA_vi.json": {
+   "sha256": "4eb5d3b7ddcfff8bf81a09ad4fc36aa2be7d7fa47373b1d3bc6db9761f104e18",
+   "bytes": 8171716
+  },
+  "PlantVillageVQA_vi_en_alignment.csv": {
+   "sha256": "79d4fcd853477e282b5ba2831ccb278979a4d1e24e4b707e8e27140b3247f062",
+   "bytes": 9833711
+  },
+  "quality_report.md": {
+   "sha256": "476dacb38cd7101cd53c44d0f577d1c810ffb8a2213f2092f7a72bae547519c4",
+   "bytes": 5153
+  },
+  "quality_report.json": {
+   "sha256": "b5258b652b5187741db1d59cbb60af18a77e8a1a6148b0b3794e700505370d6b",
+   "bytes": 1645
+  }
+ },
+ "rows_vi": 24201,
+ "rows_alignment": 24201
+}

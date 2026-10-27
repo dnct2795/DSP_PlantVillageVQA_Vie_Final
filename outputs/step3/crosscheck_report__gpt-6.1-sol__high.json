@@ -1,0 +1,8 @@
+{
+ "n": 120,
+ "agree": 120,
+ "main_pass_other_needs_repair": 0,
+ "main_needs_repair_other_pass": 0,
+ "main_any_error": 5,
+ "other_any_error": 7
+}
