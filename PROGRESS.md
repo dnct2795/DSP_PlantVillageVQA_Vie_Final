@@ -6,8 +6,12 @@ Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấ
 
 - `README.md` viết lại: pipeline chi tiết (input/quá trình/output từng step), kết quả, giới hạn, cách tái lập,
   link Kaggle. `docs/kaggle_dataset_card.md`: mô tả dataset trên Kaggle (cũng là README.md trong gói), link GitHub.
-- Kaggle: `ngnguyncngthnh/plantvillagevqa-vietnamese` (public, CC BY 4.0), tạo bằng
-  `kaggle datasets create -p outputs/kaggle --dir-mode zip --public`.
+- Đã push GitHub (kèm `runs/` 15 MB: checkpoint + log, đã rà không có key/email).
+- Kaggle: **CHƯA upload được**. `kaggle datasets create -p outputs/kaggle --dir-mode zip --public` bị
+  `401 Unauthorized` ở `/api/v1/blobs/upload` (cả với `KAGGLE_API_TOKEN` trong shell lẫn token trong `~/.kaggle/`);
+  lệnh đọc (`datasets list --mine`) vẫn chạy → token không có quyền ghi hoặc đã hết hạn. Cần người dùng tạo token
+  mới trên Kaggle rồi chạy lại lệnh trên. Id dự kiến `ngnguyncngthnh/plantvillagevqa-vietnamese` (README và
+  dataset card đã link sẵn tới URL này).
 
 ## 2026-10-28 01:30 — Tài liệu pipeline + mục Giới hạn chi tiết
 
