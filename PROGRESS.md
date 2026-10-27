@@ -20,6 +20,13 @@ Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấ
 - Git trong thư mục kết nối để lại file .lock (phiên không có quyền xoá) → cần cấp quyền xoá
   cho thư mục dự án thì phiên mới commit được.
 
+**Kiểm tra trên Terminal Mac (17:36)**
+- `claude`: CHƯA CÀI (zsh: command not found) → cần cài Claude Code và đăng nhập bằng tài khoản Pro.
+- `codex-cli 0.159.2`, "Logged in using ChatGPT", `codex exec` trả "pong" (model gpt-5.6-sol,
+  reasoning high, ~8.000 token cho một ping). Có lỗi MCP server `localhost:8000` không chạy
+  (cấu hình trong ~/.codex) — vô hại nhưng làm chậm; sẽ tắt MCP khi gọi judge.
+- Python 3.10.11 trên Mac, pandas/pyarrow/yaml có sẵn.
+
 **Vấn đề / quyết định cần**
 - Lời gọi model ở Step 2/3 (`claude -p`, `codex exec`) phải chạy trên Terminal của Mac
   (nơi đã đăng nhập Claude Pro / ChatGPT Plus), không chạy trong máy ảo của phiên.
