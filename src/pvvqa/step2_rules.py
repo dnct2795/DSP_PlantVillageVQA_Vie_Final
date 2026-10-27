@@ -2,7 +2,7 @@
 
 check_question(item_in, item_out, glossary) -> {pair_id: [mã lỗi, ...]}
 Mã lỗi: missing_question, missing_pair, extra_pair, empty, yn_answer, yn_form, yn_tag,
-        gloss:<en>, untranslated:<từ>
+        gloss:<en>, abbr:<viết tắt>, untranslated:<từ>
 Cặp có lỗi KHÔNG bị loại: được ghi lại và chuyển thẳng sang repair ở Step 3.
 """
 from __future__ import annotations
@@ -47,15 +47,11 @@ def gloss_errors(en: str, vi: str, glossary: dict) -> list[str]:
     vi_l = vi.lower()
     for k in ("crops", "diseases"):
         for e in glossary[k]:
-            if not e["_re"].search(en) or e["check"].lower() in vi_l:
-                continue
-            # Câu EN chỉ nêu bằng viết tắt (vd. "signs of TYLCV") -> giữ viết tắt ở VI cũng đạt.
-            abbr = e.get("abbr")
-            if abbr:
-                ab = re.compile(rf"\b{re.escape(abbr)}\b")
-                if not e["_re"].search(ab.sub(" ", en)) and ab.search(vi):
-                    continue
-            out.append(f"gloss:{e['en']}")
+            # Viết tắt tiếng Anh (HLB, TYLCV, ToMV) không được giữ trong bản dịch, kể cả trong ngoặc.
+            if e.get("abbr") and re.search(rf"\b{re.escape(e['abbr'])}\b", vi):
+                out.append(f"abbr:{e['abbr']}")
+            if e["_re"].search(en) and e["check"].lower() not in vi_l:
+                out.append(f"gloss:{e['en']}")
     return out
 
 

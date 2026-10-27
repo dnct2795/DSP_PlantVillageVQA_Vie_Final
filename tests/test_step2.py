@@ -167,15 +167,17 @@ def test_runner_broken_output_stops_after_3(project, monkeypatch):
     assert "liên tiếp" in log["stop_reason"] and log["pairs_translated"] == 0
 
 
-def test_rules_abbreviation_only_when_source_uses_it():
+def test_rules_abbreviation_must_be_expanded():
     item = _item("What is this?", ["This tomato leaf shows classic signs of TYLCV."],
                  qt="Causal Reasoning")
     out = {"question_key": "q1", "question_vi": "Đây là gì?",
            "pairs": [{"pair_id": "p0", "answer_vi": "Lá cà chua này có dấu hiệu điển hình của TYLCV."}]}
+    r = check_question(item, out, G)["p0"]
+    assert "abbr:TYLCV" in r and "gloss:Tomato Yellow Leaf Curl Virus (TYLCV)" in r
+    out["pairs"][0]["answer_vi"] = "Lá cà chua này có dấu hiệu điển hình của virus xoăn vàng lá cà chua (TYLCV)."
+    assert "abbr:TYLCV" in check_question(item, out, G)["p0"]  # kể cả trong ngoặc
+    out["pairs"][0]["answer_vi"] = "Lá cà chua này có dấu hiệu điển hình của virus xoăn vàng lá cà chua."
     assert check_question(item, out, G)["p0"] == []
-    # EN có tên đầy đủ -> VI vẫn phải có tên tiếng Việt, chỉ viết tắt thì trượt
-    item["pairs"][0]["answer_en"] = "This leaf shows Tomato Yellow Leaf Curl Virus (TYLCV)."
-    assert "gloss:Tomato Yellow Leaf Curl Virus (TYLCV)" in check_question(item, out, G)["p0"]
 
 
 def test_rules_tag_question_without_comma():

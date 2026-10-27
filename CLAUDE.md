@@ -70,6 +70,7 @@ largest remainder, ≥1 dòng mỗi tầng không rỗng, đơn vị là dòng Q
 1. **Gom cặp:** `pair_id` = hash của `(question_type, question_en, answer_en)`. Lưu
    `pair_id → [qa_id…]` và tần suất (số dòng). Mỗi cặp dịch một lần, áp cho mọi dòng.
 2. **Glossary:** tên cây, bệnh, thuật ngữ; tạo một lần, cố định trước khi dịch. Tên khoa học giữ nguyên.
+   Viết tắt tiếng Anh (HLB, TYLCV, ToMV) **luôn dịch thành tên tiếng Việt đầy đủ**, không giữ kể cả trong ngoặc.
 3. **Batch theo câu hỏi:** các cặp chung `(question_type, question_en)` vào cùng batch và **dùng
    chung đúng một `question_vi`**. Lưu bảng câu hỏi `(question_type, question_en) → question_vi`.
    Dịch câu hỏi và câu trả lời cùng lúc.
@@ -101,6 +102,8 @@ claude -p --max-turns 1 --tools "" --system-prompt-file prompts/translator.md \
    Nếu sửa làm đổi `question_vi` dùng chung: cập nhật bảng câu hỏi, áp cho mọi cặp cùng câu hỏi,
    **chấm lại** (không dịch lại) các cặp đó; cặp nào không đạt → `UNRESOLVED`.
 4. `UNRESOLVED` được giữ lại với trạng thái rõ ràng, **không xoá âm thầm, không thay mẫu**.
+5. **Chuẩn hoá thuật ngữ (3.4):** thay viết tắt HLB/TYLCV/ToMV còn sót bằng tên tiếng Việt đầy đủ theo
+   luật cố định (`pvvqa.step3_expand`), kiểm tra luật và Codex chấm lại các cặp bị đổi; không đạt → `UNRESOLVED`.
 
 Gọi Codex:
 ```bash

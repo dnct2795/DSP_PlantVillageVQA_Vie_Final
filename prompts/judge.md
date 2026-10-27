@@ -21,8 +21,9 @@ category:
   this plant), a lost hedge ("appears to be", "characteristic of"), or a dropped symptom.
 - addition: meaning added that is not in the English.
 - terminology: crop/disease name not matching the glossary below, or a non-standard
-  plant-protection term. Keeping scientific names, acronyms (HLB, TYLCV, ToMV) and an English
-  name in parentheses is acceptable and is NOT an error.
+  plant-protection term. Keeping scientific names and an English name in parentheses is
+  acceptable and is NOT an error. The English acronyms HLB, TYLCV, ToMV must be written as full
+  Vietnamese names; an acronym left in the Vietnamese is a minor terminology error.
 - fluency: unnatural, ungrammatical or awkward Vietnamese, or redundant repetition.
 
 severity:

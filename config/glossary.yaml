@@ -3,8 +3,8 @@
 #
 # Mỗi mục: en (dạng chuẩn), vi (bản dịch bắt buộc dùng), match (regex Python, không phân biệt
 # hoa/thường, áp lên câu EN để biết mục này có xuất hiện), check (chuỗi con bắt buộc có trong
-# câu VI khi match; mặc định = vi), abbr (viết tắt: nếu câu EN chỉ nêu bằng viết tắt thì câu VI
-# giữ viết tắt cũng đạt). Chỉ crops và diseases được kiểm tra bằng luật.
+# câu VI khi match; mặc định = vi), abbr (viết tắt tiếng Anh: KHÔNG được giữ trong bản dịch, kể cả trong
+# ngoặc — luôn viết tên tiếng Việt đầy đủ; quy tắc chốt 2026-10-27). Chỉ crops và diseases được kiểm tra bằng luật.
 
 crops:
   - {en: Apple, vi: táo, match: '\bapple (leaf|leaves|plant|tree|foliage|specimen)|^apple$|leaf as coming from an? apple'}
@@ -43,9 +43,9 @@ diseases:
   - {en: Septoria leaf spot, vi: bệnh đốm lá Septoria, check: Septoria, match: '\bseptoria\b'}
   - {en: Spider mites / Two-spotted spider mite, vi: nhện đỏ (nhện đỏ hai chấm), check: nhện, match: '\bspider mites?\b'}
   - {en: Target Spot, vi: bệnh đốm hình bia, check: đốm hình bia, match: '\btarget spot\b'}
-  - {en: Tomato Yellow Leaf Curl Virus (TYLCV), vi: virus xoăn vàng lá cà chua (TYLCV), check: xoăn vàng lá, abbr: TYLCV,
+  - {en: Tomato Yellow Leaf Curl Virus (TYLCV), vi: virus xoăn vàng lá cà chua, check: xoăn vàng lá, abbr: TYLCV,
      match: '\btomato yellow leaf curl\b|\byellow leaf curl\b|\bTYLCV\b'}
-  - {en: Tomato mosaic virus (ToMV), vi: virus khảm cà chua (ToMV), check: khảm, abbr: ToMV, match: '\btomato mosaic\b|\bToMV\b'}
+  - {en: Tomato mosaic virus (ToMV), vi: virus khảm cà chua, check: khảm, abbr: ToMV, match: '\btomato mosaic\b|\bToMV\b'}
 
 # Thuật ngữ triệu chứng: khuyến nghị cho translator, KHÔNG kiểm tra bằng luật.
 terms:
@@ -93,8 +93,5 @@ keep:
   - solani
   - infestans
   - Huanglongbing
-  - HLB
-  - TYLCV
-  - ToMV
   - Esca
   - virus

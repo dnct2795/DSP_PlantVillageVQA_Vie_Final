@@ -38,8 +38,11 @@ Return ONLY a JSON object (no prose, no code fences):
 ## Terminology
 - Crop and disease names MUST use the Vietnamese given in the glossary below (you may add the
   English/scientific name in parentheses only where the glossary shows it).
-- Keep scientific names (italic not needed), virus/disease acronyms and items under "keep"
-  exactly as written. Everything else must be in Vietnamese — no leftover English words.
+- Keep scientific names (italic not needed) and items under "keep" exactly as written.
+  Everything else must be in Vietnamese — no leftover English words.
+- Never keep the English acronyms HLB, TYLCV or ToMV (not even in parentheses): always write the
+  full Vietnamese name from the glossary, e.g. "signs of TYLCV" → "dấu hiệu của virus xoăn vàng lá cà chua",
+  "a classic symptom of HLB" → "triệu chứng điển hình của bệnh vàng lá gân xanh".
 - Prefer the glossary "terms" for symptoms; otherwise use standard Vietnamese plant-protection
   wording.
 - Source spelling "Haunglongbing" is a typo of "Huanglongbing".
