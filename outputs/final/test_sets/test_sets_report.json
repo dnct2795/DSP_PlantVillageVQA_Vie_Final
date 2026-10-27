@@ -1,0 +1,7 @@
+{
+ "rows_per_set": 4829,
+ "images_normal": 3755,
+ "shuffled_same_image_as_original": 0,
+ "shuffled_image_multiset_equal": true,
+ "qa_identical_across_sets": true
+}

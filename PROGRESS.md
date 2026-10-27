@@ -2,6 +2,17 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-28 01:00 — Bộ test cho ablation study (yêu cầu người dùng)
+
+- `python -m pvvqa.make_test_sets` → `outputs/final/test_sets/`: 4 bộ test, cùng 4.829 dòng QA test (cùng thứ
+  tự, cùng cột với dataset gốc), chỉ khác ảnh:
+  `test_normal` (ảnh gốc), `test_blank` (ảnh trắng 256×256 `images/blank/blank.jpg`), `test_noimage`
+  (`image_id`/`image_path` rỗng), `test_shuffled` (hoán vị ảnh giữa các dòng test, seed 42, không dòng nào
+  giữ ảnh của chính nó — không xét lớp cây/bệnh theo yêu cầu người dùng; tập ảnh giữ nguyên 3.755 ảnh).
+  `test_sets_map.csv`: qa_id ↔ ảnh ở từng bộ. Kiểm tra: 0 dòng tráo trùng ảnh gốc; QA giống hệt giữa các bộ.
+- Gói Kaggle thêm `test_sets/` + `images/blank/blank.jpg`; mọi image_path của các bộ đều có file. Chưa upload.
+- Tests: 32 passed.
+
 ## 2026-10-28 00:50 — Đưa chuẩn hoá thuật ngữ về Step 2 (2.5); bỏ bước 3.4
 
 **Quyết định của người dùng**: chuẩn hoá viết tắt là một bước của Step 2 (2.5, ngay sau dịch, trước kiểm tra

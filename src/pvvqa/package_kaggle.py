@@ -5,6 +5,7 @@
 Ghi vào outputs/kaggle/ (git-ignored):
   PlantVillageVQA_vi.csv, PlantVillageVQA_vi.json, PlantVillageVQA_vi_en_alignment.csv, quality_report.md
   images/<split>/<file>   ảnh của subset, đặt đúng theo giá trị image_path gốc -> image_path dùng được ngay
+  test_sets/*.csv, images/blank/blank.jpg   4 bộ test (normal + 3 ablation, xem pvvqa.make_test_sets)
   dataset-metadata.json   metadata cho `kaggle datasets create`
 Ảnh lấy từ zip HF đã ghim revision (`PlantVillageVQA/Images/<file>`), khớp theo tên file.
 Upload là bước riêng, chỉ làm khi người dùng đồng ý:
@@ -64,6 +65,12 @@ CC BY 4.0), built for the DSP391 course project (FPT University). Source revisio
 - `PlantVillageVQA_vi_en_alignment.csv` — EN↔VI alignment with `qa_id` (= `pvqa_<source row>`), `pair_id`,
   `answer_label` (original English answer), validation status, judge errors and repair log.
 - `quality_report.md` — sampling, distributions, validation results and limitations.
+- `test_sets/` — four test sets with identical questions/answers (same rows, same order, same columns),
+  differing only in the image, for ablation studies of text-only bias:
+  `test_normal.csv` (original images), `test_blank.csv` (every row uses a white 256×256 image,
+  `images/blank/blank.jpg`), `test_noimage.csv` (empty `image_id`/`image_path`), `test_shuffled.csv`
+  (images permuted among test rows with seed 42 so that no row keeps its own image).
+  `test_sets_map.csv` links each row (`qa_id`) to its image in every set.
 
 ## How it was built (fully automatic, no human in the loop)
 1. Proportional stratified random sampling by `split × question_type` (12.5%, seed 42).
@@ -98,10 +105,17 @@ def main(argv=None) -> int:
     out.mkdir(parents=True, exist_ok=True)
     for f in FILES:
         shutil.copy2(final / f, out / f)
+    # bộ test cho ablation study (pvvqa.make_test_sets): CSV vào test_sets/, ảnh trắng vào images/blank/
+    ts = final / "test_sets"
+    (out / "test_sets").mkdir(exist_ok=True)
+    for f in ("test_normal.csv", "test_blank.csv", "test_noimage.csv", "test_shuffled.csv", "test_sets_map.csv"):
+        shutil.copy2(ts / f, out / "test_sets" / f)
+    (out / "images" / "blank").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ts / "blank.jpg", out / "images" / "blank" / "blank.jpg")
     vi = pd.read_csv(final / "PlantVillageVQA_vi.csv")
     chk = extract_images(ROOT / args.zip, vi.image_path, out)
     unresolved = [p for p in vi.image_path.unique() if not (out / p).is_file()]
-    on_disk = sum(1 for _ in (out / "images").rglob("*") if _.is_file())
+    on_disk = sum(1 for _ in (out / "images").rglob("*") if _.is_file() and _.parent.name != "blank")
     chk.update({"image_paths_unresolved": len(unresolved), "image_files_on_disk": on_disk})
     rep = json.loads((final / "quality_report.json").read_text())
     import subprocess
