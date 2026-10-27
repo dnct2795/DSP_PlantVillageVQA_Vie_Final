@@ -1,0 +1,32 @@
+{
+ "conditional": {
+  "n": 10,
+  "judged": 10,
+  "caught": 10,
+  "any_error": 10
+ },
+ "control": {
+  "n": 10,
+  "judged": 10,
+  "false_alarm": 0,
+  "any_error": 0
+ },
+ "crop": {
+  "n": 10,
+  "judged": 10,
+  "caught": 10,
+  "any_error": 10
+ },
+ "disease": {
+  "n": 10,
+  "judged": 10,
+  "caught": 10,
+  "any_error": 10
+ },
+ "polarity": {
+  "n": 10,
+  "judged": 10,
+  "caught": 10,
+  "any_error": 10
+ }
+}

@@ -1,0 +1,246 @@
+# Step 3.1 — Smoke test cho judge (KHÔNG phải hiệu chuẩn)
+
+- Judge: `gpt-6-luna`, reasoning `high`; run `20261027-215220`
+- Mục cố ý sai sinh tự động bằng thay thế chuỗi trên bản dịch đã qua luật (seed 42).
+- "Bắt được" = judge cho ít nhất một lỗi major/critical (verdict NEEDS_REPAIR).
+
+| loại | n | bắt được / báo nhầm | có ít nhất 1 lỗi (kể cả minor) |
+|---|---|---|---|
+| conditional | 10 | bắt được 10/10 | 10/10 |
+| control | 10 | báo nhầm 0/10 | 0/10 |
+| crop | 10 | bắt được 10/10 | 10/10 |
+| disease | 10 | bắt được 10/10 | 10/10 |
+| polarity | 10 | bắt được 10/10 | 10/10 |
+
+## Chi tiết
+
+- **smoke_conditional_00** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Which visual characteristics would reappear if this plant achieved health restoration? | If the plant were healthy, the symptoms of disease would be absent.
+  - VI gốc: Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe? | Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có.
+  - VI chấm: Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe? | Các triệu chứng của bệnh không có.
+  - [major/omission] The answer omits the condition “If the plant were healthy”; “Các triệu chứng của bệnh không có” states only that symptoms are absent.
+- **smoke_conditional_01** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Picture this plant in optimal condition - how would its appearance alter? | A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.
+  - VI gốc: Hãy hình dung cây này ở điều kiện tối ưu - hình dạng bên ngoài của nó sẽ thay đổi như thế nào? | Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu.
+  - VI chấm: Hãy hình dung cây này ở điều kiện tối ưu - hình dạng bên ngoài của nó sẽ thay đổi như thế nào? | Lá này không biểu hiện các dấu hiệu của cấu trúc dạng mụn màu cam hoặc nâu.
+  - [major/omission] The answer omits “A healthy version ... would not”; it instead directly says “Lá này không biểu hiện.”
+- **smoke_conditional_02** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: What visual features would return upon this specimen's complete health restoration? | A healthy version of this plant would not exhibit the symptoms of disease.
+  - VI gốc: Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại khi mẫu này hoàn toàn khỏe mạnh trở lại? | Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các triệu chứng bệnh.
+  - VI chấm: Những đặc điểm hình ảnh nào sẽ xuất hiện trở lại khi mẫu này hoàn toàn khỏe mạnh trở lại? | Lá này không biểu hiện các triệu chứng bệnh.
+  - [major/omission] The answer omits the hypothetical healthy-version condition; “Lá này không biểu hiện” makes a direct claim about this leaf.
+- **smoke_conditional_03** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Which observable features separate this specimen from healthy plant standards? | A healthy version of this plant would not exhibit the yellow spots paired with olive-green undersurface fungus.
+  - VI gốc: Những đặc điểm quan sát được nào phân biệt mẫu này với các tiêu chuẩn của cây khỏe mạnh? | Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện các đốm vàng đi kèm nấm màu xanh ô liu ở mặt dưới lá.
+  - VI chấm: Những đặc điểm quan sát được nào phân biệt mẫu này với các tiêu chuẩn của cây khỏe mạnh? | Lá này không biểu hiện các đốm vàng đi kèm nấm màu xanh ô liu ở mặt dưới lá.
+  - [major/omission] The answer omits the hypothetical “A healthy version ... would not”; “Lá này không biểu hiện” states directly that this leaf lacks the symptoms.
+- **smoke_conditional_04** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Contrast this leaf with healthy foliage standards - what's most distinctive? | A healthy leaf would be uniformly green and free of the symptoms of disease.
+  - VI gốc: Hãy so sánh lá này với tiêu chuẩn của lá khỏe mạnh - điểm nổi bật nhất là gì? | Một lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng bệnh.
+  - VI chấm: Hãy so sánh lá này với tiêu chuẩn của lá khỏe mạnh - điểm nổi bật nhất là gì? | Lá này có màu xanh đồng đều và không có các triệu chứng bệnh.
+  - [major/omission] The answer omits “A healthy leaf would be”; “Lá này có màu xanh đồng đều” states directly that this leaf is uniformly green.
+- **smoke_conditional_05** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Compare this plant to healthy norms and identify the distinguishing factors. | If the plant were healthy, the evidence of orange or brown pustular structures would be absent.
+  - VI gốc: Hãy so sánh cây này với tiêu chuẩn khỏe mạnh và xác định các yếu tố khác biệt. | Nếu cây khỏe mạnh, dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu sẽ không có.
+  - VI chấm: Hãy so sánh cây này với tiêu chuẩn khỏe mạnh và xác định các yếu tố khác biệt. | Dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu không có.
+  - [major/omission] The answer omits “If the plant were healthy”; “không có” presents the absence of pustules as a direct statement rather than a hypothetical.
+- **smoke_conditional_06** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Which pathological indicators would not exist in an uninfected specimen? | If the plant were healthy, the yellow spots paired with olive-green undersurface fungus would be absent.
+  - VI gốc: Những dấu hiệu bệnh lý nào sẽ không có ở một mẫu không bị nhiễm bệnh? | Nếu cây khỏe mạnh, các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá sẽ không có.
+  - VI chấm: Những dấu hiệu bệnh lý nào sẽ không có ở một mẫu không bị nhiễm bệnh? | Các đốm vàng đi kèm với nấm màu xanh ô liu ở mặt dưới lá không có.
+  - [major/omission] The answer omits “If the plant were healthy”; it states directly that the spots and fungus are absent.
+- **smoke_conditional_07** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: What differentiating elements separate this specimen from healthy standards? | A healthy leaf would be uniformly green and free of the symptoms of disease.
+  - VI gốc: Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh? | Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có các triệu chứng của bệnh.
+  - VI chấm: Những yếu tố khác biệt nào phân biệt mẫu này với các tiêu chuẩn khỏe mạnh? | Lá này có màu xanh đồng đều và không có các triệu chứng của bệnh.
+  - [major/omission] The answer omits the hypothetical “A healthy leaf would be”; “Lá này có màu xanh đồng đều” makes a direct claim about this leaf.
+- **smoke_conditional_08** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Which disease symptoms would be absent following successful treatment? | A healthy version of this plant would not exhibit the evidence of orange or brown pustular structures.
+  - VI gốc: Những triệu chứng bệnh nào sẽ không còn sau khi điều trị thành công? | Một cây khỏe mạnh thuộc loại này sẽ không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu.
+  - VI chấm: Những triệu chứng bệnh nào sẽ không còn sau khi điều trị thành công? | Lá này không biểu hiện dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu.
+  - [major/omission] The answer omits the hypothetical healthy-plant condition; “Lá này không biểu hiện” makes a direct claim about this leaf.
+- **smoke_conditional_09** (Counterfactual Reasoning) → **NEEDS_REPAIR**
+  - EN: Imagine this plant restored to wellness - how would its appearance change? | A healthy leaf would be uniformly green and free of the evidence of orange or brown pustular structures.
+  - VI gốc: Hãy hình dung cây này được phục hồi khỏe mạnh - hình dạng bên ngoài của nó sẽ thay đổi như thế nào? | Một chiếc lá khỏe mạnh sẽ có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu.
+  - VI chấm: Hãy hình dung cây này được phục hồi khỏe mạnh - hình dạng bên ngoài của nó sẽ thay đổi như thế nào? | Lá này có màu xanh đồng đều và không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu.
+  - [major/omission] The answer omits the hypothetical “A healthy leaf would be”; “Lá này có màu xanh đồng đều” makes a direct claim about this leaf.
+- **smoke_control_00** (Counterfactual Reasoning) → **PASS**
+  - EN: Which visual characteristics would reappear if this plant achieved health restoration? | If the plant were healthy, the symptoms of disease would be absent.
+  - VI chấm: Những đặc điểm nhìn thấy được nào sẽ xuất hiện trở lại nếu cây này phục hồi được sức khỏe? | Nếu cây khỏe mạnh, các triệu chứng của bệnh sẽ không có.
+- **smoke_control_01** (Specific Disease Identification) → **PASS**
+  - EN: What disease, if any, is visible on this Potato leaf? | The fungus Alternaria solani, which causes Early Blight, is responsible.
+  - VI chấm: Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này? | Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân.
+- **smoke_control_02** (Detailed Verification) → **PASS**
+  - EN: Is this leaf suffering from Leaf Mold? | No
+  - VI chấm: Lá này có bị bệnh mốc lá không? | Không
+- **smoke_control_03** (Causal Reasoning) → **PASS**
+  - EN: What pathogenic or environmental factors are affecting this tomato leaf's health? | The plant is affected by Bacterial Spot disease.
+  - VI chấm: Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này? | Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn.
+- **smoke_control_04** (General Health Assessment) → **PASS**
+  - EN: Can you confirm this plant shows ideal wellness? | Yes
+  - VI chấm: Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không? | Có
+- **smoke_control_05** (Causal Reasoning) → **PASS**
+  - EN: Can you identify the basic cause of these manifestations? | The plant is infected with Tomato Mosaic Virus.
+  - VI chấm: Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không? | Cây bị nhiễm virus khảm cà chua.
+- **smoke_control_06** (Comprehensive Description) → **PASS**
+  - EN: Lead me through the leaf features and conditions present in this picture. | The plant shows no symptoms of pathology.
+  - VI chấm: Hãy hướng dẫn tôi qua các đặc điểm và tình trạng của lá có trong bức ảnh này. | Cây không có triệu chứng bệnh lý.
+- **smoke_control_07** (Comprehensive Description) → **PASS**
+  - EN: Review the photograph and deliver a comprehensive plant overview. | Diagnosis: Huanglongbing (HLB), or citrus greening.
+  - VI chấm: Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây. | Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi.
+- **smoke_control_08** (Counterfactual Reasoning) → **PASS**
+  - EN: What disease indicators would not appear in a healthy plant specimen? | The key visual difference would be the absence of symptoms of disease.
+  - VI chấm: Những dấu hiệu bệnh nào sẽ không xuất hiện ở một mẫu cây khỏe mạnh? | Sự khác biệt chính về mặt hình ảnh sẽ là không có các triệu chứng bệnh.
+- **smoke_control_09** (Visual Attribute Grounding) → **PASS**
+  - EN: Is there a white, dusty powder covering the leaf surface? | No
+  - VI chấm: Có lớp bột trắng như bụi phủ lên bề mặt lá không? | Không
+- **smoke_crop_00** (Specific Disease Identification) → **NEEDS_REPAIR**
+  - EN: What disease, if any, is visible on this Potato leaf? | The fungus Alternaria solani, which causes Early Blight, is responsible.
+  - VI gốc: Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này? | Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân.
+  - VI chấm: Bệnh nào, nếu có, có thể nhìn thấy trên lá cà chua này? | Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân.
+  - [critical/mistranslation] The question says “lá cà chua” (tomato leaf), but the English says potato leaf.
+- **smoke_crop_01** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What pathogenic or environmental factors are affecting this tomato leaf's health? | The plant is affected by Bacterial Spot disease.
+  - VI gốc: Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này? | Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn.
+  - VI chấm: Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá khoai tây này? | Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn.
+  - [critical/mistranslation] The question says “lá khoai tây” (potato leaf), but the English says tomato leaf.
+- **smoke_crop_02** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: Can you identify the basic cause of these manifestations? | The plant is infected with Tomato Mosaic Virus.
+  - VI gốc: Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không? | Cây bị nhiễm virus khảm cà chua.
+  - VI chấm: Bạn có thể xác định nguyên nhân cơ bản của những biểu hiện này không? | Cây bị nhiễm virus khảm khoai tây.
+  - [critical/mistranslation] “virus khảm khoai tây” changes the crop; the English names Tomato Mosaic Virus.
+- **smoke_crop_03** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Guide me through the leaf-related elements visible in this photograph. | The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).
+  - VI gốc: Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này. | Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV).
+  - VI chấm: Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này. | Chẩn đoán là virus xoăn vàng lá khoai tây (TYLCV).
+  - [critical/mistranslation] “virus xoăn vàng lá khoai tây” changes the crop; TYLCV is the tomato virus in the English answer.
+- **smoke_crop_04** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What specific factors have led to this tomato leaf's unhealthy manifestation? | The plant is suffering from a Late Blight infection.
+  - VI gốc: Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá cà chua này? | Cây đang bị nhiễm bệnh mốc sương.
+  - VI chấm: Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá khoai tây này? | Cây đang bị nhiễm bệnh mốc sương.
+  - [critical/mistranslation] The question says “lá khoai tây” (potato leaf), but the English says tomato leaf.
+- **smoke_crop_05** (Specific Disease Identification) → **NEEDS_REPAIR**
+  - EN: What infectious agent, if any, is causing symptoms on this tomato leaf? | The condition is identified as Late Blight.
+  - VI gốc: Tác nhân gây bệnh nào, nếu có, đang gây ra các triệu chứng trên lá cà chua này? | Tình trạng được xác định là bệnh mốc sương.
+  - VI chấm: Tác nhân gây bệnh nào, nếu có, đang gây ra các triệu chứng trên lá khoai tây này? | Tình trạng được xác định là bệnh mốc sương.
+  - [critical/mistranslation] The question says “lá khoai tây” (potato leaf), but the English says tomato leaf.
+- **smoke_crop_06** (Specific Disease Identification) → **NEEDS_REPAIR**
+  - EN: What disease manifestation can be observed on this tomato foliage? | This plant appears to be healthy and free of disease.
+  - VI gốc: Có thể quan sát thấy biểu hiện bệnh nào trên lá cà chua này? | Cây này có vẻ khỏe mạnh và sạch bệnh.
+  - VI chấm: Có thể quan sát thấy biểu hiện bệnh nào trên lá khoai tây này? | Cây này có vẻ khỏe mạnh và sạch bệnh.
+  - [critical/mistranslation] The question says “lá khoai tây” (potato leaf), but the English says tomato foliage.
+- **smoke_crop_07** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Review the photograph and deliver a comprehensive plant overview. | This is a Grape leaf suffering from Esca Black Measles.
+  - VI gốc: Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây. | Đây là lá nho bị bệnh Esca (sởi đen).
+  - VI chấm: Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây. | Đây là lá táo bị bệnh Esca (sởi đen).
+  - [critical/mistranslation] “lá táo” changes the English grape leaf to an apple leaf.
+- **smoke_crop_08** (Specific Disease Identification) → **NEEDS_REPAIR**
+  - EN: Can you ascertain the specific pathology present in this photograph? | This tomato leaf shows classic signs of TYLCV, like yellowing and curling.
+  - VI gốc: Bạn có thể xác định bệnh cụ thể xuất hiện trong bức ảnh này không? | Lá cà chua này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá.
+  - VI chấm: Bạn có thể xác định bệnh cụ thể xuất hiện trong bức ảnh này không? | Lá khoai tây này có các dấu hiệu điển hình của TYLCV, như vàng lá và xoăn lá.
+  - [critical/mistranslation] “Lá khoai tây này” changes the English tomato leaf to a potato leaf.
+- **smoke_crop_09** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What primary agent is at the core of this condition? | The causal agent is the Tomato Yellow Leaf Curl Virus.
+  - VI gốc: Tác nhân chính nào là cốt lõi của tình trạng này? | Tác nhân gây bệnh là virus xoăn vàng lá cà chua.
+  - VI chấm: Tác nhân chính nào là cốt lõi của tình trạng này? | Tác nhân gây bệnh là virus xoăn vàng lá khoai tây.
+  - [critical/mistranslation] “virus xoăn vàng lá khoai tây” changes the crop; the English names Tomato Yellow Leaf Curl Virus.
+- **smoke_disease_00** (Specific Disease Identification) → **NEEDS_REPAIR**
+  - EN: What disease, if any, is visible on this Potato leaf? | The fungus Alternaria solani, which causes Early Blight, is responsible.
+  - VI gốc: Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này? | Nấm Alternaria solani, tác nhân gây bệnh đốm vòng, là nguyên nhân.
+  - VI chấm: Bệnh nào, nếu có, có thể nhìn thấy trên lá khoai tây này? | Nấm Alternaria solani, tác nhân gây bệnh mốc sương, là nguyên nhân.
+  - [critical/mistranslation] “bệnh mốc sương” is Late Blight, but the English names Early Blight.
+- **smoke_disease_01** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What pathogenic or environmental factors are affecting this tomato leaf's health? | The plant is affected by Bacterial Spot disease.
+  - VI gốc: Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này? | Cây bị ảnh hưởng bởi bệnh đốm vi khuẩn.
+  - VI chấm: Những yếu tố gây bệnh hoặc yếu tố môi trường nào đang ảnh hưởng đến sức khỏe của lá cà chua này? | Cây bị ảnh hưởng bởi bệnh mốc lá.
+  - [critical/mistranslation] “bệnh mốc lá” is Leaf Mold, not the English Bacterial Spot disease.
+- **smoke_disease_02** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What rationale explains these symptoms? | The cause is the bacterium Candidatus Liberibacter asiaticus, leading to Huanglongbing.
+  - VI gốc: Lý do nào giải thích các triệu chứng này? | Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh vàng lá gân xanh (Huanglongbing).
+  - VI chấm: Lý do nào giải thích các triệu chứng này? | Nguyên nhân là vi khuẩn Candidatus Liberibacter asiaticus, gây ra bệnh khảm (Huanglongbing).
+  - [critical/mistranslation] “bệnh khảm” means mosaic disease, not Huanglongbing.
+- **smoke_disease_03** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Review the photograph and deliver a comprehensive plant overview. | Diagnosis: Huanglongbing (HLB), or citrus greening.
+  - VI gốc: Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây. | Chẩn đoán: bệnh vàng lá gân xanh (Huanglongbing, HLB), hay bệnh vàng lá gân xanh trên cây có múi.
+  - VI chấm: Hãy xem xét bức ảnh và đưa ra một bản mô tả tổng quan toàn diện về cây. | Chẩn đoán: bệnh khảm (Huanglongbing, HLB), hay bệnh khảm trên cây có múi.
+  - [critical/mistranslation] “bệnh khảm” means mosaic disease, not Huanglongbing/citrus greening.
+- **smoke_disease_04** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: Please specify what produces these disease symptoms. | The diagnosis is Target Spot.
+  - VI gốc: Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này. | Chẩn đoán là bệnh đốm hình bia.
+  - VI chấm: Vui lòng cho biết nguyên nhân nào gây ra các triệu chứng bệnh này. | Chẩn đoán là bệnh phấn trắng.
+  - [critical/mistranslation] “bệnh phấn trắng” means Powdery mildew, not Target Spot.
+- **smoke_disease_05** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Would you provide a detailed visual assessment of this plant material? | These 'bullseye' lesions are a tell-tale sign of Early Blight.
+  - VI gốc: Bạn có thể đưa ra đánh giá trực quan chi tiết về mẫu thực vật này không? | Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh đốm vòng.
+  - VI chấm: Bạn có thể đưa ra đánh giá trực quan chi tiết về mẫu thực vật này không? | Những vết bệnh hình bia (vòng đồng tâm) này là dấu hiệu đặc trưng của bệnh mốc sương.
+  - [critical/mistranslation] “bệnh mốc sương” is Late Blight, but the English identifies Early Blight.
+- **smoke_disease_06** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Guide me through the leaf-related elements visible in this photograph. | The diagnosis is Tomato Yellow Leaf Curl Virus (TYLCV).
+  - VI gốc: Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này. | Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV).
+  - VI chấm: Hãy hướng dẫn tôi qua các yếu tố liên quan đến lá có thể thấy trong bức ảnh này. | Chẩn đoán là virus đốm vi khuẩn cà chua (TYLCV).
+  - [critical/mistranslation] “virus đốm vi khuẩn cà chua” identifies bacterial spot rather than Tomato Yellow Leaf Curl Virus.
+- **smoke_disease_07** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What's behind this plant's compromised visual state? | The diagnosis is Target Spot.
+  - VI gốc: Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì? | Chẩn đoán là bệnh đốm hình bia.
+  - VI chấm: Nguyên nhân đằng sau tình trạng suy giảm về hình thái của cây này là gì? | Chẩn đoán là bệnh phấn trắng.
+  - [critical/mistranslation] “bệnh phấn trắng” is Powdery Mildew, not Target Spot.
+- **smoke_disease_08** (Causal Reasoning) → **NEEDS_REPAIR**
+  - EN: What specific factors have led to this tomato leaf's unhealthy manifestation? | The plant is suffering from a Late Blight infection.
+  - VI gốc: Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá cà chua này? | Cây đang bị nhiễm bệnh mốc sương.
+  - VI chấm: Những yếu tố cụ thể nào đã dẫn đến biểu hiện không khỏe mạnh của lá cà chua này? | Cây đang bị nhiễm bệnh đốm vòng.
+  - [critical/mistranslation] “bệnh đốm vòng” is Early Blight, whereas the English says Late Blight.
+- **smoke_disease_09** (Comprehensive Description) → **NEEDS_REPAIR**
+  - EN: Provide a comprehensive assessment of this plant's visual condition and wellness status. | This is Late Blight, caused by the oomycete Phytophthora infestans.
+  - VI gốc: Hãy đưa ra đánh giá toàn diện về tình trạng hình thái và sức khỏe của cây này. | Đây là bệnh mốc sương, do nấm noãn Phytophthora infestans gây ra.
+  - VI chấm: Hãy đưa ra đánh giá toàn diện về tình trạng hình thái và sức khỏe của cây này. | Đây là bệnh đốm vòng, do nấm noãn Phytophthora infestans gây ra.
+  - [critical/mistranslation] “bệnh đốm vòng” is Early Blight, whereas the English identifies Late Blight.
+- **smoke_polarity_00** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Can you confirm this plant shows ideal wellness? | Yes
+  - VI gốc: Bạn có thể xác nhận là cây này có tình trạng khỏe mạnh lý tưởng không? | Có
+  - VI chấm: Bạn có thể xác nhận là cây này có tình trạng bị bệnh lý tưởng không? | Có
+  - [critical/polarity] “tình trạng bị bệnh lý tưởng” asks about an ideal diseased condition, reversing “ideal wellness.”
+- **smoke_polarity_01** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Are there signs of physiological wellness and strength? | No
+  - VI gốc: Có dấu hiệu của sự khỏe mạnh và cường tráng về mặt sinh lý không? | Không
+  - VI chấm: Có dấu hiệu của sự bị bệnh và cường tráng về mặt sinh lý không? | Không
+  - [critical/polarity] “sự bị bệnh” changes physiological wellness into illness, reversing the question’s proposition.
+- **smoke_polarity_02** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Can clear signs of disease-free condition be observed? | No
+  - VI gốc: Có thể quan sát thấy dấu hiệu rõ ràng của tình trạng sạch bệnh không? | Không
+  - VI chấm: Có thể quan sát thấy dấu hiệu rõ ràng của tình trạng nhiễm bệnh không? | Không
+  - [critical/polarity] “tình trạng nhiễm bệnh” means infected condition, reversing the English question about a disease-free condition.
+- **smoke_polarity_03** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Can you identify clear markers of disease-free status? | No
+  - VI gốc: Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng sạch bệnh không? | Không
+  - VI chấm: Bạn có thể nhận ra các dấu hiệu rõ ràng của tình trạng nhiễm bệnh không? | Không
+  - [critical/polarity] “dấu hiệu ... tình trạng nhiễm bệnh” asks about signs of infection, reversing the English question about disease-free status.
+- **smoke_polarity_04** (Detailed Verification) → **NEEDS_REPAIR**
+  - EN: Is this Tomato leaf infected with Early blight? | Yes
+  - VI gốc: Lá cà chua này có bị nhiễm bệnh đốm vòng không? | Có
+  - VI chấm: Lá cà chua này có khỏe mạnh đốm vòng không? | Có
+  - [critical/mistranslation] “khỏe mạnh” changes the question from whether the leaf is infected with Early blight to whether it is healthy.
+- **smoke_polarity_05** (Detailed Verification) → **NEEDS_REPAIR**
+  - EN: Is this Grape leaf infected with Esca Black Measles? | Yes
+  - VI gốc: Lá nho này có bị nhiễm bệnh Esca (sởi đen) không? | Có
+  - VI chấm: Lá nho này có khỏe mạnh Esca (sởi đen) không? | Có
+  - [critical/mistranslation] “khỏe mạnh” changes the question from whether the leaf is infected with Esca to whether it is healthy.
+- **smoke_polarity_06** (Detailed Verification) → **NEEDS_REPAIR**
+  - EN: Is this leaf suffering from Leaf Mold? | No
+  - VI gốc: Lá này có bị bệnh mốc lá không? | Không
+  - VI chấm: Lá này có khỏe mạnh mốc lá không? | Không
+  - [critical/polarity] “có khỏe mạnh mốc lá không?” changes the question about suffering from Leaf Mold into an unclear question combining health and mold.
+- **smoke_polarity_07** (Detailed Verification) → **NEEDS_REPAIR**
+  - EN: Is this a Tomato leaf with Bacterial spot? | No
+  - VI gốc: Đây có phải là lá cà chua bị bệnh đốm vi khuẩn không? | Không
+  - VI chấm: Đây có phải là lá cà chua khỏe mạnh đốm vi khuẩn không? | Không
+  - [critical/addition] “khỏe mạnh” adds that the leaf is healthy, changing the question about whether it has Bacterial spot.
+- **smoke_polarity_08** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Can you confirm total lack of disease indicators? | No
+  - VI gốc: Bạn có thể xác nhận là hoàn toàn không có dấu hiệu bệnh không? | Không
+  - VI chấm: Bạn có thể xác nhận là hoàn toàn có dấu hiệu bệnh không? | Không
+  - [critical/polarity] “hoàn toàn có dấu hiệu bệnh” asks about having disease indicators, reversing the English question about their total absence.
+- **smoke_polarity_09** (General Health Assessment) → **NEEDS_REPAIR**
+  - EN: Is there absence of both stress and disease markers? | Yes
+  - VI gốc: Có hoàn toàn không có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không? | Có
+  - VI chấm: Có hoàn toàn có cả dấu hiệu căng thẳng lẫn dấu hiệu bệnh không? | Có
+  - [critical/polarity] “Có ... dấu hiệu căng thẳng lẫn dấu hiệu bệnh không?” asks whether both markers are present, reversing the English question about their absence.

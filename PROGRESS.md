@@ -2,6 +2,29 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-27 21:55 — Step 3: judge + smoke test + pilot chấm 81 cặp
+
+**Đã làm**
+- `prompts/judge.md`, `schemas/judge.json` (lỗi MQM: mistranslation, polarity, omission, addition,
+  terminology, fluency × minor/major/critical; PASS = không có major/critical).
+- `src/pvvqa/step3_judge.py`: `--smoke`, `--pilot N`, chấm toàn bộ, `--status`; chỉ chấm cặp đã qua
+  luật; checkpoint append-only `runs/step3/judgments.jsonl`, idempotent, dừng sạch khi hết quota.
+- Codex gọi với `--ignore-user-config`, prompt judge làm `model_instructions_file`, tắt công cụ:
+  phần cố định mỗi lần gọi ~19k → ~7,6k token.
+- Tests: `tests/test_step3.py` + `tests/fake_codex.py`; `pytest -q`: 24 passed.
+
+**Smoke test** (gpt-6-luna, high; 50 mục sinh tự động, seed 42; KHÔNG phải hiệu chuẩn)
+- Đảo cực tính 10/10, đổi cây 10/10, đổi bệnh 10/10, mất điều kiện "nếu" 10/10; đối chứng báo nhầm 0/10.
+- Loại lỗi gán đúng: crop/disease → mistranslation critical; polarity → polarity critical (7/10);
+  conditional → omission major (10/10). Báo cáo: `outputs/step3/smoke_report__gpt-6-luna__high.md`.
+- 2 lần gọi, 36 s, 23k token vào.
+
+**Pilot chấm 81 cặp thật**: 81 PASS, 0 NEEDS_REPAIR; 5 lỗi fluency minor (lặp "vàng lá gân xanh",
+"đốm lốm đốm"). 43 s, 36k token vào, 3k token ra.
+→ Ước lượng chấm toàn bộ 7.508 cặp: ~190 lần gọi, ~65 phút, ~3,4M token vào, ~0,3M token ra.
+
+**Tiếp theo**: chờ người dùng cho chấm toàn bộ; viết repair (Claude) + chấm lại.
+
 ## 2026-10-27 21:45 — Step 2 XONG: dịch toàn bộ 7.522 cặp
 
 **Lệnh**: `PYTHONPATH=src python3 -m pvvqa.step2_translate` (3 lần chạy: 20261027-180111 dừng do hết
