@@ -78,7 +78,9 @@ largest remainder, ≥1 dòng mỗi tầng không rỗng, đơn vị là dòng Q
    câu hỏi dạng "… có … không?" hoặc "… có phải … không?", không dùng câu phủ định hay câu hỏi đuôi;
    `answer_vi` ∈ {"Có", "Không"}; `answer_label` **sao chép từ nguồn**, không qua dịch.
    Câu hỏi mở: dịch câu trả lời thành văn bản như gốc.
-5. **Kiểm tra bằng luật (không dùng model):** JSON hợp lệ, đủ trường; Yes/No khớp `answer_label`
+5. **Chuẩn hoá thuật ngữ (không dùng model):** thay viết tắt HLB/TYLCV/ToMV còn sót trong bản dịch bằng
+   tên tiếng Việt đầy đủ theo glossary (`normalize_terms`); áp cho mọi bản dịch của Claude, kể cả bản sửa ở Step 3.
+6. **Kiểm tra bằng luật (không dùng model):** JSON hợp lệ, đủ trường; Yes/No khớp `answer_label`
    và đúng dạng câu hỏi; tên cây/bệnh khớp glossary; không còn tiếng Anh chưa dịch, trừ tên khoa học,
    tên riêng và thuật ngữ glossary cho giữ nguyên; cùng câu hỏi EN → cùng `question_vi`.
    Cặp không qua luật → chuyển thẳng sang repair ở Step 3.
@@ -102,8 +104,6 @@ claude -p --max-turns 1 --tools "" --system-prompt-file prompts/translator.md \
    Nếu sửa làm đổi `question_vi` dùng chung: cập nhật bảng câu hỏi, áp cho mọi cặp cùng câu hỏi,
    **chấm lại** (không dịch lại) các cặp đó; cặp nào không đạt → `UNRESOLVED`.
 4. `UNRESOLVED` được giữ lại với trạng thái rõ ràng, **không xoá âm thầm, không thay mẫu**.
-5. **Chuẩn hoá thuật ngữ (3.4):** thay viết tắt HLB/TYLCV/ToMV còn sót bằng tên tiếng Việt đầy đủ theo
-   luật cố định (`pvvqa.step3_expand`), kiểm tra luật và Codex chấm lại các cặp bị đổi; không đạt → `UNRESOLVED`.
 
 Gọi Codex:
 ```bash

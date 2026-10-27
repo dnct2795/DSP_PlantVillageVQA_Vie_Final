@@ -1,4 +1,7 @@
-"""Step 2.5 — kiểm tra bằng luật (không dùng model).
+"""Step 2.5–2.6 — chuẩn hoá thuật ngữ và kiểm tra bằng luật (không dùng model).
+
+normalize_terms(text): 2.5, thay viết tắt tiếng Anh HLB / TYLCV / ToMV bằng tên tiếng Việt đầy đủ theo
+glossary (áp lên mọi bản dịch của Claude — dịch lần đầu và bản sửa ở 3.3 — trước khi kiểm tra luật).
 
 check_question(item_in, item_out, glossary) -> {pair_id: [mã lỗi, ...]}
 Mã lỗi: missing_question, missing_pair, extra_pair, empty, yn_answer, yn_form, yn_tag,
@@ -21,6 +24,27 @@ VI_ASCII_OK = {"do", "to", "an", "con", "can", "hay", "ma", "cho", "ban", "long"
 EN_COMMON = {"the", "is", "are", "of", "and", "or", "with", "this", "that", "leaf", "leaves",
              "plant", "disease", "healthy", "spot", "spots", "blight", "rust", "mold", "yes",
              "no", "symptoms", "infection", "specimen", "foliage", "lesions", "sign", "signs"}
+
+
+# 2.5 — thứ tự quan trọng: bỏ viết tắt trong ngoặc sau tên đầy đủ trước, rồi mới thay viết tắt đứng riêng.
+NORMALIZE_RULES = [
+    (r"\s*\((TYLCV|ToMV|HLB)\)", ""),
+    (r"\(Huanglongbing, HLB\)", "(Huanglongbing)"),
+    (r"\bbệnh (nhiễm|do) virus: TYLCV\b", r"bệnh \1 virus xoăn vàng lá cà chua"),
+    (r"\bbệnh (nhiễm|do) virus: ToMV\b", r"bệnh \1 virus khảm cà chua"),
+    (r"\bbệnh HLB\b", "bệnh vàng lá gân xanh"),
+    (r"\bvirus TYLCV\b", "virus xoăn vàng lá cà chua"),
+    (r"\bvirus ToMV\b", "virus khảm cà chua"),
+    (r"\bTYLCV\b", "virus xoăn vàng lá cà chua"),
+    (r"\bToMV\b", "virus khảm cà chua"),
+    (r"\bHLB\b", "bệnh vàng lá gân xanh"),
+]
+
+
+def normalize_terms(text: str) -> str:
+    for pat, rep in NORMALIZE_RULES:
+        text = re.sub(pat, rep, text)
+    return text
 
 
 def load_glossary(path: str | Path) -> dict:

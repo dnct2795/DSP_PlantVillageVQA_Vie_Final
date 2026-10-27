@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-27T16:34:56+00:00",
- "git_commit": "5d262f1",
+ "generated": "2026-10-27T16:46:47+00:00",
+ "git_commit": "7efcd18",
  "source_revision": "a025a438308eff9a7289231ebc09e27e8ec6678c",
  "files": {
   "PlantVillageVQA_vi.csv": {
-   "sha256": "43b70eb9c0caa78f7e7ac293dae2bf10dd72969c04a04b53e18275191ff9c612",
-   "bytes": 4991720
+   "sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+   "bytes": 4991984
   },
   "PlantVillageVQA_vi.json": {
-   "sha256": "542feb20ba18cda12ac0adb789338c0eb5420cb2f6058bfab0d28405953d9971",
-   "bytes": 8192126
+   "sha256": "49c4e34032dd61644a672010af272a614b3b4dbd86fb3bd56dd77839b2c2b609",
+   "bytes": 8192425
   },
   "PlantVillageVQA_vi_en_alignment.csv": {
-   "sha256": "0b9b6ade39fcae954c21caea5e1cc9272f63ad1c1fc0c1fad63f13a9c1e6075b",
-   "bytes": 10600121
+   "sha256": "f25ed62fb1028a67cb92b28a941e1d977569c58d984efc275c275be34e4d3e61",
+   "bytes": 9837681
   },
   "quality_report.md": {
-   "sha256": "bec03a09218eea6a8cca8553c07eaa2d4571f27e0c81e83735782c4fdc3cd0c2",
-   "bytes": 7199
+   "sha256": "985e10721c0515d811e22420eae6f1343813de18a1de4278c14701066335c466",
+   "bytes": 6724
   },
   "quality_report.json": {
-   "sha256": "e096f69f08db23b03e639c94a5e2a4fe884da4b492bf53376a5b13d0eaef7c12",
+   "sha256": "870b5e3ba928915a89c6a4e346e59ebe8546bfe3de72eca55b6d459274d410f4",
    "bytes": 1685
   }
  },
- "rows_vi": 24194,
+ "rows_vi": 24195,
  "rows_alignment": 24201
 }

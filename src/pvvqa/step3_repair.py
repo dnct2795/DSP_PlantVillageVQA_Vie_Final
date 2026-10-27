@@ -7,7 +7,7 @@ Chạy sau khi đã chấm toàn bộ (`python -m pvvqa.step3_judge`):
   python -m pvvqa.step3_repair --status
 
 Cặp cần sửa = trượt luật ở Step 2 + verdict NEEDS_REPAIR ở lần chấm đầu.
-- Claude dịch lại kèm nhận xét (lỗi luật / lỗi judge) → kiểm tra luật → Codex chấm lại.
+- Claude dịch lại kèm nhận xét (lỗi luật / lỗi judge) → chuẩn hoá thuật ngữ (2.5) → kiểm tra luật → Codex chấm lại.
 - Nếu repair đổi question_vi dùng chung: áp cho mọi cặp cùng câu hỏi; các cặp không cần sửa của
   câu hỏi đó được kiểm tra luật và CHẤM LẠI (không dịch lại).
 Trạng thái cuối (resolve): PASS / PASS_AFTER_REPAIR / UNRESOLVED. Không sửa lần thứ hai.
@@ -29,7 +29,7 @@ from datetime import datetime
 import pandas as pd
 
 from pvvqa.common import ROOT, load_config
-from pvvqa.step2_rules import check_question, load_glossary
+from pvvqa.step2_rules import check_question, load_glossary, normalize_terms
 from pvvqa.step2_translate import (QuotaStop, append_jsonl, call_claude_retry, git_commit, now,
                                    read_jsonl, render_system_prompt, sha)
 from pvvqa.step3_judge import (FIELDS, MAX_CONSEC_FAIL, judge_batches, judge_ctx, latest_valid,
@@ -103,8 +103,10 @@ def run_repair(cfg, df, fb, args, run_id) -> dict:
             got = {q.get("question_key"): q for q in out.get("questions", [])}
             for q in b:
                 qo = got.get(q["question_key"]) or {}
-                answers = {p.get("pair_id"): (p.get("answer_vi") or "").strip() for p in qo.get("pairs", [])}
-                new_q = (qo.get("question_vi") or "").strip()
+                # bản sửa đi qua cùng bước 2.5 (chuẩn hoá thuật ngữ) như bản dịch lần đầu
+                answers = {p.get("pair_id"): normalize_terms((p.get("answer_vi") or "").strip())
+                           for p in qo.get("pairs", [])}
+                new_q = normalize_terms((qo.get("question_vi") or "").strip())
                 if not new_q or any(not answers.get(p["pair_id"]) for p in q["pairs"]):
                     for p in q["pairs"]:  # câu hỏi không trọn vẹn -> thử lại cả câu hỏi
                         rows.append({"pair_id": p["pair_id"], "question_key": q["question_key"], "ts": now(),

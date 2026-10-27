@@ -1,6 +1,6 @@
 # Quality report — PlantVillageVQA tiếng Việt (Phase 1)
 
-Tạo lúc 2026-10-27T16:34:56+00:00, commit `5d262f1`.
+Tạo lúc 2026-10-27T16:46:47+00:00, commit `7efcd18`.
 
 ## 1. Nguồn
 
@@ -11,9 +11,9 @@ Tạo lúc 2026-10-27T16:34:56+00:00, commit `5d262f1`.
 ## Pipeline (một lần chạy, tự động hoàn toàn, có checkpoint)
 
 1. **Step 1 — Lấy mẫu đại diện:** phân tầng tỷ lệ theo `split × question_type`, 12,5%, seed 42.
-2. **Step 2 — Dịch EN→VI theo ngữ cảnh (Claude Sonnet):** gom cặp QA trùng, glossary cố định (viết tắt HLB/TYLCV/ToMV luôn dịch thành tên tiếng Việt đầy đủ), một `question_vi` dùng chung cho mỗi câu hỏi EN, quy tắc Yes/No; kiểm tra bằng luật.
-3. **Step 3 — Đánh giá độc lập và sửa chọn lọc:** 3.1 smoke test judge; 3.2 Codex `gpt-6-luna` (reasoning `high`) chấm mọi cặp qua luật (lỗi kiểu MQM); 3.3 Claude sửa đúng một lần các cặp trượt luật hoặc NEEDS_REPAIR, rồi chấm lại; 3.4 chuẩn hoá thuật ngữ — thay viết tắt còn sót bằng tên tiếng Việt đầy đủ theo luật cố định, kiểm tra luật và chấm lại các cặp bị đổi.
-- Lần chạy bị ngắt (hết quota, lỗi gọi model) được chạy tiếp từ checkpoint; không cặp nào được dịch hay chấm hai lần ngoài các bước chấm lại nêu trên.
+2. **Step 2 — Dịch EN→VI theo ngữ cảnh (Claude Sonnet):** 2.1 gom cặp QA trùng; 2.2 glossary cố định (tên khoa học giữ nguyên; viết tắt HLB/TYLCV/ToMV dịch thành tên tiếng Việt đầy đủ); 2.3 dịch theo batch câu hỏi, một `question_vi` dùng chung cho mỗi câu hỏi EN, quy tắc Yes/No; 2.5 chuẩn hoá thuật ngữ theo glossary bằng luật (thay viết tắt còn sót bằng tên tiếng Việt đầy đủ); 2.6 kiểm tra bằng luật.
+3. **Step 3 — Đánh giá độc lập và sửa chọn lọc:** 3.1 smoke test judge; 3.2 Codex `gpt-6-luna` (reasoning `high`) chấm mọi cặp qua luật (lỗi kiểu MQM); 3.3 Claude sửa đúng một lần các cặp trượt luật hoặc NEEDS_REPAIR (bản sửa cũng qua 2.5 và 2.6), rồi chấm lại.
+- Lần chạy bị ngắt (hết quota, lỗi gọi model) được chạy tiếp từ checkpoint. Thứ tự thực thi thực tế và mọi lần chấm được lưu trong `runs/` và `PROGRESS.md`.
 
 ## 2. Phân phối split × question_type
 
@@ -21,37 +21,37 @@ Subset: lấy mẫu phân tầng tỷ lệ 12.5%, seed 42.
 
 | split | question_type | gốc | % | subset EN | % | VI cuối | % | mất |
 |---|---|---|---|---|---|---|---|---|
-| test | Causal Reasoning | 5,230 | 2.701 | 654 | 2.702 | 652 | 2.695 | 2 |
+| test | Causal Reasoning | 5,230 | 2.701 | 654 | 2.702 | 653 | 2.699 | 1 |
 | test | Comprehensive Description | 5,573 | 2.878 | 697 | 2.880 | 697 | 2.881 | 0 |
 | test | Counterfactual Reasoning | 2,021 | 1.044 | 253 | 1.045 | 253 | 1.046 | 0 |
 | test | Detailed Verification | 2,848 | 1.471 | 356 | 1.471 | 356 | 1.471 | 0 |
 | test | Existence & Sanity Check | 617 | 0.319 | 77 | 0.318 | 77 | 0.318 | 0 |
 | test | General Health Assessment | 6,365 | 3.288 | 796 | 3.289 | 796 | 3.290 | 0 |
 | test | Plant Species Identification | 6,794 | 3.509 | 849 | 3.508 | 849 | 3.509 | 0 |
-| test | Specific Disease Identification | 5,979 | 3.088 | 747 | 3.087 | 747 | 3.088 | 0 |
+| test | Specific Disease Identification | 5,979 | 3.088 | 747 | 3.087 | 747 | 3.087 | 0 |
 | test | Visual Attribute Grounding | 3,205 | 1.655 | 401 | 1.657 | 401 | 1.657 | 0 |
 | train | Causal Reasoning | 20,993 | 10.843 | 2,624 | 10.843 | 2,622 | 10.837 | 2 |
-| train | Comprehensive Description | 22,236 | 11.485 | 2,779 | 11.483 | 2,776 | 11.474 | 3 |
-| train | Counterfactual Reasoning | 7,960 | 4.111 | 995 | 4.111 | 995 | 4.113 | 0 |
+| train | Comprehensive Description | 22,236 | 11.485 | 2,779 | 11.483 | 2,776 | 11.473 | 3 |
+| train | Counterfactual Reasoning | 7,960 | 4.111 | 995 | 4.111 | 995 | 4.112 | 0 |
 | train | Detailed Verification | 11,241 | 5.806 | 1,405 | 5.806 | 1,405 | 5.807 | 0 |
 | train | Existence & Sanity Check | 2,228 | 1.151 | 278 | 1.149 | 278 | 1.149 | 0 |
-| train | General Health Assessment | 25,734 | 13.292 | 3,217 | 13.293 | 3,217 | 13.297 | 0 |
-| train | Plant Species Identification | 27,357 | 14.130 | 3,420 | 14.132 | 3,420 | 14.136 | 0 |
-| train | Specific Disease Identification | 23,947 | 12.369 | 2,993 | 12.367 | 2,993 | 12.371 | 0 |
+| train | General Health Assessment | 25,734 | 13.292 | 3,217 | 13.293 | 3,217 | 13.296 | 0 |
+| train | Plant Species Identification | 27,357 | 14.130 | 3,420 | 14.132 | 3,420 | 14.135 | 0 |
+| train | Specific Disease Identification | 23,947 | 12.369 | 2,993 | 12.367 | 2,993 | 12.370 | 0 |
 | train | Visual Attribute Grounding | 13,281 | 6.860 | 1,660 | 6.859 | 1,660 | 6.861 | 0 |
-| **tổng** | | **193,609** | | **24,201** | | **24,194** | | **7** |
+| **tổng** | | **193,609** | | **24,201** | | **24,195** | | **6** |
 
 ## 3. Trạng thái kiểm định
 
 | trạng thái | cặp | % cặp | dòng | % dòng |
 |---|---|---|---|---|
 | PASS | 7,489 | 99.56% | 23,972 | 99.05% |
-| PASS_AFTER_REPAIR | 29 | 0.39% | 222 | 0.92% |
-| UNRESOLVED | 4 | 0.05% | 7 | 0.03% |
+| PASS_AFTER_REPAIR | 30 | 0.40% | 223 | 0.92% |
+| UNRESOLVED | 3 | 0.04% | 6 | 0.02% |
 
 - PASS = qua kiểm tra luật và judge không thấy lỗi major/critical ở lần chấm đầu.
 - PASS_AFTER_REPAIR = trượt luật hoặc bị judge đánh NEEDS_REPAIR, Claude sửa đúng một lần, qua luật và judge chấm lại PASS. Trong đó 5 cặp không đổi chữ nào sau repair nhưng lần chấm lại cho PASS (xem mục 6).
-- UNRESOLVED = không đạt sau repair, hoặc không đạt khi chấm lại ở bước chuẩn hoá thuật ngữ (3.4); không sửa thêm, không thay mẫu.
+- UNRESOLVED = không đạt sau repair; không sửa thêm, không thay mẫu.
 - Chỉ PASS + PASS_AFTER_REPAIR có trong `PlantVillageVQA_vi.csv/.json`; mọi dòng (kể cả UNRESOLVED) có trong `PlantVillageVQA_vi_en_alignment.csv`.
 
 ## 4. Tính nhất quán câu hỏi
@@ -78,9 +78,7 @@ Kiểm tra chéo với `gpt-6.1-sol high` trên 120 cặp ngẫu nhiên: đồng
 - Mất cân bằng lớp thừa hưởng từ PlantVillage (HLB trên cam và TYLCV trên cà chua chiếm khoảng 35% số dòng); subset giữ nguyên phân phối này.
 - Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.
 - Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.
-- Bước 3.4 đổi 1,195 cặp bằng luật thay chuỗi (không qua model dịch); các cặp này được kiểm tra luật và chấm lại. Một số cặp UNRESOLVED ở bước này do lỗi có sẵn trong bản dịch (ví dụ "bệnh vàng rồng cây có múi" — dịch sát chữ Hán của Huanglongbing), lần chấm đầu chỉ xếp minor; cùng câu trả lời đó ở một cặp khác vẫn được chấm PASS.
-
 ## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)
 
 - Step 2 (Claude Sonnet): 2,359,115 token vào, 558,748 token ra, 75 phút model
-- Step 3 (Codex judge, smoke test, kiểm tra chéo, Claude repair, chấm lại): 3,567,168 token vào, 287,529 token ra, 68 phút model
+- Step 3 (Codex judge, smoke test, kiểm tra chéo, Claude repair, chấm lại): 3,576,214 token vào, 287,623 token ra, 68 phút model

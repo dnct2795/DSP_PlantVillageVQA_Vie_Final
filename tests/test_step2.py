@@ -228,3 +228,32 @@ def test_silent_exit_is_retried_once(monkeypatch):
     monkeypatch.setattr(st, "call_claude", lambda *a, **kw: (_ for _ in ()).throw(RuntimeError("bad json")))
     with pytest.raises(RuntimeError):
         st.call_claude_retry()
+
+
+def test_normalize_terms_expands_abbreviations():
+    from pvvqa.step2_rules import normalize_terms
+    cases = {
+        "Chẩn đoán là virus xoăn vàng lá cà chua (TYLCV).": "Chẩn đoán là virus xoăn vàng lá cà chua.",
+        "Đây là bệnh nhiễm virus: TYLCV.": "Đây là bệnh nhiễm virus xoăn vàng lá cà chua.",
+        "Đây là bệnh do virus: ToMV.": "Đây là bệnh do virus khảm cà chua.",
+        "triệu chứng điển hình của bệnh HLB.": "triệu chứng điển hình của bệnh vàng lá gân xanh.",
+        "triệu chứng điển hình của HLB.": "triệu chứng điển hình của bệnh vàng lá gân xanh.",
+        "bệnh vàng lá gân xanh (Huanglongbing, HLB).": "bệnh vàng lá gân xanh (Huanglongbing).",
+        "Lá có dấu hiệu nhiễm TYLCV không?": "Lá có dấu hiệu nhiễm virus xoăn vàng lá cà chua không?",
+        "Đây là lá cà chua khỏe mạnh.": "Đây là lá cà chua khỏe mạnh.",
+    }
+    for a, b in cases.items():
+        assert normalize_terms(a) == b and normalize_terms(b) == b  # idempotent
+
+
+def test_recheck_normalizes_existing_translations(project, monkeypatch):
+    monkeypatch.setenv("FAKE_MODE", "good")
+    assert st.run(_args()) == 0
+    trans = project / "runs/step2/translations.jsonl"
+    recs = st.read_jsonl(trans)
+    recs[0]["answer_vi"] = "Đây là bệnh nhiễm virus: TYLCV."  # bản dịch cũ chưa chuẩn hoá
+    trans.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in recs), encoding="utf-8")
+    assert st.run(_args(recheck=True)) == 0
+    last = st.read_jsonl(trans)[-1]
+    assert last["pair_id"] == recs[0]["pair_id"] and last["normalized"]
+    assert last["answer_vi"] == "Đây là bệnh nhiễm virus xoăn vàng lá cà chua."

@@ -6,7 +6,7 @@ Chạy trên Terminal của Mac (nơi đã đăng nhập Claude):
   python -m pvvqa.step2_translate --pilot 50     # dịch thử ~50 cặp
   python -m pvvqa.step2_translate                # dịch toàn bộ phần còn lại
   python -m pvvqa.step2_translate --status       # xem tiến độ
-  python -m pvvqa.step2_translate --recheck      # áp lại luật mới, không gọi model
+  python -m pvvqa.step2_translate --recheck      # áp lại chuẩn hoá + luật, không gọi model
 
 Kết quả: runs/step2/translations.jsonl — mỗi dòng một cặp:
   {pair_id, question_key, batch_id, question_vi, answer_vi, rule_errors, rule_pass, error, ts, run_id}
@@ -30,7 +30,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from pvvqa.common import ROOT, load_config
-from pvvqa.step2_rules import check_question, load_glossary
+from pvvqa.step2_rules import check_question, load_glossary, normalize_terms
 
 QUOTA_PAT = re.compile(r"usage limit|session limit|hit your .{0,20}limit|rate.?limit|quota|limit reached|"
                        r"too many requests|\b429\b|"
@@ -220,8 +220,8 @@ def status(run_dir: Path, batches: list[dict]) -> dict:
 
 
 def recheck(run_dir: Path, batches: list[dict], glossary: dict, run_id: str) -> dict:
-    """Áp lại luật hiện tại lên bản dịch đã có (không gọi model). Chỉ ghi thêm dòng mới
-    (append-only) cho cặp có kết quả luật thay đổi; bản dịch giữ nguyên."""
+    """Áp lại bước 2.5 (chuẩn hoá thuật ngữ) và 2.6 (luật) hiện tại lên bản dịch đã có, không gọi model.
+    Chỉ ghi thêm dòng mới (append-only) cho cặp có văn bản hoặc kết quả luật thay đổi."""
     trans_p = run_dir / "translations.jsonl"
     latest = {}
     for r in read_jsonl(trans_p):
@@ -232,17 +232,23 @@ def recheck(run_dir: Path, batches: list[dict], glossary: dict, run_id: str) -> 
             recs = [latest.get(p["pair_id"]) for p in q["pairs"]]
             if not all(r and not r.get("error") for r in recs):
                 continue
-            qo = {"question_key": q["question_key"], "question_vi": recs[0]["question_vi"],
-                  "pairs": [{"pair_id": r["pair_id"], "answer_vi": r["answer_vi"]} for r in recs]}
+            q_vi = normalize_terms(recs[0]["question_vi"])
+            ans = {r["pair_id"]: normalize_terms(r["answer_vi"]) for r in recs}
+            qo = {"question_key": q["question_key"], "question_vi": q_vi,
+                  "pairs": [{"pair_id": p, "answer_vi": a} for p, a in ans.items()]}
             res = check_question(q, qo, glossary)
             for r in recs:
                 n_checked += 1
                 errs = res.get(r["pair_id"], [])
-                if errs != r.get("rule_errors"):
+                text_changed = (q_vi, ans[r["pair_id"]]) != (r["question_vi"], r["answer_vi"])
+                if errs != r.get("rule_errors") or text_changed:
                     rows.append({**r, "ts": now(), "run_id": run_id, "recheck_of": r["run_id"],
+                                 "question_vi": q_vi, "answer_vi": ans[r["pair_id"]],
+                                 "normalized": text_changed or r.get("normalized", False),
                                  "rule_errors": errs, "rule_pass": not errs})
     append_jsonl(trans_p, rows)
     return {"pairs_rechecked": n_checked, "pairs_changed": len(rows),
+            "pairs_normalized": sum(1 for r in rows if r["normalized"]),
             "now_pass": sum(1 for r in rows if r["rule_pass"]),
             "now_fail": sum(1 for r in rows if not r["rule_pass"])}
 
@@ -325,6 +331,10 @@ def run(args) -> int:
                 by_key.setdefault(q.get("question_key"), q)
             for q in b["questions"]:
                 qo = by_key.get(q["question_key"])
+                if qo:  # 2.5 chuẩn hoá thuật ngữ trước khi kiểm tra luật (raw output giữ trong raw/)
+                    qo = {**qo, "question_vi": normalize_terms(qo.get("question_vi") or ""),
+                          "pairs": [{**p, "answer_vi": normalize_terms(p.get("answer_vi") or "")}
+                                    for p in qo.get("pairs", [])]}
                 res = check_question(q, qo, glossary)
                 structural = any(e in ("missing_question", "missing_pair", "empty")
                                  for p in q["pairs"] for e in res.get(p["pair_id"], []))
@@ -386,7 +396,7 @@ def main() -> None:
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--recheck", action="store_true",
-                    help="áp lại luật hiện tại lên bản dịch đã có, không gọi model")
+                    help="áp lại chuẩn hoá thuật ngữ (2.5) + luật (2.6) lên bản dịch đã có, không gọi model")
     ap.add_argument("--claude-cmd", help="ghi đè lệnh claude (dùng cho test)")
     sys.exit(run(ap.parse_args()))
 

@@ -25,7 +25,6 @@ import pandas as pd
 from pvvqa.common import ROOT, load_config
 from pvvqa.step2_translate import git_commit, now, read_jsonl
 from pvvqa.step3_judge import latest_valid
-from pvvqa.step3_expand import apply_expansions
 from pvvqa.step3_repair import _latest, resolve, summary
 
 SOURCE_COLS = ["image_id", "question_type", "question", "answer", "image_path", "split"]
@@ -37,7 +36,7 @@ def build_rows(cfg: dict) -> pd.DataFrame:
     run_dir = ROOT / cfg["step3"]["run_dir"]
     sub = pd.read_parquet(ROOT / cfg["paths"]["step1_dir"] / "subset_en.parquet")
     qmap = pd.read_parquet(ROOT / cfg["step2"]["out_dir"] / "pair_qa_map.parquet")
-    res = apply_expansions(cfg)  # bản dịch cuối sau Step 3.4 (viết đầy đủ tên thay viết tắt)
+    res = resolve(cfg)
     judged = latest_valid(run_dir / "judgments.jsonl")
     rejudged = latest_valid(run_dir / "rejudgments.jsonl")
     repairs = {k: r for k, r in _latest(run_dir / "repairs.jsonl").items() if not r.get("error")}
@@ -57,8 +56,7 @@ def build_rows(cfg: dict) -> pd.DataFrame:
     res = res.merge(trace, on="pair_id")
     keep = ["pair_id", "answer_label", "question_vi", "answer_vi", "status", "judge_first", "repaired",
             "rejudge", "rule_errors_step2", "judge_errors", "repair_feedback", "pre_repair_question_vi",
-            "pre_repair_answer_vi", "rejudge_errors", "expanded", "pre_expansion_question_vi",
-            "pre_expansion_answer_vi", "expansion_judge"]
+            "pre_repair_answer_vi", "rejudge_errors"]
     rows = (sub.merge(qmap, on="qa_id", how="left").merge(res[keep], on="pair_id", how="left")
             .sort_values("source_row").reset_index(drop=True))
     assert len(rows) == len(sub) and rows.pair_id.notna().all() and rows.status.notna().all()
@@ -126,15 +124,15 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
          f"- Cột: `{', '.join(SOURCE_COLS)}` — dataset tiếng Việt giữ đúng các cột và thứ tự này.", "",
          "## Pipeline (một lần chạy, tự động hoàn toàn, có checkpoint)", "",
          "1. **Step 1 — Lấy mẫu đại diện:** phân tầng tỷ lệ theo `split × question_type`, 12,5%, seed 42.",
-         "2. **Step 2 — Dịch EN→VI theo ngữ cảnh (Claude Sonnet):** gom cặp QA trùng, glossary cố định (viết tắt "
-         "HLB/TYLCV/ToMV luôn dịch thành tên tiếng Việt đầy đủ), một `question_vi` dùng chung cho mỗi câu hỏi EN, "
-         "quy tắc Yes/No; kiểm tra bằng luật.",
+         "2. **Step 2 — Dịch EN→VI theo ngữ cảnh (Claude Sonnet):** 2.1 gom cặp QA trùng; 2.2 glossary cố định "
+         "(tên khoa học giữ nguyên; viết tắt HLB/TYLCV/ToMV dịch thành tên tiếng Việt đầy đủ); 2.3 dịch theo batch "
+         "câu hỏi, một `question_vi` dùng chung cho mỗi câu hỏi EN, quy tắc Yes/No; 2.5 chuẩn hoá thuật ngữ theo "
+         "glossary bằng luật (thay viết tắt còn sót bằng tên tiếng Việt đầy đủ); 2.6 kiểm tra bằng luật.",
          f"3. **Step 3 — Đánh giá độc lập và sửa chọn lọc:** 3.1 smoke test judge; 3.2 Codex `{s3['judge_model']}` "
          f"(reasoning `{s3['judge_reasoning']}`) chấm mọi cặp qua luật (lỗi kiểu MQM); 3.3 Claude sửa đúng một lần "
-         "các cặp trượt luật hoặc NEEDS_REPAIR, rồi chấm lại; 3.4 chuẩn hoá thuật ngữ — thay viết tắt còn sót bằng "
-         "tên tiếng Việt đầy đủ theo luật cố định, kiểm tra luật và chấm lại các cặp bị đổi.",
-         "- Lần chạy bị ngắt (hết quota, lỗi gọi model) được chạy tiếp từ checkpoint; không cặp nào được dịch "
-         "hay chấm hai lần ngoài các bước chấm lại nêu trên.", "",
+         "các cặp trượt luật hoặc NEEDS_REPAIR (bản sửa cũng qua 2.5 và 2.6), rồi chấm lại.",
+         "- Lần chạy bị ngắt (hết quota, lỗi gọi model) được chạy tiếp từ checkpoint. Thứ tự thực thi thực tế và "
+         "mọi lần chấm được lưu trong `runs/` và `PROGRESS.md`.", "",
          "## 2. Phân phối split × question_type", "",
          f"Subset: lấy mẫu phân tầng tỷ lệ {cfg['sampling']['fraction']:.1%}, seed {cfg['sampling']['seed']}.", "",
          "| split | question_type | gốc | % | subset EN | % | VI cuối | % | mất |", "|---|---|---|---|---|---|---|---|---|"]
@@ -151,8 +149,7 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           f"- PASS_AFTER_REPAIR = trượt luật hoặc bị judge đánh NEEDS_REPAIR, Claude sửa đúng một lần, "
           f"qua luật và judge chấm lại PASS. Trong đó {repaired_same} cặp không đổi chữ nào sau repair "
           "nhưng lần chấm lại cho PASS (xem mục 6).",
-          "- UNRESOLVED = không đạt sau repair, hoặc không đạt khi chấm lại ở bước chuẩn hoá thuật ngữ (3.4); "
-          "không sửa thêm, không thay mẫu.",
+          "- UNRESOLVED = không đạt sau repair; không sửa thêm, không thay mẫu.",
           "- Chỉ PASS + PASS_AFTER_REPAIR có trong `PlantVillageVQA_vi.csv/.json`; mọi dòng (kể cả UNRESOLVED) "
           "có trong `PlantVillageVQA_vi_en_alignment.csv`.", "",
           "## 4. Tính nhất quán câu hỏi", "",
@@ -181,10 +178,7 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
           "số dòng); subset giữ nguyên phân phối này.",
           "- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.",
           "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.",
-          f"- Bước 3.4 đổi {int(rows.expanded.groupby(rows.pair_id).first().sum()):,} cặp bằng luật thay chuỗi "
-          "(không qua model dịch); các cặp này được kiểm tra luật và chấm lại. Một số cặp UNRESOLVED ở bước này do "
-          "lỗi có sẵn trong bản dịch (ví dụ \"bệnh vàng rồng cây có múi\" — dịch sát chữ Hán của Huanglongbing), "
-          "lần chấm đầu chỉ xếp minor; cùng câu trả lời đó ở một cặp khác vẫn được chấm PASS.", "",
+
           "## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)", "",
           *[f"- {name}: {u['input_tokens']:,} token vào, {u['output_tokens']:,} token ra, "
             f"{u['model_elapsed_s'] / 60:.0f} phút model"
@@ -216,10 +210,9 @@ def main() -> int:
     align_cols = ["qa_id", "source_row", "image_id", "image_path", "split", "question_type", "question_en",
                   "answer_en", "question_vi", "answer_vi", "answer_label", "pair_id", "status",
                   "rule_errors_step2", "judge_first", "judge_errors", "repaired", "repair_feedback",
-                  "pre_repair_question_vi", "pre_repair_answer_vi", "rejudge", "rejudge_errors",
-                  "expanded", "pre_expansion_question_vi", "pre_expansion_answer_vi", "expansion_judge"]
+                  "pre_repair_question_vi", "pre_repair_answer_vi", "rejudge", "rejudge_errors"]
     align[align_cols].to_csv(out / "PlantVillageVQA_vi_en_alignment.csv", index=False, encoding="utf-8")
-    res_sum = summary(apply_expansions(cfg))
+    res_sum = summary(resolve(cfg))
     rep, md = report(cfg, rows, res_sum, strata(cfg, vi))
     (out / "quality_report.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "quality_report.md").write_text(md, encoding="utf-8")

@@ -2,6 +2,28 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-28 00:50 — Đưa chuẩn hoá thuật ngữ về Step 2 (2.5); bỏ bước 3.4
+
+**Quyết định của người dùng**: chuẩn hoá viết tắt là một bước của Step 2 (2.5, ngay sau dịch, trước kiểm tra
+luật), không phải bước vá ở cuối Step 3. Pipeline báo cáo: Step 1 → Step 2 (2.1–2.6) → Step 3 (3.1–3.3).
+
+**Đã làm**
+- `normalize_terms` chuyển vào `step2_rules`; áp trong `step2_translate` (trước luật), `--recheck`
+  (chuẩn hoá + luật cho bản dịch đã có) và `step3_repair` (bản sửa). Bỏ module `step3_expand`.
+- `step2_translate --recheck`: 1.191 cặp được chuẩn hoá; tập qua luật / trượt luật không đổi (7.508 / 14).
+- `scripts/migrate_normalization_20261028.py` (chạy một lần, append-only, trường `carried_from`): các lần
+  Codex chấm trên đúng văn bản đã chuẩn hoá (từ `expansion_judgments.jsonl`) được ghi vào vị trí tương ứng:
+  1.186 → `judgments.jsonl` (kết quả 3.2), 9 cặp đã sửa → `repairs.jsonl` + `rejudgments.jsonl`.
+  Khớp từng ký tự 1.195/1.195.
+- 3.2 sau chuẩn hoá: 19 NEEDS_REPAIR (15 + 4). 3.3 sửa 4 cặp chưa sửa: 1 PASS_AFTER_REPAIR; 3 UNRESOLVED
+  (bản sửa thay "vàng rồng" nhưng thêm "(citrus greening)" → trượt luật untranslated:greening).
+- File lịch sử `runs/step3/expansions.jsonl`, `expansion_judgments.jsonl` giữ nguyên làm log.
+
+**Kết quả cuối**: PASS 7.489 / 23.972 dòng; PASS_AFTER_REPAIR 30 / 223; UNRESOLVED 3 / 6.
+Dataset huấn luyện 24.195 dòng, 18.747 ảnh; 0 viết tắt; 0 câu hỏi EN có > 1 question_vi.
+Còn 1 cặp PASS chứa "vàng rồng" (judge chấm PASS; cùng câu ở cặp khác bị NEEDS_REPAIR).
+Gói Kaggle cập nhật, **chưa upload**.
+
 ## 2026-10-28 00:00 — Chuẩn hoá thuật ngữ (3.4) + gói Kaggle (chưa upload)
 
 **Quyết định của người dùng**
