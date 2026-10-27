@@ -2,6 +2,15 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-10-28 01:30 — Tài liệu pipeline + mục Giới hạn chi tiết
+
+- Tài liệu Claude Docs "Pipeline PlantVillageVQA tiếng Việt": https://claude.ai/artifact/QoYQdAmchJ1wBua4Ybareb
+  (sơ đồ pipeline, input/quá trình/output từng step, đầu ra, kết quả, giới hạn). Riêng tư — cần Share để nhóm xem.
+- `quality_report.md` mục 6 viết lại thành 6.1–6.6 (vấn đề, số liệu, ảnh hưởng, xử lý/khuyến nghị): kiểm định tự
+  động + judge không ổn định; 299 cặp / 1.277 dòng còn lỗi minor; nguồn sinh từ template (1.213 câu hỏi, 125 câu
+  trả lời); lỗi template "What …?" + Yes/No (434 dòng nguồn, 68 dòng VI); ảnh hưởng lấy mẫu theo dòng (79,9% cặp
+  test có trong train; 1,29 QA/ảnh); mất cân bằng lớp, không có val. Gói Kaggle cập nhật, chưa upload.
+
 ## 2026-10-28 01:00 — Bộ test cho ablation study (yêu cầu người dùng)
 
 - `python -m pvvqa.make_test_sets` → `outputs/final/test_sets/`: 4 bộ test, cùng 4.829 dòng QA test (cùng thứ

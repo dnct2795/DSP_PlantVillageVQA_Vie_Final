@@ -1,6 +1,6 @@
 # Quality report — PlantVillageVQA tiếng Việt (Phase 1)
 
-Tạo lúc 2026-10-27T16:46:47+00:00, commit `7efcd18`.
+Tạo lúc 2026-10-27T17:11:18+00:00, commit `978faae`.
 
 ## 1. Nguồn
 
@@ -72,12 +72,59 @@ Kiểm tra chéo với `gpt-6.1-sol high` trên 120 cặp ngẫu nhiên: đồng
 
 ## 6. Giới hạn
 
-- Codex (một model) là lớp đánh giá ngữ nghĩa duy nhất; chưa hiệu chuẩn với người chấm. Nhãn chất lượng là *automatically validated silver-standard*, không phải đã được người kiểm định.
-- Judge không ổn định ở ca ranh giới: cùng một bản dịch có thể bị chấm NEEDS_REPAIR lần đầu và PASS khi chấm lại.
-- Dữ liệu gốc sinh từ template: câu hỏi/câu trả lời lặp nhiều, độ đa dạng ngôn ngữ thấp. Có lỗi template ở nguồn (ví dụ 3 câu hỏi dạng "What …?" nhưng đáp án Yes/No); bản dịch giữ đúng đáp án gốc.
-- Mất cân bằng lớp thừa hưởng từ PlantVillage (HLB trên cam và TYLCV trên cà chua chiếm khoảng 35% số dòng); subset giữ nguyên phân phối này.
-- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.
-- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.
+Mỗi mục ghi vấn đề, số liệu, ảnh hưởng và cách xử lý hoặc khuyến nghị.
+
+### 6.1 Kiểm định tự động, chưa có người kiểm tra
+
+- Dữ liệu là *automatically validated silver-standard*: Codex là lớp đánh giá ngữ nghĩa duy nhất, chưa hiệu chuẩn với người chấm. Không gọi là "đã được người kiểm định".
+- Bằng chứng đã có: smoke test (mục 5) và kiểm tra chéo với một model mạnh hơn. Mẫu kiểm tra chéo gần như toàn PASS nên chỉ chặn trên tỷ lệ bỏ sót lỗi nặng, không đo được độ nhạy với lỗi tinh tế.
+- Judge không ổn định ở ca ranh giới: cùng một bản dịch có thể bị NEEDS_REPAIR lần này và PASS lần khác. Ví dụ "… hay còn gọi là bệnh vàng rồng cây có múi" bị đánh lỗi ở 3 cặp nhưng PASS ở 1 cặp khác (cặp đó vẫn còn trong dataset).
+- Khuyến nghị: cho người chấm một mẫu ngẫu nhiên (ví dụ 200 cặp) để ước lượng tỷ lệ lỗi thật.
+
+### 6.2 Lỗi minor không được sửa
+
+- Theo thiết kế, PASS = không có lỗi major/critical; cặp chỉ có lỗi minor (nghĩa vẫn đúng, văn phong chưa mượt) giữ nguyên, không đi sửa.
+- Dataset cuối còn **299 cặp / 1,277 dòng** có lỗi minor: fluency 253, terminology 34, addition 11, mistranslation 4.
+- Ví dụ: "đốm lốm đốm" (cho *stippling*) lặp từ; câu hỏi tự thêm "trên lá"; "chẩn đoán chắc chắn" cho *authoritative diagnosis*.
+- Lý do: nghĩa vẫn đúng; dịch lại có thể sinh lỗi mới; giữ pipeline đơn giản. Mọi lỗi minor nằm ở cột `judge_errors` / `rejudge_errors` của bản đối chiếu.
+
+### 6.3 Dữ liệu gốc sinh từ template, độ đa dạng ngôn ngữ thấp
+
+- Nguồn có 193,609 dòng nhưng chỉ **1,213 câu hỏi** và **125 câu trả lời** khác nhau; "No" lặp 48,453 lần, "Yes" 33,091 lần; bệnh mốc sương ở câu nhận diện bệnh chỉ có 4 cách nói, mỗi cách lặp khoảng 720 lần.
+- Ảnh hưởng: model dễ đoán theo mẫu câu mà không nhìn ảnh, và có thể lúng túng với câu hỏi tự nhiên của người dùng thật. Bản tiếng Việt dịch sát nguồn nên giữ nguyên tính lặp này.
+- Cách đo: 3 bộ test ablation (blank, noimage, shuffled) cho biết model dựa vào câu hỏi đến đâu.
+
+### 6.4 Lỗi template trong nguồn: câu hỏi "What …?" có đáp án Yes/No
+
+- File gốc có 3 câu hỏi dạng hỏi mở nhưng được trả lời Yes/No, tổng 434 dòng (đều là General Health Assessment). Ví dụ dòng 224: `image_000088.JPG`, *"What disease indicators appear on this vegetation?"* → "Yes".
+
+| Câu hỏi gốc | Yes (nguồn) | No (nguồn) | Dòng trong dataset VI | Bản dịch |
+|---|---|---|---|---|
+| What disease indicators appear on this vegetation? | 104 | 28 | 21 | Thảm thực vật này có xuất hiện dấu hiệu bệnh không? |
+| What pathological signs are visible on this leaf specimen? | 135 | 13 | 22 | Mẫu lá này có thấy được dấu hiệu bệnh lý nào không? |
+| What symptomatic characteristics are present here? | 131 | 23 | 25 | Ở đây có xuất hiện các đặc điểm triệu chứng nào không? |
+
+- Nguyên nhân có lẽ (phỏng đoán, paper không nói rõ): khi diễn đạt lại mẫu câu Yes/No, một vài câu bị đổi thành dạng "What …?" nhưng đáp án vẫn giữ nguyên.
+- Cách xử lý: giữ đúng nhãn gốc, dịch câu hỏi sang dạng "… có … nào không?" cho khớp đáp án Có/Không. Bản tiếng Việt tự nhiên hơn bản gốc nhưng không sát từng chữ với câu EN; đây là lý do một số cặp PASS_AFTER_REPAIR không đổi chữ nào sau bước sửa.
+
+### 6.5 Ảnh hưởng của việc lấy mẫu 12,5% theo dòng
+
+| | Gốc | Dataset VI |
+|---|---|---|
+| QA trên mỗi ảnh | 3.87 | 1.29 |
+| Cặp QA duy nhất | 15,065 | 7,519 |
+| Cặp hỏi–đáp test đã có y hệt trong train | 98.2% | 79.9% |
+| Câu hỏi test đã có trong train | 100% | 99.7% |
+
+- Cặp bị mất chủ yếu là cặp hiếm (2,227 cặp chỉ xuất hiện 1 lần trong nguồn).
+- Khoảng 20% cặp trong test có câu trả lời (thường là câu mở) chưa xuất hiện y hệt trong train. Khuyến nghị: chấm câu trả lời mở bằng độ tương đồng (BLEU, ROUGE, BERTScore) hoặc theo ý chính (tên bệnh, tên cây), không dùng so khớp chính xác. Câu Yes/No không bị ảnh hưởng.
+- Mỗi ảnh ~1.3 câu hỏi: đổi lại có 18,747 ảnh khác nhau (lấy mẫu theo ảnh chỉ được khoảng 6,252), có lợi cho học hình ảnh. Hạn chế: không phân tích được tính nhất quán của model trên nhiều câu hỏi cùng một ảnh.
+
+### 6.6 Mất cân bằng lớp và không có tập validation
+
+- Mất cân bằng thừa hưởng từ PlantVillage: bệnh vàng lá gân xanh trên cam và virus xoăn vàng lá cà chua chiếm khoảng 35% số dòng; một số tổ hợp cây/bệnh hiếm chỉ còn vài đến vài chục dòng. Subset giữ đúng phân phối này vì mục tiêu là đại diện.
+- Nguồn chỉ có train/test (README nhắc tới val nhưng dữ liệu không có). Khi cần val, tách từ train **theo ảnh** (không theo dòng) để một ảnh không nằm ở cả train và val.
+
 ## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)
 
 - Step 2 (Claude Sonnet): 2,359,115 token vào, 558,748 token ra, 75 phút model

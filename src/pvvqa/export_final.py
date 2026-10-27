@@ -167,18 +167,7 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
               "Vì tỷ lệ NEEDS_REPAIR thật chỉ ~0,2%, mẫu gần như toàn PASS: kết quả chỉ cho thấy model đối chiếu "
               f"không tìm thêm lỗi major mà judge chính bỏ sót (tỷ lệ bỏ sót < ~{3 / max(v['n'], 1):.1%}, "
               "độ tin cậy 95%, quy tắc 3/n), không đo được độ nhạy với lỗi."]
-    L += ["", "## 6. Giới hạn", "",
-          "- Codex (một model) là lớp đánh giá ngữ nghĩa duy nhất; chưa hiệu chuẩn với người chấm. Nhãn chất "
-          "lượng là *automatically validated silver-standard*, không phải đã được người kiểm định.",
-          "- Judge không ổn định ở ca ranh giới: cùng một bản dịch có thể bị chấm NEEDS_REPAIR lần đầu và PASS "
-          "khi chấm lại.",
-          "- Dữ liệu gốc sinh từ template: câu hỏi/câu trả lời lặp nhiều, độ đa dạng ngôn ngữ thấp. Có lỗi template "
-          "ở nguồn (ví dụ 3 câu hỏi dạng \"What …?\" nhưng đáp án Yes/No); bản dịch giữ đúng đáp án gốc.",
-          "- Mất cân bằng lớp thừa hưởng từ PlantVillage (HLB trên cam và TYLCV trên cà chua chiếm khoảng 35% "
-          "số dòng); subset giữ nguyên phân phối này.",
-          "- Subset 12,5% theo dòng: còn khoảng 50% số cặp QA duy nhất của nguồn, mỗi ảnh trung bình ~1,3 câu hỏi.",
-          "- Lỗi minor (chủ yếu độ trôi chảy) không được sửa theo thiết kế.",
-
+    L += ["", "## 6. Giới hạn", ""] + limitations(rows) + ["",
           "## Chi phí (gói Claude Pro / ChatGPT Plus, không dùng API trả phí)", "",
           *[f"- {name}: {u['input_tokens']:,} token vào, {u['output_tokens']:,} token ra, "
             f"{u['model_elapsed_s'] / 60:.0f} phút model"
@@ -186,6 +175,92 @@ def report(cfg: dict, rows: pd.DataFrame, res_sum: dict, st: pd.DataFrame) -> tu
                             ("Step 3 (Codex judge, smoke test, kiểm tra chéo, Claude repair, chấm lại)",
                              rep["usage"]["step3_all"]))]]
     return rep, "\n".join(L) + "\n"
+
+
+# Số liệu đo trên nguồn (revision đã ghim, không đổi): đa dạng ngôn ngữ và lỗi template.
+SOURCE_FACTS = {"rows": 193609, "questions": 1213, "answers": 125, "pairs": 15065, "no": 48453, "yes": 33091,
+                "singleton_pairs": 2227, "test_pairs_in_train": 0.982, "qa_per_image": 3.87,
+                "what_yesno_rows": 434,
+                "what_yesno": {"What disease indicators appear on this vegetation?": (104, 28),
+                               "What pathological signs are visible on this leaf specimen?": (135, 13),
+                               "What symptomatic characteristics are present here?": (131, 23)}}
+
+
+def limitations(rows: pd.DataFrame) -> list[str]:
+    """Mục 6 của quality report: mỗi giới hạn gồm vấn đề, số liệu, ảnh hưởng, cách xử lý / khuyến nghị."""
+    F = SOURCE_FACTS
+    keep = rows[rows.status.isin(TRAINABLE)]
+    # 2. lỗi minor còn lại: lần chấm quyết định trạng thái (lần đầu cho PASS, chấm lại cho PASS_AFTER_REPAIR)
+    errs = keep.rejudge_errors.where(keep.status == "PASS_AFTER_REPAIR", keep.judge_errors)
+    has = keep[errs.astype(bool)]
+    by_pair = errs[errs.astype(bool)].groupby(has.pair_id).first()
+    cat_counts = pd.Series([e["category"] for x in by_pair for e in json.loads(x)]).value_counts()
+    # 4. câu hỏi "What …?" có đáp án Yes/No
+    w = keep[keep.question.str.match(r"^(What|Which)\b") & keep.answer.isin(["Yes", "No"])]
+    # 5. ảnh hưởng của lấy mẫu theo dòng
+    tr, te = keep[keep.split == "train"], keep[keep.split == "test"]
+    q_in = te.question.isin(set(tr.question)).mean()
+    p_in = pd.Series(list(zip(te.question, te.answer))).isin(set(zip(tr.question, tr.answer))).mean()
+    n_img = keep.image_id.nunique()
+    L = ["Mỗi mục ghi vấn đề, số liệu, ảnh hưởng và cách xử lý hoặc khuyến nghị.", "",
+         "### 6.1 Kiểm định tự động, chưa có người kiểm tra", "",
+         "- Dữ liệu là *automatically validated silver-standard*: Codex là lớp đánh giá ngữ nghĩa duy nhất, chưa "
+         "hiệu chuẩn với người chấm. Không gọi là \"đã được người kiểm định\".",
+         "- Bằng chứng đã có: smoke test (mục 5) và kiểm tra chéo với một model mạnh hơn. Mẫu kiểm tra chéo gần như "
+         "toàn PASS nên chỉ chặn trên tỷ lệ bỏ sót lỗi nặng, không đo được độ nhạy với lỗi tinh tế.",
+         "- Judge không ổn định ở ca ranh giới: cùng một bản dịch có thể bị NEEDS_REPAIR lần này và PASS lần khác. "
+         "Ví dụ \"… hay còn gọi là bệnh vàng rồng cây có múi\" bị đánh lỗi ở 3 cặp nhưng PASS ở 1 cặp khác "
+         "(cặp đó vẫn còn trong dataset).",
+         "- Khuyến nghị: cho người chấm một mẫu ngẫu nhiên (ví dụ 200 cặp) để ước lượng tỷ lệ lỗi thật.", "",
+         "### 6.2 Lỗi minor không được sửa", "",
+         "- Theo thiết kế, PASS = không có lỗi major/critical; cặp chỉ có lỗi minor (nghĩa vẫn đúng, văn phong chưa "
+         "mượt) giữ nguyên, không đi sửa.",
+         f"- Dataset cuối còn **{len(by_pair):,} cặp / {len(has):,} dòng** có lỗi minor: " + ", ".join(f"{k} {v}" for k, v in cat_counts.items()) + ".",
+         "- Ví dụ: \"đốm lốm đốm\" (cho *stippling*) lặp từ; câu hỏi tự thêm \"trên lá\"; \"chẩn đoán chắc chắn\" "
+         "cho *authoritative diagnosis*.",
+         "- Lý do: nghĩa vẫn đúng; dịch lại có thể sinh lỗi mới; giữ pipeline đơn giản. Mọi lỗi minor nằm ở cột "
+         "`judge_errors` / `rejudge_errors` của bản đối chiếu.", "",
+         "### 6.3 Dữ liệu gốc sinh từ template, độ đa dạng ngôn ngữ thấp", "",
+         f"- Nguồn có {F['rows']:,} dòng nhưng chỉ **{F['questions']:,} câu hỏi** và **{F['answers']} câu trả lời** "
+         f"khác nhau; \"No\" lặp {F['no']:,} lần, \"Yes\" {F['yes']:,} lần; bệnh mốc sương ở câu nhận diện bệnh chỉ "
+         "có 4 cách nói, mỗi cách lặp khoảng 720 lần.",
+         "- Ảnh hưởng: model dễ đoán theo mẫu câu mà không nhìn ảnh, và có thể lúng túng với câu hỏi tự nhiên của người "
+         "dùng thật. Bản tiếng Việt dịch sát nguồn nên giữ nguyên tính lặp này.",
+         "- Cách đo: 3 bộ test ablation (blank, noimage, shuffled) cho biết model dựa vào câu hỏi đến đâu.", "",
+         "### 6.4 Lỗi template trong nguồn: câu hỏi \"What …?\" có đáp án Yes/No", "",
+         f"- File gốc có 3 câu hỏi dạng hỏi mở nhưng được trả lời Yes/No, tổng {F['what_yesno_rows']} dòng (đều là "
+         "General Health Assessment). Ví dụ dòng 224: `image_000088.JPG`, *\"What disease indicators appear on this "
+         "vegetation?\"* → \"Yes\".", "",
+         "| Câu hỏi gốc | Yes (nguồn) | No (nguồn) | Dòng trong dataset VI | Bản dịch |", "|---|---|---|---|---|"]
+    for q, (y, n) in F["what_yesno"].items():
+        g = w[w.question == q]
+        L.append(f"| {q} | {y} | {n} | {len(g)} | {g.question_vi.iloc[0] if len(g) else ''} |")
+    L += ["",
+          "- Nguyên nhân có lẽ (phỏng đoán, paper không nói rõ): khi diễn đạt lại mẫu câu Yes/No, một vài câu bị đổi "
+          "thành dạng \"What …?\" nhưng đáp án vẫn giữ nguyên.",
+          "- Cách xử lý: giữ đúng nhãn gốc, dịch câu hỏi sang dạng \"… có … nào không?\" cho khớp đáp án Có/Không. Bản "
+          "tiếng Việt tự nhiên hơn bản gốc nhưng không sát từng chữ với câu EN; đây là lý do một số cặp "
+          "PASS_AFTER_REPAIR không đổi chữ nào sau bước sửa.", "",
+          "### 6.5 Ảnh hưởng của việc lấy mẫu 12,5% theo dòng", "",
+          "| | Gốc | Dataset VI |", "|---|---|---|",
+          f"| QA trên mỗi ảnh | {F['qa_per_image']:.2f} | {len(keep) / n_img:.2f} |",
+          f"| Cặp QA duy nhất | {F['pairs']:,} | {keep.pair_id.nunique():,} |",
+          f"| Cặp hỏi–đáp test đã có y hệt trong train | {F['test_pairs_in_train']:.1%} | {p_in:.1%} |",
+          f"| Câu hỏi test đã có trong train | 100% | {q_in:.1%} |", "",
+          f"- Cặp bị mất chủ yếu là cặp hiếm ({F['singleton_pairs']:,} cặp chỉ xuất hiện 1 lần trong nguồn).",
+          f"- Khoảng {1 - p_in:.0%} cặp trong test có câu trả lời (thường là câu mở) chưa xuất hiện y hệt trong train. "
+          "Khuyến nghị: chấm câu trả lời mở bằng độ tương đồng (BLEU, ROUGE, BERTScore) hoặc theo ý chính (tên bệnh, "
+          "tên cây), không dùng so khớp chính xác. Câu Yes/No không bị ảnh hưởng.",
+          f"- Mỗi ảnh ~{len(keep) / n_img:.1f} câu hỏi: đổi lại có {n_img:,} ảnh khác nhau (lấy mẫu theo ảnh chỉ được "
+          f"khoảng {round(len(keep) / F['qa_per_image']):,}), có lợi cho học hình ảnh. Hạn chế: không phân tích được "
+          "tính nhất quán của model trên nhiều câu hỏi cùng một ảnh.", "",
+          "### 6.6 Mất cân bằng lớp và không có tập validation", "",
+          "- Mất cân bằng thừa hưởng từ PlantVillage: bệnh vàng lá gân xanh trên cam và virus xoăn vàng lá cà chua "
+          "chiếm khoảng 35% số dòng; một số tổ hợp cây/bệnh hiếm chỉ còn vài đến vài chục dòng. Subset giữ đúng phân "
+          "phối này vì mục tiêu là đại diện.",
+          "- Nguồn chỉ có train/test (README nhắc tới val nhưng dữ liệu không có). Khi cần val, tách từ train **theo "
+          "ảnh** (không theo dòng) để một ảnh không nằm ở cả train và val."]
+    return L
 
 
 def sha256(path) -> str:
