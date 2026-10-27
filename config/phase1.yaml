@@ -1,0 +1,26 @@
+# Phase 1 config — official 3-step pipeline (see docs/PIPELINE.md)
+dataset:
+  repo_id: SyedNazmusSakib/PlantVillageVQA
+  # Pinned after Step 1.1. null = use the current main branch and record its commit sha.
+  revision: null
+  # Tabular QA file inside the HF repo. null = auto-detect (reported in Step 1.1).
+  qa_file: null
+
+# Column names in the QA table. null = auto-detect by name; Step 1.1 reports what was chosen.
+columns:
+  id: null
+  split: null
+  question_type: null
+  question: null
+  answer: null
+  image: null
+
+sampling:
+  fraction: 0.125
+  seed: 42
+  strata: [split, question_type]
+  min_per_stratum: 1
+
+paths:
+  raw_dir: data/raw          # downloaded metadata (git-ignored)
+  step1_dir: outputs/step1   # reports + subset
