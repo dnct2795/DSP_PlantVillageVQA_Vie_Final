@@ -114,7 +114,10 @@ def acceptance(raw: pd.DataFrame, src: pd.DataFrame, sub: pd.DataFrame, table: p
                if not sub[c].map(lambda v: isinstance(v, (dict, list, np.ndarray))).any())
     checks["original_columns_unchanged"] = {"ok": bool(same)}
     if image_files is not None and "image_path" in sub:
-        missing = sorted(set(sub["image_path"].dropna()) - image_files)
+        # Match by file name: the QA table says images/<split>/<file> while the archive
+        # stores a flat Images/<file> folder (see source_report).
+        names = {f.rsplit("/", 1)[-1] for f in image_files}
+        missing = sorted({p for p in sub["image_path"].dropna() if p.rsplit("/", 1)[-1] not in names})
         checks["image_path_exists_in_repo"] = {"ok": not missing, "n_missing": len(missing),
                                                "examples": missing[:10]}
     else:

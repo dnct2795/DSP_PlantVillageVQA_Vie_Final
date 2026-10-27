@@ -2,9 +2,9 @@
 dataset:
   repo_id: SyedNazmusSakib/PlantVillageVQA
   # Pinned after Step 1.1. null = use the current main branch and record its commit sha.
-  revision: null
+  revision: a025a438308eff9a7289231ebc09e27e8ec6678c
   # Tabular QA file inside the HF repo. null = auto-detect (reported in Step 1.1).
-  qa_file: null
+  qa_file: PlantVillageVQA/PlantVillageVQA.csv  # member of PlantVillageVQA.zip (identical to the JSON copy)
 
 # Column names in the QA table. null = auto-detect by name; Step 1.1 reports what was chosen.
 columns:

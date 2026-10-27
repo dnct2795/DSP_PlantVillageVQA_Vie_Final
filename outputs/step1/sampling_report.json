@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "fraction": 0.125,
+    "seed": 42,
+    "min_per": 1,
+    "N": 193609,
+    "n": 24201,
+    "H": 18,
+    "revision_sha": "a025a438308eff9a7289231ebc09e27e8ec6678c",
+    "detected_columns": {
+      "id": null,
+      "split": "split",
+      "question_type": "question_type",
+      "question": "question",
+      "answer": "answer",
+      "image": "image_path"
+    },
+    "n_images_subset": 18751
+  },
+  "checks": {
+    "total_matches_target": {
+      "ok": true,
+      "n_subset": 24201,
+      "n_target": 24201
+    },
+    "quota_within_rounding": {
+      "ok": true,
+      "max_abs_dev_rows": 0.5,
+      "n_strata_forced_to_min": 0
+    },
+    "max_share_diff_pp": 0.0021,
+    "every_nonempty_stratum_present": {
+      "ok": true
+    },
+    "no_duplicate_qa_id": {
+      "ok": true
+    },
+    "original_columns_unchanged": {
+      "ok": true
+    },
+    "image_path_exists_in_repo": {
+      "ok": true,
+      "n_missing": 0,
+      "examples": []
+    },
+    "reproducible_seed_rerun": {
+      "ok": true,
+      "qa_id_sha256": "d322d907ec88015af41f477af40512fbadb156e4dad58ed76b48d00e69ab091f"
+    },
+    "all_passed": true
+  }
+}

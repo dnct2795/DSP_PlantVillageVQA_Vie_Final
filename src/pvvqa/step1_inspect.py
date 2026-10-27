@@ -33,6 +33,19 @@ def hf_listing(repo_id: str, revision: str | None):
     return info.sha, files
 
 
+def zip_extract_tabular(repo_id: str, sha: str, zip_path: str, raw_dir: Path):
+    import zipfile
+    from huggingface_hub import HfFileSystem
+    fs = HfFileSystem()
+    with fs.open(f"datasets/{repo_id}@{sha}/{zip_path}", "rb", block_size=1 << 20) as f:
+        z = zipfile.ZipFile(f)
+        members = [i.filename for i in z.infolist() if not i.is_dir()]
+        tab = [m for m in members if m.lower().endswith(TABULAR_EXT)]
+        for m in tab:
+            z.extract(m, raw_dir)
+    return members, tab
+
+
 def pick_qa_file(files: list[dict]) -> str:
     tab = [f for f in files if f["path"].lower().endswith(TABULAR_EXT)]
     if not tab:
@@ -100,6 +113,39 @@ def compare_with_paper(rep: dict, n_image_files: int | None) -> list[str]:
     return notes or ["no differences found"]
 
 
+def extra_consistency(df: pd.DataFrame, cols: dict, raw_dir: Path, result: dict) -> list[str]:
+    """Cross-checks between the shipped files: CSV vs JSON copy, image paths vs archive."""
+    notes = []
+    jsons = [m for m in result.get("archive_tabular_members", []) if m.lower().endswith(".json")]
+    if jsons and str(result["qa_file"]).lower().endswith(".csv"):
+        import json
+        obj = json.loads((raw_dir / jsons[0]).read_text(encoding="utf-8"))
+        rows = [{"image_id": k, "image_path": v.get("image_path"), "split": v.get("split"), **q}
+                for k, v in obj.items() for q in v.get("questions", [])]
+        jd = pd.DataFrame(rows)
+        key = [c for c in jd.columns if c in df.columns]
+        m = df[key].merge(jd[key], on=key, how="outer", indicator=True)["_merge"].value_counts()
+        same = int(m.get("left_only", 0)) == 0 and int(m.get("right_only", 0)) == 0
+        result["csv_vs_json"] = {k: int(v) for k, v in m.items()}
+        notes.append(f"CSV vs JSON copy ({jsons[0]}): {'identical rows' if same else 'DIFFER'} "
+                     f"{result['csv_vs_json']}")
+    img_list = raw_dir / "image_files.txt"
+    if cols["image"] and img_list.exists():
+        files = img_list.read_text(encoding="utf-8").splitlines()
+        names = {f.rsplit("/", 1)[-1] for f in files}
+        refs = df[cols["image"]].map(image_ref).dropna()
+        exact = refs.isin(set(files)).mean()
+        by_name = refs.map(lambda p: p.rsplit("/", 1)[-1] in names).mean()
+        unused = len(names - set(refs.map(lambda p: p.rsplit("/", 1)[-1])))
+        result["image_path_resolution"] = {"exact_path_match": round(float(exact), 4),
+                                           "file_name_match": round(float(by_name), 4),
+                                           "archive_images_without_qa": unused}
+        notes.append(f"image_path resolves by exact path {exact:.2%}, by file name {by_name:.2%} "
+                     f"(QA table uses images/<split>/<file>; archive example: {files[0]!r})")
+        notes.append(f"{unused:,} archive images have no QA row")
+    return notes
+
+
 def to_markdown(r: dict) -> str:
     p = r["profile"]
     L = ["# Step 1.1 — Source report", "",
@@ -144,27 +190,40 @@ def main(argv=None):
     if a.local:
         local, result["revision_sha"], result["qa_file"] = Path(a.local), "local", a.local
     else:
-        from huggingface_hub import hf_hub_download
         sha, files = hf_listing(ds["repo_id"], ds.get("revision"))
         result["revision_sha"] = sha
+        result["repo_files"] = files
         result["repo_files_total_bytes"] = sum(f["size"] or 0 for f in files)
-        imgs = [f["path"] for f in files if f["path"].lower().endswith(IMAGE_EXT)]
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        zips = [f["path"] for f in files if f["path"].lower().endswith(".zip")]
+        if zips and not any(f["path"].lower().endswith(TABULAR_EXT) for f in files):
+            # Dataset ships as one archive: read its directory via HTTP range requests and
+            # extract only the tabular members (images are NOT downloaded).
+            members, extracted = zip_extract_tabular(ds["repo_id"], sha, zips[0], raw_dir)
+            result["archive"] = zips[0]
+            result["archive_tabular_members"] = extracted
+            imgs = [m for m in members if m.lower().endswith(IMAGE_EXT)]
+            qa_member = a.qa_file or ds.get("qa_file") or pick_qa_file(
+                [{"path": m, "size": 0} for m in extracted if m.lower().endswith(".csv")]
+                or [{"path": m, "size": 0} for m in extracted])
+            result["qa_file"] = qa_member
+            local = raw_dir / qa_member
+        else:
+            from huggingface_hub import hf_hub_download
+            imgs = [f["path"] for f in files if f["path"].lower().endswith(IMAGE_EXT)]
+            qa_file = a.qa_file or ds.get("qa_file") or pick_qa_file(files)
+            result["qa_file"] = qa_file
+            local = Path(hf_hub_download(ds["repo_id"], qa_file, repo_type="dataset",
+                                         revision=sha, local_dir=raw_dir))
         n_img_files = len(imgs)
         result["n_image_files_in_repo"] = n_img_files
-        result["image_files_total_bytes"] = sum(f["size"] or 0 for f in files
-                                                if f["path"].lower().endswith(IMAGE_EXT))
-        result["non_image_files"] = [f for f in files if not f["path"].lower().endswith(IMAGE_EXT)]
-        raw_dir.mkdir(parents=True, exist_ok=True)
         (raw_dir / "image_files.txt").write_text("\n".join(imgs), encoding="utf-8")
-        qa_file = a.qa_file or ds.get("qa_file") or pick_qa_file(files)
-        result["qa_file"] = qa_file
-        local = Path(hf_hub_download(ds["repo_id"], qa_file, repo_type="dataset",
-                                     revision=sha, local_dir=raw_dir))
 
     df = read_table(local)
     cols = detect_columns(df, cfg.get("columns"))
     result["profile"] = profile(df, cols)
     result["vs_paper"] = compare_with_paper(result["profile"], n_img_files)
+    result["vs_paper"] += extra_consistency(df, cols, raw_dir, result)
     write_json(result, out_dir / "source_report.json")
     (out_dir / "source_report.md").write_text(to_markdown(result), encoding="utf-8")
     print(to_markdown(result))

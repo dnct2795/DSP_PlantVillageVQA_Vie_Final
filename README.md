@@ -32,3 +32,13 @@ Outputs in `outputs/step1/`: `source_report.{md,json}`, `sampling_report.{md,jso
 Downloaded metadata goes to `data/raw/` (git-ignored).
 
 After 1.1, pin `dataset.revision` in `config/phase1.yaml` to the reported commit sha.
+
+## Step 1 results (revision `a025a438`)
+
+- Source: `PlantVillageVQA.zip` → `PlantVillageVQA/PlantVillageVQA.csv` (identical to the JSON copy);
+  193,609 QA rows, 50,073 images with QA (5,375 archive images have none), splits **train/test only**.
+- `image_path` in the CSV (`images/<split>/<file>`) does not match the archive layout
+  (`PlantVillageVQA/Images/<file>`); it is kept unchanged and resolved by file name (100%).
+- `qa_id` = `pvqa_<CSV row index>` at the pinned revision (the source has no QA id).
+- Subset: 24,201 rows, 18 strata, 18,751 images, 7,522 unique QA pairs, 1,088 unique questions.
+  All acceptance checks pass — see `outputs/step1/sampling_report.md`.

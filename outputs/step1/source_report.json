@@ -1,0 +1,134 @@
+{
+  "repo_id": "SyedNazmusSakib/PlantVillageVQA",
+  "revision_sha": "a025a438308eff9a7289231ebc09e27e8ec6678c",
+  "repo_files": [
+    {
+      "path": ".gitattributes",
+      "size": 2461
+    },
+    {
+      "path": "PlantVillageVQA.zip",
+      "size": 870561715
+    },
+    {
+      "path": "README.md",
+      "size": 5637
+    }
+  ],
+  "repo_files_total_bytes": 870569813,
+  "archive": "PlantVillageVQA.zip",
+  "archive_tabular_members": [
+    "PlantVillageVQA/PlantVillageVQA.csv",
+    "PlantVillageVQA/PlantVillageVQA.json"
+  ],
+  "qa_file": "PlantVillageVQA/PlantVillageVQA.csv",
+  "n_image_files_in_repo": 55448,
+  "profile": {
+    "n_rows": 193609,
+    "columns": {
+      "image_id": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "image_000001.jpg"
+      },
+      "question_type": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "Existence & Sanity Check"
+      },
+      "question": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "Is there a plant leaf in this image?"
+      },
+      "answer": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "No"
+      },
+      "image_path": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "images/train/image_000001.jpg"
+      },
+      "split": {
+        "dtype": "str",
+        "n_null": 0,
+        "example": "train"
+      }
+    },
+    "detected_columns": {
+      "id": null,
+      "split": "split",
+      "question_type": "question_type",
+      "question": "question",
+      "answer": "answer",
+      "image": "image_path"
+    },
+    "missing_logical_columns": [],
+    "split_counts": {
+      "test": 38632,
+      "train": 154977
+    },
+    "question_type_counts": {
+      "Plant Species Identification": 34151,
+      "General Health Assessment": 32099,
+      "Specific Disease Identification": 29926,
+      "Comprehensive Description": 27809,
+      "Causal Reasoning": 26223,
+      "Visual Attribute Grounding": 16486,
+      "Detailed Verification": 14089,
+      "Counterfactual Reasoning": 9981,
+      "Existence & Sanity Check": 2845
+    },
+    "split_x_question_type": {
+      "test": {
+        "Causal Reasoning": 5230,
+        "Comprehensive Description": 5573,
+        "Counterfactual Reasoning": 2021,
+        "Detailed Verification": 2848,
+        "Existence & Sanity Check": 617,
+        "General Health Assessment": 6365,
+        "Plant Species Identification": 6794,
+        "Specific Disease Identification": 5979,
+        "Visual Attribute Grounding": 3205
+      },
+      "train": {
+        "Causal Reasoning": 20993,
+        "Comprehensive Description": 22236,
+        "Counterfactual Reasoning": 7960,
+        "Detailed Verification": 11241,
+        "Existence & Sanity Check": 2228,
+        "General Health Assessment": 25734,
+        "Plant Species Identification": 27357,
+        "Specific Disease Identification": 23947,
+        "Visual Attribute Grounding": 13281
+      }
+    },
+    "n_strata_nonempty": 18,
+    "n_unique_images": 50073,
+    "n_null_image": 0,
+    "images_in_multiple_splits": 0,
+    "n_unique_qa_pairs": 15065,
+    "n_unique_questions": 1213,
+    "top10_pairs_row_share": 0.0455,
+    "n_exact_duplicate_rows": 0
+  },
+  "vs_paper": [
+    "unique images in QA table 50,073 != paper 55,448",
+    "actual split values: ['test', 'train'] (paper: ['train', 'test'], README: ['train', 'val', 'test'])",
+    "CSV vs JSON copy (PlantVillageVQA/PlantVillageVQA.json): identical rows {'both': 193609, 'left_only': 0, 'right_only': 0}",
+    "image_path resolves by exact path 0.00%, by file name 100.00% (QA table uses images/<split>/<file>; archive example: 'PlantVillageVQA/Images/image_000000.JPG')",
+    "5,375 archive images have no QA row"
+  ],
+  "csv_vs_json": {
+    "both": 193609,
+    "left_only": 0,
+    "right_only": 0
+  },
+  "image_path_resolution": {
+    "exact_path_match": 0.0,
+    "file_name_match": 1.0,
+    "archive_images_without_qa": 5375
+  }
+}
