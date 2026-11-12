@@ -1,0 +1,68 @@
+[
+  {
+    "row_id": "row_016341",
+    "image_id": "image_044461.JPG",
+    "question": "Những yếu tố nào gây ra sự suy yếu của lá cam này?",
+    "reference": "Lá có hiện tượng vàng loang lổ, không đối xứng, một triệu chứng điển hình của bệnh vàng lá gân xanh.",
+    "question_type": "Causal Reasoning",
+    "split": "test",
+    "sample_id": "row_016341",
+    "image_sha256": "4b0bbe097dbbe3736980c1179895cdb7c60e07bacd49cdb10301695cdb8ac3f0",
+    "asset_id": "image_044461.JPG"
+  },
+  {
+    "row_id": "row_016846",
+    "image_id": "image_045864.JPG",
+    "question": "Hãy hướng dẫn tôi qua các quan sát liên quan đến lá trong bức ảnh này.",
+    "reference": "Cây này có vẻ khỏe mạnh và sạch bệnh.",
+    "question_type": "Comprehensive Description",
+    "split": "test",
+    "sample_id": "row_016846",
+    "image_sha256": "6c32a2ec72d7265d4affeac5e0e20e1865e878d032019c9c41b18e1cd68c64cf",
+    "asset_id": "image_045864.JPG"
+  },
+  {
+    "row_id": "row_017106",
+    "image_id": "image_046583.JPG",
+    "question": "Những triệu chứng nào có thể xuất hiện nếu cây táo này bị nhiễm bệnh thối đen?",
+    "reference": "Sự khác biệt chính về mặt hình ảnh sẽ là không có dấu hiệu của các cấu trúc dạng mụn màu cam hoặc nâu.",
+    "question_type": "Counterfactual Reasoning",
+    "split": "test",
+    "sample_id": "row_017106",
+    "image_sha256": "afd8342a7af289d795cf096e9e0898fbf33a758a7f51a9d310331c697b68cbd5",
+    "asset_id": "image_046583.JPG"
+  },
+  {
+    "row_id": "row_017244",
+    "image_id": "image_046993.JPG",
+    "question": "Nếu có, lá cà chua này đang biểu hiện bệnh nhiễm do tác nhân gây bệnh nào?",
+    "reference": "Tác nhân gây bệnh là virus xoăn vàng lá cà chua.",
+    "question_type": "Specific Disease Identification",
+    "split": "test",
+    "sample_id": "row_017244",
+    "image_sha256": "4f705e91e508bb0c88864788b7c5f05faadb7783956c944316e5e72177a4c095",
+    "asset_id": "image_046993.JPG"
+  },
+  {
+    "row_id": "row_020568",
+    "image_id": "image_049476.JPG",
+    "question": "Tán lá này có biểu hiện các mụn gỉ sắt đặc trưng không?",
+    "reference": "Không",
+    "question_type": "Visual Attribute Grounding",
+    "split": "test",
+    "sample_id": "row_020568",
+    "image_sha256": "591fe1fc1742db63d5733bb6d06321931cff7c51b0b720229b422921f7277911",
+    "asset_id": "image_049476.JPG"
+  },
+  {
+    "row_id": "row_021244",
+    "image_id": "image_049476.JPG",
+    "question": "Đây có phải là lá ớt chuông bị virus xoăn vàng lá cà chua không?",
+    "reference": "Không",
+    "question_type": "Detailed Verification",
+    "split": "test",
+    "sample_id": "row_021244",
+    "image_sha256": "591fe1fc1742db63d5733bb6d06321931cff7c51b0b720229b422921f7277911",
+    "asset_id": "image_049476.JPG"
+  }
+]

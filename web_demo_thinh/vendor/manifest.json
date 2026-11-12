@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "4669c35ce0ffd027456272ee5050c0f58ac8d22a",
+  "upstream_repository": "https://github.com/Joluck/NoRA",
+  "wheels": {
+    "huggingface-hub": "huggingface_hub-0.36.2-py3-none-any.whl",
+    "peft": "peft-0.19.2.dev0-py3-none-any.whl",
+    "tokenizers": "tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "transformers": "transformers-4.57.6-py3-none-any.whl"
+  },
+  "peft_wheel_sha256": null
+}

@@ -1,0 +1,32 @@
+# Cấu hình demo "Hỏi Lá" chạy trên MacBook M1 (MPS). Dựa trên configs/web_demo.yaml của Khoa.
+base_model: Qwen/Qwen3-VL-2B-Instruct
+base_revision: 89644892e4d85e24eaac8bacfd4f463576704203
+device: mps            # cuda:0 trên máy có GPU NVIDIA
+dtype: float16         # M1 không chạy bf16 tốt trên MPS; benchmark gốc dùng bfloat16
+attention: sdpa
+use_cache: true
+max_new_tokens: 64
+queue_size: 4
+queue_timeout: 120
+model_timeout: 300     # MPS chậm hơn GPU rời
+job_timeout: 900
+job_ttl: 1800
+startup_timeout: 600   # lần đầu nạp model fp16 ~4,5 GB từ SSD
+upload_max_bytes: 10485760
+upload_max_side: 1024
+models:
+  baseline:
+    label: Không adapter · E0
+    use_nora: null
+  lora:
+    label: LoRA · E1
+    run: E1_lora_r16_a16
+    use_nora: false
+  nora_init:
+    label: NoRA-init · E2
+    run: E2_nora_init_r16_a16
+    use_nora: init
+  nora:
+    label: NoRA · E3
+    run: E3_nora_r16_a16
+    use_nora: true

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "images": [
+    {
+      "image_id": "rw01_tomato_early_blight.jpg",
+      "label": "Tomato · garden leaves",
+      "image_sha256": "bf5535560b44d504963b3b45c530dae48bbdc635bb2b77c92d4cd6da50950e18",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Early_blight_on_tomato_leaves_(7871930010).jpg",
+        "author": "Dwight Sipler",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "Resized download from Wikimedia Commons; no further image edits."
+      },
+      "questions": [
+        {
+          "row_id": "rw01_dataset",
+          "question": "Tác nhân gây bệnh nào, nếu có, đang gây ra các triệu chứng trên lá cà chua này?",
+          "expected_answer": "Lá có các triệu chứng của bệnh đốm vòng.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Dataset-style"
+        },
+        {
+          "row_id": "rw01_natural",
+          "question": "Mấy lá dưới gốc cà chua bắt đầu vàng và có đốm nâu, còn lá trên thì vẫn xanh. Có phải cây bị bệnh không, bệnh gì?",
+          "expected_answer": "Có, cây bị bệnh đốm vòng (Alternaria solani); bệnh thường bắt đầu từ lá già phía dưới.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Natural question"
+        }
+      ],
+      "truth": {
+        "plant": "cà chua",
+        "disease": "bệnh đốm vòng"
+      },
+      "label_vi": "Cà chua ngoài vườn · đốm vòng"
+    },
+    {
+      "image_id": "rw02_tomato_late_blight.jpg",
+      "label": "Tomato · leaf detail",
+      "image_sha256": "1b45ab492ff96dee7f64a65ce5c7a09d1ee3375166df5c7c61d5f0b6b563c17d",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Tomato_late_blight_leaf_sporulating_lesions_1_(5816170621).jpg",
+        "author": "Scot Nelson",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "changes": "Resized download from Wikimedia Commons; no further image edits."
+      },
+      "questions": [
+        {
+          "row_id": "rw02_dataset",
+          "question": "Có thể quan sát thấy biểu hiện bệnh nào trên lá cà chua này?",
+          "expected_answer": "Cây đang bị nhiễm bệnh mốc sương.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Dataset-style"
+        },
+        {
+          "row_id": "rw02_natural",
+          "question": "Lá cà chua bị cháy nâu ở mép, quanh vết có lớp mốc trắng mờ. Mình có cần nhổ cây đi không, bệnh này là gì?",
+          "expected_answer": "Đây là bệnh mốc sương (Phytophthora infestans); lớp mốc trắng là bào tử, bệnh lây nhanh nên cần cắt bỏ lá bệnh và xử lý sớm.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Natural question"
+        }
+      ],
+      "truth": {
+        "plant": "cà chua",
+        "disease": "bệnh mốc sương"
+      },
+      "label_vi": "Cà chua ngoài vườn · mốc sương"
+    },
+    {
+      "image_id": "rw03_apple_scab.jpg",
+      "label": "Apple · leaf detail",
+      "image_sha256": "db2835fe607b06d5cf604da627d2d74bee6bbc82d80185b3f741d3073f0f5c55",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Venturia.inaequalis2.-.lindsey.jpg",
+        "author": "James Lindsey at Ecology of Commanster",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Resized download from Wikimedia Commons; no further image edits."
+      },
+      "questions": [
+        {
+          "row_id": "rw03_dataset",
+          "question": "Bệnh nào, nếu có, có thể nhìn thấy trên lá táo này?",
+          "expected_answer": "Bệnh ghẻ táo",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Dataset-style"
+        },
+        {
+          "row_id": "rw03_natural",
+          "question": "Cây táo trong vườn có lá bị loang mảng màu xanh ô liu sẫm, mép lá vàng. Lá này bị nấm hả bạn?",
+          "expected_answer": "Đúng, đây là bệnh ghẻ táo do nấm Venturia inaequalis.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Natural question"
+        }
+      ],
+      "truth": {
+        "plant": "táo",
+        "disease": "bệnh ghẻ táo"
+      },
+      "label_vi": "Táo ngoài vườn · ghẻ táo"
+    },
+    {
+      "image_id": "rw04_grape_black_rot.jpg",
+      "label": "Grape · leaf and fruit",
+      "image_sha256": "e0994b9378ef32c5ed90b5091376a256bad0070f326e86f99e224d290e38785b",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Guignardia_bidwellii_(black_rot)_on_grape_4.jpg",
+        "author": "Mary Ann Hansen, Virginia Tech, Bugwood.org",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+        "changes": "Resized download from Wikimedia Commons; no further image edits."
+      },
+      "questions": [
+        {
+          "row_id": "rw04_dataset",
+          "question": "Bệnh nào, nếu có, có thể nhìn thấy trên lá nho này?",
+          "expected_answer": "Bệnh thối đen",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Dataset-style"
+        },
+        {
+          "row_id": "rw04_natural",
+          "question": "Nho nhà mình quả bị teo lại đen sì, lá cũng có đốm nâu. Lá với quả này có phải cùng một bệnh không?",
+          "expected_answer": "Có, đây là bệnh thối đen trên nho (Guignardia bidwellii), gây đốm nâu trên lá và làm quả teo đen.",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Natural question"
+        }
+      ],
+      "truth": {
+        "plant": "nho",
+        "disease": "bệnh thối đen"
+      },
+      "label_vi": "Nho ngoài vườn · thối đen"
+    },
+    {
+      "image_id": "rw05_corn_common_rust.jpg",
+      "label": "Corn · leaf detail",
+      "image_sha256": "cad30e319e7a251f32fb045bba27edc03ae8fd6ff5380f5c474316beab412844",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Puccinia_sorghi_(09).jpg",
+        "author": "Daren Mueller, Iowa State University, Bugwood.org",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+        "changes": "Resized download from Wikimedia Commons; no further image edits."
+      },
+      "questions": [
+        {
+          "row_id": "rw05_dataset",
+          "question": "Bệnh nào, nếu có, có thể nhìn thấy trên lá ngô này?",
+          "expected_answer": "Bệnh gỉ sắt thông thường",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Dataset-style"
+        },
+        {
+          "row_id": "rw05_natural",
+          "question": "Ruộng ngô đang trổ cờ mà lá nổi đầy vết nâu đỏ li ti hai mặt lá. Cái này có phải bệnh gỉ sắt không?",
+          "expected_answer": "Có, đây là bệnh gỉ sắt thông thường trên ngô (Puccinia sorghi).",
+          "question_type": "Specific Disease Identification",
+          "question_style": "Natural question"
+        }
+      ],
+      "truth": {
+        "plant": "ngô",
+        "disease": "bệnh gỉ sắt thông thường"
+      },
+      "label_vi": "Ngô ngoài ruộng · gỉ sắt thông thường"
+    }
+  ]
+}

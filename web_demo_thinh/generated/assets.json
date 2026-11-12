@@ -1,0 +1,17 @@
+{
+  "data-pipeline": "assets/figures/pipeline_data.png",
+  "architecture": "assets/figures/qwen_nora_architecture.png",
+  "backbone": "assets/figures/qwen3_vl_architecture.png",
+  "lora-diagram": "assets/figures/lora_architecture.png",
+  "nora-diagram": "assets/figures/nora_architecture.png",
+  "comparison": "assets/figures/comparison.png",
+  "image_044441.JPG": "samples/plantvillage/image_044441.JPG",
+  "image_044461.JPG": "samples/plantvillage/image_044461.JPG",
+  "image_044957.jpg": "samples/plantvillage/image_044957.jpg",
+  "image_045864.JPG": "samples/plantvillage/image_045864.JPG",
+  "image_046583.JPG": "samples/plantvillage/image_046583.JPG",
+  "image_046993.JPG": "samples/plantvillage/image_046993.JPG",
+  "image_049476.JPG": "samples/plantvillage/image_049476.JPG",
+  "image_047791.JPG": "samples/plantvillage/image_047791.JPG",
+  "image_047771.JPG": "samples/plantvillage/image_047771.JPG"
+}

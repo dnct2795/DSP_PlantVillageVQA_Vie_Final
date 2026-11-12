@@ -1,0 +1,10 @@
+.venv/
+output_perf_weight/
+logs/
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+uploads/

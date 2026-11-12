@@ -1,0 +1,852 @@
+{
+  "E0_baseline": {
+    "config": {
+      "adapter": {
+        "alpha": 16,
+        "bias": "none",
+        "dropout": 0.05,
+        "method": "none",
+        "r": 16,
+        "target_scope": "language_attention"
+      },
+      "data": {
+        "answer_column": "answer",
+        "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+        "eval_split": "validation",
+        "id_column": "row_id",
+        "image_id_column": "image_id",
+        "images_dir": "data/raw/images",
+        "question_column": "question",
+        "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+        "test_split": "test",
+        "train_split": "train"
+      },
+      "experiment": {
+        "id": "E0",
+        "name": "baseline"
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 64,
+        "num_beams": 1
+      },
+      "model": {
+        "attn_implementation": "sdpa",
+        "dtype": "bfloat16",
+        "gradient_checkpointing": true,
+        "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+        "use_cache": false
+      },
+      "output": {
+        "root_dir": "runs/kaggle_vi24195"
+      },
+      "project": {
+        "name": "plantvillage-vqa-vi",
+        "seed": 42
+      },
+      "prompt": {
+        "add_generation_prompt": true,
+        "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+      },
+      "training": {
+        "bf16": true,
+        "enabled": false,
+        "eval_steps": 250,
+        "eval_strategy": "steps",
+        "fp16": false,
+        "gradient_accumulation_steps": 8,
+        "greater_is_better": false,
+        "learning_rate": 0.0002,
+        "load_best_model_at_end": true,
+        "logging_steps": 10,
+        "metric_for_best_model": "eval_loss",
+        "num_train_epochs": 3,
+        "optim": "adamw_torch",
+        "per_device_eval_batch_size": 2,
+        "per_device_train_batch_size": 2,
+        "remove_unused_columns": false,
+        "save_steps": 250,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0.01
+      }
+    },
+    "environment": {
+      "seed": 42,
+      "model_name": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+      "transformers_version": "4.57.6",
+      "peft_version": "0.19.2.dev0",
+      "peft_nora_upstream_commit": "4669c35ce0ffd027456272ee5050c0f58ac8d22a",
+      "torch_version": "2.11.0+cu128",
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "git_commit": "d3a7b1a8d7fbf5b69e0bb23572f06b648c66ed27",
+      "dataset_csv_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "split_manifest_sha256": "a44f7881c1ae40d9f4fc977a2185f8831843f40d9f90b304415c3fba2857fad8"
+    },
+    "ablation_provenance": {
+      "config": {
+        "adapter": {
+          "alpha": 16,
+          "bias": "none",
+          "dropout": 0.05,
+          "method": "none",
+          "r": 16,
+          "target_scope": "language_attention"
+        },
+        "data": {
+          "answer_column": "answer",
+          "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+          "eval_split": "validation",
+          "id_column": "row_id",
+          "image_id_column": "image_id",
+          "images_dir": "data/raw/images",
+          "question_column": "question",
+          "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+          "test_split": "test",
+          "train_split": "train"
+        },
+        "experiment": {
+          "id": "E0",
+          "name": "baseline"
+        },
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 64,
+          "num_beams": 1
+        },
+        "model": {
+          "attn_implementation": "sdpa",
+          "dtype": "bfloat16",
+          "gradient_checkpointing": true,
+          "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+          "use_cache": false
+        },
+        "output": {
+          "root_dir": "runs/kaggle_vi24195"
+        },
+        "project": {
+          "name": "plantvillage-vqa-vi",
+          "seed": 42
+        },
+        "prompt": {
+          "add_generation_prompt": true,
+          "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+        },
+        "training": {
+          "bf16": true,
+          "enabled": false,
+          "eval_steps": 250,
+          "eval_strategy": "steps",
+          "fp16": false,
+          "gradient_accumulation_steps": 8,
+          "greater_is_better": false,
+          "learning_rate": 0.0002,
+          "load_best_model_at_end": true,
+          "logging_steps": 10,
+          "metric_for_best_model": "eval_loss",
+          "num_train_epochs": 3,
+          "optim": "adamw_torch",
+          "per_device_eval_batch_size": 2,
+          "per_device_train_batch_size": 2,
+          "remove_unused_columns": false,
+          "save_steps": 250,
+          "save_strategy": "steps",
+          "save_total_limit": 2,
+          "warmup_ratio": 0.03,
+          "weight_decay": 0.01
+        }
+      },
+      "dataset_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "model_config_sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+      "input_tests": {
+        "normal": "6e96a60e47ea3d3abdecb9bb822eaef0ef4a443983989e85c345ab261f7055b4",
+        "blank": "7f57fa7242e26e7508ebf4e575af83742d8741ec6b05d21a97f9e7255f55459a",
+        "noimage": "361808f90810b6f764481f74b99ddea25ea71126a29cb44165b28ca08a21fb93",
+        "shuffled": "60cae483a9a8927903fa719224cf1c242a9bf10a9aceefc8220de7b906db6f2c"
+      },
+      "saved_predictions_sha256": "9745ab9d0461f18210e4f21ee1c52ee2d66c9a5e57adfd07131399fcb1ba862e",
+      "adapter_sha256": null,
+      "source_sha256": {
+        "src/pvvqa/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/common.py": "2e8ad8e8c9ae0f8feaac532ce90f609a50388cdbc38d571dc0a9febd1c1c88bf",
+        "src/pvvqa/cli/evaluate.py": "ea3c3786aa562b9e20b7f89985e20a4e232c26b90623706b50a4c3b88b368642",
+        "src/pvvqa/cli/predict.py": "ada5e29932fe2aebd5349a08f59a337a9bf06535bd419653e3b5b9ba1d424398",
+        "src/pvvqa/cli/prepare.py": "729afac4f84568ed72da011bf2994607d1cd7ef9c778f86071815a03bc107da8",
+        "src/pvvqa/cli/report.py": "614d040a2b33bdb136c1d8f167cda22452f5a1266ddd10fcfae5009b7bda77d6",
+        "src/pvvqa/cli/score.py": "6a70765bc3fc50e7b35cdbeed7c024008beade1eced66552008c4f95ac60cc81",
+        "src/pvvqa/cli/train.py": "384d6e6607ffb8ba2c55f5a404f843631f1fbc4f7bc47bf26de124ab7279ecdd",
+        "src/pvvqa/config.py": "58d5d1e5bb92a127ab032f248c5a06564273e54b9f723467f709b173a3f2a391",
+        "src/pvvqa/constants.py": "d8148e5d3adff132a0a0b410af986375d99ff64dfae0854570e16bf5fb36e9d5",
+        "src/pvvqa/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/data/collator.py": "34095150ef7ea31b5f76809eeabed0cf28691594c1de6d1e8a5fb4a09ab88704",
+        "src/pvvqa/data/dataset.py": "07c46db6885cd043890f73e2d1695a23cf2fdac568c877e7081bbd985389345c",
+        "src/pvvqa/data/schema.py": "b26c6ebfcc74261d53be89d456a172a145373d258a0fc905888458b833b5752f",
+        "src/pvvqa/data/split.py": "8321bdac1f1b1f9a2c5cad39cb9f567d6e22f48a1a27a3556d29c36e03f4b772",
+        "src/pvvqa/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/evaluation/generate.py": "eed94b4c6e7c8e73ba1ededb401ca67baa24d9403615af42eaacc747081a78fc",
+        "src/pvvqa/evaluation/metrics.py": "7709b4f76a0c6687ce012b085d0515994019ddb22f4b7736f7a488d9580faa4d",
+        "src/pvvqa/evaluation/normalize.py": "486dfe7faf354c96d030b45bee0d93da1d8eb5487f9e1ca9bb823b6da79865af",
+        "src/pvvqa/evaluation/report.py": "9b342480ccbd7c1aca05485b612038defbd39f29875fafc33b9851312636c49b",
+        "src/pvvqa/evaluation/score.py": "2e7114913cf1692f105f0b7060285e46538b16e02cbf1b3f0a73c930d265150e",
+        "src/pvvqa/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/model/adapters.py": "cb7810cc8eb2ce6edea4541ef8f54110cb1e50f061485d80180f6eb61005cce2",
+        "src/pvvqa/model/load.py": "0cab30a3a982b3f44e917e1aba486d5c48004d3ff4067ca07b432a57cf6f0290",
+        "src/pvvqa/model/targets.py": "c905f05a15624a3108b745771e623e08ddff3eb4c5b3cd2e7c1d6067425e5637",
+        "src/pvvqa/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/training/callbacks.py": "687419dce8139752b30873662e73226fbe51d92e81f0a57d243a177fc0ab0dbf",
+        "src/pvvqa/training/trainer.py": "cb63630f59ea9641f3d47cf99d9db0cd64159172205e00d707a0ef5eb0f55284",
+        "src/pvvqa/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/utils/environment.py": "1a95c1dd2f7ac4fc20e55f13dd940f8547b7439b87c91594e121f5f0842f7606",
+        "src/pvvqa/utils/io.py": "b9d8acaa68faf1ba9f96556d94b0e9a44b00a7e7dea4995990faae4b6a6f5737",
+        "src/pvvqa/utils/release.py": "32663b43dd319c8f9ee9f46122a617147ac303ca86363d0c0dafa47fc9332596",
+        "src/pvvqa/utils/runs.py": "0c82b5c46688a00d161e75f06e43ce800dc4b281cfd94ab174238ee98fe7df47",
+        "src/pvvqa/utils/seed.py": "fc73f8444b727aced6a08353df3825ceb50ba497c435a08ecd13320ad0766d16"
+      },
+      "transformers_version": "4.57.6",
+      "torch_version": "2.11.0+cu128",
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+    }
+  },
+  "E1_lora_r16_a16": {
+    "config": {
+      "adapter": {
+        "alpha": 16,
+        "bias": "none",
+        "dropout": 0.05,
+        "method": "lora",
+        "r": 16,
+        "target_scope": "language_attention",
+        "use_nora": false
+      },
+      "data": {
+        "answer_column": "answer",
+        "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+        "eval_split": "validation",
+        "id_column": "row_id",
+        "image_id_column": "image_id",
+        "images_dir": "data/raw/images",
+        "question_column": "question",
+        "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+        "test_split": "test",
+        "train_split": "train"
+      },
+      "experiment": {
+        "id": "E1",
+        "name": "lora"
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 64,
+        "num_beams": 1
+      },
+      "model": {
+        "attn_implementation": "sdpa",
+        "dtype": "bfloat16",
+        "gradient_checkpointing": true,
+        "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+        "use_cache": false
+      },
+      "output": {
+        "root_dir": "runs/kaggle_vi24195"
+      },
+      "project": {
+        "name": "plantvillage-vqa-vi",
+        "seed": 42
+      },
+      "prompt": {
+        "add_generation_prompt": true,
+        "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+      },
+      "training": {
+        "bf16": true,
+        "enabled": true,
+        "eval_steps": 250,
+        "eval_strategy": "steps",
+        "fp16": false,
+        "gradient_accumulation_steps": 8,
+        "greater_is_better": false,
+        "learning_rate": 0.0002,
+        "load_best_model_at_end": true,
+        "logging_steps": 10,
+        "metric_for_best_model": "eval_loss",
+        "num_train_epochs": 3,
+        "optim": "adamw_torch",
+        "per_device_eval_batch_size": 2,
+        "per_device_train_batch_size": 2,
+        "remove_unused_columns": false,
+        "save_steps": 250,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0.01
+      }
+    },
+    "environment": {
+      "seed": 42,
+      "model_name": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+      "transformers_version": "4.57.6",
+      "peft_version": "0.19.2.dev0",
+      "peft_nora_upstream_commit": "4669c35ce0ffd027456272ee5050c0f58ac8d22a",
+      "torch_version": "2.11.0+cu128",
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "git_commit": "d3a7b1a8d7fbf5b69e0bb23572f06b648c66ed27",
+      "dataset_csv_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "split_manifest_sha256": "a44f7881c1ae40d9f4fc977a2185f8831843f40d9f90b304415c3fba2857fad8"
+    },
+    "ablation_provenance": {
+      "config": {
+        "adapter": {
+          "alpha": 16,
+          "bias": "none",
+          "dropout": 0.05,
+          "method": "lora",
+          "r": 16,
+          "target_scope": "language_attention",
+          "use_nora": false
+        },
+        "data": {
+          "answer_column": "answer",
+          "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+          "eval_split": "validation",
+          "id_column": "row_id",
+          "image_id_column": "image_id",
+          "images_dir": "data/raw/images",
+          "question_column": "question",
+          "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+          "test_split": "test",
+          "train_split": "train"
+        },
+        "experiment": {
+          "id": "E1",
+          "name": "lora"
+        },
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 64,
+          "num_beams": 1
+        },
+        "model": {
+          "attn_implementation": "sdpa",
+          "dtype": "bfloat16",
+          "gradient_checkpointing": true,
+          "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+          "use_cache": false
+        },
+        "output": {
+          "root_dir": "runs/kaggle_vi24195"
+        },
+        "project": {
+          "name": "plantvillage-vqa-vi",
+          "seed": 42
+        },
+        "prompt": {
+          "add_generation_prompt": true,
+          "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+        },
+        "training": {
+          "bf16": true,
+          "enabled": true,
+          "eval_steps": 250,
+          "eval_strategy": "steps",
+          "fp16": false,
+          "gradient_accumulation_steps": 8,
+          "greater_is_better": false,
+          "learning_rate": 0.0002,
+          "load_best_model_at_end": true,
+          "logging_steps": 10,
+          "metric_for_best_model": "eval_loss",
+          "num_train_epochs": 3,
+          "optim": "adamw_torch",
+          "per_device_eval_batch_size": 2,
+          "per_device_train_batch_size": 2,
+          "remove_unused_columns": false,
+          "save_steps": 250,
+          "save_strategy": "steps",
+          "save_total_limit": 2,
+          "warmup_ratio": 0.03,
+          "weight_decay": 0.01
+        }
+      },
+      "dataset_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "model_config_sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+      "input_tests": {
+        "normal": "6e96a60e47ea3d3abdecb9bb822eaef0ef4a443983989e85c345ab261f7055b4",
+        "blank": "7f57fa7242e26e7508ebf4e575af83742d8741ec6b05d21a97f9e7255f55459a",
+        "noimage": "361808f90810b6f764481f74b99ddea25ea71126a29cb44165b28ca08a21fb93",
+        "shuffled": "60cae483a9a8927903fa719224cf1c242a9bf10a9aceefc8220de7b906db6f2c"
+      },
+      "saved_predictions_sha256": "281a65490c34ac5fd90230303ca8b08dec1bafdad4a675f26f2786164023e633",
+      "adapter_sha256": "ceef795689c120508ed924e160fedbe9b2276ae53da4ec037fac941b4141adc2",
+      "source_sha256": {
+        "src/pvvqa/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/common.py": "2e8ad8e8c9ae0f8feaac532ce90f609a50388cdbc38d571dc0a9febd1c1c88bf",
+        "src/pvvqa/cli/evaluate.py": "ea3c3786aa562b9e20b7f89985e20a4e232c26b90623706b50a4c3b88b368642",
+        "src/pvvqa/cli/predict.py": "ada5e29932fe2aebd5349a08f59a337a9bf06535bd419653e3b5b9ba1d424398",
+        "src/pvvqa/cli/prepare.py": "729afac4f84568ed72da011bf2994607d1cd7ef9c778f86071815a03bc107da8",
+        "src/pvvqa/cli/report.py": "614d040a2b33bdb136c1d8f167cda22452f5a1266ddd10fcfae5009b7bda77d6",
+        "src/pvvqa/cli/score.py": "6a70765bc3fc50e7b35cdbeed7c024008beade1eced66552008c4f95ac60cc81",
+        "src/pvvqa/cli/train.py": "384d6e6607ffb8ba2c55f5a404f843631f1fbc4f7bc47bf26de124ab7279ecdd",
+        "src/pvvqa/config.py": "58d5d1e5bb92a127ab032f248c5a06564273e54b9f723467f709b173a3f2a391",
+        "src/pvvqa/constants.py": "d8148e5d3adff132a0a0b410af986375d99ff64dfae0854570e16bf5fb36e9d5",
+        "src/pvvqa/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/data/collator.py": "34095150ef7ea31b5f76809eeabed0cf28691594c1de6d1e8a5fb4a09ab88704",
+        "src/pvvqa/data/dataset.py": "07c46db6885cd043890f73e2d1695a23cf2fdac568c877e7081bbd985389345c",
+        "src/pvvqa/data/schema.py": "b26c6ebfcc74261d53be89d456a172a145373d258a0fc905888458b833b5752f",
+        "src/pvvqa/data/split.py": "8321bdac1f1b1f9a2c5cad39cb9f567d6e22f48a1a27a3556d29c36e03f4b772",
+        "src/pvvqa/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/evaluation/generate.py": "eed94b4c6e7c8e73ba1ededb401ca67baa24d9403615af42eaacc747081a78fc",
+        "src/pvvqa/evaluation/metrics.py": "7709b4f76a0c6687ce012b085d0515994019ddb22f4b7736f7a488d9580faa4d",
+        "src/pvvqa/evaluation/normalize.py": "486dfe7faf354c96d030b45bee0d93da1d8eb5487f9e1ca9bb823b6da79865af",
+        "src/pvvqa/evaluation/report.py": "9b342480ccbd7c1aca05485b612038defbd39f29875fafc33b9851312636c49b",
+        "src/pvvqa/evaluation/score.py": "2e7114913cf1692f105f0b7060285e46538b16e02cbf1b3f0a73c930d265150e",
+        "src/pvvqa/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/model/adapters.py": "cb7810cc8eb2ce6edea4541ef8f54110cb1e50f061485d80180f6eb61005cce2",
+        "src/pvvqa/model/load.py": "0cab30a3a982b3f44e917e1aba486d5c48004d3ff4067ca07b432a57cf6f0290",
+        "src/pvvqa/model/targets.py": "c905f05a15624a3108b745771e623e08ddff3eb4c5b3cd2e7c1d6067425e5637",
+        "src/pvvqa/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/training/callbacks.py": "687419dce8139752b30873662e73226fbe51d92e81f0a57d243a177fc0ab0dbf",
+        "src/pvvqa/training/trainer.py": "cb63630f59ea9641f3d47cf99d9db0cd64159172205e00d707a0ef5eb0f55284",
+        "src/pvvqa/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/utils/environment.py": "1a95c1dd2f7ac4fc20e55f13dd940f8547b7439b87c91594e121f5f0842f7606",
+        "src/pvvqa/utils/io.py": "b9d8acaa68faf1ba9f96556d94b0e9a44b00a7e7dea4995990faae4b6a6f5737",
+        "src/pvvqa/utils/release.py": "32663b43dd319c8f9ee9f46122a617147ac303ca86363d0c0dafa47fc9332596",
+        "src/pvvqa/utils/runs.py": "0c82b5c46688a00d161e75f06e43ce800dc4b281cfd94ab174238ee98fe7df47",
+        "src/pvvqa/utils/seed.py": "fc73f8444b727aced6a08353df3825ceb50ba497c435a08ecd13320ad0766d16"
+      },
+      "transformers_version": "4.57.6",
+      "torch_version": "2.11.0+cu128",
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+    }
+  },
+  "E2_nora_init_r16_a16": {
+    "config": {
+      "adapter": {
+        "alpha": 16,
+        "bias": "none",
+        "dropout": 0.05,
+        "method": "nora_init",
+        "r": 16,
+        "target_scope": "language_attention",
+        "use_nora": "init"
+      },
+      "data": {
+        "answer_column": "answer",
+        "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+        "eval_split": "validation",
+        "id_column": "row_id",
+        "image_id_column": "image_id",
+        "images_dir": "data/raw/images",
+        "question_column": "question",
+        "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+        "test_split": "test",
+        "train_split": "train"
+      },
+      "experiment": {
+        "id": "E2",
+        "name": "nora_init"
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 64,
+        "num_beams": 1
+      },
+      "model": {
+        "attn_implementation": "sdpa",
+        "dtype": "bfloat16",
+        "gradient_checkpointing": true,
+        "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+        "use_cache": false
+      },
+      "output": {
+        "root_dir": "runs/kaggle_vi24195"
+      },
+      "project": {
+        "name": "plantvillage-vqa-vi",
+        "seed": 42
+      },
+      "prompt": {
+        "add_generation_prompt": true,
+        "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+      },
+      "training": {
+        "bf16": true,
+        "enabled": true,
+        "eval_steps": 250,
+        "eval_strategy": "steps",
+        "fp16": false,
+        "gradient_accumulation_steps": 8,
+        "greater_is_better": false,
+        "learning_rate": 0.0002,
+        "load_best_model_at_end": true,
+        "logging_steps": 10,
+        "metric_for_best_model": "eval_loss",
+        "num_train_epochs": 3,
+        "optim": "adamw_torch",
+        "per_device_eval_batch_size": 2,
+        "per_device_train_batch_size": 2,
+        "remove_unused_columns": false,
+        "save_steps": 250,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0.01
+      }
+    },
+    "environment": {
+      "seed": 42,
+      "model_name": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+      "transformers_version": "4.57.6",
+      "peft_version": "0.19.2.dev0",
+      "peft_nora_upstream_commit": "4669c35ce0ffd027456272ee5050c0f58ac8d22a",
+      "torch_version": "2.11.0+cu128",
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "git_commit": "d3a7b1a8d7fbf5b69e0bb23572f06b648c66ed27",
+      "dataset_csv_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "split_manifest_sha256": "a44f7881c1ae40d9f4fc977a2185f8831843f40d9f90b304415c3fba2857fad8"
+    },
+    "ablation_provenance": {
+      "config": {
+        "adapter": {
+          "alpha": 16,
+          "bias": "none",
+          "dropout": 0.05,
+          "method": "nora_init",
+          "r": 16,
+          "target_scope": "language_attention",
+          "use_nora": "init"
+        },
+        "data": {
+          "answer_column": "answer",
+          "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+          "eval_split": "validation",
+          "id_column": "row_id",
+          "image_id_column": "image_id",
+          "images_dir": "data/raw/images",
+          "question_column": "question",
+          "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+          "test_split": "test",
+          "train_split": "train"
+        },
+        "experiment": {
+          "id": "E2",
+          "name": "nora_init"
+        },
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 64,
+          "num_beams": 1
+        },
+        "model": {
+          "attn_implementation": "sdpa",
+          "dtype": "bfloat16",
+          "gradient_checkpointing": true,
+          "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+          "use_cache": false
+        },
+        "output": {
+          "root_dir": "runs/kaggle_vi24195"
+        },
+        "project": {
+          "name": "plantvillage-vqa-vi",
+          "seed": 42
+        },
+        "prompt": {
+          "add_generation_prompt": true,
+          "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+        },
+        "training": {
+          "bf16": true,
+          "enabled": true,
+          "eval_steps": 250,
+          "eval_strategy": "steps",
+          "fp16": false,
+          "gradient_accumulation_steps": 8,
+          "greater_is_better": false,
+          "learning_rate": 0.0002,
+          "load_best_model_at_end": true,
+          "logging_steps": 10,
+          "metric_for_best_model": "eval_loss",
+          "num_train_epochs": 3,
+          "optim": "adamw_torch",
+          "per_device_eval_batch_size": 2,
+          "per_device_train_batch_size": 2,
+          "remove_unused_columns": false,
+          "save_steps": 250,
+          "save_strategy": "steps",
+          "save_total_limit": 2,
+          "warmup_ratio": 0.03,
+          "weight_decay": 0.01
+        }
+      },
+      "dataset_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "model_config_sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+      "input_tests": {
+        "normal": "6e96a60e47ea3d3abdecb9bb822eaef0ef4a443983989e85c345ab261f7055b4",
+        "blank": "7f57fa7242e26e7508ebf4e575af83742d8741ec6b05d21a97f9e7255f55459a",
+        "noimage": "361808f90810b6f764481f74b99ddea25ea71126a29cb44165b28ca08a21fb93",
+        "shuffled": "60cae483a9a8927903fa719224cf1c242a9bf10a9aceefc8220de7b906db6f2c"
+      },
+      "saved_predictions_sha256": "d139018a74cf90e1ede98dd56a33665ad81042c1e2ab659400eacb2b769cca9a",
+      "adapter_sha256": "f5caafe50aa31a60f264240559aab9152a8b9f7d35d2e6c687e70e26240dc661",
+      "source_sha256": {
+        "src/pvvqa/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/common.py": "2e8ad8e8c9ae0f8feaac532ce90f609a50388cdbc38d571dc0a9febd1c1c88bf",
+        "src/pvvqa/cli/evaluate.py": "ea3c3786aa562b9e20b7f89985e20a4e232c26b90623706b50a4c3b88b368642",
+        "src/pvvqa/cli/predict.py": "ada5e29932fe2aebd5349a08f59a337a9bf06535bd419653e3b5b9ba1d424398",
+        "src/pvvqa/cli/prepare.py": "729afac4f84568ed72da011bf2994607d1cd7ef9c778f86071815a03bc107da8",
+        "src/pvvqa/cli/report.py": "614d040a2b33bdb136c1d8f167cda22452f5a1266ddd10fcfae5009b7bda77d6",
+        "src/pvvqa/cli/score.py": "6a70765bc3fc50e7b35cdbeed7c024008beade1eced66552008c4f95ac60cc81",
+        "src/pvvqa/cli/train.py": "384d6e6607ffb8ba2c55f5a404f843631f1fbc4f7bc47bf26de124ab7279ecdd",
+        "src/pvvqa/config.py": "58d5d1e5bb92a127ab032f248c5a06564273e54b9f723467f709b173a3f2a391",
+        "src/pvvqa/constants.py": "d8148e5d3adff132a0a0b410af986375d99ff64dfae0854570e16bf5fb36e9d5",
+        "src/pvvqa/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/data/collator.py": "34095150ef7ea31b5f76809eeabed0cf28691594c1de6d1e8a5fb4a09ab88704",
+        "src/pvvqa/data/dataset.py": "07c46db6885cd043890f73e2d1695a23cf2fdac568c877e7081bbd985389345c",
+        "src/pvvqa/data/schema.py": "b26c6ebfcc74261d53be89d456a172a145373d258a0fc905888458b833b5752f",
+        "src/pvvqa/data/split.py": "8321bdac1f1b1f9a2c5cad39cb9f567d6e22f48a1a27a3556d29c36e03f4b772",
+        "src/pvvqa/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/evaluation/generate.py": "eed94b4c6e7c8e73ba1ededb401ca67baa24d9403615af42eaacc747081a78fc",
+        "src/pvvqa/evaluation/metrics.py": "7709b4f76a0c6687ce012b085d0515994019ddb22f4b7736f7a488d9580faa4d",
+        "src/pvvqa/evaluation/normalize.py": "486dfe7faf354c96d030b45bee0d93da1d8eb5487f9e1ca9bb823b6da79865af",
+        "src/pvvqa/evaluation/report.py": "9b342480ccbd7c1aca05485b612038defbd39f29875fafc33b9851312636c49b",
+        "src/pvvqa/evaluation/score.py": "2e7114913cf1692f105f0b7060285e46538b16e02cbf1b3f0a73c930d265150e",
+        "src/pvvqa/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/model/adapters.py": "cb7810cc8eb2ce6edea4541ef8f54110cb1e50f061485d80180f6eb61005cce2",
+        "src/pvvqa/model/load.py": "0cab30a3a982b3f44e917e1aba486d5c48004d3ff4067ca07b432a57cf6f0290",
+        "src/pvvqa/model/targets.py": "c905f05a15624a3108b745771e623e08ddff3eb4c5b3cd2e7c1d6067425e5637",
+        "src/pvvqa/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/training/callbacks.py": "687419dce8139752b30873662e73226fbe51d92e81f0a57d243a177fc0ab0dbf",
+        "src/pvvqa/training/trainer.py": "cb63630f59ea9641f3d47cf99d9db0cd64159172205e00d707a0ef5eb0f55284",
+        "src/pvvqa/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/utils/environment.py": "1a95c1dd2f7ac4fc20e55f13dd940f8547b7439b87c91594e121f5f0842f7606",
+        "src/pvvqa/utils/io.py": "b9d8acaa68faf1ba9f96556d94b0e9a44b00a7e7dea4995990faae4b6a6f5737",
+        "src/pvvqa/utils/release.py": "32663b43dd319c8f9ee9f46122a617147ac303ca86363d0c0dafa47fc9332596",
+        "src/pvvqa/utils/runs.py": "0c82b5c46688a00d161e75f06e43ce800dc4b281cfd94ab174238ee98fe7df47",
+        "src/pvvqa/utils/seed.py": "fc73f8444b727aced6a08353df3825ceb50ba497c435a08ecd13320ad0766d16"
+      },
+      "transformers_version": "4.57.6",
+      "torch_version": "2.11.0+cu128",
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+    }
+  },
+  "E3_nora_r16_a16": {
+    "config": {
+      "adapter": {
+        "alpha": 16,
+        "bias": "none",
+        "dropout": 0.05,
+        "method": "nora",
+        "r": 16,
+        "target_scope": "language_attention",
+        "use_nora": true
+      },
+      "data": {
+        "answer_column": "answer",
+        "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+        "eval_split": "validation",
+        "id_column": "row_id",
+        "image_id_column": "image_id",
+        "images_dir": "data/raw/images",
+        "question_column": "question",
+        "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+        "test_split": "test",
+        "train_split": "train"
+      },
+      "experiment": {
+        "id": "E3",
+        "name": "nora"
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 64,
+        "num_beams": 1
+      },
+      "model": {
+        "attn_implementation": "sdpa",
+        "dtype": "bfloat16",
+        "gradient_checkpointing": true,
+        "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+        "use_cache": false
+      },
+      "output": {
+        "root_dir": "runs/kaggle_vi24195"
+      },
+      "project": {
+        "name": "plantvillage-vqa-vi",
+        "seed": 42
+      },
+      "prompt": {
+        "add_generation_prompt": true,
+        "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+      },
+      "training": {
+        "bf16": true,
+        "enabled": true,
+        "eval_steps": 250,
+        "eval_strategy": "steps",
+        "fp16": false,
+        "gradient_accumulation_steps": 8,
+        "greater_is_better": false,
+        "learning_rate": 0.0002,
+        "load_best_model_at_end": true,
+        "logging_steps": 10,
+        "metric_for_best_model": "eval_loss",
+        "num_train_epochs": 3,
+        "optim": "adamw_torch",
+        "per_device_eval_batch_size": 2,
+        "per_device_train_batch_size": 2,
+        "remove_unused_columns": false,
+        "save_steps": 250,
+        "save_strategy": "steps",
+        "save_total_limit": 2,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0.01
+      }
+    },
+    "environment": {
+      "seed": 42,
+      "model_name": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+      "transformers_version": "4.57.6",
+      "peft_version": "0.19.2.dev0",
+      "peft_nora_upstream_commit": "4669c35ce0ffd027456272ee5050c0f58ac8d22a",
+      "torch_version": "2.11.0+cu128",
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "git_commit": "d3a7b1a8d7fbf5b69e0bb23572f06b648c66ed27",
+      "dataset_csv_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "split_manifest_sha256": "a44f7881c1ae40d9f4fc977a2185f8831843f40d9f90b304415c3fba2857fad8"
+    },
+    "ablation_provenance": {
+      "config": {
+        "adapter": {
+          "alpha": 16,
+          "bias": "none",
+          "dropout": 0.05,
+          "method": "nora",
+          "r": 16,
+          "target_scope": "language_attention",
+          "use_nora": true
+        },
+        "data": {
+          "answer_column": "answer",
+          "csv_path": "data/raw/PlantVillageVQA_vi.csv",
+          "eval_split": "validation",
+          "id_column": "row_id",
+          "image_id_column": "image_id",
+          "images_dir": "data/raw/images",
+          "question_column": "question",
+          "split_manifest": "data/processed/split_kaggle_vi24195_seed42.csv",
+          "test_split": "test",
+          "train_split": "train"
+        },
+        "experiment": {
+          "id": "E3",
+          "name": "nora"
+        },
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 64,
+          "num_beams": 1
+        },
+        "model": {
+          "attn_implementation": "sdpa",
+          "dtype": "bfloat16",
+          "gradient_checkpointing": true,
+          "name_or_path": "/kaggle/input/models/qwen-lm/qwen-3-vl/transformers/2b-instruct/1",
+          "use_cache": false
+        },
+        "output": {
+          "root_dir": "runs/kaggle_vi24195"
+        },
+        "project": {
+          "name": "plantvillage-vqa-vi",
+          "seed": 42
+        },
+        "prompt": {
+          "add_generation_prompt": true,
+          "system": "Bạn là trợ lý hỏi đáp thị giác nông nghiệp. Hãy trả lời ngắn gọn bằng tiếng Việt, dựa trên hình ảnh và câu hỏi. Không bổ sung hướng dẫn thuốc hoặc liều lượng nếu thông tin đó không có trong ngữ cảnh.\n"
+        },
+        "training": {
+          "bf16": true,
+          "enabled": true,
+          "eval_steps": 250,
+          "eval_strategy": "steps",
+          "fp16": false,
+          "gradient_accumulation_steps": 8,
+          "greater_is_better": false,
+          "learning_rate": 0.0002,
+          "load_best_model_at_end": true,
+          "logging_steps": 10,
+          "metric_for_best_model": "eval_loss",
+          "num_train_epochs": 3,
+          "optim": "adamw_torch",
+          "per_device_eval_batch_size": 2,
+          "per_device_train_batch_size": 2,
+          "remove_unused_columns": false,
+          "save_steps": 250,
+          "save_strategy": "steps",
+          "save_total_limit": 2,
+          "warmup_ratio": 0.03,
+          "weight_decay": 0.01
+        }
+      },
+      "dataset_sha256": "cce0742ac5c3c8418643d328ab0d6e304350e8c2461c143a213a4f23a339dcfb",
+      "model_config_sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+      "input_tests": {
+        "normal": "6e96a60e47ea3d3abdecb9bb822eaef0ef4a443983989e85c345ab261f7055b4",
+        "blank": "7f57fa7242e26e7508ebf4e575af83742d8741ec6b05d21a97f9e7255f55459a",
+        "noimage": "361808f90810b6f764481f74b99ddea25ea71126a29cb44165b28ca08a21fb93",
+        "shuffled": "60cae483a9a8927903fa719224cf1c242a9bf10a9aceefc8220de7b906db6f2c"
+      },
+      "saved_predictions_sha256": "2a7442174e95a1c470153767529d882c1769740de35cf9645279a10fb9a76803",
+      "adapter_sha256": "d97eceabf5ae4083c3279d6ac597387f35476fee59f16e0f9ce93e64b26ffaf0",
+      "source_sha256": {
+        "src/pvvqa/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/cli/common.py": "2e8ad8e8c9ae0f8feaac532ce90f609a50388cdbc38d571dc0a9febd1c1c88bf",
+        "src/pvvqa/cli/evaluate.py": "ea3c3786aa562b9e20b7f89985e20a4e232c26b90623706b50a4c3b88b368642",
+        "src/pvvqa/cli/predict.py": "ada5e29932fe2aebd5349a08f59a337a9bf06535bd419653e3b5b9ba1d424398",
+        "src/pvvqa/cli/prepare.py": "729afac4f84568ed72da011bf2994607d1cd7ef9c778f86071815a03bc107da8",
+        "src/pvvqa/cli/report.py": "614d040a2b33bdb136c1d8f167cda22452f5a1266ddd10fcfae5009b7bda77d6",
+        "src/pvvqa/cli/score.py": "6a70765bc3fc50e7b35cdbeed7c024008beade1eced66552008c4f95ac60cc81",
+        "src/pvvqa/cli/train.py": "384d6e6607ffb8ba2c55f5a404f843631f1fbc4f7bc47bf26de124ab7279ecdd",
+        "src/pvvqa/config.py": "58d5d1e5bb92a127ab032f248c5a06564273e54b9f723467f709b173a3f2a391",
+        "src/pvvqa/constants.py": "d8148e5d3adff132a0a0b410af986375d99ff64dfae0854570e16bf5fb36e9d5",
+        "src/pvvqa/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/data/collator.py": "34095150ef7ea31b5f76809eeabed0cf28691594c1de6d1e8a5fb4a09ab88704",
+        "src/pvvqa/data/dataset.py": "07c46db6885cd043890f73e2d1695a23cf2fdac568c877e7081bbd985389345c",
+        "src/pvvqa/data/schema.py": "b26c6ebfcc74261d53be89d456a172a145373d258a0fc905888458b833b5752f",
+        "src/pvvqa/data/split.py": "8321bdac1f1b1f9a2c5cad39cb9f567d6e22f48a1a27a3556d29c36e03f4b772",
+        "src/pvvqa/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/evaluation/generate.py": "eed94b4c6e7c8e73ba1ededb401ca67baa24d9403615af42eaacc747081a78fc",
+        "src/pvvqa/evaluation/metrics.py": "7709b4f76a0c6687ce012b085d0515994019ddb22f4b7736f7a488d9580faa4d",
+        "src/pvvqa/evaluation/normalize.py": "486dfe7faf354c96d030b45bee0d93da1d8eb5487f9e1ca9bb823b6da79865af",
+        "src/pvvqa/evaluation/report.py": "9b342480ccbd7c1aca05485b612038defbd39f29875fafc33b9851312636c49b",
+        "src/pvvqa/evaluation/score.py": "2e7114913cf1692f105f0b7060285e46538b16e02cbf1b3f0a73c930d265150e",
+        "src/pvvqa/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/model/adapters.py": "cb7810cc8eb2ce6edea4541ef8f54110cb1e50f061485d80180f6eb61005cce2",
+        "src/pvvqa/model/load.py": "0cab30a3a982b3f44e917e1aba486d5c48004d3ff4067ca07b432a57cf6f0290",
+        "src/pvvqa/model/targets.py": "c905f05a15624a3108b745771e623e08ddff3eb4c5b3cd2e7c1d6067425e5637",
+        "src/pvvqa/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/training/callbacks.py": "687419dce8139752b30873662e73226fbe51d92e81f0a57d243a177fc0ab0dbf",
+        "src/pvvqa/training/trainer.py": "cb63630f59ea9641f3d47cf99d9db0cd64159172205e00d707a0ef5eb0f55284",
+        "src/pvvqa/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src/pvvqa/utils/environment.py": "1a95c1dd2f7ac4fc20e55f13dd940f8547b7439b87c91594e121f5f0842f7606",
+        "src/pvvqa/utils/io.py": "b9d8acaa68faf1ba9f96556d94b0e9a44b00a7e7dea4995990faae4b6a6f5737",
+        "src/pvvqa/utils/release.py": "32663b43dd319c8f9ee9f46122a617147ac303ca86363d0c0dafa47fc9332596",
+        "src/pvvqa/utils/runs.py": "0c82b5c46688a00d161e75f06e43ce800dc4b281cfd94ab174238ee98fe7df47",
+        "src/pvvqa/utils/seed.py": "fc73f8444b727aced6a08353df3825ceb50ba497c435a08ecd13320ad0766d16"
+      },
+      "transformers_version": "4.57.6",
+      "torch_version": "2.11.0+cu128",
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+    }
+  }
+}

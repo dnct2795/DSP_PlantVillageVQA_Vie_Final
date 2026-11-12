@@ -2,6 +2,56 @@
 
 Ghi mục mới ở đầu file. Mỗi mục gồm: đã làm, số liệu, vấn đề, việc tiếp theo.
 
+## 2026-11-12 — Web demo "Hỏi Lá" (web_demo_thinh/), chạy thật trên MacBook M1 qua MPS
+
+Làm theo `docs/WEB_DEMO_HANDOFF.md` mục 8, bước 1 → 9. Người dùng đã xác nhận đặt demo ở `web_demo_thinh/`
+và cho phép tải adapter (Drive nhóm, public) + base model (HF). **Chưa commit.**
+
+**Đã làm**
+- Môi trường: macOS 26.5, Python 3.11 (venv `web_demo_thinh/.venv` qua uv), torch 2.15 (MPS), transformers 4.57.6,
+  PEFT NoRA 0.19.2.dev0 từ wheel vendor của Khoa; Node 22 cài bằng `brew install node@22` (Node 20.17 hệ thống
+  quá cũ cho Vite 7, `~/.npm` thuộc root → dùng `--cache /tmp/hoila-npm-cache`). Repo Khoa ở `af47e08`.
+- Trọng số: adapter E1/E2/E3 (`output_perf_weight/`, git-ignored) khớp SHA-256 trong `run_context.json`;
+  base model Qwen3-VL-2B-Instruct snapshot 89644892 trong `~/.cache/huggingface` (4,0 GB). Ổ còn ~14 GB.
+- Backend `backend/hoila/` (port từ `pvvqa/web` của Khoa, đổi tên package để không đụng `src/pvvqa` của repo này):
+  thiết bị theo config (`mps`, fp16), số đo bộ nhớ MPS, OOM cả CUDA/MPS; giữ nguyên kiểm tra hash PEFT/adapter/processor.
+  Thêm `uploads.py` + `POST /api/uploads` (kiểm tra nội dung JPEG/PNG, ≤10 MB, EXIF, thu 1024 px, thư mục tạm,
+  xoá ngay khi lượt hỏi xong). Thông điệp tiếng Việt. `tests/test_backend.py`: 7 pass.
+- Chạy thử MPS (`scripts/check_mps.py`, `logs/check_mps.json`): nạp model 54 s lần đầu (~35 s khi đã cache),
+  ~4,05 GB MPS, RSS 2,2 GB. Câu Có/Không 0,8–0,9 s/mô hình; câu dài 2–7 s; E0 chậm nhất (trả lời dài).
+  E1/E2/E3 trên `row_017244` trả đúng "Đây là bệnh nhiễm virus xoăn vàng lá cà chua." (khớp predictions báo cáo).
+- Frontend viết lại hoàn toàn theo Hướng A "Ruộng xanh", toàn bộ tiếng Việt: 4 trang `/hoi-dap`, `/bo-du-lieu`,
+  `/phuong-phap`, `/ket-qua`. Trang Hỏi đáp: ảnh mẫu (9 PlantVillage + 5 ngoài vườn, nhãn tiếng Việt
+  `samples_meta.ts`), upload (kéo-thả, kiểm tra phía client), 9 chip ↔ 9 question_type (câu mẫu thật từ dataset,
+  ưu tiên câu gốc của ảnh), chế độ 4 mô hình / chỉ E3, khối trả lời E3 + so sánh E1/E2/E0, so với đáp án chỉ ghi
+  "trùng đáp án" khi khớp từng chữ, hộp cảnh báo luôn hiện. Số liệu trang nghiên cứu lấy từ `generated/results.json`
+  (bản chụp CSV báo cáo Khoa) + mục 6 handoff; phần ví dụ lỗi đổi sang tiếng Việt gốc (`scripts/localize_results.py`).
+  Bảng màu biểu đồ E0–E3 (#C2693A, #2A78D6, #EDA100, #1F8A4C) qua validator skill dataviz.
+- Kiểm tra tay trong trình duyệt: cả 4 trang không lỗi console; lượt hỏi 4 mô hình chạy xong ~10 s;
+  upload ảnh ngô gỉ sắt qua API → E3 "Bệnh gỉ sắt thông thường"; giao diện 375 px không tràn ngang.
+- `web_demo_thinh/README.md` (credit demo Khoa), Playwright `frontend/tests/hoila.spec.ts` (tiếng Việt): **10/10 pass** với server thật (3 trang nghiên cứu,
+  số liệu khớp báo cáo, chip câu hỏi, mobile 375 px, axe WCAG A/AA, hỏi 4 mô hình với ảnh mẫu, upload + chỉ E3,
+  từ chối tệp không phải ảnh). Log: `web_demo_thinh/logs/playwright.log`.
+
+**Bổ sung cùng ngày (yêu cầu người dùng): ảnh mẫu 5 + 5, đáp án đúng, 5 ảnh để tự upload**
+- Ảnh có sẵn rút còn **5 PlantVillage** (`generated/samples.json`: 046993 cà chua TYLCV, 044461 cam HLB, 046583 táo,
+  049476 ớt chuông, 045864 lá khỏe; 6 câu hỏi gốc có đáp án bộ dữ liệu) + **5 ngoài vườn** (giữ nguyên của Khoa).
+  `assets.json` giữ đủ ảnh để trang Kết quả vẫn hiện ví dụ lỗi.
+- Ảnh ngoài vườn có `truth` (loài cây + bệnh theo nhãn nguồn) trong `samples/real-world/manifest.json`; API `/api/samples`
+  trả `truth`; giao diện hiện "Đáp án đúng để so sánh" dưới ảnh và trong khối trả lời (không chấm điểm tự động).
+- `samples/upload_demo/`: 5 ảnh thật tải từ Wikimedia Commons bằng `scripts/fetch_upload_demo.py` (API Commons, có
+  tác giả + giấy phép + sha256 trong `manifest.json`, bảng tóm tắt trong `README.md`), **không nạp vào app**, để
+  người dùng tự bấm "Tải ảnh lên" khi demo: khoai tây mốc sương (CC BY 3.0 us), bí phấn trắng (CC BY-SA 4.0),
+  táo gỉ sắt táo tuyết tùng (PD), ngô cháy lá lớn (CC BY-SA 4.0), cà chua đốm lá Septoria (CC BY-SA 4.0).
+  Đáp án đúng = loài cây + bệnh. Tên bệnh theo `config/glossary.yaml`.
+- Playwright chạy lại: 10/10 pass. Vẫn **chưa commit**.
+
+**Chưa làm / lưu ý**
+- Chưa commit/push (chờ người dùng). `Final_report/` vẫn untracked, không add.
+- Bản tĩnh có link chia sẻ (mục 1.3 handoff) chưa làm.
+- `generated/results.json` dùng batch 2026-10-30_01 của Khoa (cùng số với comparison 2026-10-31_01).
+- Chạy: `cd web_demo_thinh && bash scripts/run_demo.sh` → http://127.0.0.1:8000.
+
 ## 2026-10-28 02:00 — README GitHub + dataset card Kaggle; push; Kaggle public
 
 - `README.md` viết lại: pipeline chi tiết (input/quá trình/output từng step), kết quả, giới hạn, cách tái lập,

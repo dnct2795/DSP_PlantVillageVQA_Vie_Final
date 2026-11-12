@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "purpose": "Ảnh để người dùng tự upload khi demo; không nạp vào app.",
+  "images": [
+    {
+      "file": "up01_khoai_tay_moc_suong.jpg",
+      "bytes": 481864,
+      "width": 3072,
+      "height": 1928,
+      "sha256": "8f838fce7ea5b00f55a5ae2788e8e1c814ceba5624cd39692a79f98e40a4d560",
+      "truth": {
+        "plant": "khoai tây",
+        "disease": "bệnh mốc sương",
+        "label_en": "Potato · late blight"
+      },
+      "expected_answer_vi": "Khoai tây · bệnh mốc sương",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Late_blight_on_potato_leaf_2.jpg",
+        "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Late_blight_on_potato_leaf_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Howard F. Schwartz, Colorado State University, United States",
+        "license": "CC BY 3.0 us",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "description": "A potato leaflet showing late blight infection caused by Phytophthora infestans on a potato field at Peckham.",
+        "changes": "Tải nguyên bản từ Wikimedia Commons, không chỉnh sửa."
+      }
+    },
+    {
+      "file": "up02_bi_phan_trang.jpg",
+      "bytes": 5944303,
+      "width": 4624,
+      "height": 3468,
+      "sha256": "cf9cb11c0adf28ea7aff4be99c15c84c7e83a48a87968d2d8a43e8441305e8c3",
+      "truth": {
+        "plant": "bí",
+        "disease": "bệnh phấn trắng",
+        "label_en": "Squash · powdery mildew"
+      },
+      "expected_answer_vi": "Bí · bệnh phấn trắng",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:K%C3%BCrbis-Cucurbita-Echter_Mehltau-Golovinomyces-4-JS.jpg",
+        "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/K%C3%BCrbis-Cucurbita-Echter_Mehltau-Golovinomyces-4-JS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Schlaghecken Josef",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "description": "Powdery mildew causes a whitish coating on the leaves.",
+        "changes": "Tải nguyên bản từ Wikimedia Commons, không chỉnh sửa."
+      }
+    },
+    {
+      "file": "up03_tao_gi_sat_tuyet_tung.jpg",
+      "bytes": 1198791,
+      "width": 3008,
+      "height": 2000,
+      "sha256": "d5472d820aa8424d7d2753c2a36a3e9899034314985f53cd7e64303112328230",
+      "truth": {
+        "plant": "táo",
+        "disease": "bệnh gỉ sắt táo tuyết tùng",
+        "label_en": "Apple · cedar apple rust"
+      },
+      "expected_answer_vi": "Táo · bệnh gỉ sắt táo tuyết tùng",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Cedar_apple_rust_on_crab_apple_leaf_upper_surface.JPG",
+        "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cedar_apple_rust_on_crab_apple_leaf_upper_surface.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Littleinfo",
+        "license": "Public domain",
+        "license_url": "",
+        "description": "Cedar apple rust on the top of a crab apple leaf",
+        "changes": "Tải nguyên bản từ Wikimedia Commons, không chỉnh sửa."
+      }
+    },
+    {
+      "file": "up04_ngo_chay_la_lon.jpg",
+      "bytes": 2950249,
+      "width": 3264,
+      "height": 2448,
+      "sha256": "c01c8f6afea56ed01fb92f36af6c1f7db06a9ca2da2016efb5360488b5467f7f",
+      "truth": {
+        "plant": "ngô",
+        "disease": "bệnh cháy lá lớn",
+        "label_en": "Corn · northern leaf blight"
+      },
+      "expected_answer_vi": "Ngô · bệnh cháy lá lớn",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Northern_corn_leaf_blight.JPG",
+        "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Northern_corn_leaf_blight.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Chroanch",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "description": "Northern corn leaf blight on corn.",
+        "changes": "Tải nguyên bản từ Wikimedia Commons, không chỉnh sửa."
+      }
+    },
+    {
+      "file": "up05_ca_chua_dom_la_septoria.jpg",
+      "bytes": 907222,
+      "width": 2219,
+      "height": 2728,
+      "sha256": "bd9a38911a60880658bc27cb4716d27b71d7e2acd6699a5aac9308eadba7b701",
+      "truth": {
+        "plant": "cà chua",
+        "disease": "bệnh đốm lá Septoria",
+        "label_en": "Tomato · Septoria leaf spot"
+      },
+      "expected_answer_vi": "Cà chua · bệnh đốm lá Septoria",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Septoria_leaf_spot_symptoms_on_tomato_leaf_(Septoria_lycopersici_on_Solanum_lycopersicum_leaf).jpg",
+        "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Septoria_leaf_spot_symptoms_on_tomato_leaf_%28Septoria_lycopersici_on_Solanum_lycopersicum_leaf%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "MerielGJones",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "description": "The disease symptoms of tomato leaf spot, caused by Septoria lycopersici, on a tomato leaf (Solanum lycopersicum). Scale on orange bar on RHS is in mm and cm. Taken September 2021 on variety Sungold g",
+        "changes": "Tải nguyên bản từ Wikimedia Commons, không chỉnh sửa."
+      }
+    }
+  ]
+}
